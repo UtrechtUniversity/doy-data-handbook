@@ -1,7 +1,7 @@
 site_name: DoY Data Guide
 site_description: A Data Guide for Dynamics of Youth at Utrecht Univetsity.
 site_author: Neha Moopen
-site_url: https://nehamoopen.github.io/doy-data-guide
+site_url: https://utrechtuniversity.github.io/doy-data-handbook
 
 theme:
   name: material
@@ -14,7 +14,7 @@ theme:
   
   palette:
     primary: teal
-    accent: teal
+    accent: red
 
 plugins:
   - search
@@ -29,8 +29,8 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
 
-repo_url: https://github.com/nehamoopen/doy-data-guide
-repo_name: nehamoopen/doy-data-guide
+repo_url: https://github.com/UtrechtUniversity/doy-data-handbook
+repo_name: UtrechtUniversity/doy-data-handbook
 
 nav:
   - index.md
