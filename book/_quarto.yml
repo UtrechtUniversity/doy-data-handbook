@@ -7,8 +7,15 @@ book:
   subtitle: "DATA HANDBOOK"
   author: "Neha Moopen"
   date: last-modified
+  search: true
+  repo-url: https://github.com/UtrechtUniversity/doy-data-handbook
+  repo-actions: [edit]
+  downloads: [pdf, docx]
   sidebar: 
     style: docked
+  comments:
+    utterances:
+      repo: UtrechtUniversity/doy-data-handbook
   chapters:
     - index.qmd
     - data-management-plans.qmd
