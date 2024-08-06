@@ -48,3 +48,5 @@ codebook <- full_join(survey_questions, codebook, by = "qname")
 
 write_xlsx(codebook, "documentation/codebook-demo.xlsx")
 ```
+
+The `labelled` R package can also do something similar.
