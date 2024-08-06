@@ -7,32 +7,11 @@
     "text": "Welcome!\n\n\n\nThis illustration is created by Scriberia with The Turing Way community. Used under a CC-BY 4.0 licence. DOI:  10.5281/zenodo.3332807"
   },
   {
-    "objectID": "intro.html",
-    "href": "intro.html",
-    "title": "1  Introduction",
-    "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
-  },
-  {
-    "objectID": "summary.html",
-    "href": "summary.html",
-    "title": "2  Summary",
-    "section": "",
-    "text": "In summary, this book has no content whatsoever."
-  },
-  {
-    "objectID": "references.html",
-    "href": "references.html",
-    "title": "References",
-    "section": "",
-    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
-  },
-  {
     "objectID": "data-management-plans.html#what-is-a-data-management-plan",
     "href": "data-management-plans.html#what-is-a-data-management-plan",
     "title": "Data Management Plans",
     "section": "What Is A Data Management Plan?",
-    "text": "What Is A Data Management Plan?\nA Data Management Plan (DMP) is a formal document that describes your data and outlines all aspects of managing your data - both during and after your project.\nMoreover, it is a living document that can you can revise and update as needed.\n\n\nThe Turing Way project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: 10.5281/zenodo.3332807."
+    "text": "What Is A Data Management Plan?\nA Data Management Plan (DMP) is a formal document that describes your data and outlines all aspects of managing your data - both during and after your project.\nMoreover, it is a living document that can you can revise and update as needed."
   },
   {
     "objectID": "data-management-plans.html#why-should-you-write-a-dmp",
@@ -95,7 +74,7 @@
     "href": "naming-conventions.html#when-should-i-apply-a-naming-convention",
     "title": "Naming Conventions",
     "section": "When Should I Apply A Naming Convention?",
-    "text": "When Should I Apply A Naming Convention?\nAim to select and implement a naming convention at the beginning of a project. If you want to retroactively apply a naming convention, there are several tools for bulk renaming.\nThe entire research team should agree on and adopt a naming convention. Document the choice of naming convention in the DMP, so others can refer to and grasp it quickly.\n\n\nDocuments - xkcd. Used under a CC BY-NC 2.5 license."
+    "text": "When Should I Apply A Naming Convention?\nAim to select and implement a naming convention at the beginning of a project. If you want to retroactively apply a naming convention, there are several tools for bulk renaming.\nThe entire research team should agree on and adopt a naming convention. Document the choice of naming convention in the DMP, so others can refer to and grasp it quickly."
   },
   {
     "objectID": "naming-conventions.html#popular-naming-conventions",
@@ -172,6 +151,6 @@
     "href": "codebooks.html#codebook-r-package",
     "title": "Codebooks",
     "section": "codebook R package",
-    "text": "codebook R package\nlibrary(qualtRics)\nlibrary(readr)\nlibrary(dplyr)\nlibrary(codebook)\nlibrary(writexl)\n\nsurveys &lt;- all_surveys()\n\nsurvey_results &lt;- fetch_survey(surveyID = surveys$id[2], # you can also replace surveys$id[2] with \"&lt;SUVREY-ID&gt;\"\n                               verbose = TRUE)\n\nsurvey_results &lt;- select(survey_results, -c(1:17))\n\n# survey_questions() retrieves a data frame containing questions and question IDs for a survey;\nsurvey_questions &lt;- survey_questions(surveyID = surveys$id[2])\nsurvey_questions &lt;- select(survey_questions, -c(1, 4))\nsurvey_questions &lt;- slice(survey_questions, -1)\n  \n# generate codebook\n\ncodebook &lt;- codebook_table(survey_results)\n\ncodebook &lt;- rename(codebook, qname = name)\n\ncodebook &lt;- full_join(survey_questions, codebook, by = \"qname\")\n\nwrite_xlsx(codebook, \"documentation/codebook-demo.xlsx\")"
+    "text": "codebook R package\nlibrary(qualtRics)\nlibrary(readr)\nlibrary(dplyr)\nlibrary(codebook)\nlibrary(writexl)\n\nsurveys &lt;- all_surveys()\n\nsurvey_results &lt;- fetch_survey(surveyID = surveys$id[2], # you can also replace surveys$id[2] with \"&lt;SUVREY-ID&gt;\"\n                               verbose = TRUE)\n\nsurvey_results &lt;- select(survey_results, -c(1:17))\n\n# survey_questions() retrieves a data frame containing questions and question IDs for a survey;\nsurvey_questions &lt;- survey_questions(surveyID = surveys$id[2])\nsurvey_questions &lt;- select(survey_questions, -c(1, 4))\nsurvey_questions &lt;- slice(survey_questions, -1)\n  \n# generate codebook\n\ncodebook &lt;- codebook_table(survey_results)\n\ncodebook &lt;- rename(codebook, qname = name)\n\ncodebook &lt;- full_join(survey_questions, codebook, by = \"qname\")\n\nwrite_xlsx(codebook, \"documentation/codebook-demo.xlsx\")\nThe labelled R package can also do something similar."
   }
 ]

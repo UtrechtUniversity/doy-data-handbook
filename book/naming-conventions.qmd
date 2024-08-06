@@ -1,5 +1,9 @@
 # Naming Conventions {.unnumbered}
 
+![](images/xkcd-file-naming.png)
+
+<figcaption><a href="https://xkcd.com/1459/">Documents - xkcd</a>. Used under a CC BY-NC 2.5 license. </figcaption>
+
 ## What Is A Naming Convention?
 
 A naming convention is a set of rules for naming things. You can apply it to things like folders, files, and variables.
@@ -13,10 +17,6 @@ Names that are informative and useful for machines and humans are a step toward 
 Aim to select and implement a naming convention at the beginning of a project. If you want to retroactively apply a naming convention, there are several tools for bulk renaming.
 
 The entire research team should agree on and adopt a naming convention. Document the choice of naming convention in the DMP, so others can refer to and grasp it quickly.
-
-![](images/xkcd-file-naming.png)
-
-<figcaption><a href="https://xkcd.com/1459/">Documents - xkcd</a>. Used under a CC BY-NC 2.5 license. </figcaption>
 
 ## Popular Naming Conventions
 
