@@ -1,0 +1,31 @@
+project:
+  type: book
+  output-dir: ../docs
+
+book:
+  title: "Dynamics of Youth"
+  subtitle: "DATA HANDBOOK"
+  author: "Neha Moopen"
+  date: last-modified
+  sidebar: 
+    style: docked
+  chapters:
+    - index.qmd
+    - data-management-plans.qmd
+    - naming-conventions.qmd
+    - data-pipelining.qmd
+    - codebooks.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: 
+      light: [cosmo, styles/theme-light.scss]
+      dark: [cosmo, styles/theme-dark.scss]
+  pdf:
+    documentclass: scrreprt
+  docx: default
+
+
