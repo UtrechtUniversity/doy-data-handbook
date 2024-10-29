@@ -1,3 +1,27 @@
 # Presentations {.unnumbered}
 
-_coming soon_
+## 2023
+
+### Open Science on Track
+
+<embed src="slides/presentations/2023-12-13-open-science-on-track.pdf" type="application/pdf" width="100%" height="400px" />
+
+### DoY Network Lunch
+
+<embed src="slides/presentations/2023-10-19-doy-network-lunch.pdf" type="application/pdf" width="100%" height="400px" />
+
+## 2022
+
+### OS Platform
+
+<embed src="slides/presentations/2022-11-17-OS-Platform.pdf" type="application/pdf" width="100%" height="400px" />
+
+## 2021
+
+### Child Health
+
+<embed src="slides/presentations/2021-03-19_PROactive_RDM-FAIRification.pdf" type="application/pdf" width="100%" height="400px" />
+
+### OSCoffee
+
+<iframe src="slides/presentations/2021-02-18_OSCoffee_FAIRifying-youth-data.html" width="100%" height="400"></iframe> 
