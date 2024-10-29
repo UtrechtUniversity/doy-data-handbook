@@ -20,6 +20,10 @@ book:
     - data-pipelining.qmd
     - codebooks.qmd
     - references.qmd
+    - part: APPENDIX
+      chapters: 
+        - trainings.qmd
+        - presentations.qmd
 
 bibliography: references.bib
 

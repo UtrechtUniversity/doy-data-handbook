@@ -1,0 +1,25 @@
+# Trainings {.unnumbered}
+
+## 2024
+
+### Managing Qualitative Data
+
+<embed src="slides/2024_managing-observational-data.pdf" type="application/pdf" width="100%" height="400px" />
+
+## 2023
+
+### CAS Data Collection
+
+<embed src="slides/2023_cas-data-collection.pdf" type="application/pdf" width="100%" height="400px" />
+
+## 2022
+
+### CAS Data Collection
+
+<embed src="slides/2022_cas-data-collection.pdf" type="application/pdf" width="100%" height="400px" />
+
+## 2021
+
+### CAS Data Collection
+
+<embed src="slides/2021_cas-data-collection.pdf" type="application/pdf" width="100%" height="400px" />

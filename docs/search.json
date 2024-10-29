@@ -152,5 +152,71 @@
     "title": "Codebooks",
     "section": "codebook R package",
     "text": "codebook R package\nlibrary(qualtRics)\nlibrary(readr)\nlibrary(dplyr)\nlibrary(codebook)\nlibrary(writexl)\n\nsurveys &lt;- all_surveys()\n\nsurvey_results &lt;- fetch_survey(surveyID = surveys$id[2], # you can also replace surveys$id[2] with \"&lt;SUVREY-ID&gt;\"\n                               verbose = TRUE)\n\nsurvey_results &lt;- select(survey_results, -c(1:17))\n\n# survey_questions() retrieves a data frame containing questions and question IDs for a survey;\nsurvey_questions &lt;- survey_questions(surveyID = surveys$id[2])\nsurvey_questions &lt;- select(survey_questions, -c(1, 4))\nsurvey_questions &lt;- slice(survey_questions, -1)\n  \n# generate codebook\n\ncodebook &lt;- codebook_table(survey_results)\n\ncodebook &lt;- rename(codebook, qname = name)\n\ncodebook &lt;- full_join(survey_questions, codebook, by = \"qname\")\n\nwrite_xlsx(codebook, \"documentation/codebook-demo.xlsx\")\nThe labelled R package can also do something similar."
+  },
+  {
+    "objectID": "trainings.html",
+    "href": "trainings.html",
+    "title": "Trainings",
+    "section": "",
+    "text": "2024",
+    "crumbs": [
+      "APPENDIX",
+      "Trainings"
+    ]
+  },
+  {
+    "objectID": "trainings.html#section",
+    "href": "trainings.html#section",
+    "title": "Trainings",
+    "section": "",
+    "text": "Managing Qualitative Data",
+    "crumbs": [
+      "APPENDIX",
+      "Trainings"
+    ]
+  },
+  {
+    "objectID": "trainings.html#section-1",
+    "href": "trainings.html#section-1",
+    "title": "Trainings",
+    "section": "2023",
+    "text": "2023\n\nCAS Data Collection",
+    "crumbs": [
+      "APPENDIX",
+      "Trainings"
+    ]
+  },
+  {
+    "objectID": "trainings.html#section-2",
+    "href": "trainings.html#section-2",
+    "title": "Trainings",
+    "section": "2022",
+    "text": "2022\n\nCAS Data Collection",
+    "crumbs": [
+      "APPENDIX",
+      "Trainings"
+    ]
+  },
+  {
+    "objectID": "trainings.html#section-3",
+    "href": "trainings.html#section-3",
+    "title": "Trainings",
+    "section": "2021",
+    "text": "2021\n\nCAS Data Collection",
+    "crumbs": [
+      "APPENDIX",
+      "Trainings"
+    ]
+  },
+  {
+    "objectID": "presentations.html",
+    "href": "presentations.html",
+    "title": "Presentations",
+    "section": "",
+    "text": "coming soon",
+    "crumbs": [
+      "APPENDIX",
+      "Presentations"
+    ]
   }
 ]
