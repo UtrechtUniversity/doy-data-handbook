@@ -1,0 +1,9 @@
+# Data Archving {.unnumbered}
+
+Data Archiving refers to the long-term preservation of research data. It is typically done for verification purposes / to check & maintain the integrity of the original research.
+
+There are varying policies on how long research data should be retained for verification purposes, a typical policy is 10 years for the preservation of raw data.
+
+Archiving is not directly related to the FAIR principles, since the latter is focused on sharing and reusing the data. Nonetheless, the steps taken in archiving can provide a bsis for FAIRification, so the effort is never wasted!
+
+<insert screenshots of data packages and subselection of the folders>

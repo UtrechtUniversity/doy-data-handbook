@@ -80,15 +80,17 @@
 \makesavenoteenv{longtable}
 \usepackage{graphicx}
 \makeatletter
-\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
-\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
-\makeatother
-% Scale images if necessary, so that they will not overflow the page
-% margins by default, and it is still possible to overwrite the defaults
-% using explicit options in \includegraphics[width, height, ...]{}
-\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\newsavebox\pandoc@box
+\newcommand*\pandocbounded[1]{% scales image to fit in text height/width
+  \sbox\pandoc@box{#1}%
+  \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
+  \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
+  \ifdim\@tempb\p@<\@tempa\p@\let\@tempa\@tempb\fi% select the smaller of both
+  \ifdim\@tempa\p@<\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
+  \else\usebox{\pandoc@box}%
+  \fi%
+}
 % Set default figure placement to htbp
-\makeatletter
 \def\fps@figure{htbp}
 \makeatother
 % definitions for citeproc citations
@@ -171,9 +173,6 @@
 \@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
 \makeatother
 
-\ifLuaTeX
-  \usepackage{selnolig}  % disable illegal ligatures
-\fi
 \usepackage{bookmark}
 
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
@@ -198,7 +197,7 @@
 \makeatother
 \subtitle{DATA HANDBOOK}
 \author{Neha Moopen}
-\date{2024-10-29}
+\date{2025-10-15}
 
 \begin{document}
 \maketitle
@@ -219,7 +218,7 @@
 
 \begin{figure}[H]
 
-{\centering \includegraphics{images/fair-1x4.png}
+{\centering \pandocbounded{\includegraphics[keepaspectratio]{images/fair-1x4.png}}
 
 }
 
@@ -230,12 +229,92 @@ community. Used under a CC-BY 4.0 licence. DOI: 10.5281/zenodo.3332807}
 
 \bookmarksetup{startatroot}
 
+\chapter*{Definitions}\label{definitions}
+\addcontentsline{toc}{chapter}{Definitions}
+
+\markboth{Definitions}{Definitions}
+
+Before diving into the Handbook, it would be good to get familiarized
+with some data-related terms that are oftentimes misunderstood or used
+interchangeably.
+
+\section*{Research Data Management}\label{research-data-management}
+\addcontentsline{toc}{section}{Research Data Management}
+
+\markright{Research Data Management}
+
+Research Data Management (RDM) refers to the active organization and
+maintenance of data created during a research project. It is an ongoing
+activity throughout the data lifecycle, from initial planning to
+suitable archiving of the data at the project's completion.
+
+\section*{FAIR Data}\label{fair-data}
+\addcontentsline{toc}{section}{FAIR Data}
+
+\markright{FAIR Data}
+
+The FAIR Data Principles are a set of guiding principles to improve
+scientific data management and stewardship
+(\href{https://doi.org/10.1038/sdata.2016.18}{Wilkinson et al., 2016})
+
+\begin{itemize}
+\tightlist
+\item
+  FINDABILITY makes it possible for others to discover your data
+  (metadata, Persistent Identifiers, etc.).
+\item
+  ACCESSIBILITY makes it possible for humans and machines to gain access
+  to your data, under specific conditions or restrictions where
+  appropriate.
+\item
+  INTEROPERABILITY ensures data and metadata conform to recognized
+  formats and standards which allows them to be combined and exchanged.
+\item
+  REUSABILITY requires lots of documentation, which is needed to support
+  data and interpretation and reuse.
+\end{itemize}
+
+\section*{Open Data}\label{open-data}
+\addcontentsline{toc}{section}{Open Data}
+
+\markright{Open Data}
+
+Open Data is data that can be freely used, re-used, and redistributed by
+anyone - subject only, at most, to the requirement to attribute and
+share-alike
+(\href{https://opendatahandbook.org/guide/en/what-is-open-data/}{Open
+Data Handbook}).
+
+Note that your data does not have to be `open' to be FAIR! Make your
+data\ldots{} `as open as possible, as closed as necessary'
+(\href{https://ec.europa.eu/research/participants/docs/h2020-funding-guide/cross-cutting-issues/open-access-data-management/data-management_en.htm}{European
+Commission}).
+
+\section*{Summary}\label{summary}
+\addcontentsline{toc}{section}{Summary}
+
+\markright{Summary}
+
+In short,
+
+\begin{itemize}
+\tightlist
+\item
+  RDM = an activity/practice
+\item
+  FAIR = principles that guide RDM activities/practices
+\item
+  Open Data = data does not have to be `open' to be FAIR!
+\end{itemize}
+
+\bookmarksetup{startatroot}
+
 \chapter*{Data Management Plans}\label{data-management-plans}
 \addcontentsline{toc}{chapter}{Data Management Plans}
 
 \markboth{Data Management Plans}{Data Management Plans}
 
-\includegraphics{images/data-management-plan.jpg}
+\pandocbounded{\includegraphics[keepaspectratio]{images/data-management-plan.jpg}}
 
 The Turing Way project illustration by Scriberia. Used under a CC-BY 4.0
 licence. DOI: 10.5281/zenodo.3332807.
@@ -321,7 +400,7 @@ including:
 
 These templates also contain example answers and guidance.
 
-\includegraphics{images/uu-dmp-template.JPG}
+\pandocbounded{\includegraphics[keepaspectratio]{images/uu-dmp-template.JPG}}
 
 \section*{Tips}\label{tips}
 \addcontentsline{toc}{section}{Tips}
@@ -372,12 +451,53 @@ These templates also contain example answers and guidance.
 
 \bookmarksetup{startatroot}
 
+\chapter*{Data Flow Diagrams}\label{data-flow-diagrams}
+\addcontentsline{toc}{chapter}{Data Flow Diagrams}
+
+\markboth{Data Flow Diagrams}{Data Flow Diagrams}
+
+A data flow diagram (DPF) is a visual representation of the flow of data
+through a process or system. It provides an overview of incoming and
+outgoing data, as well as the processing and tools involved.
+
+A DFD is valuable because it provides an outline of your data processes.
+It allows you to see how these processes interact and identify
+opportunities for improvement.
+
+DFDs can be as simple as hand-drawn flowcharts on an A4 sheet of paper
+to elaborate flowcharts with different symbols and markers. It is
+recommended that you sketch a DPD while working on your DMP. It can also
+provide the basis for developing your data pipeline.
+
+\section*{Examples}\label{examples}
+\addcontentsline{toc}{section}{Examples}
+
+\markright{Examples}
+
+\subsection*{YOUth}\label{youth}
+\addcontentsline{toc}{subsection}{YOUth}
+
+\pandocbounded{\includegraphics[keepaspectratio]{images/dfd-youth.jpg}}
+
+\subsection*{PFIC}\label{pfic}
+\addcontentsline{toc}{subsection}{PFIC}
+
+\pandocbounded{\includegraphics[keepaspectratio]{images/dfd-pfic.png}}
+
+\subsection*{Hear, Hear}\label{hear-hear}
+\addcontentsline{toc}{subsection}{Hear, Hear}
+
+\subsection*{Smart-Youth}\label{smart-youth}
+\addcontentsline{toc}{subsection}{Smart-Youth}
+
+\bookmarksetup{startatroot}
+
 \chapter*{Naming Conventions}\label{naming-conventions}
 \addcontentsline{toc}{chapter}{Naming Conventions}
 
 \markboth{Naming Conventions}{Naming Conventions}
 
-\includegraphics{images/xkcd-file-naming.png}
+\pandocbounded{\includegraphics[keepaspectratio]{images/xkcd-file-naming.png}}
 
 Documents - xkcd. Used under a CC BY-NC 2.5 license.
 
@@ -425,9 +545,9 @@ with one that is already being used in programming and software
 development communities:
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3636}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3864}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.2500}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3636}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3864}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.2500}}@{}}
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 Naming Covention
@@ -685,6 +805,78 @@ taskscheduler_delete("extract-data-once")
 
 \bookmarksetup{startatroot}
 
+\chapter*{Metadata}\label{metadata}
+\addcontentsline{toc}{chapter}{Metadata}
+
+\markboth{Metadata}{Metadata}
+
+Metadata is structured information that describes one or more aspects of
+your research data. In other words, metadata = `data about data'.
+Metadata is machine-readable and helps make your data findable and
+citable.
+
+Metadata exists at different levels:
+
+\section*{Project-Level Metadata}\label{project-level-metadata}
+\addcontentsline{toc}{section}{Project-Level Metadata}
+
+\markright{Project-Level Metadata}
+
+This type of metadata describes higher-order aspects of your dataset:
+the ``who, what, where, when, how and why'' \ldots{} It provides context
+for understanding why the data were collected and how they were used.
+
+• Name of the project • Dataset title • Project description • Dataset
+abstract • Principal investigator and collaborators • Contact
+information • Dataset handle (DOI or URL) • Dataset citation • Data
+publication date • Geographic description • Time period of data
+collection • Subject/keywords • Project sponsor • Dataset usage rights
+
+\section*{Data-Level Metadata}\label{data-level-metadata}
+\addcontentsline{toc}{section}{Data-Level Metadata}
+
+\markright{Data-Level Metadata}
+
+• Data origin: experimental, observational, raw or derived, physical
+collections, models, images, etc. • Data type: integer, Boolean,
+character, floating point, etc. • Instrument(s) used • Data acquisition
+details: sensor deployment methods, experimental design, sensor
+calibration methods, etc. • File type: CSV, mat, xlsx, tiff, HDF,
+NetCDF, etc. • Data processing methods, software used • Data processing
+scripts or codes • Dataset parameter list, including ⚬ Variable names ⚬
+Description of each variable ⚬ Units
+
+This type of metadata is more granular and describes the data
+(variables) and dataset in detail.
+
+\bookmarksetup{startatroot}
+
+\chapter*{Documentation}\label{documentation}
+\addcontentsline{toc}{chapter}{Documentation}
+
+\markboth{Documentation}{Documentation}
+
+Documentation refers to contextual information pertaining to your
+research data. It accompanies (structured) metadata and guides users to
+understand and interpret your data and reuse it effectively.
+
+Documentation is meant to be human-readable and it is a crucial aspect
+of interoperability and reusability. Some examples include:
+
+• Grant / Study Proposals • Study Protocol / Methodology • Data
+Management Plan (DMP) • README files • Lab Notebooks • Legal / Policy /
+Administrative Documents
+
+\section*{Documentation Checklist}\label{documentation-checklist}
+\addcontentsline{toc}{section}{Documentation Checklist}
+
+\markright{Documentation Checklist}
+
+Here is a starter checklist to make an inventory of your documentation:
+\url{https://tinyurl.com/documentation-checklist}
+
+\bookmarksetup{startatroot}
+
 \chapter*{Codebooks}\label{codebooks}
 \addcontentsline{toc}{chapter}{Codebooks}
 
@@ -755,6 +947,192 @@ write_xlsx(codebook, "documentation/codebook-demo.xlsx")
 \end{verbatim}
 
 The \texttt{labelled} R package can also do something similar.
+
+\bookmarksetup{startatroot}
+
+\chapter*{Data Storage}\label{data-storage}
+\addcontentsline{toc}{chapter}{Data Storage}
+
+\markboth{Data Storage}{Data Storage}
+
+When discussing storage, we are considering the location of `active'
+data is under use and subject to change during the research project. The
+related concepts of archiving and publishing refer to where the data
+will be saved or deposited after the project is completed.
+
+When storing data, consider the following - choose storage media that is
+appropriate for the type of data you're working with - implement
+reliable version control and backups - structure folders and organize
+files clearly - follow a naming convention - use preferred and
+sustainable file formats - secure data files
+
+\section*{Data Storage Finder}\label{data-storage-finder}
+\addcontentsline{toc}{section}{Data Storage Finder}
+
+\markright{Data Storage Finder}
+
+The \href{https://tools.uu.nl/storagefinder/}{Data Storage Finder} is a
+tool provided by IT help you decide which storage solution would be most
+suited to your needs.
+
+\bookmarksetup{startatroot}
+
+\chapter*{Data Archving}\label{data-archving}
+\addcontentsline{toc}{chapter}{Data Archving}
+
+\markboth{Data Archving}{Data Archving}
+
+Data Archiving refers to the long-term preservation of research data. It
+is typically done for verification purposes / to check \& maintain the
+integrity of the original research.
+
+There are varying policies on how long research data should be retained
+for verification purposes, a typical policy is 10 years for the
+preservation of raw data.
+
+Archiving is not directly related to the FAIR principles, since the
+latter is focused on sharing and reusing the data. Nonetheless, the
+steps taken in archiving can provide a bsis for FAIRification, so the
+effort is never wasted!
+
+\bookmarksetup{startatroot}
+
+\chapter*{Data Publication}\label{data-publication}
+\addcontentsline{toc}{chapter}{Data Publication}
+
+\markboth{Data Publication}{Data Publication}
+
+When publishing (meta)data, you want to make it findable and reusable.
+The data (and information about the data) can be used by others for
+their own purposes. It's up to you to specify the terms and conditions
+for access and reuse.
+
+Note that your data need not be `open' to be FAIR! The data files
+themselves can be placed under restricted access (or retained
+internally) while the metadata and documentation are openly published.
+Once any data sharing agreements are signed, the data files an be
+transferred according to best practices.
+
+When publishing (meta)data, you will receive a landing page for your
+dataset and a DOI (persistent identifier) that makes it findable and
+citeable. When you include your metadata and documentation, you improve
+accessibility and reusability.
+
+\section*{Examples}\label{examples-1}
+\addcontentsline{toc}{section}{Examples}
+
+\markright{Examples}
+
+\begin{itemize}
+\tightlist
+\item
+  Nijhof, Sanne; Putte, Elise van de; Hoefnagels, Johanna Wilhelmina,
+  2021, ``PROactive Cohort Study'', https://doi.org/10.34894/FXUGHW,
+  DataverseNL, V3
+\item
+  Isabelle van der Linden; Henk Schipper; Sanne Nijhof; Kors van der
+  Ent, 2024, ``SMART-Youth: Data'', https://doi.org/10.34894/FCBXSI,
+  DataverseNL, V1
+\end{itemize}
+
+\section*{Tools}\label{tools}
+\addcontentsline{toc}{section}{Tools}
+
+\markright{Tools}
+
+You can use the UU Data Repository Finder and see which data repository
+might be most suitable for publishing your project.
+
+\bookmarksetup{startatroot}
+
+\chapter*{Data Governance}\label{data-governance}
+\addcontentsline{toc}{chapter}{Data Governance}
+
+\markboth{Data Governance}{Data Governance}
+
+When you're ready to start sharing your data, you can set up a detailed
+Data Access Protocol (DAP) that outlines the data governance for
+yourself, your research team, and potential re-users. This DAP will
+ideally be public and findable in your chosen repository.
+
+There are many topics within a DAP, it will require you (and/or the
+project team to come together) to decide on what is relevant and best
+for your data. This can include, for example, the terms \& conditions
+for data reuse and the governance procedure in terms of responsibilities
+and tasks of the team members.
+
+See the PROactive Cohort Study's DAP here:
+https://dataverse.nl/file.xhtml?fileId=141206\&version=3.0
+
+Data Governance can be as simple and elaborate as you like, it all
+depends on you and your project team.
+
+Reflect on:
+
+• What would you like to get out of sharing the data? For example,
+citations/acknowledgments, co-authorship, collaboration? This should be
+specified in the DAP so the end-user knows their obligations.
+
+• What kind of time and effort can you and/or your team invest in the
+data governance? For example, assessing incoming requests, preparing a
+datafile for sharing, maintaining a data sharing logbook. Note: If there
+is privacy-sensitive data involved, even the simplest DAPs have to take
+some legal considerations into account!
+
+\bookmarksetup{startatroot}
+
+\chapter*{Data Sharing}\label{data-sharing}
+\addcontentsline{toc}{chapter}{Data Sharing}
+
+\markboth{Data Sharing}{Data Sharing}
+
+When sharing (personal) data with collaborators outside the university,
+there are a couple of important considerations:
+
+\begin{itemize}
+\tightlist
+\item
+  The participation letter and informed consent forms should have
+  clearly informed participants about data sharing and reuse + they
+  should agree to it.
+\item
+  A Data Protection Impact Assessment may have to be carried out, this
+  will reveal to what extent it is safe to share data (or not) and how
+  that can be put into practice (for example, pseudonymization
+  techniques)
+\item
+  Any transfer of data outside the UU will require a Data Transfer
+  Agreement in line with the GDPR, the complexity of the DTA will vary
+  depending on the nature of the transfer (for example, transfer outside
+  the EU).
+\end{itemize}
+
+\section*{Tools}\label{tools-1}
+\addcontentsline{toc}{section}{Tools}
+
+\markright{Tools}
+
+\subsection*{SURFfilesender}\label{surffilesender}
+\addcontentsline{toc}{subsection}{SURFfilesender}
+
+SURFFileSender is a reliable tool to send data to another user. You can
+send large files securely and the option for encryption makes it more
+safe.
+
+\subsection*{Virtual Research
+Environments}\label{virtual-research-environments}
+\addcontentsline{toc}{subsection}{Virtual Research Environments}
+
+VREs, for example - AnDREa \& ResearchCloud, is a temporary computing
+environment that is secure and contains the necessary tools and files
+for users to carry out some research activities.
+
+\bookmarksetup{startatroot}
+
+\chapter*{FAIR Data Cheatsheet}\label{fair-data-cheatsheet}
+\addcontentsline{toc}{chapter}{FAIR Data Cheatsheet}
+
+\markboth{FAIR Data Cheatsheet}{FAIR Data Cheatsheet}
 
 \bookmarksetup{startatroot}
 

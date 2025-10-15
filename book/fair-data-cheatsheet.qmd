@@ -1,0 +1,3 @@
+# FAIR Data Cheatsheet {.unnumbered}
+
+<embed src="slides/cheatsheet_FAIR_data_publishing.pdf" type="application/pdf" width="100%" height="800px" />

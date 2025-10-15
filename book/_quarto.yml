@@ -10,15 +10,25 @@ book:
   search: true
   repo-url: https://github.com/UtrechtUniversity/doy-data-handbook
   repo-actions: [edit]
-  downloads: [pdf, docx]
+  downloads: [docx]
   sidebar: 
     style: docked
   chapters:
     - index.qmd
+    - definitions.qmd
     - data-management-plans.qmd
+    - data-flow-diagrams.qmd
     - naming-conventions.qmd
-    - data-pipelining.qmd
+    - pipelining.qmd
+    - metadata.qmd
+    - documentation.qmd
     - codebooks.qmd
+    - storage.qmd
+    - archiving.qmd
+    - publication.qmd
+    - governance.qmd
+    - sharing.qmd
+    - fair-data-cheatsheet.qmd
     - references.qmd
     - part: APPENDIX
       chapters: 
@@ -32,8 +42,8 @@ format:
     theme: 
       light: [cosmo, styles/theme-light.scss]
       dark: [cosmo, styles/theme-dark.scss]
-  pdf:
-    documentclass: scrreprt
+#  pdf:
+ #   documentclass: scrreprt
   docx: default
 
 

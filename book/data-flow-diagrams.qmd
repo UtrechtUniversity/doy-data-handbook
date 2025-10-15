@@ -1,0 +1,24 @@
+# Data Flow Diagrams {.unnumbered}
+
+A data flow diagram (DPF) is a visual representation of the flow of data through a process or system. It provides an overview of incoming and outgoing data, as well as the processing and tools involved.
+
+A DFD is valuable because it provides an outline of your data processes. It allows you to see how these processes interact and identify opportunities for improvement.
+
+DFDs can be as simple as hand-drawn flowcharts on an A4 sheet of paper to elaborate flowcharts with different symbols and markers. It is recommended that you sketch a DPD while working on your DMP. It can also provide the basis for developing your data pipeline.
+
+## Examples
+
+### YOUth
+
+![](images/dfd-youth.jpg)
+
+### PFIC
+
+![](images/dfd-pfic.png)
+
+### Hear, Hear
+
+### Smart-Youth
+
+
+

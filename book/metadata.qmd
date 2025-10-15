@@ -1,0 +1,47 @@
+# Metadata {.unnumbered}
+
+Metadata is structured information that describes one or more aspects of your research data. In other words, metadata = 'data about data'. Metadata is machine-readable and helps make your data findable and citable.
+
+Metadata exists at different levels:
+
+## Project-Level Metadata
+
+This type of metadata describes higher-order aspects of your dataset: the “who, what, where, when, how and why” ...
+It provides context for understanding why the data were collected and how they were used.
+
+• Name of the project
+• Dataset title
+• Project description
+• Dataset abstract
+• Principal investigator and collaborators
+• Contact information
+• Dataset handle (DOI or URL)
+• Dataset citation
+• Data publication date
+• Geographic description
+• Time period of data collection
+• Subject/keywords
+• Project sponsor
+• Dataset usage rights
+
+## Data-Level Metadata
+
+• Data origin: experimental, observational, raw
+or derived, physical collections, models,
+images, etc.
+• Data type: integer, Boolean, character,
+floating point, etc.
+• Instrument(s) used
+• Data acquisition details: sensor deployment
+methods, experimental design, sensor
+calibration methods, etc.
+• File type: CSV, mat, xlsx, tiff, HDF, NetCDF, etc.
+• Data processing methods, software used
+• Data processing scripts or codes
+• Dataset parameter list, including
+⚬ Variable names
+⚬ Description of each variable
+⚬ Units
+
+This type of metadata is more granular and describes the data (variables) and dataset in detail.
+

@@ -1,0 +1,16 @@
+# Documentation {.unnumbered}
+
+Documentation refers to contextual information pertaining to your research data. It accompanies (structured) metadata and guides users to understand and interpret your data and reuse it effectively.
+
+Documentation is meant to be human-readable and it is a crucial aspect of interoperability and reusability. Some examples include:
+
+• Grant / Study Proposals
+• Study Protocol / Methodology
+• Data Management Plan (DMP)
+• README files
+• Lab Notebooks
+• Legal / Policy / Administrative Documents
+
+## Documentation Checklist
+
+Here is a starter checklist to make an inventory of your documentation: [https://tinyurl.com/documentation-checklist](https://tinyurl.com/documentation-checklist)

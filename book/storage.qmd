@@ -1,0 +1,16 @@
+# Data Storage {.unnumbered}
+
+When discussing storage, we are considering the location of 'active' data is under use and subject to change during the research project. The related concepts of archiving and publishing refer to where the data will be saved or deposited after the project is completed.
+
+When storing data, consider the following
+- choose storage media that is appropriate for the type of data you're working with
+- implement reliable version control and backups
+- structure folders and organize files clearly
+- follow a naming convention
+- use preferred and sustainable file formats
+- secure data files
+
+## Data Storage Finder
+
+The [Data Storage Finder](https://tools.uu.nl/storagefinder/) is a tool provided by IT help you decide which storage solution would be most suited to your needs.
+
