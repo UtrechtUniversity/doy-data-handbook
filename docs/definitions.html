@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>References – Dynamics of Youth</title>
+<title>Definitions – Dynamics of Youth</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,26 +20,7 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -49,8 +30,8 @@ div.csl-indent {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./fair-data-cheatsheet.html" rel="next">
-<link href="./searching.html" rel="prev">
+<link href="./data-management-plans.html" rel="next">
+<link href="./index.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -102,7 +83,7 @@ div.csl-indent {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./references.html">References</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./definitions.html">Definitions</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -140,7 +121,7 @@ div.csl-indent {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./definitions.html" class="sidebar-item-text sidebar-link">
+  <a href="./definitions.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Definitions</span></a>
   </div>
 </li>
@@ -309,7 +290,7 @@ div.csl-indent {
   </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./references.html" class="sidebar-item-text sidebar-link active">
+  <a href="./references.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">References</span></a>
   </div>
 </li>
@@ -347,15 +328,24 @@ div.csl-indent {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#research-data-management" id="toc-research-data-management" class="nav-link active" data-scroll-target="#research-data-management">Research Data Management</a></li>
+  <li><a href="#fair-data" id="toc-fair-data" class="nav-link" data-scroll-target="#fair-data">FAIR Data</a></li>
+  <li><a href="#open-data" id="toc-open-data" class="nav-link" data-scroll-target="#open-data">Open Data</a></li>
+  <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary">Summary</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/UtrechtUniversity/doy-data-handbook/edit/main/definitions.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">References</h1>
+<h1 class="title">Definitions</h1>
 </div>
 
 
@@ -372,11 +362,37 @@ div.csl-indent {
 </header>
 
 
-<div id="refs" role="list" style="display: none">
+<p>Before diving into the Handbook, it would be good to get familiarized with some data-related terms that are oftentimes misunderstood or used interchangeably.</p>
+<section id="research-data-management" class="level2">
+<h2 class="anchored" data-anchor-id="research-data-management">Research Data Management</h2>
+<p>Research Data Management (RDM) refers to the active organization and maintenance of data created during a research project. It is an ongoing activity throughout the data lifecycle, from initial planning to suitable archiving of the data at the project’s completion.</p>
+</section>
+<section id="fair-data" class="level2">
+<h2 class="anchored" data-anchor-id="fair-data">FAIR Data</h2>
+<p>The FAIR Data Principles are a set of guiding principles to improve scientific data management and stewardship (<a href="https://doi.org/10.1038/sdata.2016.18">Wilkinson et al., 2016</a>)</p>
+<ul>
+<li>FINDABILITY makes it possible for others to discover your data (metadata, Persistent Identifiers, etc.).</li>
+<li>ACCESSIBILITY makes it possible for humans and machines to gain access to your data, under specific conditions or restrictions where appropriate.</li>
+<li>INTEROPERABILITY ensures data and metadata conform to recognized formats and standards which allows them to be combined and exchanged.</li>
+<li>REUSABILITY requires lots of documentation, which is needed to support data and interpretation and reuse.</li>
+</ul>
+</section>
+<section id="open-data" class="level2">
+<h2 class="anchored" data-anchor-id="open-data">Open Data</h2>
+<p>Open Data is data that can be freely used, re-used, and redistributed by anyone - subject only, at most, to the requirement to attribute and share-alike (<a href="https://opendatahandbook.org/guide/en/what-is-open-data/">Open Data Handbook</a>).</p>
+<p>Note that your data does not have to be ‘open’ to be FAIR! Make your data… ‘as open as possible, as closed as necessary’ (<a href="https://ec.europa.eu/research/participants/docs/h2020-funding-guide/cross-cutting-issues/open-access-data-management/data-management_en.htm">European Commission</a>).</p>
+</section>
+<section id="summary" class="level2">
+<h2 class="anchored" data-anchor-id="summary">Summary</h2>
+<p>In short,</p>
+<ul>
+<li>RDM = an activity/practice</li>
+<li>FAIR = principles that guide RDM activities/practices</li>
+<li>Open Data = data does not have to be ‘open’ to be FAIR!</li>
+</ul>
 
-</div>
 
-
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -942,13 +958,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./searching.html" class="pagination-link" aria-label="Searching for Data">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Searching for Data</span>
+      <a href="./index.html" class="pagination-link" aria-label="Welcome!">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Welcome!</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./fair-data-cheatsheet.html" class="pagination-link" aria-label="FAIR Data Cheatsheet">
-        <span class="nav-page-text">FAIR Data Cheatsheet</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./data-management-plans.html" class="pagination-link" aria-label="Data Management Plans">
+        <span class="nav-page-text">Data Management Plans</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -957,4 +973,4 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/UtrechtUniversity/doy-data-handbook/edit/main/references.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/UtrechtUniversity/doy-data-handbook/edit/main/definitions.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></div></div></footer></body></html>

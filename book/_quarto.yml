@@ -13,25 +13,42 @@ book:
   downloads: [docx]
   sidebar: 
     style: docked
+    collapse-level: 1
   chapters:
     - index.qmd
     - definitions.qmd
-    - data-management-plans.qmd
-    - data-flow-diagrams.qmd
-    - naming-conventions.qmd
-    - pipelining.qmd
-    - metadata.qmd
-    - documentation.qmd
-    - codebooks.qmd
-    - storage.qmd
-    - archiving.qmd
-    - publication.qmd
-    - governance.qmd
-    - sharing.qmd
-    - fair-data-cheatsheet.qmd
+    - part: "PLAN & FUND"
+      chapters:
+        - data-management-plans.qmd
+        - privacy-and-ethics.qmd
+        - costs.qmd
+        - data-flow-diagrams.qmd
+    - part: "COLLECT & ANALYZE"
+      chapters:
+        - naming-conventions.qmd
+        - folder-structures.qmd
+        - preferred-formats.qmd
+        - pipelining.qmd
+        - metadata.qmd
+        - documentation.qmd
+        - codebooks.qmd
+        - reproducibility.qmd
+    - part: "PRESERVE & STORE"
+      chapters:  
+        - storage.qmd
+        - archiving.qmd
+    - part: "PUBLISH & SHARE"
+      chapters:
+        - publication.qmd
+        - sharing.qmd
+        - governance.qmd
+    - part: "DISCOVER & REUSE"
+      chapters:  
+        - searching.qmd
     - references.qmd
-    - part: APPENDIX
-      chapters: 
+    - part: "APPENDIX"
+      chapters:
+        - fair-data-cheatsheet.qmd
         - trainings.qmd
         - presentations.qmd
 
@@ -42,8 +59,4 @@ format:
     theme: 
       light: [cosmo, styles/theme-light.scss]
       dark: [cosmo, styles/theme-dark.scss]
-#  pdf:
- #   documentclass: scrreprt
-  docx: default
-
 
