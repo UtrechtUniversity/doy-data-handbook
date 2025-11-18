@@ -6,17 +6,19 @@
 
 ## What Is A Data Management Plan?
 
-A Data Management Plan (DMP) is a formal document that describes your data and outlines all aspects of managing your data - both during and after your project.
+A Data Management Plan (DMP) is a formal document that describes your data and outlines all aspects of managing your data - both during and after your project. It briefly describes what data you will collect, where and how it will be stored, accessed, backed up, documented and versioned, addresses any privacy or ownership issues, and explains your plans for archiving and sharing the data.
 
 Moreover, it is a _living_ document that can you can revise and update as needed.
 
 ## Why Should You Write A DMP?
 
-Writing a DMP provides an opportunity to reflect on your data, particularly how you organize and manage it. It nudges you to think about how to make your RDM more _concrete_ and _actionable_. This creates efficiency and more value for your data.
+Writing a DMP provides an opportunity to reflect on your data, particularly how you organize and manage it. It nudges you to think about how to make your RDM more _concrete_ and _actionable_. This creates a roadmap for handling data during your project and identifies which resources are required. This results in more efficient project planning, saving both time and money.
+
+Additionally, most funders require researchers to submit a DMP. 
 
 ## When Should You Write A DMP?
 
-Working on a DMP at the start of your project will ensure that you are better informed of best practices in RDM and prepared to implement them. That being said, you can also write a DMP can during the project or when it's completed.
+Working on a DMP at the start of your project will ensure that you are better informed of best practices in RDM and prepared to implement them. That being said, you can also write a DMP during the project or when it's completed.
 
 ## DMPonline & DMP Templates
 
