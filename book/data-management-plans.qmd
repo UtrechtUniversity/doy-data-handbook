@@ -22,7 +22,7 @@ Working on a DMP at the start of your project will ensure that you are better in
 
 ## DMPonline & DMP Templates
 
-DMPonline is a tool that helps you create and maintain DMPs. With DMPonline, you can:
+[DMPonline](https://dmponline.dcc.ac.uk) is a tool that helps you create and maintain DMPs. With DMPonline, you can:
 
 - register and sign in with your institutional credentials,
 - write and collaborate on (multiple) DMPs,
@@ -46,10 +46,10 @@ These templates also contain example answers and guidance.
 
 ## Tips
 
-!!! note "Tips"
-
-    - Contact your DoY data manager! They can (co)write your DMP and/or review it.
-    - If the DoY data manager is unavailable, you can still request feedback from RDM Support.
+::: {.callout-tip}
+- Use the _Feedback_ button on DMPonline to request a review of your DMP from RDM Support.
+- You can export your DMP as a document and expand on it. This allows tailoring the DMP to suit your project, beyond the given template.
+:::
 
 ## Resources
 

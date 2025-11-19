@@ -1,6 +1,6 @@
 # Definitions {.unnumbered}
 
-Before diving into the Handbook, it would be good to get familiarized with some data-related terms that are oftentimes misunderstood or used interchangeably.
+Before diving into data management, it would be good to get familiarized with some data-related terms that are oftentimes misunderstood or used interchangeably.
 
 ## Research Data Management
 
@@ -10,10 +10,10 @@ Research Data Management (RDM) refers to the active organization and maintenance
 
 The FAIR Data Principles are a set of guiding principles to improve scientific data management and stewardship ([Wilkinson et al., 2016](https://doi.org/10.1038/sdata.2016.18))
 
-- FINDABILITY makes it possible for others to discover your data (metadata, Persistent Identifiers, etc.).
-- ACCESSIBILITY makes it possible for humans and machines to gain access to your data, under specific conditions or restrictions where appropriate.
-- INTEROPERABILITY ensures data and metadata conform to recognized formats and standards which allows them to be combined and exchanged.
-- REUSABILITY requires lots of documentation, which is needed to support data and interpretation and reuse.
+- _Findability_ makes it possible for others to discover your data (metadata, Persistent Identifiers, etc.).
+- _Accessibility_ makes it possible for humans and machines to gain access to your data, under specific conditions or restrictions where appropriate.
+- _Interoperability_ ensures data and metadata conform to recognized formats and standards which allows them to be combined and exchanged.
+- _Reusability_ requires lots of documentation, which is needed to support data and interpretation and reuse.
 
 ## Open Data
 
@@ -21,6 +21,7 @@ Open Data is data that can be freely used, re-used, and redistributed by anyone 
 requirement to attribute and share-alike ([Open Data Handbook](https://opendatahandbook.org/guide/en/what-is-open-data/)).
 
 Note that your data does not have to be 'open' to be FAIR! 
+
 Make your data... 'as open as possible, as closed as necessary' ([European Commission](https://ec.europa.eu/research/participants/docs/h2020-funding-guide/cross-cutting-issues/open-access-data-management/data-management_en.htm)).
 
 ## Summary

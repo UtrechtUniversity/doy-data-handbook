@@ -1,3 +1,7 @@
 # Welcome! {.unnumbered}
 
+The Data Handbook for Dynamics of Youth provides information and resources on research data management and making data pertaining to youth research _Findable_, _Accessible_, _Interoperable_, and _Reusable_ (FAIR).
+
+The Handbook need not be read from start to finish, like a textbook. You are invited to navigate to the topic you need based on the table of contents. As far as possible, the chapters have been written concisely - emphasizing practical tips or links to existing resources. 
+
 ![](images/BoosterBorrel.png)
