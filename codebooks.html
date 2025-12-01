@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Neha Moopen">
-<meta name="dcterms.date" content="2025-12-01">
 
-<title>Dynamics of Youth</title>
+<title>Codebooks – Dynamics of Youth</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,7 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./definitions.html" rel="next">
+<link href="./reproducibility.html" rel="next">
+<link href="./documentation.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -250,7 +249,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Welcome!</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./naming-conventions.html">COLLECT &amp; ANALYZE</a></li><li class="breadcrumb-item"><a href="./codebooks.html">Codebooks</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -282,7 +281,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Welcome!</span></a>
   </div>
 </li>
@@ -329,13 +328,13 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
  <span class="menu-text">COLLECT &amp; ANALYZE</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./naming-conventions.html" class="sidebar-item-text sidebar-link">
@@ -374,7 +373,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./codebooks.html" class="sidebar-item-text sidebar-link">
+  <a href="./codebooks.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Codebooks</span></a>
   </div>
 </li>
@@ -500,37 +499,24 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#welcome" id="toc-welcome" class="nav-link active" data-scroll-target="#welcome">Welcome!</a></li>
+  <li><a href="#codebook-r-package" id="toc-codebook-r-package" class="nav-link active" data-scroll-target="#codebook-r-package">codebook R package</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/UtrechtUniversity/doy-data-handbook/edit/main/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/UtrechtUniversity/doy-data-handbook/edit/main/codebooks.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./naming-conventions.html">COLLECT &amp; ANALYZE</a></li><li class="breadcrumb-item"><a href="./codebooks.html">Codebooks</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Dynamics of Youth</h1>
-<p class="subtitle lead">DATA HANDBOOK</p>
+<h1 class="title">Codebooks</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Neha Moopen </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">December 1, 2025</p>
-    </div>
-  </div>
   
     
   </div>
@@ -540,11 +526,50 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="welcome" class="level1 unnumbered">
-<h1 class="unnumbered">Welcome!</h1>
-<p>The Data Handbook for Dynamics of Youth provides information and resources on research data management and making data pertaining to youth research <em>Findable</em>, <em>Accessible</em>, <em>Interoperable</em>, and <em>Reusable</em> (FAIR).</p>
-<p>The Handbook need not be read from start to finish, like a textbook. You are invited to navigate to the topic you need based on the table of contents. As far as possible, the chapters have been written concisely - emphasizing practical tips or links to existing resources.</p>
-<p><img src="images/BoosterBorrel.png" class="img-fluid"></p>
+<p>A codebook is an example of data-level metadata.</p>
+<p>The purpose of a codebook or data dictionary is to explain what all the variable names and values in your spreadsheet really mean.</p>
+<p>Information to include in a codebook includes:</p>
+<ul>
+<li>Variable Names</li>
+<li>Readable Variable Name</li>
+<li>Measurement Units</li>
+<li>Allowed Values</li>
+<li>Definition Of The Variable</li>
+<li>Synonyms For The Variable Name (Optional)</li>
+<li>Description Of The Variable (Optional)</li>
+<li>Other Resources</li>
+</ul>
+<p>See: <a href="https://help.osf.io/article/217-how-to-make-a-data-dictionary" class="uri">https://help.osf.io/article/217-how-to-make-a-data-dictionary</a></p>
+<section id="codebook-r-package" class="level2">
+<h2 class="anchored" data-anchor-id="codebook-r-package">codebook R package</h2>
+<pre><code>library(qualtRics)
+library(readr)
+library(dplyr)
+library(codebook)
+library(writexl)
+
+surveys &lt;- all_surveys()
+
+survey_results &lt;- fetch_survey(surveyID = surveys$id[2], # you can also replace surveys$id[2] with "&lt;SUVREY-ID&gt;"
+                               verbose = TRUE)
+
+survey_results &lt;- select(survey_results, -c(1:17))
+
+# survey_questions() retrieves a data frame containing questions and question IDs for a survey;
+survey_questions &lt;- survey_questions(surveyID = surveys$id[2])
+survey_questions &lt;- select(survey_questions, -c(1, 4))
+survey_questions &lt;- slice(survey_questions, -1)
+  
+# generate codebook
+
+codebook &lt;- codebook_table(survey_results)
+
+codebook &lt;- rename(codebook, qname = name)
+
+codebook &lt;- full_join(survey_questions, codebook, by = "qname")
+
+write_xlsx(codebook, "documentation/codebook-demo.xlsx")</code></pre>
+<p>The <code>labelled</code> R package can also do something similar.</p>
 
 
 </section>
@@ -965,10 +990,13 @@ ul.task-list li input[type="checkbox"] {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./documentation.html" class="pagination-link" aria-label="Documentation">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Documentation</span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./definitions.html" class="pagination-link" aria-label="Definitions">
-        <span class="nav-page-text">Definitions</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./reproducibility.html" class="pagination-link" aria-label="Reproducibility">
+        <span class="nav-page-text">Reproducibility</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -977,4 +1005,4 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/UtrechtUniversity/doy-data-handbook/edit/main/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/UtrechtUniversity/doy-data-handbook/edit/main/codebooks.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></div></div></footer></body></html>

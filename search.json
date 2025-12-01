@@ -1,0 +1,580 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Dynamics of Youth",
+    "section": "",
+    "text": "Welcome!\nThe Data Handbook for Dynamics of Youth provides information and resources on research data management and making data pertaining to youth research Findable, Accessible, Interoperable, and Reusable (FAIR).\nThe Handbook need not be read from start to finish, like a textbook. You are invited to navigate to the topic you need based on the table of contents. As far as possible, the chapters have been written concisely - emphasizing practical tips or links to existing resources.",
+    "crumbs": [
+      "Welcome!"
+    ]
+  },
+  {
+    "objectID": "definitions.html",
+    "href": "definitions.html",
+    "title": "Definitions",
+    "section": "",
+    "text": "Research Data Management\nBefore diving into data management, it would be good to get familiarized with some data-related terms that are oftentimes misunderstood or used interchangeably.\nResearch Data Management (RDM) refers to the active organization and maintenance of data created during a research project. It is an ongoing activity throughout the data lifecycle, from initial planning to suitable archiving of the data at the project’s completion.",
+    "crumbs": [
+      "Definitions"
+    ]
+  },
+  {
+    "objectID": "definitions.html#fair-data",
+    "href": "definitions.html#fair-data",
+    "title": "Definitions",
+    "section": "FAIR Data",
+    "text": "FAIR Data\nThe FAIR Data Principles are a set of guiding principles to improve scientific data management and stewardship (Wilkinson et al., 2016)\n\nFindability makes it possible for others to discover your data (metadata, Persistent Identifiers, etc.).\nAccessibility makes it possible for humans and machines to gain access to your data, under specific conditions or restrictions where appropriate.\nInteroperability ensures data and metadata conform to recognized formats and standards which allows them to be combined and exchanged.\nReusability requires lots of documentation, which is needed to support data and interpretation and reuse.",
+    "crumbs": [
+      "Definitions"
+    ]
+  },
+  {
+    "objectID": "definitions.html#open-data",
+    "href": "definitions.html#open-data",
+    "title": "Definitions",
+    "section": "Open Data",
+    "text": "Open Data\nOpen Data is data that can be freely used, re-used, and redistributed by anyone - subject only, at most, to the requirement to attribute and share-alike (Open Data Handbook).\nNote that your data does not have to be ‘open’ to be FAIR!\nMake your data… ‘as open as possible, as closed as necessary’ (European Commission).",
+    "crumbs": [
+      "Definitions"
+    ]
+  },
+  {
+    "objectID": "definitions.html#summary",
+    "href": "definitions.html#summary",
+    "title": "Definitions",
+    "section": "Summary",
+    "text": "Summary\nIn short,\n\nRDM = an activity/practice\nFAIR = principles that guide RDM activities/practices\nOpen Data = data does not have to be ‘open’ to be FAIR!",
+    "crumbs": [
+      "Definitions"
+    ]
+  },
+  {
+    "objectID": "data-management-plans.html",
+    "href": "data-management-plans.html",
+    "title": "Data Management Plans",
+    "section": "",
+    "text": "What Is A Data Management Plan?\nA Data Management Plan (DMP) is a formal document that describes your data and outlines all aspects of managing your data - both during and after your project. It briefly describes what data you will collect, where and how it will be stored, accessed, backed up, documented and versioned, addresses any privacy or ownership issues, and explains your plans for archiving and sharing the data.\nMoreover, it is a living document that can you can revise and update as needed.",
+    "crumbs": [
+      "PLAN & FUND",
+      "Data Management Plans"
+    ]
+  },
+  {
+    "objectID": "data-management-plans.html#why-should-you-write-a-dmp",
+    "href": "data-management-plans.html#why-should-you-write-a-dmp",
+    "title": "Data Management Plans",
+    "section": "Why Should You Write A DMP?",
+    "text": "Why Should You Write A DMP?\nWriting a DMP provides an opportunity to reflect on your data, particularly how you organize and manage it. It nudges you to think about how to make your RDM more concrete and actionable. This creates a roadmap for handling data during your project and identifies which resources are required. This results in more efficient project planning, saving both time and money.\nAdditionally, most funders require researchers to submit a DMP.",
+    "crumbs": [
+      "PLAN & FUND",
+      "Data Management Plans"
+    ]
+  },
+  {
+    "objectID": "data-management-plans.html#when-should-you-write-a-dmp",
+    "href": "data-management-plans.html#when-should-you-write-a-dmp",
+    "title": "Data Management Plans",
+    "section": "When Should You Write A DMP?",
+    "text": "When Should You Write A DMP?\nWorking on a DMP at the start of your project will ensure that you are better informed of best practices in RDM and prepared to implement them. That being said, you can also write a DMP during the project or when it’s completed.",
+    "crumbs": [
+      "PLAN & FUND",
+      "Data Management Plans"
+    ]
+  },
+  {
+    "objectID": "data-management-plans.html#dmponline-dmp-templates",
+    "href": "data-management-plans.html#dmponline-dmp-templates",
+    "title": "Data Management Plans",
+    "section": "DMPonline & DMP Templates",
+    "text": "DMPonline & DMP Templates\nDMPonline is a tool that helps you create and maintain DMPs. With DMPonline, you can:\n\nregister and sign in with your institutional credentials,\nwrite and collaborate on (multiple) DMPs,\nshare DMPs or switch their visibility between private and public,\nrequest feedback from RDM Support,\ndownload DMPs in various formats.\n\nDMPonline offers DMP templates from various institutions and funders, including:\n\nUtrecht University\nUMC Utrecht\nNWO\nZonMw\nERC\nHorizon 2020\nHorizon Europe\n\nThese templates also contain example answers and guidance.",
+    "crumbs": [
+      "PLAN & FUND",
+      "Data Management Plans"
+    ]
+  },
+  {
+    "objectID": "data-management-plans.html#tips",
+    "href": "data-management-plans.html#tips",
+    "title": "Data Management Plans",
+    "section": "Tips",
+    "text": "Tips\n\n\n\n\n\n\nTip\n\n\n\n\nUse the Feedback button on DMPonline to request a review of your DMP from RDM Support.\nYou can export your DMP as a document and expand on it. This allows tailoring the DMP to suit your project, beyond the given template.",
+    "crumbs": [
+      "PLAN & FUND",
+      "Data Management Plans"
+    ]
+  },
+  {
+    "objectID": "data-management-plans.html#resources",
+    "href": "data-management-plans.html#resources",
+    "title": "Data Management Plans",
+    "section": "Resources",
+    "text": "Resources\n\nCreate your DMP online\nData management planning\nLearn to write your DMP (online training)",
+    "crumbs": [
+      "PLAN & FUND",
+      "Data Management Plans"
+    ]
+  },
+  {
+    "objectID": "data-management-plans.html#references",
+    "href": "data-management-plans.html#references",
+    "title": "Data Management Plans",
+    "section": "References",
+    "text": "References\n\nhttps://www.uu.nl/en/research/research-data-management/guides/data-management-planning\nhttps://www.kuleuven.be/rdm/en/faq/faq-dmp\nhttps://rdm.uva.nl/en/planning/data-management-plan/data-management-plan.html\nhttps://www.uu.nl/en/research/research-data-management/tools-services/tool-to-create-your-dmp-online.html",
+    "crumbs": [
+      "PLAN & FUND",
+      "Data Management Plans"
+    ]
+  },
+  {
+    "objectID": "privacy-and-ethics.html",
+    "href": "privacy-and-ethics.html",
+    "title": "Privacy & Ethics",
+    "section": "",
+    "text": "Why Is Privacy & Security Important?\nProper privacy and security practices ensure that personal data, especially involving children and adolescents, is handled safely, lawfully, and ethically. It covers how you collect, store, process, share, and protect data throughout your project, and ensures compliance with GDPR and Utrecht University policies.\nPaying close attention to privacy and security protects your participants’ rights and safety, especially when working with vulnerable groups such as minors. It helps prevent data breaches, protects the integrity of your research, and ensures that you meet all legal and ethical obligations.",
+    "crumbs": [
+      "PLAN & FUND",
+      "Privacy & Ethics"
+    ]
+  },
+  {
+    "objectID": "privacy-and-ethics.html#when-should-you-address-privacy-security",
+    "href": "privacy-and-ethics.html#when-should-you-address-privacy-security",
+    "title": "Privacy & Ethics",
+    "section": "When Should You Address Privacy & Security?",
+    "text": "When Should You Address Privacy & Security?\nBeing mindful of privacy and security from the start will improve your workflow and reduce risks later on. That’s why you should address these issues before even collecting any data during the planning phase of your project. This is the moment to determine what personal data you will collect, whether a DPIA is required, and which secure systems you will use.\nStill, privacy and security are not a “one-time check.” You may need to revisit them during the project, particularly when new partners join, data flows shift, or additional types of data are introduced.",
+    "crumbs": [
+      "PLAN & FUND",
+      "Privacy & Ethics"
+    ]
+  },
+  {
+    "objectID": "privacy-and-ethics.html#what-does-good-privacy-security-look-like",
+    "href": "privacy-and-ethics.html#what-does-good-privacy-security-look-like",
+    "title": "Privacy & Ethics",
+    "section": "What Does Good Privacy & Security Look Like?",
+    "text": "What Does Good Privacy & Security Look Like?\nGood privacy practice focuses on minimising and protecting identifiable information. It includes: • collecting only the personal data you truly need • keeping identifiers separate from research data • using pseudonymisation as early as possible • ensuring appropriate consent/assent and necessary agreements are in place • limiting access to identifiable data to authorised team members • documenting decisions about what data you collect and why • deleting or anonymising data when it is no longer needed\nGood security practice focuses on safeguarding data against loss, misuse, or unauthorised access. It includes: • storing data in secure, approved environments • using secure methods for sharing and transferring data, such as encryption • avoiding personal devices and unsupported cloud tools • restricting access to authorised users only • keeping secure logs of decisions and data-handling procedures • ensuring data is handled and transferred through trusted channels",
+    "crumbs": [
+      "PLAN & FUND",
+      "Privacy & Ethics"
+    ]
+  },
+  {
+    "objectID": "privacy-and-ethics.html#tools-support",
+    "href": "privacy-and-ethics.html#tools-support",
+    "title": "Privacy & Ethics",
+    "section": "Tools & Support",
+    "text": "Tools & Support\nSeveral UU services can help you work safely with personal data:",
+    "crumbs": [
+      "PLAN & FUND",
+      "Privacy & Ethics"
+    ]
+  },
+  {
+    "objectID": "data-flow-diagrams.html",
+    "href": "data-flow-diagrams.html",
+    "title": "Data Flow Diagrams",
+    "section": "",
+    "text": "Examples\nA data flow diagram (DPF) is a visual representation of the flow of data through a process or system. It provides an overview of incoming and outgoing data, as well as the processing and tools involved.\nA DFD is valuable because it provides an outline of your data processes. It allows you to see how these processes interact and identify opportunities for improvement.\nDFDs can be as simple as hand-drawn flowcharts on an A4 sheet of paper to elaborate flowcharts with different symbols and markers. It is recommended that you sketch a DPD while working on your DMP. It can also provide the basis for developing your data pipeline.",
+    "crumbs": [
+      "PLAN & FUND",
+      "Data Flow Diagrams"
+    ]
+  },
+  {
+    "objectID": "data-flow-diagrams.html#examples",
+    "href": "data-flow-diagrams.html#examples",
+    "title": "Data Flow Diagrams",
+    "section": "",
+    "text": "YOUth\n\n\n\nPFIC\n\n\n\nHear, Hear\n\n\nSmart-Youth",
+    "crumbs": [
+      "PLAN & FUND",
+      "Data Flow Diagrams"
+    ]
+  },
+  {
+    "objectID": "naming-conventions.html",
+    "href": "naming-conventions.html",
+    "title": "Naming Conventions",
+    "section": "",
+    "text": "What Is A Naming Convention?\nA naming convention is a set of rules for naming things. You can apply it to things like folders, files, and variables.",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Naming Conventions"
+    ]
+  },
+  {
+    "objectID": "naming-conventions.html#why-should-i-apply-a-naming-convention",
+    "href": "naming-conventions.html#why-should-i-apply-a-naming-convention",
+    "title": "Naming Conventions",
+    "section": "Why Should I Apply A Naming Convention?",
+    "text": "Why Should I Apply A Naming Convention?\nNames that are informative and useful for machines and humans are a step toward efficient data management and reproducible research. The more consistent and meaningful the name, the easier it will be to locate and identify things, understand what they contain, and (re)use them.",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Naming Conventions"
+    ]
+  },
+  {
+    "objectID": "naming-conventions.html#when-should-i-apply-a-naming-convention",
+    "href": "naming-conventions.html#when-should-i-apply-a-naming-convention",
+    "title": "Naming Conventions",
+    "section": "When Should I Apply A Naming Convention?",
+    "text": "When Should I Apply A Naming Convention?\nAim to select and implement a naming convention at the beginning of a project. If you want to retroactively apply a naming convention, there are several tools for bulk renaming.\nThe entire research team should agree on and adopt a naming convention. Document the choice of naming convention in the DMP, so others can refer to and grasp it quickly.",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Naming Conventions"
+    ]
+  },
+  {
+    "objectID": "naming-conventions.html#popular-naming-conventions",
+    "href": "naming-conventions.html#popular-naming-conventions",
+    "title": "Naming Conventions",
+    "section": "Popular Naming Conventions",
+    "text": "Popular Naming Conventions\nInstead of developing a naming convention from scratch, you can start with one that is already being used in programming and software development communities:\n\n\n\n\n\n\n\n\nNaming Covention\nExample\nDescription\n\n\n\n\noriginal name\nan awesome name\nN/A\n\n\nsnake_case\nan_awesome_name\nAll words are lowercase and separated by an underscore ( _ )\n\n\nkebab-case\nan-awesome-name\nAll words are lowercase and separated by a hyphen ( - )\n\n\nPascalCase\nAnAwesomeName\nAll words are capitalized. Spaces are not used.\n\n\ncamelCase\nanAwesomeName\nThe first word is lowercase, the remaining words are capitalized. Spaces are not used.",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Naming Conventions"
+    ]
+  },
+  {
+    "objectID": "naming-conventions.html#human-readable-names",
+    "href": "naming-conventions.html#human-readable-names",
+    "title": "Naming Conventions",
+    "section": "Human-Readable Names",
+    "text": "Human-Readable Names\nYou can tailor naming conventions like snake_case and PascalCase to suit your project and workflow. Determine what information is relevant (or not) to create meaningful names and how you can string this information together. Don’t forget to document this in your DMP!\n!!! note “Elements for Human-Readable Names”\nNames should be =&lt;25 characters long and can include:\n\n- Date of creation/update (`YYYY-MM-DD` or `YYYYMMDD`)\n- Description of content, like type of data\n- Initials of creator/reviewer\n- Project number or acronym\n- Location/coordinates\n- Version number (like `v2` or v2.2`)",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Naming Conventions"
+    ]
+  },
+  {
+    "objectID": "naming-conventions.html#machine-readable-names",
+    "href": "naming-conventions.html#machine-readable-names",
+    "title": "Naming Conventions",
+    "section": "Machine-Readable Names",
+    "text": "Machine-Readable Names\nWhen names are machine-readable, they can be efficiently processed by computers and software. This makes it easier to search for files and run operations that involve programming like extracting information from file names or working with regular expressions.\n!!! note “Avoid”\n- Spaces\n- Special characters like `$`, `@`, `%`, `#`, `&`, `*`, `!`, `/`, `\\`\n- Punction characters like `,`, `:`, `;`, `?`, `'`, `\"`\n- Accented characters",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Naming Conventions"
+    ]
+  },
+  {
+    "objectID": "naming-conventions.html#a-note-on-numbering-dates-versioning",
+    "href": "naming-conventions.html#a-note-on-numbering-dates-versioning",
+    "title": "Naming Conventions",
+    "section": "A Note on Numbering, Dates, Versioning",
+    "text": "A Note on Numbering, Dates, Versioning\n\nAppend numbers to the beginning of a name to enable sorting according to a logical structure. Use multiple digits like 01 or 001.\nDates should follow the ISO 8601 standard which is either YYYY-MM-DD or YYYYMMDD. Append dates to the beginning of names to enable sorting in chronological order.\nSpecify versions using ordinal numbers (1,2,3) for major revisions and decimals for minor changes (1.1, 1.2, 2.1, 2.2). Alternatively, you can specify versions with multiple digits like v01 and v02.",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Naming Conventions"
+    ]
+  },
+  {
+    "objectID": "naming-conventions.html#renaming-files",
+    "href": "naming-conventions.html#renaming-files",
+    "title": "Naming Conventions",
+    "section": "Renaming files",
+    "text": "Renaming files\nThe following tools enable renaming in bulk:\n\nBulk Rename Utility (Windows, free)\nRenamer (MacOS, paid)\nNameChanger, (MacOS, free)\nGPRename (Linux, free)",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Naming Conventions"
+    ]
+  },
+  {
+    "objectID": "naming-conventions.html#references",
+    "href": "naming-conventions.html#references",
+    "title": "Naming Conventions",
+    "section": "References",
+    "text": "References\n\nhttps://en.wikipedia.org/wiki/Naming_convention\nhttps://help.osf.io/article/146-file-naming\nhttps://rdm.elixir-belgium.org/file_naming.html\nhttps://khalilstemmler.com/blogs/camel-case-snake-case-pascal-case/\nhttps://dev.to/chaseadamsio/most-common-programming-case-types-30h9\nhttps://rdmkit.elixir-europe.org/data_organisation http://dataabinitio.com/?p=987\nhttps://dmeg.cessda.eu/Data-Management-Expert-Guide/2.-Organise-Document/File-naming-and-folder-structure\nhttps://annakrystalli.me/rrresearchACCE20/filenaming-view.html",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Naming Conventions"
+    ]
+  },
+  {
+    "objectID": "pipelining.html",
+    "href": "pipelining.html",
+    "title": "Data Pipelining",
+    "section": "",
+    "text": "When do I need a data pipeline?\nA data pipeline is a series of (automated) actions that ingests raw data from various sources and moves the data to a destination for storage and (eventual) analysis.\nBenefits of a data pipeline include:\nHere’s a rule of thumb, just as an example:\nIf you have a task that needs to occur &gt;= 3 times, you could think about automating it.\nIf automation is not possible, think about how you can make the task as efficient as possible.",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Data Pipelining"
+    ]
+  },
+  {
+    "objectID": "pipelining.html#how-can-i-implement-a-data-pipeline-some-examples-for-inspiration",
+    "href": "pipelining.html#how-can-i-implement-a-data-pipeline-some-examples-for-inspiration",
+    "title": "Data Pipelining",
+    "section": "How can I implement a data pipeline? Some examples for inspiration",
+    "text": "How can I implement a data pipeline? Some examples for inspiration\n\nIf you data collection tools have APIs, they can be leveraged to extract data.\nFor example, Qualtrics has the qualtRics R package & pyQualtrics Python library which contain functions to automate exporting surveys.\nIf APIs are not available, you could use R/Python to automate the use of an internet browser using the RSelenium package / Selenium library. Imagine automating the clicks and typing of going to a specific website, logging in, clicking the download button.\nYou can use Windows Task Scheduler / cron / the taskscheduleR R package / cronR to schedule your scripts to run automatically, on a recurring basis as well (if needed).\nYou can also send emails with R & Python! Consider if you’ve ever had to contact participants because you noticed something wrong with their incoming data. You could implement these data checks with a script and automatically draft and send emails (from a template) to those participants who were flagged as having issues with their data.",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Data Pipelining"
+    ]
+  },
+  {
+    "objectID": "pipelining.html#qualtrics-r-package",
+    "href": "pipelining.html#qualtrics-r-package",
+    "title": "Data Pipelining",
+    "section": "QualtRics R package",
+    "text": "QualtRics R package\nlibrary(readr)\nlibrary(qualtRics)\n\nqualtrics_api_credentials(api_key = \"YOUR-QUALTRICS-API-KEY\", \n                          base_url = \"YOUR-QUALTRICS-BASE-URL\",\n                          overwrite = TRUE,\n                          install = TRUE)\n\nreadRenviron(\"~/.Renviron\")\n\nsurveys &lt;- all_surveys() \n\nsurvey_results &lt;- fetch_survey(surveyID = surveys$id[2], # you can also replace surveys$id[2] with \"&lt;SUVREY-ID&gt;\" \n                                  verbose = TRUE)\n\nwrite_csv(survey_results, paste0(\"path/to/folder/\", format(Sys.time(), \"%d-%m-%Y-%H.%M\"), \"_survey_results.csv\"))",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Data Pipelining"
+    ]
+  },
+  {
+    "objectID": "pipelining.html#taskscheduler-package",
+    "href": "pipelining.html#taskscheduler-package",
+    "title": "Data Pipelining",
+    "section": "taskscheduleR package",
+    "text": "taskscheduleR package\nlibrary(taskscheduleR)\n\nscheduled_script &lt;- \"path/to/folder/myscript.R\"\n\n## run script once within 120 seconds\n\ntaskscheduler_create(taskname = \"extract-data-once\", rscript = scheduled_script,\n                     schedule = \"ONCE\", starttime = format(Sys.time() + 120, \"%H:%M\"))\n\n## Run every 5 minutes, starting from 10:40\n\ntaskscheduler_create(taskname = \"extract-data-5min\", rscript = scheduled_script,\n                     schedule = \"MINUTE\", starttime = \"10:40\", modifier = 5)\n\n## delete tasks\n\ntaskscheduler_delete(\"extract-data-once\")",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Data Pipelining"
+    ]
+  },
+  {
+    "objectID": "metadata.html",
+    "href": "metadata.html",
+    "title": "Metadata",
+    "section": "",
+    "text": "Project-Level Metadata\nMetadata is structured information that describes one or more aspects of your research data. In other words, metadata = ‘data about data’. Metadata is machine-readable and helps make your data findable and citable.\nMetadata exists at different levels:\nThis type of metadata describes higher-order aspects of your dataset: the “who, what, where, when, how and why” … It provides context for understanding why the data were collected and how they were used.\n• Name of the project • Dataset title • Project description • Dataset abstract • Principal investigator and collaborators • Contact information • Dataset handle (DOI or URL) • Dataset citation • Data publication date • Geographic description • Time period of data collection • Subject/keywords • Project sponsor • Dataset usage rights",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Metadata"
+    ]
+  },
+  {
+    "objectID": "metadata.html#data-level-metadata",
+    "href": "metadata.html#data-level-metadata",
+    "title": "Metadata",
+    "section": "Data-Level Metadata",
+    "text": "Data-Level Metadata\n• Data origin: experimental, observational, raw or derived, physical collections, models, images, etc. • Data type: integer, Boolean, character, floating point, etc. • Instrument(s) used • Data acquisition details: sensor deployment methods, experimental design, sensor calibration methods, etc. • File type: CSV, mat, xlsx, tiff, HDF, NetCDF, etc. • Data processing methods, software used • Data processing scripts or codes • Dataset parameter list, including ⚬ Variable names ⚬ Description of each variable ⚬ Units\nThis type of metadata is more granular and describes the data (variables) and dataset in detail.",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Metadata"
+    ]
+  },
+  {
+    "objectID": "documentation.html",
+    "href": "documentation.html",
+    "title": "Documentation",
+    "section": "",
+    "text": "Documentation Checklist\nDocumentation refers to contextual information pertaining to your research data. It accompanies (structured) metadata and guides users to understand and interpret your data and reuse it effectively.\nDocumentation is meant to be human-readable and it is a crucial aspect of interoperability and reusability. Some examples include:\n• Grant / Study Proposals • Study Protocol / Methodology • Data Management Plan (DMP) • README files • Lab Notebooks • Legal / Policy / Administrative Documents\nHere is a starter checklist to make an inventory of your documentation: https://tinyurl.com/documentation-checklist",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Documentation"
+    ]
+  },
+  {
+    "objectID": "codebooks.html",
+    "href": "codebooks.html",
+    "title": "Codebooks",
+    "section": "",
+    "text": "codebook R package\nA codebook is an example of data-level metadata.\nThe purpose of a codebook or data dictionary is to explain what all the variable names and values in your spreadsheet really mean.\nInformation to include in a codebook includes:\nSee: https://help.osf.io/article/217-how-to-make-a-data-dictionary\nThe labelled R package can also do something similar.",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Codebooks"
+    ]
+  },
+  {
+    "objectID": "codebooks.html#codebook-r-package",
+    "href": "codebooks.html#codebook-r-package",
+    "title": "Codebooks",
+    "section": "",
+    "text": "library(qualtRics)\nlibrary(readr)\nlibrary(dplyr)\nlibrary(codebook)\nlibrary(writexl)\n\nsurveys &lt;- all_surveys()\n\nsurvey_results &lt;- fetch_survey(surveyID = surveys$id[2], # you can also replace surveys$id[2] with \"&lt;SUVREY-ID&gt;\"\n                               verbose = TRUE)\n\nsurvey_results &lt;- select(survey_results, -c(1:17))\n\n# survey_questions() retrieves a data frame containing questions and question IDs for a survey;\nsurvey_questions &lt;- survey_questions(surveyID = surveys$id[2])\nsurvey_questions &lt;- select(survey_questions, -c(1, 4))\nsurvey_questions &lt;- slice(survey_questions, -1)\n  \n# generate codebook\n\ncodebook &lt;- codebook_table(survey_results)\n\ncodebook &lt;- rename(codebook, qname = name)\n\ncodebook &lt;- full_join(survey_questions, codebook, by = \"qname\")\n\nwrite_xlsx(codebook, \"documentation/codebook-demo.xlsx\")",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Codebooks"
+    ]
+  },
+  {
+    "objectID": "storage.html",
+    "href": "storage.html",
+    "title": "Data Storage",
+    "section": "",
+    "text": "Data Storage Finder\nWhen discussing storage, we are considering the location of ‘active’ data is under use and subject to change during the research project. The related concepts of archiving and publishing refer to where the data will be saved or deposited after the project is completed.\nWhen storing data, consider the following - choose storage media that is appropriate for the type of data you’re working with - implement reliable version control and backups - structure folders and organize files clearly - follow a naming convention - use preferred and sustainable file formats - secure data files\nThe Data Storage Finder is a tool provided by IT help you decide which storage solution would be most suited to your needs.",
+    "crumbs": [
+      "PRESERVE & STORE",
+      "Data Storage"
+    ]
+  },
+  {
+    "objectID": "archiving.html",
+    "href": "archiving.html",
+    "title": "Data Archving",
+    "section": "",
+    "text": "Data Archiving refers to the long-term preservation of research data. It is typically done for verification purposes / to check & maintain the integrity of the original research.\nThere are varying policies on how long research data should be retained for verification purposes, a typical policy is 10 years for the preservation of raw data.\nArchiving is not directly related to the FAIR principles, since the latter is focused on sharing and reusing the data. Nonetheless, the steps taken in archiving can provide a bsis for FAIRification, so the effort is never wasted!",
+    "crumbs": [
+      "PRESERVE & STORE",
+      "Data Archving"
+    ]
+  },
+  {
+    "objectID": "publication.html",
+    "href": "publication.html",
+    "title": "Data Publication",
+    "section": "",
+    "text": "Examples\nWhen publishing (meta)data, you want to make it findable and reusable. The data (and information about the data) can be used by others for their own purposes. It’s up to you to specify the terms and conditions for access and reuse.\nNote that your data need not be ‘open’ to be FAIR! The data files themselves can be placed under restricted access (or retained internally) while the metadata and documentation are openly published. Once any data sharing agreements are signed, the data files an be transferred according to best practices.\nWhen publishing (meta)data, you will receive a landing page for your dataset and a DOI (persistent identifier) that makes it findable and citeable. When you include your metadata and documentation, you improve accessibility and reusability.",
+    "crumbs": [
+      "PUBLISH & SHARE",
+      "Data Publication"
+    ]
+  },
+  {
+    "objectID": "publication.html#examples",
+    "href": "publication.html#examples",
+    "title": "Data Publication",
+    "section": "",
+    "text": "Nijhof, Sanne; Putte, Elise van de; Hoefnagels, Johanna Wilhelmina, 2021, “PROactive Cohort Study”, https://doi.org/10.34894/FXUGHW, DataverseNL, V3\nIsabelle van der Linden; Henk Schipper; Sanne Nijhof; Kors van der Ent, 2024, “SMART-Youth: Data”, https://doi.org/10.34894/FCBXSI, DataverseNL, V1",
+    "crumbs": [
+      "PUBLISH & SHARE",
+      "Data Publication"
+    ]
+  },
+  {
+    "objectID": "publication.html#tools",
+    "href": "publication.html#tools",
+    "title": "Data Publication",
+    "section": "Tools",
+    "text": "Tools\nYou can use the UU Data Repository Finder and see which data repository might be most suitable for publishing your project.",
+    "crumbs": [
+      "PUBLISH & SHARE",
+      "Data Publication"
+    ]
+  },
+  {
+    "objectID": "sharing.html",
+    "href": "sharing.html",
+    "title": "Data Sharing",
+    "section": "",
+    "text": "Tools\nWhen sharing (personal) data with collaborators outside the university, there are a couple of important considerations:",
+    "crumbs": [
+      "PUBLISH & SHARE",
+      "Data Sharing"
+    ]
+  },
+  {
+    "objectID": "sharing.html#tools",
+    "href": "sharing.html#tools",
+    "title": "Data Sharing",
+    "section": "",
+    "text": "SURFfilesender\nSURFFileSender is a reliable tool to send data to another user. You can send large files securely and the option for encryption makes it more safe.\n\n\nVirtual Research Environments\nVREs, for example - AnDREa & ResearchCloud, is a temporary computing environment that is secure and contains the necessary tools and files for users to carry out some research activities.",
+    "crumbs": [
+      "PUBLISH & SHARE",
+      "Data Sharing"
+    ]
+  },
+  {
+    "objectID": "governance.html",
+    "href": "governance.html",
+    "title": "Data Governance",
+    "section": "",
+    "text": "When you’re ready to start sharing your data, you can set up a detailed Data Access Protocol (DAP) that outlines the data governance for yourself, your research team, and potential re-users. This DAP will ideally be public and findable in your chosen repository.\nThere are many topics within a DAP, it will require you (and/or the project team to come together) to decide on what is relevant and best for your data. This can include, for example, the terms & conditions for data reuse and the governance procedure in terms of responsibilities and tasks of the team members.\nSee the PROactive Cohort Study’s DAP here: https://dataverse.nl/file.xhtml?fileId=141206&version=3.0\nData Governance can be as simple and elaborate as you like, it all depends on you and your project team.\nReflect on:\n• What would you like to get out of sharing the data? For example, citations/acknowledgments, co-authorship, collaboration? This should be specified in the DAP so the end-user knows their obligations.\n• What kind of time and effort can you and/or your team invest in the data governance? For example, assessing incoming requests, preparing a datafile for sharing, maintaining a data sharing logbook. Note: If there is privacy-sensitive data involved, even the simplest DAPs have to take some legal considerations into account!",
+    "crumbs": [
+      "PUBLISH & SHARE",
+      "Data Governance"
+    ]
+  },
+  {
+    "objectID": "trainings.html",
+    "href": "trainings.html",
+    "title": "Trainings",
+    "section": "",
+    "text": "2024",
+    "crumbs": [
+      "APPENDIX",
+      "Trainings"
+    ]
+  },
+  {
+    "objectID": "trainings.html#section",
+    "href": "trainings.html#section",
+    "title": "Trainings",
+    "section": "",
+    "text": "Managing Qualitative Data",
+    "crumbs": [
+      "APPENDIX",
+      "Trainings"
+    ]
+  },
+  {
+    "objectID": "trainings.html#section-1",
+    "href": "trainings.html#section-1",
+    "title": "Trainings",
+    "section": "2023",
+    "text": "2023\n\nCAS Data Collection",
+    "crumbs": [
+      "APPENDIX",
+      "Trainings"
+    ]
+  },
+  {
+    "objectID": "trainings.html#section-2",
+    "href": "trainings.html#section-2",
+    "title": "Trainings",
+    "section": "2022",
+    "text": "2022\n\nCAS Data Collection",
+    "crumbs": [
+      "APPENDIX",
+      "Trainings"
+    ]
+  },
+  {
+    "objectID": "trainings.html#section-3",
+    "href": "trainings.html#section-3",
+    "title": "Trainings",
+    "section": "2021",
+    "text": "2021\n\nCAS Data Collection",
+    "crumbs": [
+      "APPENDIX",
+      "Trainings"
+    ]
+  },
+  {
+    "objectID": "presentations.html",
+    "href": "presentations.html",
+    "title": "Presentations",
+    "section": "",
+    "text": "2023",
+    "crumbs": [
+      "APPENDIX",
+      "Presentations"
+    ]
+  },
+  {
+    "objectID": "presentations.html#section",
+    "href": "presentations.html#section",
+    "title": "Presentations",
+    "section": "",
+    "text": "Open Science on Track\n\n\n\nDoY Network Lunch",
+    "crumbs": [
+      "APPENDIX",
+      "Presentations"
+    ]
+  },
+  {
+    "objectID": "presentations.html#section-1",
+    "href": "presentations.html#section-1",
+    "title": "Presentations",
+    "section": "2022",
+    "text": "2022\n\nOS Platform",
+    "crumbs": [
+      "APPENDIX",
+      "Presentations"
+    ]
+  },
+  {
+    "objectID": "presentations.html#section-2",
+    "href": "presentations.html#section-2",
+    "title": "Presentations",
+    "section": "2021",
+    "text": "2021\n\nChild Health\n\n\n\nOSCoffee",
+    "crumbs": [
+      "APPENDIX",
+      "Presentations"
+    ]
+  }
+]

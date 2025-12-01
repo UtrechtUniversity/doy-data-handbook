@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Neha Moopen">
-<meta name="dcterms.date" content="2025-12-01">
 
-<title>Dynamics of Youth</title>
+<title>Naming Conventions – Dynamics of Youth</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,7 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./definitions.html" rel="next">
+<link href="./folder-structures.html" rel="next">
+<link href="./data-flow-diagrams.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -250,7 +249,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Welcome!</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./naming-conventions.html">COLLECT &amp; ANALYZE</a></li><li class="breadcrumb-item"><a href="./naming-conventions.html">Naming Conventions</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -282,7 +281,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Welcome!</span></a>
   </div>
 </li>
@@ -329,16 +328,16 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
  <span class="menu-text">COLLECT &amp; ANALYZE</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./naming-conventions.html" class="sidebar-item-text sidebar-link">
+  <a href="./naming-conventions.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Naming Conventions</span></a>
   </div>
 </li>
@@ -500,37 +499,32 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#welcome" id="toc-welcome" class="nav-link active" data-scroll-target="#welcome">Welcome!</a></li>
+  <li><a href="#what-is-a-naming-convention" id="toc-what-is-a-naming-convention" class="nav-link active" data-scroll-target="#what-is-a-naming-convention">What Is A Naming Convention?</a></li>
+  <li><a href="#why-should-i-apply-a-naming-convention" id="toc-why-should-i-apply-a-naming-convention" class="nav-link" data-scroll-target="#why-should-i-apply-a-naming-convention">Why Should I Apply A Naming Convention?</a></li>
+  <li><a href="#when-should-i-apply-a-naming-convention" id="toc-when-should-i-apply-a-naming-convention" class="nav-link" data-scroll-target="#when-should-i-apply-a-naming-convention">When Should I Apply A Naming Convention?</a></li>
+  <li><a href="#popular-naming-conventions" id="toc-popular-naming-conventions" class="nav-link" data-scroll-target="#popular-naming-conventions">Popular Naming Conventions</a></li>
+  <li><a href="#human-readable-names" id="toc-human-readable-names" class="nav-link" data-scroll-target="#human-readable-names">Human-Readable Names</a></li>
+  <li><a href="#machine-readable-names" id="toc-machine-readable-names" class="nav-link" data-scroll-target="#machine-readable-names">Machine-Readable Names</a></li>
+  <li><a href="#a-note-on-numbering-dates-versioning" id="toc-a-note-on-numbering-dates-versioning" class="nav-link" data-scroll-target="#a-note-on-numbering-dates-versioning">A Note on Numbering, Dates, Versioning</a></li>
+  <li><a href="#renaming-files" id="toc-renaming-files" class="nav-link" data-scroll-target="#renaming-files">Renaming files</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/UtrechtUniversity/doy-data-handbook/edit/main/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/UtrechtUniversity/doy-data-handbook/edit/main/naming-conventions.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./naming-conventions.html">COLLECT &amp; ANALYZE</a></li><li class="breadcrumb-item"><a href="./naming-conventions.html">Naming Conventions</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Dynamics of Youth</h1>
-<p class="subtitle lead">DATA HANDBOOK</p>
+<h1 class="title">Naming Conventions</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Neha Moopen </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">December 1, 2025</p>
-    </div>
-  </div>
   
     
   </div>
@@ -540,11 +534,120 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="welcome" class="level1 unnumbered">
-<h1 class="unnumbered">Welcome!</h1>
-<p>The Data Handbook for Dynamics of Youth provides information and resources on research data management and making data pertaining to youth research <em>Findable</em>, <em>Accessible</em>, <em>Interoperable</em>, and <em>Reusable</em> (FAIR).</p>
-<p>The Handbook need not be read from start to finish, like a textbook. You are invited to navigate to the topic you need based on the table of contents. As far as possible, the chapters have been written concisely - emphasizing practical tips or links to existing resources.</p>
-<p><img src="images/BoosterBorrel.png" class="img-fluid"></p>
+<p><img src="images/xkcd-file-naming.png" class="img-fluid"></p>
+<figcaption>
+<a href="https://xkcd.com/1459/">Documents - xkcd</a>. Used under a CC BY-NC 2.5 license.
+</figcaption>
+<section id="what-is-a-naming-convention" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-a-naming-convention">What Is A Naming Convention?</h2>
+<p>A naming convention is a set of rules for naming things. You can apply it to things like folders, files, and variables.</p>
+</section>
+<section id="why-should-i-apply-a-naming-convention" class="level2">
+<h2 class="anchored" data-anchor-id="why-should-i-apply-a-naming-convention">Why Should I Apply A Naming Convention?</h2>
+<p>Names that are informative and useful for machines and humans are a step toward efficient data management and reproducible research. The more consistent and meaningful the name, the easier it will be to locate and identify things, understand what they contain, and (re)use them.</p>
+</section>
+<section id="when-should-i-apply-a-naming-convention" class="level2">
+<h2 class="anchored" data-anchor-id="when-should-i-apply-a-naming-convention">When Should I Apply A Naming Convention?</h2>
+<p>Aim to select and implement a naming convention at the beginning of a project. If you want to retroactively apply a naming convention, there are several tools for bulk renaming.</p>
+<p>The entire research team should agree on and adopt a naming convention. Document the choice of naming convention in the DMP, so others can refer to and grasp it quickly.</p>
+</section>
+<section id="popular-naming-conventions" class="level2">
+<h2 class="anchored" data-anchor-id="popular-naming-conventions">Popular Naming Conventions</h2>
+<p>Instead of developing a naming convention from scratch, you can start with one that is already being used in programming and software development communities:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 36%">
+<col style="width: 38%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Naming Covention</th>
+<th>Example</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>original name</td>
+<td><code>an awesome name</code></td>
+<td>N/A</td>
+</tr>
+<tr class="even">
+<td>snake_case</td>
+<td><code>an_awesome_name</code></td>
+<td>All words are lowercase and separated by an underscore ( <code>_</code> )</td>
+</tr>
+<tr class="odd">
+<td>kebab-case</td>
+<td><code>an-awesome-name</code></td>
+<td>All words are lowercase and separated by a hyphen ( <code>-</code> )</td>
+</tr>
+<tr class="even">
+<td>PascalCase</td>
+<td><code>AnAwesomeName</code></td>
+<td>All words are capitalized. Spaces are not used.</td>
+</tr>
+<tr class="odd">
+<td>camelCase</td>
+<td><code>anAwesomeName</code></td>
+<td>The first word is lowercase, the remaining words are capitalized. Spaces are not used.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="human-readable-names" class="level2">
+<h2 class="anchored" data-anchor-id="human-readable-names">Human-Readable Names</h2>
+<p>You can tailor naming conventions like <code>snake_case</code> and <code>PascalCase</code> to suit your project and workflow. Determine what information is relevant (or not) to create meaningful names and how you can string this information together. Don’t forget to document this in your DMP!</p>
+<p>!!! note “Elements for Human-Readable Names”</p>
+<pre><code>Names should be =&lt;25 characters long and can include:
+
+- Date of creation/update (`YYYY-MM-DD` or `YYYYMMDD`)
+- Description of content, like type of data
+- Initials of creator/reviewer
+- Project number or acronym
+- Location/coordinates
+- Version number (like `v2` or v2.2`)</code></pre>
+</section>
+<section id="machine-readable-names" class="level2">
+<h2 class="anchored" data-anchor-id="machine-readable-names">Machine-Readable Names</h2>
+<p>When names are machine-readable, they can be efficiently processed by computers and software. This makes it easier to search for files and run operations that involve programming like extracting information from file names or working with regular expressions.</p>
+<p>!!! note “Avoid”</p>
+<pre><code>- Spaces
+- Special characters like `$`, `@`, `%`, `#`, `&amp;`, `*`, `!`, `/`, `\`
+- Punction characters like `,`, `:`, `;`, `?`, `'`, `"`
+- Accented characters</code></pre>
+</section>
+<section id="a-note-on-numbering-dates-versioning" class="level2">
+<h2 class="anchored" data-anchor-id="a-note-on-numbering-dates-versioning">A Note on Numbering, Dates, Versioning</h2>
+<ul>
+<li><p>Append numbers to the beginning of a name to enable sorting according to a logical structure. Use multiple digits like <code>01</code> or <code>001</code>.</p></li>
+<li><p>Dates should follow the ISO 8601 standard which is either <code>YYYY-MM-DD</code> or <code>YYYYMMDD</code>. Append dates to the beginning of names to enable sorting in chronological order.</p></li>
+<li><p>Specify versions using ordinal numbers (1,2,3) for major revisions and decimals for minor changes (1.1, 1.2, 2.1, 2.2). Alternatively, you can specify versions with multiple digits like v01 and v02.</p></li>
+</ul>
+</section>
+<section id="renaming-files" class="level2">
+<h2 class="anchored" data-anchor-id="renaming-files">Renaming files</h2>
+<p>The following tools enable renaming in bulk:</p>
+<ul>
+<li><a href="https://www.bulkrenameutility.co.uk/">Bulk Rename Utility</a> (Windows, free)</li>
+<li><a href="https://renamer.com/">Renamer</a> (MacOS, paid)</li>
+<li><a href="https://mrrsoftware.com/namechanger/">NameChanger</a>, (MacOS, free)</li>
+<li><a href="https://gprename.sourceforge.net/">GPRename</a> (Linux, free)</li>
+</ul>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<ol type="1">
+<li><a href="https://en.wikipedia.org/wiki/Naming_convention">https://en.wikipedia.org/wiki/Naming_convention</a></li>
+<li><a href="https://help.osf.io/article/146-file-naming">https://help.osf.io/article/146-file-naming</a></li>
+<li><a href="https://rdm.elixir-belgium.org/file_naming.html">https://rdm.elixir-belgium.org/file_naming.html</a></li>
+<li><a href="https://khalilstemmler.com/blogs/camel-case-snake-case-pascal-case/">https://khalilstemmler.com/blogs/camel-case-snake-case-pascal-case/</a></li>
+<li><a href="https://dev.to/chaseadamsio/most-common-programming-case-types-30h9">https://dev.to/chaseadamsio/most-common-programming-case-types-30h9</a></li>
+<li><a href="https://rdmkit.elixir-europe.org/data_organisation">https://rdmkit.elixir-europe.org/data_organisation</a> <a href="http://dataabinitio.com/?p=987">http://dataabinitio.com/?p=987</a></li>
+<li><a href="https://dmeg.cessda.eu/Data-Management-Expert-Guide/2.-Organise-Document/File-naming-and-folder-structure">https://dmeg.cessda.eu/Data-Management-Expert-Guide/2.-Organise-Document/File-naming-and-folder-structure</a></li>
+<li><a href="https://annakrystalli.me/rrresearchACCE20/filenaming-view.html">https://annakrystalli.me/rrresearchACCE20/filenaming-view.html</a></li>
+</ol>
 
 
 </section>
@@ -965,10 +1068,13 @@ ul.task-list li input[type="checkbox"] {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./data-flow-diagrams.html" class="pagination-link" aria-label="Data Flow Diagrams">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Data Flow Diagrams</span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./definitions.html" class="pagination-link" aria-label="Definitions">
-        <span class="nav-page-text">Definitions</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./folder-structures.html" class="pagination-link" aria-label="Folder Strutures">
+        <span class="nav-page-text">Folder Strutures</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -977,4 +1083,4 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/UtrechtUniversity/doy-data-handbook/edit/main/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/UtrechtUniversity/doy-data-handbook/edit/main/naming-conventions.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></div></div></footer></body></html>
