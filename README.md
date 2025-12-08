@@ -127,3 +127,7 @@ The deployed site will update automatically once the workflow completes.
 Reference
 
 For more information on Quarto Books, please refer to the extensive documentation: https://quarto.org/docs/books/
+
+## Contributors
+
+Neha Moopen, Marc Roelofs, Annetrude de Mooij-van Malsen
