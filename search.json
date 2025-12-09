@@ -127,47 +127,47 @@
     ]
   },
   {
-    "objectID": "privacy-and-ethics.html",
-    "href": "privacy-and-ethics.html",
-    "title": "Privacy & Ethics",
+    "objectID": "privacy-and-security.html",
+    "href": "privacy-and-security.html",
+    "title": "Privacy & Security",
     "section": "",
-    "text": "Why Is Privacy & Security Important?\nProper privacy and security practices ensure that personal data, especially involving children and adolescents, is handled safely, lawfully, and ethically. It covers how you collect, store, process, share, and protect data throughout your project, and ensures compliance with GDPR and Utrecht University policies.\nPaying close attention to privacy and security protects your participants’ rights and safety, especially when working with vulnerable groups such as minors. It helps prevent data breaches, protects the integrity of your research, and ensures that you meet all legal and ethical obligations.",
+    "text": "When Should You Address Privacy & Security?\nFollowing best practices in privacy and security ensures that personal data - especially involving children and adolescents - are handled safely, lawfully, and ethically. These practices are relevant to every stage of your project: from collection to storage, processing, and sharing. Paying attention to these practices safeguards participants’ rights, reduces the risk of data breaches, and protects the integrity of your research. It ensures compliance with the GDPR (General Data Protection Regulation), as well as relevant institutional policies.\nBeing mindful of privacy and security from the start will improve your workflow and reduce risks later on. That’s why you should address these issues during the planning phase of your project, before even collecting any data . This is the moment to determine what personal data you will collect, whether a Data Protection Impact Assessment (DPIA) is required, and which secure systems you will use.\nStill, privacy and security are not a “one-time check.” You may need to revisit them during the project, particularly when new partners join, data flows shift, or additional types of data are introduced.",
     "crumbs": [
       "PLAN & FUND",
-      "Privacy & Ethics"
+      "Privacy & Security"
     ]
   },
   {
-    "objectID": "privacy-and-ethics.html#when-should-you-address-privacy-security",
-    "href": "privacy-and-ethics.html#when-should-you-address-privacy-security",
-    "title": "Privacy & Ethics",
-    "section": "When Should You Address Privacy & Security?",
-    "text": "When Should You Address Privacy & Security?\nBeing mindful of privacy and security from the start will improve your workflow and reduce risks later on. That’s why you should address these issues before even collecting any data during the planning phase of your project. This is the moment to determine what personal data you will collect, whether a DPIA is required, and which secure systems you will use.\nStill, privacy and security are not a “one-time check.” You may need to revisit them during the project, particularly when new partners join, data flows shift, or additional types of data are introduced.",
-    "crumbs": [
-      "PLAN & FUND",
-      "Privacy & Ethics"
-    ]
-  },
-  {
-    "objectID": "privacy-and-ethics.html#what-does-good-privacy-security-look-like",
-    "href": "privacy-and-ethics.html#what-does-good-privacy-security-look-like",
-    "title": "Privacy & Ethics",
+    "objectID": "privacy-and-security.html#what-does-good-privacy-security-look-like",
+    "href": "privacy-and-security.html#what-does-good-privacy-security-look-like",
+    "title": "Privacy & Security",
     "section": "What Does Good Privacy & Security Look Like?",
-    "text": "What Does Good Privacy & Security Look Like?\nGood privacy practice focuses on minimising and protecting identifiable information. It includes: • collecting only the personal data you truly need • keeping identifiers separate from research data • using pseudonymisation as early as possible • ensuring appropriate consent/assent and necessary agreements are in place • limiting access to identifiable data to authorised team members • documenting decisions about what data you collect and why • deleting or anonymising data when it is no longer needed\nGood security practice focuses on safeguarding data against loss, misuse, or unauthorised access. It includes: • storing data in secure, approved environments • using secure methods for sharing and transferring data, such as encryption • avoiding personal devices and unsupported cloud tools • restricting access to authorised users only • keeping secure logs of decisions and data-handling procedures • ensuring data is handled and transferred through trusted channels",
+    "text": "What Does Good Privacy & Security Look Like?\nGood privacy practices focuses on minimising and protecting identifiable information. It includes: - collecting only the personal data you truly need - keeping identifiers separate from research data - using pseudonymisation as early as possible - ensuring appropriate consent/assent and necessary agreements are in place - limiting access to identifiable data to authorised team members - documenting decisions about what data you collect and why - deleting or anonymising data when it is no longer needed\nGood security practices focuses on safeguarding data against loss, misuse, or unauthorised access. It includes: - storing data in secure, approved environments - using secure methods for sharing and transferring data, such as encryption - avoiding personal devices and unsupported cloud tools - restricting access to authorised users only - keeping secure logs of decisions and data-handling procedures - ensuring data is handled and transferred through trusted channels",
     "crumbs": [
       "PLAN & FUND",
-      "Privacy & Ethics"
+      "Privacy & Security"
     ]
   },
   {
-    "objectID": "privacy-and-ethics.html#tools-support",
-    "href": "privacy-and-ethics.html#tools-support",
-    "title": "Privacy & Ethics",
-    "section": "Tools & Support",
-    "text": "Tools & Support\nSeveral UU services can help you work safely with personal data:",
+    "objectID": "privacy-and-security.html#steps-to-get-started-with-privacy",
+    "href": "privacy-and-security.html#steps-to-get-started-with-privacy",
+    "title": "Privacy & Security",
+    "section": "10 Steps To Get Started With Privacy",
+    "text": "10 Steps To Get Started With Privacy\n\n\n\nUtrecht University RDM Support (2023). 10 steps towards privacy compliance in research. https://doi.org/10.5281/zenodo.10417513",
     "crumbs": [
       "PLAN & FUND",
-      "Privacy & Ethics"
+      "Privacy & Security"
+    ]
+  },
+  {
+    "objectID": "privacy-and-security.html#resources-support",
+    "href": "privacy-and-security.html#resources-support",
+    "title": "Privacy & Security",
+    "section": "Resources & Support",
+    "text": "Resources & Support\nThere are several resources available to support you with building and maintaining privacy & security into your research projects, some of them are outlined below:\n\nEducation\n\nPrivacy Basics for Researchers\n\nOnline Information\n\nUU-Wide\nFaculty-Specific:\n\nIn-Person Support\n\navailable per faculty\n\nTools & Services\n\nUU Tool Advisor\nPrivacy Engineering Tools",
+    "crumbs": [
+      "PLAN & FUND",
+      "Privacy & Security"
     ]
   },
   {
@@ -175,7 +175,7 @@
     "href": "data-flow-diagrams.html",
     "title": "Data Flow Diagrams",
     "section": "",
-    "text": "Examples\nA data flow diagram (DPF) is a visual representation of the flow of data through a process or system. It provides an overview of incoming and outgoing data, as well as the processing and tools involved.\nA DFD is valuable because it provides an outline of your data processes. It allows you to see how these processes interact and identify opportunities for improvement.\nDFDs can be as simple as hand-drawn flowcharts on an A4 sheet of paper to elaborate flowcharts with different symbols and markers. It is recommended that you sketch a DPD while working on your DMP. It can also provide the basis for developing your data pipeline.",
+    "text": "Examples\nA data flow diagram (DFP) is a visual representation of the flow of data through a process or system. It provides an overview of incoming and outgoing data, as well as the processing and tools involved.\nA DFD is valuable because it provides an outline of your data processes. It allows you to see how these processes interact and identify opportunities for improvement. For example, it can provide the basis for developing your data pipeline.\nIt is recommended that you sketch a DPD while working on your DMP. Like the DMP, the DFD can be considered a living document. In DMPonline, you can export your DMP to docx and you can expand the document to include the DFD.\nDFDs can be as simple as hand-drawn flowcharts on an A4 sheet of paper to elaborate flowcharts with different symbols and markers.",
     "crumbs": [
       "PLAN & FUND",
       "Data Flow Diagrams"
@@ -187,6 +187,28 @@
     "title": "Data Flow Diagrams",
     "section": "",
     "text": "YOUth\n\n\n\nPFIC\n\n\n\nHear, Hear\n\n\nSmart-Youth",
+    "crumbs": [
+      "PLAN & FUND",
+      "Data Flow Diagrams"
+    ]
+  },
+  {
+    "objectID": "data-flow-diagrams.html#tools",
+    "href": "data-flow-diagrams.html#tools",
+    "title": "Data Flow Diagrams",
+    "section": "Tools",
+    "text": "Tools\n\nMicrosoft Visio\nMermaid\n\nQuarto\nDiagrammeR\nmermaid-py",
+    "crumbs": [
+      "PLAN & FUND",
+      "Data Flow Diagrams"
+    ]
+  },
+  {
+    "objectID": "data-flow-diagrams.html#resources",
+    "href": "data-flow-diagrams.html#resources",
+    "title": "Data Flow Diagrams",
+    "section": "Resources",
+    "text": "Resources\n\nCreating a data-flow diagram from Elixir Europe’s RDM Kit.",
     "crumbs": [
       "PLAN & FUND",
       "Data Flow Diagrams"
@@ -289,6 +311,105 @@
     "crumbs": [
       "COLLECT & ANALYZE",
       "Naming Conventions"
+    ]
+  },
+  {
+    "objectID": "folder-structures.html",
+    "href": "folder-structures.html",
+    "title": "Folder Structures",
+    "section": "",
+    "text": "What\nWhether it’s on your computer or in the cloud, your project will likely be organized into folders and subfolders.",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Folder Structures"
+    ]
+  },
+  {
+    "objectID": "folder-structures.html#why",
+    "href": "folder-structures.html#why",
+    "title": "Folder Structures",
+    "section": "Why",
+    "text": "Why",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Folder Structures"
+    ]
+  },
+  {
+    "objectID": "folder-structures.html#who",
+    "href": "folder-structures.html#who",
+    "title": "Folder Structures",
+    "section": "Who",
+    "text": "Who",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Folder Structures"
+    ]
+  },
+  {
+    "objectID": "folder-structures.html#when",
+    "href": "folder-structures.html#when",
+    "title": "Folder Structures",
+    "section": "When",
+    "text": "When",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Folder Structures"
+    ]
+  },
+  {
+    "objectID": "folder-structures.html#where",
+    "href": "folder-structures.html#where",
+    "title": "Folder Structures",
+    "section": "Where",
+    "text": "Where",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Folder Structures"
+    ]
+  },
+  {
+    "objectID": "folder-structures.html#how",
+    "href": "folder-structures.html#how",
+    "title": "Folder Structures",
+    "section": "How",
+    "text": "How",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Folder Structures"
+    ]
+  },
+  {
+    "objectID": "folder-structures.html#tools",
+    "href": "folder-structures.html#tools",
+    "title": "Folder Structures",
+    "section": "Tools",
+    "text": "Tools",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Folder Structures"
+    ]
+  },
+  {
+    "objectID": "folder-structures.html#resources",
+    "href": "folder-structures.html#resources",
+    "title": "Folder Structures",
+    "section": "Resources",
+    "text": "Resources",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Folder Structures"
+    ]
+  },
+  {
+    "objectID": "folder-structures.html#references",
+    "href": "folder-structures.html#references",
+    "title": "Folder Structures",
+    "section": "References",
+    "text": "References",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Folder Structures"
     ]
   },
   {
