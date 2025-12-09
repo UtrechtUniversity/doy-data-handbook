@@ -20,7 +20,7 @@ book:
     - part: "PLAN & FUND"
       chapters:
         - data-management-plans.qmd
-        - privacy-and-ethics.qmd
+        - privacy-and-security.qmd
         - costs.qmd
         - data-flow-diagrams.qmd
     - part: "COLLECT & ANALYZE"

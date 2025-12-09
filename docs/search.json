@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Dynamics of Youth",
     "section": "",
-    "text": "Welcome!",
+    "text": "Welcome!\nThe Data Handbook for Dynamics of Youth provides information and resources on research data management and making data pertaining to youth research Findable, Accessible, Interoperable, and Reusable (FAIR).\nThe Handbook need not be read from start to finish, like a textbook. You are invited to navigate to the topic you need based on the table of contents. As far as possible, the chapters have been written concisely - emphasizing practical tips or links to existing resources.",
     "crumbs": [
       "Welcome!"
     ]
@@ -14,7 +14,7 @@
     "href": "definitions.html",
     "title": "Definitions",
     "section": "",
-    "text": "Research Data Management\nBefore diving into the Handbook, it would be good to get familiarized with some data-related terms that are oftentimes misunderstood or used interchangeably.\nResearch Data Management (RDM) refers to the active organization and maintenance of data created during a research project. It is an ongoing activity throughout the data lifecycle, from initial planning to suitable archiving of the data at the project’s completion.",
+    "text": "Research Data Management\nBefore diving into data management, it would be good to get familiarized with some data-related terms that are oftentimes misunderstood or used interchangeably.\nResearch Data Management (RDM) refers to the active organization and maintenance of data created during a research project. It is an ongoing activity throughout the data lifecycle, from initial planning to suitable archiving of the data at the project’s completion.",
     "crumbs": [
       "Definitions"
     ]
@@ -24,7 +24,7 @@
     "href": "definitions.html#fair-data",
     "title": "Definitions",
     "section": "FAIR Data",
-    "text": "FAIR Data\nThe FAIR Data Principles are a set of guiding principles to improve scientific data management and stewardship (Wilkinson et al., 2016)\n\nFINDABILITY makes it possible for others to discover your data (metadata, Persistent Identifiers, etc.).\nACCESSIBILITY makes it possible for humans and machines to gain access to your data, under specific conditions or restrictions where appropriate.\nINTEROPERABILITY ensures data and metadata conform to recognized formats and standards which allows them to be combined and exchanged.\nREUSABILITY requires lots of documentation, which is needed to support data and interpretation and reuse.",
+    "text": "FAIR Data\nThe FAIR Data Principles are a set of guiding principles to improve scientific data management and stewardship (Wilkinson et al., 2016)\n\nFindability makes it possible for others to discover your data (metadata, Persistent Identifiers, etc.).\nAccessibility makes it possible for humans and machines to gain access to your data, under specific conditions or restrictions where appropriate.\nInteroperability ensures data and metadata conform to recognized formats and standards which allows them to be combined and exchanged.\nReusability requires lots of documentation, which is needed to support data and interpretation and reuse.",
     "crumbs": [
       "Definitions"
     ]
@@ -34,7 +34,7 @@
     "href": "definitions.html#open-data",
     "title": "Definitions",
     "section": "Open Data",
-    "text": "Open Data\nOpen Data is data that can be freely used, re-used, and redistributed by anyone - subject only, at most, to the requirement to attribute and share-alike (Open Data Handbook).\nNote that your data does not have to be ‘open’ to be FAIR! Make your data… ‘as open as possible, as closed as necessary’ (European Commission).",
+    "text": "Open Data\nOpen Data is data that can be freely used, re-used, and redistributed by anyone - subject only, at most, to the requirement to attribute and share-alike (Open Data Handbook).\nNote that your data does not have to be ‘open’ to be FAIR!\nMake your data… ‘as open as possible, as closed as necessary’ (European Commission).",
     "crumbs": [
       "Definitions"
     ]
@@ -54,7 +54,7 @@
     "href": "data-management-plans.html",
     "title": "Data Management Plans",
     "section": "",
-    "text": "What Is A Data Management Plan?\nA Data Management Plan (DMP) is a formal document that describes your data and outlines all aspects of managing your data - both during and after your project.\nMoreover, it is a living document that can you can revise and update as needed.",
+    "text": "What Is A Data Management Plan?\nA Data Management Plan (DMP) is a formal document that describes your data and outlines all aspects of managing your data - both during and after your project. It briefly describes what data you will collect, where and how it will be stored, accessed, backed up, documented and versioned, addresses any privacy or ownership issues, and explains your plans for archiving and sharing the data.\nMoreover, it is a living document that can you can revise and update as needed.",
     "crumbs": [
       "PLAN & FUND",
       "Data Management Plans"
@@ -65,7 +65,7 @@
     "href": "data-management-plans.html#why-should-you-write-a-dmp",
     "title": "Data Management Plans",
     "section": "Why Should You Write A DMP?",
-    "text": "Why Should You Write A DMP?\nWriting a DMP provides an opportunity to reflect on your data, particularly how you organize and manage it. It nudges you to think about how to make your RDM more concrete and actionable. This creates efficiency and more value for your data.",
+    "text": "Why Should You Write A DMP?\nWriting a DMP provides an opportunity to reflect on your data, particularly how you organize and manage it. It nudges you to think about how to make your RDM more concrete and actionable. This creates a roadmap for handling data during your project and identifies which resources are required. This results in more efficient project planning, saving both time and money.\nAdditionally, most funders require researchers to submit a DMP.",
     "crumbs": [
       "PLAN & FUND",
       "Data Management Plans"
@@ -76,7 +76,7 @@
     "href": "data-management-plans.html#when-should-you-write-a-dmp",
     "title": "Data Management Plans",
     "section": "When Should You Write A DMP?",
-    "text": "When Should You Write A DMP?\nWorking on a DMP at the start of your project will ensure that you are better informed of best practices in RDM and prepared to implement them. That being said, you can also write a DMP can during the project or when it’s completed.",
+    "text": "When Should You Write A DMP?\nWorking on a DMP at the start of your project will ensure that you are better informed of best practices in RDM and prepared to implement them. That being said, you can also write a DMP during the project or when it’s completed.",
     "crumbs": [
       "PLAN & FUND",
       "Data Management Plans"
@@ -98,7 +98,7 @@
     "href": "data-management-plans.html#tips",
     "title": "Data Management Plans",
     "section": "Tips",
-    "text": "Tips\n!!! note “Tips”\n- Contact your DoY data manager! They can (co)write your DMP and/or review it.\n- If the DoY data manager is unavailable, you can still request feedback from RDM Support.",
+    "text": "Tips\n\n\n\n\n\n\nTip\n\n\n\n\nUse the Feedback button on DMPonline to request a review of your DMP from RDM Support.\nYou can export your DMP as a document and expand on it. This allows tailoring the DMP to suit your project, beyond the given template.",
     "crumbs": [
       "PLAN & FUND",
       "Data Management Plans"
@@ -124,6 +124,50 @@
     "crumbs": [
       "PLAN & FUND",
       "Data Management Plans"
+    ]
+  },
+  {
+    "objectID": "privacy-and-security.html",
+    "href": "privacy-and-security.html",
+    "title": "Privacy & Security",
+    "section": "",
+    "text": "When Should You Address Privacy & Security?\nFollowing best practices in privacy and security ensures that personal data - especially involving children and adolescents - are handled safely, lawfully, and ethically. These practices are relevant to every stage of your project: from collection to storage, processing, and sharing. Paying attention to these practices safeguards participants’ rights, reduces the risk of data breaches, and protects the integrity of your research. It ensures compliance with the GDPR (General Data Protection Regulation), as well as relevant institutional policies.\nBeing mindful of privacy and security from the start will improve your workflow and reduce risks later on. That’s why you should address these issues before even collecting any data during the planning phase of your project. This is the moment to determine what personal data you will collect, whether a Data Protection Impact Assessment (DPIA) is required, and which secure systems you will use.\nStill, privacy and security are not a “one-time check.” You may need to revisit them during the project, particularly when new partners join, data flows shift, or additional types of data are introduced.",
+    "crumbs": [
+      "PLAN & FUND",
+      "Privacy & Security"
+    ]
+  },
+  {
+    "objectID": "privacy-and-security.html#what-does-good-privacy-security-look-like",
+    "href": "privacy-and-security.html#what-does-good-privacy-security-look-like",
+    "title": "Privacy & Security",
+    "section": "What Does Good Privacy & Security Look Like?",
+    "text": "What Does Good Privacy & Security Look Like?\nGood privacy practice focuses on minimising and protecting identifiable information. It includes: • collecting only the personal data you truly need • keeping identifiers separate from research data • using pseudonymisation as early as possible • ensuring appropriate consent/assent and necessary agreements are in place • limiting access to identifiable data to authorised team members • documenting decisions about what data you collect and why • deleting or anonymising data when it is no longer needed\nGood security practice focuses on safeguarding data against loss, misuse, or unauthorised access. It includes: • storing data in secure, approved environments • using secure methods for sharing and transferring data, such as encryption • avoiding personal devices and unsupported cloud tools • restricting access to authorised users only • keeping secure logs of decisions and data-handling procedures • ensuring data is handled and transferred through trusted channels",
+    "crumbs": [
+      "PLAN & FUND",
+      "Privacy & Security"
+    ]
+  },
+  {
+    "objectID": "privacy-and-security.html#steps-to-get-started-with-privacy",
+    "href": "privacy-and-security.html#steps-to-get-started-with-privacy",
+    "title": "Privacy & Security",
+    "section": "10 Steps To Get Started With Privacy",
+    "text": "10 Steps To Get Started With Privacy\n\n\n\nUtrecht University RDM Support (2023). 10 steps towards privacy compliance in research. https://doi.org/10.5281/zenodo.10417513",
+    "crumbs": [
+      "PLAN & FUND",
+      "Privacy & Security"
+    ]
+  },
+  {
+    "objectID": "privacy-and-security.html#tools-support",
+    "href": "privacy-and-security.html#tools-support",
+    "title": "Privacy & Security",
+    "section": "Tools & Support",
+    "text": "Tools & Support\n\nTools & Services\n\ntools.uu.nl\nprivacy engineering tools\n\nEducation\n\nprivacy basics for researchers\n\nOnline Information\n\ndata privacy handbook\n\nPrivacy Officers\n\nper faculty",
+    "crumbs": [
+      "PLAN & FUND",
+      "Privacy & Security"
     ]
   },
   {

@@ -1,1 +1,23 @@
-# Folder Strutures {.unnumbered}
+# Folder Structures {.unnumbered}
+
+## What
+
+Whether it’s on your computer or in the cloud, your project will likely be organized into folders and subfolders.
+
+## Why
+
+
+
+## Who
+
+## When
+
+## Where
+
+## How
+
+## Tools
+
+## Resources
+
+## References

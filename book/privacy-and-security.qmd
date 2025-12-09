@@ -1,0 +1,52 @@
+# Privacy & Security {.unnumbered}
+
+Following best practices in privacy and security ensures that personal data - especially involving children and adolescents - are handled safely, lawfully, and ethically. These practices are relevant to every stage of your project: from collection to storage, processing, and sharing. Paying attention to these practices safeguards participants’ rights, reduces the risk of data breaches, and protects the integrity of your research. It ensures compliance with the GDPR (General Data Protection Regulation), as well as relevant institutional policies.
+
+## When Should You Address Privacy & Security?
+
+Being mindful of privacy and security from the start will improve your workflow and reduce risks later on. That’s why you should address these issues during the planning phase of your project, before even collecting any data . This is the moment to determine what personal data you will collect, whether a Data Protection Impact Assessment (DPIA) is required, and which secure systems you will use.
+
+Still, privacy and security are not a “one-time check.” You may need to revisit them during the project, particularly when new partners join, data flows shift, or additional types of data are introduced.
+
+## What Does Good Privacy & Security Look Like?
+
+**Good privacy practices** focuses on minimising and protecting identifiable information. It includes:
+- collecting only the personal data you truly need
+- keeping identifiers separate from research data
+- using pseudonymisation as early as possible
+- ensuring appropriate consent/assent and necessary agreements are in place
+- limiting access to identifiable data to authorised team members
+- documenting decisions about what data you collect and why
+- deleting or anonymising data when it is no longer needed
+
+**Good security practices** focuses on safeguarding data against loss, misuse, or unauthorised access. It includes:
+- storing data in secure, approved environments
+- using secure methods for sharing and transferring data, such as encryption
+- avoiding personal devices and unsupported cloud tools
+- restricting access to authorised users only
+- keeping secure logs of decisions and data-handling procedures
+- ensuring data is handled and transferred through trusted channels
+
+## 10 Steps To Get Started With Privacy
+
+![Utrecht University RDM Support (2023). 10 steps towards privacy compliance in research. <https://doi.org/10.5281/zenodo.10417513>](https://utrechtuniversity.github.io/dataprivacyhandbook/img/10_steps_towards_privacy_compliance_in_research.png)
+
+## Resources & Support
+
+There are several resources available to support you with building and maintaining privacy & security into your research projects, some of them are outlined below:
+
+- **Education**
+  - Privacy Basics for Researchers
+  
+- **Online Information**
+  
+  - UU-Wide
+  
+  - Faculty-Specific:
+
+- **In-Person Support**
+  - available per faculty
+
+- **Tools & Services**
+  - UU Tool Advisor
+  - Privacy Engineering Tools
