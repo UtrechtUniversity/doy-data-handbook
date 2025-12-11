@@ -571,7 +571,51 @@
     "href": "storage.html",
     "title": "Data Storage",
     "section": "",
-    "text": "Data Storage Finder\nWhen discussing storage, we are considering the location of ‘active’ data is under use and subject to change during the research project. The related concepts of archiving and publishing refer to where the data will be saved or deposited after the project is completed.\nWhen storing data, consider the following - choose storage media that is appropriate for the type of data you’re working with - implement reliable version control and backups - structure folders and organize files clearly - follow a naming convention - use preferred and sustainable file formats - secure data files\nThe Data Storage Finder is a tool provided by IT help you decide which storage solution would be most suited to your needs.",
+    "text": "What\nWhen discussing storage, we refer to the location of ‘active’ data, which is in use and may change throughout the research project. The related concepts of archiving and publishing refer to where the data will be saved or deposited áfter the project is completed.",
+    "crumbs": [
+      "PRESERVE & STORE",
+      "Data Storage"
+    ]
+  },
+  {
+    "objectID": "storage.html#why",
+    "href": "storage.html#why",
+    "title": "Data Storage",
+    "section": "Why",
+    "text": "Why\nStoring data properly ensures that research can be conducted efficiently, prevents data loss, and maintains the integrity and reproducibility of results. Well-managed storage supports collaboration, version control, and easy retrieval of files during the project.",
+    "crumbs": [
+      "PRESERVE & STORE",
+      "Data Storage"
+    ]
+  },
+  {
+    "objectID": "storage.html#who",
+    "href": "storage.html#who",
+    "title": "Data Storage",
+    "section": "Who",
+    "text": "Who\nWhen planning data storage, consider potential sharing with other researchers. Decisions about who will access the data and how often it will be shared affect both where the data is stored and how it is organized, backed up, and structured.\n##When Active data must be stored securely at all times, with regular backups and version control to prevent loss or accidental overwriting.",
+    "crumbs": [
+      "PRESERVE & STORE",
+      "Data Storage"
+    ]
+  },
+  {
+    "objectID": "storage.html#where",
+    "href": "storage.html#where",
+    "title": "Data Storage",
+    "section": "Where",
+    "text": "Where\nThe Data Storage Finder is a tool provided by IT help you decide which storage solution would be most suited to your needs.",
+    "crumbs": [
+      "PRESERVE & STORE",
+      "Data Storage"
+    ]
+  },
+  {
+    "objectID": "storage.html#how",
+    "href": "storage.html#how",
+    "title": "Data Storage",
+    "section": "How",
+    "text": "How\nWhen storing data, consider the following - choose storage media that is appropriate for the type of data you’re working with - implement reliable version control and backups - structure folders and organize files clearly - follow a naming convention - use preferred and sustainable file formats - secure data files",
     "crumbs": [
       "PRESERVE & STORE",
       "Data Storage"
@@ -580,12 +624,67 @@
   {
     "objectID": "archiving.html",
     "href": "archiving.html",
-    "title": "Data Archving",
+    "title": "Data Archiving",
     "section": "",
-    "text": "Data Archiving refers to the long-term preservation of research data. It is typically done for verification purposes / to check & maintain the integrity of the original research.\nThere are varying policies on how long research data should be retained for verification purposes, a typical policy is 10 years for the preservation of raw data.\nArchiving is not directly related to the FAIR principles, since the latter is focused on sharing and reusing the data. Nonetheless, the steps taken in archiving can provide a bsis for FAIRification, so the effort is never wasted!",
+    "text": "What\nData archiving is the long-term, secure preservation of research data.",
     "crumbs": [
       "PRESERVE & STORE",
-      "Data Archving"
+      "Data Archiving"
+    ]
+  },
+  {
+    "objectID": "archiving.html#why",
+    "href": "archiving.html#why",
+    "title": "Data Archiving",
+    "section": "Why",
+    "text": "Why\nArchiving enables future verification and safeguards the integrity of research. By storing raw data in a stable and accessible manner, researchers and institutions can revisit it if questions arise about methods, results, or conclusions.\nWhile archiving is not directly part of the FAIR principles, which focus on sharing and reusing data, good archiving practices, such as organized file structures and clear documentation, provide a strong foundation for later FAIRification.",
+    "crumbs": [
+      "PRESERVE & STORE",
+      "Data Archiving"
+    ]
+  },
+  {
+    "objectID": "archiving.html#who",
+    "href": "archiving.html#who",
+    "title": "Data Archiving",
+    "section": "Who",
+    "text": "Who\nThe principal investigator (PI) holds primary responsibility for ensuring data is archived, while the research team shares responsibility for preparing and organizing the files.",
+    "crumbs": [
+      "PRESERVE & STORE",
+      "Data Archiving"
+    ]
+  },
+  {
+    "objectID": "archiving.html#when",
+    "href": "archiving.html#when",
+    "title": "Data Archiving",
+    "section": "When",
+    "text": "When\nArchive your data at the end of your project, once data collection and analysis are complete, results are published or submitted, and no further changes will be made.\nRetention requirements vary by institution, funder, and discipline. A common guideline is to preserve raw data for at least 10 years after project completion or publication, though some fields require longer retention for legal, ethical, or scientific reasons.",
+    "crumbs": [
+      "PRESERVE & STORE",
+      "Data Archiving"
+    ]
+  },
+  {
+    "objectID": "archiving.html#where",
+    "href": "archiving.html#where",
+    "title": "Data Archiving",
+    "section": "Where",
+    "text": "Where\nArchive your data using the YODA Vault to create a read-only, long-term snapshot that cannot be overwritten or deleted, ensuring data integrity.",
+    "crumbs": [
+      "PRESERVE & STORE",
+      "Data Archiving"
+    ]
+  },
+  {
+    "objectID": "archiving.html#how",
+    "href": "archiving.html#how",
+    "title": "Data Archiving",
+    "section": "How",
+    "text": "How\nSelect the data to preserve long-term, as archiving all research data (especially large datasets not directly related to the project) can be practically and financially challenging.\nTo improve future reusability, store data in recommended formats that are non-proprietary, unencrypted, and uncompressed.",
+    "crumbs": [
+      "PRESERVE & STORE",
+      "Data Archiving"
     ]
   },
   {
