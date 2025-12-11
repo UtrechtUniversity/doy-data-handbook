@@ -1,26 +1,35 @@
 # Costs {.unnumbered}
- 
-We consider data management costs all expenses that are associated with planning, collecting, storing, analysing, publishing, sharing and archiving research data during the research life cycle of a project. It encompasses the finances needed to obtain licenses for data re-use, acquiring the tools for working with your data or hiring the expertise to support the research project.
 
-## Why?
-Considering data-management costs explicitly is essential for ensuring that the necessary resources are available throughout the project. Many activities—such as storage, documentation, data cleaning, or long-term archiving—require time, expertise, and infrastructure, which can lead to unanticipated expenses if not planned in advance. Transparent budgeting helps avoid delays, ensures compliance with funder and institutional requirements, and supports sustainable data practices.
+![](images/dagobert-duck.png)
+
+## What
+ 
+Data management costs include all expenses related to planning, collecting, storing, analysing, publishing, sharing and archiving data for a project. This encompasses licenses for data collection or reuse, tools and software, and any expertise needed to support the research.
+
+## Why
+
+Explicitly considering data management expenses ensures that necessary resources are available throughout the project. Many date-related activities require time, infrastructure, and expertise. This can lead to unanticipated expenses if not planned in advance. Transparent budgeting helps avoid delays, supports ensures compliance with funder and institutional requirements, and supports sustainable data practices.
 
 ## Who
-Responsibility for identifying and budgeting data-management costs lies primarily with the research team, as they best understand the scope and requirements of their project. However, institutions play a key supporting role: data stewards, IT services or RDM support units provide guidance on expected expenses, available infrastructure, and compliant cost planning. Effective cost management therefore depends on shared responsibility between researchers, their departments, and the institutional services that offer expertise and resources.
-Funders consider costs for data management part of the research project, thereby making it possible to include it in grants. This also means it should be part of the grant proposal, highlighting the need for proper costs planning.
+
+The research team is primarily responsible for identifying and budgeting data management costs - as they best understand the scope and requirements of their project. Institutional support is available from data stewardship teams, libraries, and IT services - who advise on expected expenses and available infrastructure. Funders typically accept data management costs as part of grants, so they should be included in the proposal and planned accordingly.
 
 ## Where
-These costs arise throughout all phases of a research project: from the initial planning stage, through data collection and processing, to final archiving, sharing, or publication. Additional costs may occur when data is obtained externally, stored in (cloud) infrastructures, or shared with third parties.
+
+The Data Management Plan (DMP) is a suitable place to outline data management expenses. Most templates include dedicated sections for costs and resources, making it straightforward to document your planning.
 
 ## How
-•	Plan data-management costs early, including in grant proposals, by drafting a preliminary Data Management Plan (DMP). This helps make storage, documentation, analysis, backup, and archiving costs explicit.
 
-•	Identify which data-related tasks are needed at each project stage (e.g., collecting, transcribing, anonymizing, structuring, documenting, sharing, archiving) and estimate the required time and resources, using suggested hourly rates for student assistants or data professionals where possible.
+- Plan data management costs early - ideally during grant preparation - using a preliminary DMP to make storage, documentation, analysis, backup, and archiving needs explicit. This can serve as a basis for the _Costs_ section in the offical DMP.
 
-•	Whenever feasible, use institutional or open-source infrastructure and tools instead of expensive external services, and rely on templates, standards, and standard operating procedures to increase efficiency and reduce costs.
+- Identify the data-related tasks required at each stage of the peroject (e.g., collecting, transcribing, anonymizing, structuring, documenting, sharing, archiving) and estimate the time and resources required. You can use the recommended hourly rates for student assistants or data professionals where possible.
+
+- Whenever feasible, use institutional or open-source tools and infrastructure instead of expensive external services, and rely on templates, standards, and standard operating procedures to increase efficiency and reduce costs.
 
 ## References
 
 1. [https://www.uu.nl/en/research/research-data-management/guides/costs-of-data-management](https://www.uu.nl/en/research/research-data-management/guides/costs-of-data-management)
+
 2. [https://www.utwente.nl/en/dcc/news/2022/10/135327/new-guide-how-to-estimate-research-data-management-costs-for-your-research-proposal](https://www.utwente.nl/en/dcc/news/2022/10/135327/new-guide-how-to-estimate-research-data-management-costs-for-your-research-proposal)
+
 3. [https://www.tudelft.nl/library/data-management/onderzoeksdata-beheren/de-kosten-van-data-management](https://www.tudelft.nl/library/data-management/onderzoeksdata-beheren/de-kosten-van-data-management)

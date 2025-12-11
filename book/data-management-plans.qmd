@@ -54,4 +54,12 @@ These templates also contain example answers and guidance.
 - [Create your DMP online](https://www.uu.nl/en/research/research-data-management/tools-services/tool-to-create-your-dmp-online)
 - [Data management planning](https://www.uu.nl/en/research/research-data-management/guides/data-management-planning)
 
+## References
 
+1. [https://www.uu.nl/en/research/research-data-management/guides/data-management-planning](https://www.uu.nl/en/research/research-data-management/guides/data-management-planning)
+
+2. [https://www.kuleuven.be/rdm/en/faq/faq-dmp](https://www.kuleuven.be/rdm/en/faq/faq-dmp)
+
+3. [https://rdm.uva.nl/en/planning/data-management-plan/data-management-plan.html](https://rdm.uva.nl/en/planning/data-management-plan/data-management-plan.html)
+
+4. [https://www.uu.nl/en/research/research-data-management/tools-services/tool-to-create-your-dmp-online.html](https://www.uu.nl/en/research/research-data-management/tools-services/tool-to-create-your-dmp-online.html)
