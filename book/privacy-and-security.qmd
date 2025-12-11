@@ -1,16 +1,14 @@
 # Privacy & Security {.unnumbered}
 
-Following best practices in privacy and security ensures that personal data - especially involving children and adolescents - are handled safely, lawfully, and ethically. These practices are relevant to every stage of your project: from collection to storage, processing, and sharing. Paying attention to these practices safeguards participants’ rights, reduces the risk of data breaches, and protects the integrity of your research. It ensures compliance with the GDPR (General Data Protection Regulation), as well as relevant institutional policies.
+![](images/sensitive-data.jpg)
 
-## When Should You Address Privacy & Security?
+<figcaption><a href="https://the-turing-way.netlify.app/">The Turing Way</a> project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: <a href="https://doi.org/10.5281/zenodo.3332807">10.5281/zenodo.3332807</a>.</figcaption>
+<br>
 
-Being mindful of privacy and security from the start will improve your workflow and reduce risks later on. That’s why you should address these issues during the planning phase of your project, before even collecting any data . This is the moment to determine what personal data you will collect, whether a Data Protection Impact Assessment (DPIA) is required, and which secure systems you will use.
+## What
 
-Still, privacy and security are not a “one-time check.” You may need to revisit them during the project, particularly when new partners join, data flows shift, or additional types of data are introduced.
+**Privacy** focuses on minimising and protecting identifiable information. It includes:
 
-## What Does Good Privacy & Security Look Like?
-
-**Good privacy practices** focuses on minimising and protecting identifiable information. It includes:
 - collecting only the personal data you truly need
 - keeping identifiers separate from research data
 - using pseudonymisation as early as possible
@@ -19,7 +17,8 @@ Still, privacy and security are not a “one-time check.” You may need to revi
 - documenting decisions about what data you collect and why
 - deleting or anonymising data when it is no longer needed
 
-**Good security practices** focuses on safeguarding data against loss, misuse, or unauthorised access. It includes:
+**Security** focuses on safeguarding data against loss, misuse, or unauthorised access. It includes:
+
 - storing data in secure, approved environments
 - using secure methods for sharing and transferring data, such as encryption
 - avoiding personal devices and unsupported cloud tools
@@ -27,26 +26,72 @@ Still, privacy and security are not a “one-time check.” You may need to revi
 - keeping secure logs of decisions and data-handling procedures
 - ensuring data is handled and transferred through trusted channels
 
-## 10 Steps To Get Started With Privacy
+## Why
+
+Following best practices in privacy and security ensures that personal data - especially involving children and adolescents - are handled safely, lawfully, and ethically. These practices are relevant to every stage of your project: from collection to storage, processing, and sharing. Paying attention to these practices safeguards participants’ rights, reduces the risk of data breaches, and protects the integrity of your research. It ensures compliance with the GDPR (General Data Protection Regulation), as well as relevant institutional policies.
+
+## When
+
+Being mindful of privacy and security from the start will improve your workflow and reduce risks later on. That’s why you should address these issues during the planning phase of your project, before even collecting any data . This is the moment to determine what personal data you will collect, whether a Data Protection Impact Assessment (DPIA) is required, and which secure systems you will use.
+
+Still, privacy and security are not a one-time check. You may need to revisit them during the project, particularly when new partners join, data flows shift, or additional types of data are introduced.
+
+## How
+
+The one-pager below outlines the basic steps in every research project that uses personal data, please refer to the [Data Privacy Handbook](https://utrechtuniversity.github.io/dataprivacyhandbook/) to find more information about each of these topics.
 
 ![Utrecht University RDM Support (2023). 10 steps towards privacy compliance in research. <https://doi.org/10.5281/zenodo.10417513>](https://utrechtuniversity.github.io/dataprivacyhandbook/img/10_steps_towards_privacy_compliance_in_research.png)
 
-## Resources & Support
+## Resources
 
-There are several resources available to support you with building and maintaining privacy & security into your research projects, some of them are outlined below:
+::: {.callout-note}
+The information below is borrowed from the _Seeking help at Utrecht University_ chapter from the [Data Privacy Handbook](https://utrechtuniversity.github.io/dataprivacyhandbook/).
+:::
 
-- **Education**
-  - Privacy Basics for Researchers
+In addition to the [Data Privacy Handbook](https://utrechtuniversity.github.io/dataprivacyhandbook/), there are several resources available to support you with building and maintaining privacy & security into your research projects:
+
+### Education
+
+[Privacy basics for researchers (online training)](https://www.uu.nl/en/research/research-data-management/walk-in-hours-workshops/privacy-basics-online-training)
+
+### Tools & Services
+
+  - The UU [Tooladvisor](https://tools.uu.nl/tooladvisor) lists tools that are GDPR-compliant and safe to use.
+  - The webpage on [Privacy Engineering Tools](https://utrechtuniversity.github.io/privacy-engineering-tools/) outlines tools and packages to deidentify, encrypt, synthetise and otherwise work with personal data.
   
-- **Online Information**
-  
-  - UU-Wide
-  
-  - Faculty-Specific:
+### Online Information
 
-- **In-Person Support**
-  - available per faculty
+**UU-wide**
 
-- **Tools & Services**
-  - UU Tool Advisor
-  - Privacy Engineering Tools
+- Website: [Research Data Management Support](https://www.uu.nl/rdm)
+- Intranet: [Privacy @UU](https://intranet.uu.nl/en/knowledge-base/privacy-at-uu) 
+- Intranet: [Information Security @UU](https://intranet.uu.nl/en/information-security-at-the-uu)
+  
+**Faculty-Specific**
+
+- Geosciences: [RDM and privacy](https://geo-data-support.sites.uu.nl/),
+    [ethics](https://sciencegeo-erb.sites.uu.nl/)
+- Science: [RDM and privacy](https://science-data-support.sites.uu.nl/),
+    [ethics](https://sciencegeo-erb.sites.uu.nl/)
+- Social and Behavioural Sciences: [tech support](https://techsupport.fss.uu.nl/),
+    [ethics](https://ferb.sites.uu.nl/)
+- Humanities: [RDM and privacy](https://cdh.uu.nl/research/data-management-privacy/),
+    [ethics](https://fetc-gw.wp.hum.uu.nl/)
+- Law, Economics and Governance: [RDM and privacy](https://intranet.uu.nl/kennisbank/omgaan-met-onderzoeksgegevens-research-data-management-privacy-en-ethische-toetsing),  [ethics](https://intranet.uu.nl/en/knowledgebase/facultys-ethical-review-committee)
+- Veterinary medicine: [Research Support Office](https://www.uu.nl/en/node/589/onderzoeksbureauresearch-support-office)
+- Medicine: [ethics](https://www.metc-utrecht.nl/en/), data management-related information can be found on UMCU Connect.
+
+### In-Person Support
+
+The **first point of contact** about privacy are the [Privacy Officers](https://intranet.uu.nl/en/knowledgebase/privacyofficers)
+of your faculty. 
+
+Besides the privacy officer, you can also ask for help from:
+
+- Your local data steward/data manager (see websites above) or 
+[Research Data Management Support](https://www.uu.nl/en/research/research-data-management/contact-us).
+- [Information security](https://intranet.uu.nl/en/security/information-security-contact-who-are-we).
+- In some faculties, the [Research Support Office](https://intranet.uu.nl/en/knowledgebase/research-support-offices)may be of help in drafting agreements.
+- If you suspect a data leak or data breach, contact the [Service Desk](https://intranet.uu.nl/en/knowledgebase/what-do-i-have-to-do-if-there-is-a-personal-data-breach)immediately.
+
+

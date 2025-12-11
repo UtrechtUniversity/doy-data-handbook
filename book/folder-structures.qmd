@@ -1,23 +1,43 @@
 # Folder Structures {.unnumbered}
 
-## What
+Whether it’s on your computer or in the cloud, your project will likely be organized into folders and subfolders. 
 
-Whether it’s on your computer or in the cloud, your project will likely be organized into folders and subfolders.
+A clear structure keeps all your materials grouped in a predictable way. It helps you know exactly where each type of file belongs, making it easier to organize and locate them. It also keeps things aligned when multiple people contribute to the same project.
 
-## Why
+The project lead should define the folder structure — this could be the PI for a larger project or an individual researcher for a manuscript. You should also ensure that collaborators are informed about the structure and follow it accordingly.
 
+This should be done at the beginning of a project, but there is always room to update and/or reorganize things along the way.
 
-
-## Who
-
-## When
-
-## Where
+in the storage location recommended for your project or in your archive/repository
 
 ## How
 
+categorize things as much as possible and have a main folder and perhaps 3 sub-folders. it's not struct and can be customaized, the aim is to keep it simple and don't overcomplicate..don't forget to use the naming convention you decided on earlier.
+
+we can distinguish project-level vs. publication-level. 
+
+### project 
+
+UMCU has the RFS..there is the Gen R fodler strcture, TIER protocol, BIDS that you can take inpiration from...based on that here is a recommendation
+
+### publication
+
+follow the best practices from computational reproducibility / cookiecutter, primarily for programming projects but can be adapted for all analysis projects
+
 ## Tools
+
+here is are .zip files with the aforementioned folder streucture
+
+you can also generate the folder structure using this command
+
+you can also use the tree command to print the directory, you can use it for inspection or copy-paste into readme files
 
 ## Resources
 
+links to protocols? UMCU has the RFS..there is the Gen R fodler strcture, TIER protocol, BIDS that you can take inpiration from...
+
+here are some analysis organization inspo
+
 ## References
+
+direct references...

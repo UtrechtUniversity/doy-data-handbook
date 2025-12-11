@@ -54,51 +54,40 @@
     "href": "data-management-plans.html",
     "title": "Data Management Plans",
     "section": "",
-    "text": "What Is A Data Management Plan?\nA Data Management Plan (DMP) is a formal document that describes your data and outlines all aspects of managing your data - both during and after your project. It briefly describes what data you will collect, where and how it will be stored, accessed, backed up, documented and versioned, addresses any privacy or ownership issues, and explains your plans for archiving and sharing the data.\nMoreover, it is a living document that can you can revise and update as needed.",
+    "text": "What\nA Data Management Plan (DMP) is a formal document that describes your data and outlines all aspects of managing your data - both during and after your project. It briefly describes what data you will collect, where and how it will be stored, accessed, backed up, documented and versioned, addresses any privacy or ownership issues, and explains your plans for archiving and sharing the data.",
     "crumbs": [
       "PLAN & FUND",
       "Data Management Plans"
     ]
   },
   {
-    "objectID": "data-management-plans.html#why-should-you-write-a-dmp",
-    "href": "data-management-plans.html#why-should-you-write-a-dmp",
+    "objectID": "data-management-plans.html#why",
+    "href": "data-management-plans.html#why",
     "title": "Data Management Plans",
-    "section": "Why Should You Write A DMP?",
-    "text": "Why Should You Write A DMP?\nWriting a DMP provides an opportunity to reflect on your data, particularly how you organize and manage it. It nudges you to think about how to make your RDM more concrete and actionable. This creates a roadmap for handling data during your project and identifies which resources are required. This results in more efficient project planning, saving both time and money.\nAdditionally, most funders require researchers to submit a DMP.",
+    "section": "Why",
+    "text": "Why\nWriting a DMP provides an opportunity to reflect on your data, particularly how you organize and manage it. It nudges you to think about how to make your RDM more concrete and actionable. This creates a roadmap for handling data during your project and identifies which resources are required. This results in more efficient project planning, saving both time and money. Additionally, most funders require researchers to submit a DMP.",
     "crumbs": [
       "PLAN & FUND",
       "Data Management Plans"
     ]
   },
   {
-    "objectID": "data-management-plans.html#when-should-you-write-a-dmp",
-    "href": "data-management-plans.html#when-should-you-write-a-dmp",
+    "objectID": "data-management-plans.html#when",
+    "href": "data-management-plans.html#when",
     "title": "Data Management Plans",
-    "section": "When Should You Write A DMP?",
-    "text": "When Should You Write A DMP?\nWorking on a DMP at the start of your project will ensure that you are better informed of best practices in RDM and prepared to implement them. That being said, you can also write a DMP during the project or when it’s completed.",
+    "section": "When",
+    "text": "When\nWorking on a DMP at the start of your project will ensure that you are better informed of best practices in RDM and prepared to implement them. That being said, you can also write a DMP during the project or when it’s completed. It is a living document that can you can revise and update as needed.",
     "crumbs": [
       "PLAN & FUND",
       "Data Management Plans"
     ]
   },
   {
-    "objectID": "data-management-plans.html#dmponline-dmp-templates",
-    "href": "data-management-plans.html#dmponline-dmp-templates",
+    "objectID": "data-management-plans.html#how",
+    "href": "data-management-plans.html#how",
     "title": "Data Management Plans",
-    "section": "DMPonline & DMP Templates",
-    "text": "DMPonline & DMP Templates\nDMPonline is a tool that helps you create and maintain DMPs. With DMPonline, you can:\n\nregister and sign in with your institutional credentials,\nwrite and collaborate on (multiple) DMPs,\nshare DMPs or switch their visibility between private and public,\nrequest feedback from RDM Support,\ndownload DMPs in various formats.\n\nDMPonline offers DMP templates from various institutions and funders, including:\n\nUtrecht University\nUMC Utrecht\nNWO\nZonMw\nERC\nHorizon 2020\nHorizon Europe\n\nThese templates also contain example answers and guidance.",
-    "crumbs": [
-      "PLAN & FUND",
-      "Data Management Plans"
-    ]
-  },
-  {
-    "objectID": "data-management-plans.html#tips",
-    "href": "data-management-plans.html#tips",
-    "title": "Data Management Plans",
-    "section": "Tips",
-    "text": "Tips\n\n\n\n\n\n\nTip\n\n\n\n\nUse the Feedback button on DMPonline to request a review of your DMP from RDM Support.\nYou can export your DMP as a document and expand on it. This allows tailoring the DMP to suit your project, beyond the given template.",
+    "section": "How",
+    "text": "How\n\n\nDMPonline & DMP Templates\nDMPonline is a tool that helps you create and maintain DMPs. With DMPonline, you can:\n\nregister and sign in with your institutional credentials,\nwrite and collaborate on (multiple) DMPs,\nshare DMPs or switch their visibility between private and public,\nrequest feedback from RDM Support,\ndownload DMPs in various formats.\n\nDMPonline offers DMP templates from various institutions and funders, including:\n\nUtrecht University\nUMC Utrecht\nNWO\nZonMw\nERC\nHorizon 2020\nHorizon Europe\n\nThese templates also contain example answers and guidance.\n\n\n\n\n\n\nTip\n\n\n\n\nUse the Feedback button on DMPonline to request a review of your DMP from RDM Support.\nYou can export your DMP as a document and expand on it. This allows tailoring the DMP to suit your project, beyond the given template.",
     "crumbs": [
       "PLAN & FUND",
       "Data Management Plans"
@@ -109,7 +98,7 @@
     "href": "data-management-plans.html#resources",
     "title": "Data Management Plans",
     "section": "Resources",
-    "text": "Resources\n\nCreate your DMP online\nData management planning\nLearn to write your DMP (online training)",
+    "text": "Resources\n\nLearn to write your DMP (online training)\nCreate your DMP online\nData management planning",
     "crumbs": [
       "PLAN & FUND",
       "Data Management Plans"
@@ -131,43 +120,131 @@
     "href": "privacy-and-security.html",
     "title": "Privacy & Security",
     "section": "",
-    "text": "When Should You Address Privacy & Security?\nFollowing best practices in privacy and security ensures that personal data - especially involving children and adolescents - are handled safely, lawfully, and ethically. These practices are relevant to every stage of your project: from collection to storage, processing, and sharing. Paying attention to these practices safeguards participants’ rights, reduces the risk of data breaches, and protects the integrity of your research. It ensures compliance with the GDPR (General Data Protection Regulation), as well as relevant institutional policies.\nBeing mindful of privacy and security from the start will improve your workflow and reduce risks later on. That’s why you should address these issues before even collecting any data during the planning phase of your project. This is the moment to determine what personal data you will collect, whether a Data Protection Impact Assessment (DPIA) is required, and which secure systems you will use.\nStill, privacy and security are not a “one-time check.” You may need to revisit them during the project, particularly when new partners join, data flows shift, or additional types of data are introduced.",
+    "text": "What\nPrivacy focuses on minimising and protecting identifiable information. It includes:\nSecurity focuses on safeguarding data against loss, misuse, or unauthorised access. It includes:",
     "crumbs": [
       "PLAN & FUND",
       "Privacy & Security"
     ]
   },
   {
-    "objectID": "privacy-and-security.html#what-does-good-privacy-security-look-like",
-    "href": "privacy-and-security.html#what-does-good-privacy-security-look-like",
+    "objectID": "privacy-and-security.html#what",
+    "href": "privacy-and-security.html#what",
     "title": "Privacy & Security",
-    "section": "What Does Good Privacy & Security Look Like?",
-    "text": "What Does Good Privacy & Security Look Like?\nGood privacy practice focuses on minimising and protecting identifiable information. It includes: • collecting only the personal data you truly need • keeping identifiers separate from research data • using pseudonymisation as early as possible • ensuring appropriate consent/assent and necessary agreements are in place • limiting access to identifiable data to authorised team members • documenting decisions about what data you collect and why • deleting or anonymising data when it is no longer needed\nGood security practice focuses on safeguarding data against loss, misuse, or unauthorised access. It includes: • storing data in secure, approved environments • using secure methods for sharing and transferring data, such as encryption • avoiding personal devices and unsupported cloud tools • restricting access to authorised users only • keeping secure logs of decisions and data-handling procedures • ensuring data is handled and transferred through trusted channels",
+    "section": "",
+    "text": "collecting only the personal data you truly need\nkeeping identifiers separate from research data\nusing pseudonymisation as early as possible\nensuring appropriate consent/assent and necessary agreements are in place\nlimiting access to identifiable data to authorised team members\ndocumenting decisions about what data you collect and why\ndeleting or anonymising data when it is no longer needed\n\n\n\nstoring data in secure, approved environments\nusing secure methods for sharing and transferring data, such as encryption\navoiding personal devices and unsupported cloud tools\nrestricting access to authorised users only\nkeeping secure logs of decisions and data-handling procedures\nensuring data is handled and transferred through trusted channels",
     "crumbs": [
       "PLAN & FUND",
       "Privacy & Security"
     ]
   },
   {
-    "objectID": "privacy-and-security.html#steps-to-get-started-with-privacy",
-    "href": "privacy-and-security.html#steps-to-get-started-with-privacy",
+    "objectID": "privacy-and-security.html#why",
+    "href": "privacy-and-security.html#why",
     "title": "Privacy & Security",
-    "section": "10 Steps To Get Started With Privacy",
-    "text": "10 Steps To Get Started With Privacy\n\n\n\nUtrecht University RDM Support (2023). 10 steps towards privacy compliance in research. https://doi.org/10.5281/zenodo.10417513",
+    "section": "Why",
+    "text": "Why\nFollowing best practices in privacy and security ensures that personal data - especially involving children and adolescents - are handled safely, lawfully, and ethically. These practices are relevant to every stage of your project: from collection to storage, processing, and sharing. Paying attention to these practices safeguards participants’ rights, reduces the risk of data breaches, and protects the integrity of your research. It ensures compliance with the GDPR (General Data Protection Regulation), as well as relevant institutional policies.",
     "crumbs": [
       "PLAN & FUND",
       "Privacy & Security"
     ]
   },
   {
-    "objectID": "privacy-and-security.html#tools-support",
-    "href": "privacy-and-security.html#tools-support",
+    "objectID": "privacy-and-security.html#when",
+    "href": "privacy-and-security.html#when",
     "title": "Privacy & Security",
-    "section": "Tools & Support",
-    "text": "Tools & Support\n\nTools & Services\n\ntools.uu.nl\nprivacy engineering tools\n\nEducation\n\nprivacy basics for researchers\n\nOnline Information\n\ndata privacy handbook\n\nPrivacy Officers\n\nper faculty",
+    "section": "When",
+    "text": "When\nBeing mindful of privacy and security from the start will improve your workflow and reduce risks later on. That’s why you should address these issues during the planning phase of your project, before even collecting any data . This is the moment to determine what personal data you will collect, whether a Data Protection Impact Assessment (DPIA) is required, and which secure systems you will use.\nStill, privacy and security are not a one-time check. You may need to revisit them during the project, particularly when new partners join, data flows shift, or additional types of data are introduced.",
     "crumbs": [
       "PLAN & FUND",
       "Privacy & Security"
+    ]
+  },
+  {
+    "objectID": "privacy-and-security.html#how",
+    "href": "privacy-and-security.html#how",
+    "title": "Privacy & Security",
+    "section": "How",
+    "text": "How\nThe one-pager below outlines the basic steps in every research project that uses personal data, please refer to the Data Privacy Handbook to find more information about each of these topics.\n\n\n\nUtrecht University RDM Support (2023). 10 steps towards privacy compliance in research. https://doi.org/10.5281/zenodo.10417513",
+    "crumbs": [
+      "PLAN & FUND",
+      "Privacy & Security"
+    ]
+  },
+  {
+    "objectID": "privacy-and-security.html#resources",
+    "href": "privacy-and-security.html#resources",
+    "title": "Privacy & Security",
+    "section": "Resources",
+    "text": "Resources\n\n\n\n\n\n\nNote\n\n\n\nThe information below is borrowed from the Seeking help at Utrecht University chapter from the Data Privacy Handbook.\n\n\nIn addition to the Data Privacy Handbook, there are several resources available to support you with building and maintaining privacy & security into your research projects:\n\nEducation\nPrivacy basics for researchers (online training){\n\n\nTools & Services\n\nThe UU Tooladvisor lists tools that are GDPR-compliant and safe to use.\nThe webpage on Privacy Engineering Tools outlines tools and packages to deidentify, encrypt, synthetise and otherwise work with personal data.\n\n\n\nOnline Information\nUU-wide\n\nWebsite: Research Data Management Support\nIntranet: Privacy (UU?)\nIntranet: Information Security (UU?)\n\nFaculty-Specific\n\nGeosciences: RDM and privacy, ethics\nScience: RDM and privacy, ethics\nSocial and Behavioural Sciences: tech support, ethics\nHumanities: RDM and privacy, ethics\nLaw, Economics and Governance: RDM and privacy, ethics\nVeterinary medicine: Research Support Office\nMedicine: ethics, data management-related information can be found on UMCU Connect.\n\n\n\nIn-Person Support\nThe first point of contact about privacy are the Privacy Officers of your faculty.\nBesides the privacy officer, you can also ask for help from:\n\nYour local data steward/data manager (see websites above) or Research Data Management Support.\nInformation security.\nIn some faculties, the Research Support Officemay be of help in drafting agreements.\nIf you suspect a data leak or data breach, contact the Service Deskimmediately.",
+    "crumbs": [
+      "PLAN & FUND",
+      "Privacy & Security"
+    ]
+  },
+  {
+    "objectID": "costs.html",
+    "href": "costs.html",
+    "title": "Costs",
+    "section": "",
+    "text": "What\nData management costs include all expenses related to planning, collecting, storing, analysing, publishing, sharing and archiving data for a project. This encompasses licenses for data collection or reuse, tools and software, and any expertise needed to support the research.",
+    "crumbs": [
+      "PLAN & FUND",
+      "Costs"
+    ]
+  },
+  {
+    "objectID": "costs.html#why",
+    "href": "costs.html#why",
+    "title": "Costs",
+    "section": "Why",
+    "text": "Why\nExplicitly considering data management expenses ensures that necessary resources are available throughout the project. Many date-related activities require time, infrastructure, and expertise. This can lead to unanticipated expenses if not planned in advance. Transparent budgeting helps avoid delays, supports ensures compliance with funder and institutional requirements, and supports sustainable data practices.",
+    "crumbs": [
+      "PLAN & FUND",
+      "Costs"
+    ]
+  },
+  {
+    "objectID": "costs.html#who",
+    "href": "costs.html#who",
+    "title": "Costs",
+    "section": "Who",
+    "text": "Who\nThe research team is primarily responsible for identifying and budgeting data management costs - as they best understand the scope and requirements of their project. Institutional support is available from data stewardship teams, libraries, and IT services - who advise on expected expenses and available infrastructure. Funders typically accept data management costs as part of grants, so they should be included in the proposal and planned accordingly.",
+    "crumbs": [
+      "PLAN & FUND",
+      "Costs"
+    ]
+  },
+  {
+    "objectID": "costs.html#where",
+    "href": "costs.html#where",
+    "title": "Costs",
+    "section": "Where",
+    "text": "Where\nThe Data Management Plan (DMP) is a suitable place to outline data management expenses. Most templates include dedicated sections for costs and resources, making it straightforward to document your planning.",
+    "crumbs": [
+      "PLAN & FUND",
+      "Costs"
+    ]
+  },
+  {
+    "objectID": "costs.html#how",
+    "href": "costs.html#how",
+    "title": "Costs",
+    "section": "How",
+    "text": "How\n\nPlan data management costs early - ideally during grant preparation - using a preliminary DMP to make storage, documentation, analysis, backup, and archiving needs explicit. This can serve as a basis for the Costs section in the offical DMP.\nIdentify the data-related tasks required at each stage of the peroject (e.g., collecting, transcribing, anonymizing, structuring, documenting, sharing, archiving) and estimate the time and resources required. You can use the recommended hourly rates for student assistants or data professionals where possible.\nWhenever feasible, use institutional or open-source tools and infrastructure instead of expensive external services, and rely on templates, standards, and standard operating procedures to increase efficiency and reduce costs.",
+    "crumbs": [
+      "PLAN & FUND",
+      "Costs"
+    ]
+  },
+  {
+    "objectID": "costs.html#references",
+    "href": "costs.html#references",
+    "title": "Costs",
+    "section": "References",
+    "text": "References\n\nhttps://www.uu.nl/en/research/research-data-management/guides/costs-of-data-management\nhttps://www.utwente.nl/en/dcc/news/2022/10/135327/new-guide-how-to-estimate-research-data-management-costs-for-your-research-proposal\nhttps://www.tudelft.nl/library/data-management/onderzoeksdata-beheren/de-kosten-van-data-management",
+    "crumbs": [
+      "PLAN & FUND",
+      "Costs"
     ]
   },
   {
@@ -175,18 +252,51 @@
     "href": "data-flow-diagrams.html",
     "title": "Data Flow Diagrams",
     "section": "",
-    "text": "Examples\nA data flow diagram (DPF) is a visual representation of the flow of data through a process or system. It provides an overview of incoming and outgoing data, as well as the processing and tools involved.\nA DFD is valuable because it provides an outline of your data processes. It allows you to see how these processes interact and identify opportunities for improvement.\nDFDs can be as simple as hand-drawn flowcharts on an A4 sheet of paper to elaborate flowcharts with different symbols and markers. It is recommended that you sketch a DPD while working on your DMP. It can also provide the basis for developing your data pipeline.",
+    "text": "What\nA data flow diagram (DFP) is a visual representation of the flow of data through a process or system. It provides an overview of incoming and outgoing data, as well as the processing and tools involved.",
     "crumbs": [
       "PLAN & FUND",
       "Data Flow Diagrams"
     ]
   },
   {
-    "objectID": "data-flow-diagrams.html#examples",
-    "href": "data-flow-diagrams.html#examples",
+    "objectID": "data-flow-diagrams.html#why",
+    "href": "data-flow-diagrams.html#why",
     "title": "Data Flow Diagrams",
-    "section": "",
-    "text": "YOUth\n\n\n\nPFIC\n\n\n\nHear, Hear\n\n\nSmart-Youth",
+    "section": "Why",
+    "text": "Why\nA DFD is valuable because it provides an outline of your data processes. It allows you to see how these processes interact and identify opportunities for improvement. For example, it can provide the basis for developing your data pipeline.",
+    "crumbs": [
+      "PLAN & FUND",
+      "Data Flow Diagrams"
+    ]
+  },
+  {
+    "objectID": "data-flow-diagrams.html#when",
+    "href": "data-flow-diagrams.html#when",
+    "title": "Data Flow Diagrams",
+    "section": "When",
+    "text": "When\nIt is recommended that you sketch a DPD while working on your DMP. Like the DMP, the DFD can be considered a living document. In DMPonline, you can export your DMP to docx and you can expand the document to include the DFD.",
+    "crumbs": [
+      "PLAN & FUND",
+      "Data Flow Diagrams"
+    ]
+  },
+  {
+    "objectID": "data-flow-diagrams.html#how",
+    "href": "data-flow-diagrams.html#how",
+    "title": "Data Flow Diagrams",
+    "section": "How",
+    "text": "How\nDFDs can be as simple as hand-drawn flowcharts on an A4 sheet of paper to elaborate flowcharts with different symbols and markers.\n\nTools\nThe following tools are suitable to create DFDs:\n\nMicrosoft Visio (available via the Self Service Portal, choose Applications -&gt; Workplace applications -&gt; Request/Aanvraag)\nMicrosoft PowerPoint\nMermaid, a diagramming & charting tool that can be used with:\n\nQuarto\nDiagrammeR in R\nmermaid-py in Python\n\n\n\n\nExamples\n\nHear, Hear! #1\n\nResearchers: Inge van der Valk (FSW), Rianne van Dijk (FSW), Charlotte Mol (REBO), Zoë Rejaän (FSW)\nPrivacy Officers: Joris de Graaf (REBO) & Jacqueline Tenkink (FSW) \n\n\n\n\nData Processing for Children & Parents in the Hear, Hear! Project\n\n\n\n\nHear, Hear! #2\n\nResearchers: Inge van der Valk (FSW), Rianne van Dijk (FSW), Charlotte Mol (REBO), Zoë Rejaän (FSW)\nPrivacy Officers: Joris de Graaf (REBO) & Jacqueline Tenkink (FSW) \n\n\n\n\nData Processing for Professionals in the Hear, Hear! Project\n\n\n\n\nYOUth Cohort Study\nZondergeld, J. J., Scholten, R. H. H., Vreede, B. M. I., Hessels, R. S., Pijl, A. G., Buizer-Voskamp, J. E., Rasch, M., Lange, O. A., & Veldkamp, C. L. S. (2020). FAIR, safe and high-quality data: The data infrastructure and accessibility of the YOUth cohort study. Developmental Cognitive Neuroscience, 45, 100834. https://doi.org/10.1016/j.dcn.2020.100834\n\n\n\nOverview of the infrastructure used in the YOUth Cohort Study, illustrating the systems involved and the flow of data between them\n\n\n\n\nSmart-Youth\n\nResearchers: Isabelle van der Linden (WKZ), Henk Schipper (WKZ), Sanne Nijhof (WKZ), Kors van der Ent (WKZ)\nData Manager: Neha Moopen (UBU)\n\n\n\n\nSmart-Youth DFD\n\n\n\n\nPrenatal Family Integrated Care (PFIC)\n\nResearcher: Neeltje Crombag\nData Manager: Neha Moopen (UBU)\n\n\n\n\nPFIC DFD",
+    "crumbs": [
+      "PLAN & FUND",
+      "Data Flow Diagrams"
+    ]
+  },
+  {
+    "objectID": "data-flow-diagrams.html#resources",
+    "href": "data-flow-diagrams.html#resources",
+    "title": "Data Flow Diagrams",
+    "section": "Resources",
+    "text": "Resources\n\nCreating a data-flow diagram from Elixir Europe’s RDM Kit.",
     "crumbs": [
       "PLAN & FUND",
       "Data Flow Diagrams"
@@ -289,6 +399,72 @@
     "crumbs": [
       "COLLECT & ANALYZE",
       "Naming Conventions"
+    ]
+  },
+  {
+    "objectID": "folder-structures.html",
+    "href": "folder-structures.html",
+    "title": "Folder Structures",
+    "section": "",
+    "text": "How\nWhether it’s on your computer or in the cloud, your project will likely be organized into folders and subfolders.\nA clear structure keeps all your materials grouped in a predictable way. It helps you know exactly where each type of file belongs, making it easier to organize and locate them. It also keeps things aligned when multiple people contribute to the same project.\nThe project lead should define the folder structure — this could be the PI for a larger project or an individual researcher for a manuscript. You should also ensure that collaborators are informed about the structure and follow it accordingly.\nThis should be done at the beginning of a project, but there is always room to update and/or reorganize things along the way.\nin the storage location recommended for your project or in your archive/repository\ncategorize things as much as possible and have a main folder and perhaps 3 sub-folders. it’s not struct and can be customaized, the aim is to keep it simple and don’t overcomplicate..don’t forget to use the naming convention you decided on earlier.\nwe can distinguish project-level vs. publication-level.",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Folder Structures"
+    ]
+  },
+  {
+    "objectID": "folder-structures.html#how",
+    "href": "folder-structures.html#how",
+    "title": "Folder Structures",
+    "section": "",
+    "text": "project\nUMCU has the RFS..there is the Gen R fodler strcture, TIER protocol, BIDS that you can take inpiration from…based on that here is a recommendation\n\n\npublication\nfollow the best practices from computational reproducibility / cookiecutter, primarily for programming projects but can be adapted for all analysis projects",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Folder Structures"
+    ]
+  },
+  {
+    "objectID": "folder-structures.html#tools",
+    "href": "folder-structures.html#tools",
+    "title": "Folder Structures",
+    "section": "Tools",
+    "text": "Tools\nhere is are .zip files with the aforementioned folder streucture\nyou can also generate the folder structure using this command\nyou can also use the tree command to print the directory, you can use it for inspection or copy-paste into readme files",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Folder Structures"
+    ]
+  },
+  {
+    "objectID": "folder-structures.html#resources",
+    "href": "folder-structures.html#resources",
+    "title": "Folder Structures",
+    "section": "Resources",
+    "text": "Resources\nlinks to protocols? UMCU has the RFS..there is the Gen R fodler strcture, TIER protocol, BIDS that you can take inpiration from…\nhere are some analysis organization inspo",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Folder Structures"
+    ]
+  },
+  {
+    "objectID": "folder-structures.html#references",
+    "href": "folder-structures.html#references",
+    "title": "Folder Structures",
+    "section": "References",
+    "text": "References\ndirect references…",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Folder Structures"
+    ]
+  },
+  {
+    "objectID": "preferred-formats.html",
+    "href": "preferred-formats.html",
+    "title": "Preferred Formats",
+    "section": "",
+    "text": "see DANS website …..",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Preferred Formats"
     ]
   },
   {

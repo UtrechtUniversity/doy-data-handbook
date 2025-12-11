@@ -3,24 +3,25 @@
 ![](images/data-management-plan.jpg)
 
 <figcaption><a href="https://the-turing-way.netlify.app/">The Turing Way</a> project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: <a href="https://doi.org/10.5281/zenodo.3332807">10.5281/zenodo.3332807</a>.</figcaption>
+<br>
 
-## What Is A Data Management Plan?
+## What
 
 A Data Management Plan (DMP) is a formal document that describes your data and outlines all aspects of managing your data - both during and after your project. It briefly describes what data you will collect, where and how it will be stored, accessed, backed up, documented and versioned, addresses any privacy or ownership issues, and explains your plans for archiving and sharing the data.
 
-Moreover, it is a _living_ document that can you can revise and update as needed.
+## Why
 
-## Why Should You Write A DMP?
+Writing a DMP provides an opportunity to reflect on your data, particularly how you organize and manage it. It nudges you to think about how to make your RDM more _concrete_ and _actionable_. This creates a roadmap for handling data during your project and identifies which resources are required. This results in more efficient project planning, saving both time and money. Additionally, most funders require researchers to submit a DMP. 
 
-Writing a DMP provides an opportunity to reflect on your data, particularly how you organize and manage it. It nudges you to think about how to make your RDM more _concrete_ and _actionable_. This creates a roadmap for handling data during your project and identifies which resources are required. This results in more efficient project planning, saving both time and money.
+## When
 
-Additionally, most funders require researchers to submit a DMP. 
+Working on a DMP at the start of your project will ensure that you are better informed of best practices in RDM and prepared to implement them. That being said, you can also write a DMP during the project or when it's completed. It is a _living_ document that can you can revise and update as needed.
 
-## When Should You Write A DMP?
+## How
 
-Working on a DMP at the start of your project will ensure that you are better informed of best practices in RDM and prepared to implement them. That being said, you can also write a DMP during the project or when it's completed.
+![](images/uu-dmp-template.JPG)
 
-## DMPonline & DMP Templates
+### DMPonline & DMP Templates
 
 [DMPonline](https://dmponline.dcc.ac.uk) is a tool that helps you create and maintain DMPs. With DMPonline, you can:
 
@@ -42,10 +43,6 @@ DMPonline offers DMP templates from various institutions and funders, including:
 
 These templates also contain example answers and guidance.
 
-![](images/uu-dmp-template.JPG)
-
-## Tips
-
 ::: {.callout-tip}
 - Use the _Feedback_ button on DMPonline to request a review of your DMP from RDM Support.
 - You can export your DMP as a document and expand on it. This allows tailoring the DMP to suit your project, beyond the given template.
@@ -53,9 +50,9 @@ These templates also contain example answers and guidance.
 
 ## Resources
 
+- [Learn to write your DMP (online training)](https://www.uu.nl/en/research/research-data-management/training-workshops/online-training-learn-to-write-your-dmp) 
 - [Create your DMP online](https://www.uu.nl/en/research/research-data-management/tools-services/tool-to-create-your-dmp-online)
 - [Data management planning](https://www.uu.nl/en/research/research-data-management/guides/data-management-planning)
-- [Learn to write your DMP (online training)](https://www.uu.nl/en/research/research-data-management/training-workshops/online-training-learn-to-write-your-dmp) 
 
 ## References
 
