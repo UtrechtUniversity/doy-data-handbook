@@ -499,14 +499,14 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#examples" id="toc-examples" class="nav-link active" data-scroll-target="#examples">Examples</a>
+  <li><a href="#what" id="toc-what" class="nav-link active" data-scroll-target="#what">What</a></li>
+  <li><a href="#why" id="toc-why" class="nav-link" data-scroll-target="#why">Why</a></li>
+  <li><a href="#when" id="toc-when" class="nav-link" data-scroll-target="#when">When</a></li>
+  <li><a href="#how" id="toc-how" class="nav-link" data-scroll-target="#how">How</a>
   <ul class="collapse">
-  <li><a href="#youth" id="toc-youth" class="nav-link" data-scroll-target="#youth">YOUth</a></li>
-  <li><a href="#pfic" id="toc-pfic" class="nav-link" data-scroll-target="#pfic">PFIC</a></li>
-  <li><a href="#hear-hear" id="toc-hear-hear" class="nav-link" data-scroll-target="#hear-hear">Hear, Hear</a></li>
-  <li><a href="#smart-youth" id="toc-smart-youth" class="nav-link" data-scroll-target="#smart-youth">Smart-Youth</a></li>
-  </ul></li>
   <li><a href="#tools" id="toc-tools" class="nav-link" data-scroll-target="#tools">Tools</a></li>
+  <li><a href="#examples" id="toc-examples" class="nav-link" data-scroll-target="#examples">Examples</a></li>
+  </ul></li>
   <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources">Resources</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/UtrechtUniversity/doy-data-handbook/edit/main/data-flow-diagrams.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></nav>
@@ -534,38 +534,105 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<img src="images/xkcd-flow-charts.png" class="img-fluid">
+<figcaption>
+<a href="https://xkcd.com/518/">Flow Charts - xkcd</a>. Used under a CC BY-NC 2.5 license.
+</figcaption>
+<p><br></p>
+<section id="what" class="level2">
+<h2 class="anchored" data-anchor-id="what">What</h2>
 <p>A data flow diagram (DFP) is a visual representation of the flow of data through a process or system. It provides an overview of incoming and outgoing data, as well as the processing and tools involved.</p>
-<p>A DFD is valuable because it provides an outline of your data processes. It allows you to see how these processes interact and identify opportunities for improvement. For example, it can provide the basis for developing your data pipeline.</p>
-<p>It is recommended that you sketch a DPD while working on your DMP. Like the DMP, the DFD can be considered a living document. In DMPonline, you can export your DMP to <code>docx</code> and you can expand the document to include the DFD.</p>
+</section>
+<section id="why" class="level2">
+<h2 class="anchored" data-anchor-id="why">Why</h2>
+<p>A DFD is valuable because it provides an outline of your data processes. It allows you to see how these processes interact and identify opportunities for improvement. For example, it can provide the basis for developing your <a href="https://utrechtuniversity.github.io/doy-data-handbook/pipelining.html">data pipeline</a>.</p>
+</section>
+<section id="when" class="level2">
+<h2 class="anchored" data-anchor-id="when">When</h2>
+<p>It is recommended that you sketch a DPD while working on your DMP. Like the DMP, the DFD can be considered a living document. In <a href="https://dmponline.dcc.ac.uk/">DMPonline</a>, you can export your DMP to <code>docx</code> and you can expand the document to include the DFD.</p>
+</section>
+<section id="how" class="level2">
+<h2 class="anchored" data-anchor-id="how">How</h2>
 <p>DFDs can be as simple as hand-drawn flowcharts on an A4 sheet of paper to elaborate flowcharts with different symbols and markers.</p>
-<section id="examples" class="level2">
-<h2 class="anchored" data-anchor-id="examples">Examples</h2>
-<section id="youth" class="level3">
-<h3 class="anchored" data-anchor-id="youth">YOUth</h3>
-<p><img src="images/dfd-youth.jpg" class="img-fluid"></p>
-</section>
-<section id="pfic" class="level3">
-<h3 class="anchored" data-anchor-id="pfic">PFIC</h3>
-<p><img src="images/dfd-pfic.png" class="img-fluid"></p>
-</section>
-<section id="hear-hear" class="level3">
-<h3 class="anchored" data-anchor-id="hear-hear">Hear, Hear</h3>
-</section>
-<section id="smart-youth" class="level3">
-<h3 class="anchored" data-anchor-id="smart-youth">Smart-Youth</h3>
-</section>
-</section>
-<section id="tools" class="level2">
-<h2 class="anchored" data-anchor-id="tools">Tools</h2>
+<section id="tools" class="level3">
+<h3 class="anchored" data-anchor-id="tools">Tools</h3>
+<p>The following tools are suitable to create DFDs:</p>
 <ul>
-<li>Microsoft Visio</li>
-<li>Mermaid
+<li><p>Microsoft Visio (available via the <a href="http://uu.topdesk.net/">Self Service Portal</a>, choose <em>Applications</em> -&gt; <em>Workplace applications</em> -&gt; <em>Request/Aanvraag</em>)</p></li>
+<li><p>Microsoft PowerPoint</p></li>
+<li><p>Mermaid, a diagramming &amp; charting tool that can be used with:</p>
 <ul>
-<li>Quarto</li>
-<li>DiagrammeR</li>
-<li>mermaid-py</li>
+<li><a href="https://quarto.org/docs/authoring/diagrams.html">Quarto</a></li>
+<li><a href="https://bookdown.org/yihui/rmarkdown-cookbook/diagrams.html">DiagrammeR</a> in R</li>
+<li><a href="https://pypi.org/project/mermaid-py/">mermaid-py</a> in Python</li>
 </ul></li>
 </ul>
+</section>
+<section id="examples" class="level3">
+<h3 class="anchored" data-anchor-id="examples">Examples</h3>
+<section id="hear-hear-1" class="level4">
+<h4 class="anchored" data-anchor-id="hear-hear-1">Hear, Hear! #1</h4>
+<ul>
+<li><em>Researchers</em>: Inge van der Valk (FSW), Rianne van Dijk (FSW), Charlotte Mol (REBO), Zoë Rejaän (FSW)</li>
+<li><em>Privacy Officers</em>: Joris de Graaf (REBO) &amp; Jacqueline Tenkink (FSW) <br></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/dfd-hearhear-1.png" class="img-fluid figure-img"></p>
+<figcaption>Data Processing for Children &amp; Parents in the Hear, Hear! Project</figcaption>
+</figure>
+</div>
+</section>
+<section id="hear-hear-2" class="level4">
+<h4 class="anchored" data-anchor-id="hear-hear-2">Hear, Hear! #2</h4>
+<ul>
+<li><em>Researchers</em>: Inge van der Valk (FSW), Rianne van Dijk (FSW), Charlotte Mol (REBO), Zoë Rejaän (FSW)</li>
+<li><em>Privacy Officers</em>: Joris de Graaf (REBO) &amp; Jacqueline Tenkink (FSW) <br></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/dfd-hearhear-1.png" class="img-fluid figure-img"></p>
+<figcaption>Data Processing for Professionals in the Hear, Hear! Project</figcaption>
+</figure>
+</div>
+</section>
+<section id="youth-cohort-study" class="level4">
+<h4 class="anchored" data-anchor-id="youth-cohort-study">YOUth Cohort Study</h4>
+<p>Zondergeld, J. J., Scholten, R. H. H., Vreede, B. M. I., Hessels, R. S., Pijl, A. G., Buizer-Voskamp, J. E., Rasch, M., Lange, O. A., &amp; Veldkamp, C. L. S. (2020). <em>FAIR, safe and high-quality data: The data infrastructure and accessibility of the YOUth cohort study</em>. <em>Developmental Cognitive Neuroscience, 45</em>, 100834. <a href="https://doi.org/10.1016/j.dcn.2020.100834" class="uri">https://doi.org/10.1016/j.dcn.2020.100834</a></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/dfd-youth.jpg" class="img-fluid figure-img"></p>
+<figcaption>Overview of the infrastructure used in the YOUth Cohort Study, illustrating the systems involved and the flow of data between them</figcaption>
+</figure>
+</div>
+</section>
+<section id="smart-youth" class="level4">
+<h4 class="anchored" data-anchor-id="smart-youth">Smart-Youth</h4>
+<ul>
+<li><em>Researchers</em>: Isabelle van der Linden (WKZ), Henk Schipper (WKZ), Sanne Nijhof (WKZ), Kors van der Ent (WKZ)</li>
+<li><em>Data Manager</em>: Neha Moopen (UBU)</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/dfd-smart-youth.png" class="img-fluid figure-img"></p>
+<figcaption>Smart-Youth DFD</figcaption>
+</figure>
+</div>
+</section>
+<section id="prenatal-family-integrated-care-pfic" class="level4">
+<h4 class="anchored" data-anchor-id="prenatal-family-integrated-care-pfic">Prenatal Family Integrated Care (PFIC)</h4>
+<ul>
+<li><em>Researcher</em>: Neeltje Crombag</li>
+<li><em>Data Manager</em>: Neha Moopen (UBU)</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/dfd-pfic.png" class="img-fluid figure-img"></p>
+<figcaption>PFIC DFD</figcaption>
+</figure>
+</div>
+</section>
+</section>
 </section>
 <section id="resources" class="level2">
 <h2 class="anchored" data-anchor-id="resources">Resources</h2>
