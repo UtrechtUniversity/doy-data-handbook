@@ -178,7 +178,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./folder-structures.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Folder Strutures</span></a>
+ <span class="menu-text">Folder Structures</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -333,10 +333,14 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#when-should-you-address-privacy-security" id="toc-when-should-you-address-privacy-security" class="nav-link active" data-scroll-target="#when-should-you-address-privacy-security">When Should You Address Privacy &amp; Security?</a></li>
-  <li><a href="#what-does-good-privacy-security-look-like" id="toc-what-does-good-privacy-security-look-like" class="nav-link" data-scroll-target="#what-does-good-privacy-security-look-like">What Does Good Privacy &amp; Security Look Like?</a></li>
+  <li><a href="#what" id="toc-what" class="nav-link active" data-scroll-target="#what">What</a></li>
+  <li><a href="#why" id="toc-why" class="nav-link" data-scroll-target="#why">Why</a></li>
+  <li><a href="#when" id="toc-when" class="nav-link" data-scroll-target="#when">When</a></li>
+  <li><a href="#how" id="toc-how" class="nav-link" data-scroll-target="#how">How</a>
+  <ul class="collapse">
   <li><a href="#steps-to-get-started-with-privacy" id="toc-steps-to-get-started-with-privacy" class="nav-link" data-scroll-target="#steps-to-get-started-with-privacy">10 Steps To Get Started With Privacy</a></li>
-  <li><a href="#tools-support" id="toc-tools-support" class="nav-link" data-scroll-target="#tools-support">Tools &amp; Support</a></li>
+  </ul></li>
+  <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources">Resources</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/UtrechtUniversity/doy-data-handbook/edit/main/privacy-and-security.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></nav>
     </div>
@@ -362,45 +366,75 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<p><img src="images/sensitive-data.jpg" class="img-fluid"></p>
+<figcaption>
+<a href="https://the-turing-way.netlify.app/">The Turing Way</a> project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: <a href="https://doi.org/10.5281/zenodo.3332807">10.5281/zenodo.3332807</a>.
+</figcaption>
+<p><br></p>
+<section id="what" class="level2">
+<h2 class="anchored" data-anchor-id="what">What</h2>
+<p><strong>Privacy</strong> focuses on minimising and protecting identifiable information. It includes:</p>
+<ul>
+<li>collecting only the personal data you truly need</li>
+<li>keeping identifiers separate from research data</li>
+<li>using pseudonymisation as early as possible</li>
+<li>ensuring appropriate consent/assent and necessary agreements are in place</li>
+<li>limiting access to identifiable data to authorised team members</li>
+<li>documenting decisions about what data you collect and why</li>
+<li>deleting or anonymising data when it is no longer needed</li>
+</ul>
+<p><strong>Security</strong> focuses on safeguarding data against loss, misuse, or unauthorised access. It includes:</p>
+<ul>
+<li>storing data in secure, approved environments</li>
+<li>using secure methods for sharing and transferring data, such as encryption</li>
+<li>avoiding personal devices and unsupported cloud tools</li>
+<li>restricting access to authorised users only</li>
+<li>keeping secure logs of decisions and data-handling procedures</li>
+<li>ensuring data is handled and transferred through trusted channels</li>
+</ul>
+</section>
+<section id="why" class="level2">
+<h2 class="anchored" data-anchor-id="why">Why</h2>
 <p>Following best practices in privacy and security ensures that personal data - especially involving children and adolescents - are handled safely, lawfully, and ethically. These practices are relevant to every stage of your project: from collection to storage, processing, and sharing. Paying attention to these practices safeguards participants’ rights, reduces the risk of data breaches, and protects the integrity of your research. It ensures compliance with the GDPR (General Data Protection Regulation), as well as relevant institutional policies.</p>
-<section id="when-should-you-address-privacy-security" class="level2">
-<h2 class="anchored" data-anchor-id="when-should-you-address-privacy-security">When Should You Address Privacy &amp; Security?</h2>
-<p>Being mindful of privacy and security from the start will improve your workflow and reduce risks later on. That’s why you should address these issues before even collecting any data during the planning phase of your project. This is the moment to determine what personal data you will collect, whether a Data Protection Impact Assessment (DPIA) is required, and which secure systems you will use.</p>
-<p>Still, privacy and security are not a “one-time check.” You may need to revisit them during the project, particularly when new partners join, data flows shift, or additional types of data are introduced.</p>
 </section>
-<section id="what-does-good-privacy-security-look-like" class="level2">
-<h2 class="anchored" data-anchor-id="what-does-good-privacy-security-look-like">What Does Good Privacy &amp; Security Look Like?</h2>
-<p><strong>Good privacy practice</strong> focuses on minimising and protecting identifiable information. It includes: • collecting only the personal data you truly need • keeping identifiers separate from research data • using pseudonymisation as early as possible • ensuring appropriate consent/assent and necessary agreements are in place • limiting access to identifiable data to authorised team members • documenting decisions about what data you collect and why • deleting or anonymising data when it is no longer needed</p>
-<p><strong>Good security practice</strong> focuses on safeguarding data against loss, misuse, or unauthorised access. It includes: • storing data in secure, approved environments • using secure methods for sharing and transferring data, such as encryption • avoiding personal devices and unsupported cloud tools • restricting access to authorised users only • keeping secure logs of decisions and data-handling procedures • ensuring data is handled and transferred through trusted channels</p>
+<section id="when" class="level2">
+<h2 class="anchored" data-anchor-id="when">When</h2>
+<p>Being mindful of privacy and security from the start will improve your workflow and reduce risks later on. That’s why you should address these issues during the planning phase of your project, before even collecting any data . This is the moment to determine what personal data you will collect, whether a Data Protection Impact Assessment (DPIA) is required, and which secure systems you will use.</p>
+<p>Still, privacy and security are not a one-time check. You may need to revisit them during the project, particularly when new partners join, data flows shift, or additional types of data are introduced.</p>
 </section>
-<section id="steps-to-get-started-with-privacy" class="level2">
-<h2 class="anchored" data-anchor-id="steps-to-get-started-with-privacy">10 Steps To Get Started With Privacy</h2>
+<section id="how" class="level2">
+<h2 class="anchored" data-anchor-id="how">How</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://utrechtuniversity.github.io/dataprivacyhandbook/img/10_steps_towards_privacy_compliance_in_research.png" class="img-fluid figure-img"></p>
 <figcaption>Utrecht University RDM Support (2023). 10 steps towards privacy compliance in research. <a href="https://doi.org/10.5281/zenodo.10417513" class="uri">https://doi.org/10.5281/zenodo.10417513</a></figcaption>
 </figure>
 </div>
+<section id="steps-to-get-started-with-privacy" class="level3">
+<h3 class="anchored" data-anchor-id="steps-to-get-started-with-privacy">10 Steps To Get Started With Privacy</h3>
 </section>
-<section id="tools-support" class="level2">
-<h2 class="anchored" data-anchor-id="tools-support">Tools &amp; Support</h2>
+</section>
+<section id="resources" class="level2">
+<h2 class="anchored" data-anchor-id="resources">Resources</h2>
+<p>There are several resources available to support you with building and maintaining privacy &amp; security into your research projects, some of them are outlined below:</p>
 <ul>
-<li>Tools &amp; Services
+<li><p><strong>Education</strong></p>
 <ul>
-<li>tools.uu.nl</li>
-<li>privacy engineering tools</li>
+<li>Privacy Basics for Researchers</li>
 </ul></li>
-<li>Education
+<li><p><strong>Online Information</strong></p>
 <ul>
-<li>privacy basics for researchers</li>
+<li><p>UU-Wide</p></li>
+<li><p>Faculty-Specific:</p></li>
 </ul></li>
-<li>Online Information
+<li><p><strong>In-Person Support</strong></p>
 <ul>
-<li>data privacy handbook</li>
+<li>available per faculty</li>
 </ul></li>
-<li>Privacy Officers
+<li><p><strong>Tools &amp; Services</strong></p>
 <ul>
-<li>per faculty</li>
+<li>UU Tool Advisor</li>
+<li>Privacy Engineering Tools</li>
 </ul></li>
 </ul>
 

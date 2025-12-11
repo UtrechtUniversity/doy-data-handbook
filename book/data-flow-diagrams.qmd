@@ -1,34 +1,77 @@
 # Data Flow Diagrams {.unnumbered}
 
+![](images/xkcd-flow-charts.png)
+<figcaption><a href="https://xkcd.com/518/">Flow Charts - xkcd</a>. Used under a CC BY-NC 2.5 license. </figcaption>
+<br>
+
+## What
+
 A data flow diagram (DFP) is a visual representation of the flow of data through a process or system. It provides an overview of incoming and outgoing data, as well as the processing and tools involved.
 
-A DFD is valuable because it provides an outline of your data processes. It allows you to see how these processes interact and identify opportunities for improvement. For example, it can provide the basis for developing your data pipeline.
+## Why
 
-It is recommended that you sketch a DPD while working on your DMP. Like the DMP, the DFD can be considered a living document. In DMPonline, you can export your DMP to `docx` and you can expand the document to include the DFD. 
+A DFD is valuable because it provides an outline of your data processes. It allows you to see how these processes interact and identify opportunities for improvement. For example, it can provide the basis for developing your [data pipeline](https://utrechtuniversity.github.io/doy-data-handbook/pipelining.html).
 
-DFDs can be as simple as hand-drawn flowcharts on an A4 sheet of paper to elaborate flowcharts with different symbols and markers.
+## When
 
-## Examples
+It is recommended that you sketch a DPD while working on your DMP. Like the DMP, the DFD can be considered a living document. In [DMPonline](https://dmponline.dcc.ac.uk/), you can export your DMP to `docx` and you can expand the document to include the DFD.
 
-### YOUth
+## How
 
-![](images/dfd-youth.jpg)
+DFDs can be as simple as hand-drawn flowcharts on an A4 sheet of paper to elaborate flowcharts with different symbols and markers. 
 
-### PFIC
+### Tools
 
-![](images/dfd-pfic.png)
+The following tools are suitable to create DFDs:
 
-### Hear, Hear
+- Microsoft Visio (available via the [Self Service Portal](http://uu.topdesk.net/), choose _Applications_ -> _Workplace applications_ -> _Request/Aanvraag_)
 
-### Smart-Youth
+- Microsoft PowerPoint
 
-## Tools
+- Mermaid, a diagramming & charting tool that can be used with:
+  - [Quarto](https://quarto.org/docs/authoring/diagrams.html)
+  - [DiagrammeR](https://bookdown.org/yihui/rmarkdown-cookbook/diagrams.html) in R
+  - [mermaid-py](https://pypi.org/project/mermaid-py/) in Python
 
-- Microsoft Visio
-- Mermaid
-  - Quarto
-  - DiagrammeR
-  - mermaid-py
+
+### Examples
+
+#### Hear, Hear! #1
+
+- _Researchers_: Inge van der Valk (FSW), Rianne van Dijk (FSW), Charlotte Mol (REBO), Zoë Rejaän (FSW)
+- _Privacy Officers_: Joris de Graaf (REBO) & Jacqueline Tenkink (FSW)
+<br>
+
+![Data Processing for Children & Parents in the Hear, Hear! Project](images/dfd-hearhear-1.png)
+
+#### Hear, Hear! #2
+
+- _Researchers_: Inge van der Valk (FSW), Rianne van Dijk (FSW), Charlotte Mol (REBO), Zoë Rejaän (FSW)
+- _Privacy Officers_: Joris de Graaf (REBO) & Jacqueline Tenkink (FSW)
+<br>
+
+![Data Processing for Professionals in the Hear, Hear! Project](images/dfd-hearhear-1.png)
+
+#### YOUth Cohort Study
+
+Zondergeld, J. J., Scholten, R. H. H., Vreede, B. M. I., Hessels, R. S., Pijl, A. G., Buizer-Voskamp, J. E., Rasch, M., Lange, O. A., & Veldkamp, C. L. S. (2020). _FAIR, safe and high-quality data: The data infrastructure and accessibility of the YOUth cohort study_. _Developmental Cognitive Neuroscience, 45_, 100834. <https://doi.org/10.1016/j.dcn.2020.100834>
+
+![Overview of the infrastructure used in the YOUth Cohort Study, illustrating the systems involved and the flow of data between them](images/dfd-youth.jpg)
+
+#### Smart-Youth
+
+- _Researchers_: Isabelle van der Linden (WKZ), Henk Schipper (WKZ), Sanne Nijhof (WKZ), Kors van der Ent (WKZ)
+- _Data Manager_: Neha Moopen (UBU)
+
+![Smart-Youth DFD](images/dfd-smart-youth.png)
+
+#### Prenatal Family Integrated Care (PFIC)
+
+- _Researcher_: Neeltje Crombag
+- _Data Manager_: Neha Moopen (UBU)
+
+![PFIC DFD](images/dfd-pfic.png)
+
 
 ## Resources
 

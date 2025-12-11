@@ -1,5 +1,4 @@
 # Costs {.unnumbered}
-
  
 We consider data management costs all expenses that are associated with planning, collecting, storing, analysing, publishing, sharing and archiving research data during the research life cycle of a project. It encompasses the finances needed to obtain licenses for data re-use, acquiring the tools for working with your data or hiring the expertise to support the research project.
 
