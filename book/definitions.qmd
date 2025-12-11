@@ -1,5 +1,7 @@
 # Definitions {.unnumbered}
 
+![attribution: phdcomics.com](images/Data2_PhDComics.gif) 
+
 Before diving into data management, it would be good to get familiarized with some data-related terms that are oftentimes misunderstood or used interchangeably.
 
 ## Research Data Management

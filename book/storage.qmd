@@ -1,27 +1,35 @@
 # Data Storage {.unnumbered}
-![](images/Data2_PhDComics.gif)
+
+![](images/DataLoss_PhDComics.gif)
 
 ## What 
+
 When discussing storage, we refer to the location of ‘active’ data, which is in use and may change throughout the research project.
-The related concepts of archiving and publishing refer to where the data will be saved or deposited áfter the project is completed.
+The related concepts of [archiving](https://utrechtuniversity.github.io/doy-data-handbook/archiving.html) and [publishing](https://utrechtuniversity.github.io/doy-data-handbook/publication.html) refer to where the data will be saved or deposited after the project is completed.
 
 ## Why
+
 Storing data properly ensures that research can be conducted efficiently, prevents data loss, and maintains the integrity and reproducibility of results. Well-managed storage supports collaboration, version control, and easy retrieval of files during the project.
 
 ## Who 
-When planning data storage, consider potential sharing with other researchers. Decisions about who will access the data and how often it will be shared affect both where the data is stored and how it is organized, backed up, and structured.
 
-##When
-Active data must be stored securely at all times, with regular backups and version control to prevent loss or accidental overwriting.
+When planning data storage, consider collaboration with other researchers. Decisions about who will access the data and how often it will be shared affect both where the data is stored and how it is organized, backed up, and structured.
 
-## Where 
-The [Data Storage Finder](https://tools.uu.nl/storagefinder/) is a tool provided by IT help you decide which storage solution would be most suited to your needs.
+## When
+
+A decision about data storage needs to be taken at the onset of the project. From that point, data should be stored securely and include regular backups to prevent loss or accidental overwriting.
+
+## Where
+
+The [Data Storage Finder](https://tools.uu.nl/storagefinder/) is a tool provided by IT help you decide which storage solution would be most suited to your needs. The suggestions are based on factors such as collaboration, size, sensitivity, and (ease of) access.
 
 ## How
-When storing data, consider the following
+
+When storing data, consider the following:
+
 - choose storage media that is appropriate for the type of data you're working with
-- implement reliable version control and backups
-- structure folders and organize files clearly
-- follow a naming convention
-- use preferred and sustainable file formats
-- secure data files
+- ensure reliable version control and backups
+- follow a [naming convention](https://utrechtuniversity.github.io/doy-data-handbook/naming-conventions.html)
+- [structure folders](https://utrechtuniversity.github.io/doy-data-handbook/folder-structures.html) and organize files clearly
+- use preferred and sustainable [file formats](https://utrechtuniversity.github.io/doy-data-handbook/preferred-formats.html)
+- secure data files, using access control and/or [encryption](https://utrechtuniversity.github.io/privacy-engineering-tools/secure-computing/encryption-tools.html)
