@@ -1,4 +1,6 @@
 # Data Publication {.unnumbered}
+!["Researchers can be reluctant to share their data publicly because of real and/or perceived individual costs.
+Illustration credit: Ainsley Seago"](images/DataStorage.png)
 
 When publishing (meta)data, you want to make it findable and reusable. The data (and information about the data) can be used by others for their own purposes. It's up to you to specify the terms and conditions for access and reuse.
 

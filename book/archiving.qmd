@@ -1,9 +1,31 @@
-# Data Archving {.unnumbered}
+# Data Archiving {.unnumbered}
 
-Data Archiving refers to the long-term preservation of research data. It is typically done for verification purposes / to check & maintain the integrity of the original research.
+![](images/DataLoss_PhDComics.gif)
 
-There are varying policies on how long research data should be retained for verification purposes, a typical policy is 10 years for the preservation of raw data.
+## What
+Data archiving is the long-term, secure preservation of research data.
 
-Archiving is not directly related to the FAIR principles, since the latter is focused on sharing and reusing the data. Nonetheless, the steps taken in archiving can provide a bsis for FAIRification, so the effort is never wasted!
+## Why
+Archiving enables future verification and safeguards the integrity of research. By storing raw data in a stable and accessible manner, researchers and institutions can revisit it if questions arise about methods, results, or conclusions.
+
+While archiving is not directly part of the FAIR principles, which focus on sharing and reusing data, good archiving practices, such as organized file structures and clear documentation, provide a strong foundation for later FAIRification.
+
+## Who
+The principal investigator (PI) holds primary responsibility for ensuring data is archived, while the research team shares responsibility for preparing and organizing the files.
+
+## When
+Archive your data at the end of your project, once data collection and analysis are complete, results are published or submitted, and no further changes will be made.
+
+Retention requirements vary by institution, funder, and discipline. A common guideline is to preserve raw data for at least 10 years after project completion or publication, though some fields require longer retention for legal, ethical, or scientific reasons.
+
+## Where
+Archive your data using the YODA Vault to create a read-only, long-term snapshot that cannot be overwritten or deleted, ensuring data integrity.
+
+## How
+Select the data to preserve long-term, as archiving all research data (especially large datasets not directly related to the project) can be practically and financially challenging.
+
+To improve future reusability, store data in recommended formats that are non-proprietary, unencrypted, and uncompressed.
+
+
 
 <insert screenshots of data packages and subselection of the folders>
