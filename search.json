@@ -204,6 +204,17 @@
     ]
   },
   {
+    "objectID": "costs.html#when",
+    "href": "costs.html#when",
+    "title": "Costs",
+    "section": "When",
+    "text": "When\nPlan data management costs early - ideally during grant preparation - using a preliminary DMP to make storage, documentation, analysis, backup, and archiving needs explicit. This can serve as a basis for the Costs section in the offical DMP.",
+    "crumbs": [
+      "PLAN & FUND",
+      "Costs"
+    ]
+  },
+  {
     "objectID": "costs.html#who",
     "href": "costs.html#who",
     "title": "Costs",
@@ -230,7 +241,7 @@
     "href": "costs.html#how",
     "title": "Costs",
     "section": "How",
-    "text": "How\n\nPlan data management costs early - ideally during grant preparation - using a preliminary DMP to make storage, documentation, analysis, backup, and archiving needs explicit. This can serve as a basis for the Costs section in the offical DMP.\nIdentify the data-related tasks required at each stage of the peroject (e.g., collecting, transcribing, anonymizing, structuring, documenting, sharing, archiving) and estimate the time and resources required. You can use the recommended hourly rates for student assistants or data professionals where possible.\nWhenever feasible, use institutional or open-source tools and infrastructure instead of expensive external services, and rely on templates, standards, and standard operating procedures to increase efficiency and reduce costs.",
+    "text": "How\n\nIdentify the data-related tasks required at each stage of the project (e.g., collecting, transcribing, anonymizing, structuring, documenting, sharing, archiving) and estimate the time and resources required. You can use the recommended hourly rates for student assistants or data professionals where possible.\nWhenever feasible, use institutional or open-source tools and infrastructure instead of expensive external services, and rely on templates, standards, and standard operating procedures to increase efficiency and reduce costs.",
     "crumbs": [
       "PLAN & FUND",
       "Costs"
@@ -699,11 +710,154 @@
     ]
   },
   {
+    "objectID": "governance.html",
+    "href": "governance.html",
+    "title": "Data Governance",
+    "section": "",
+    "text": "What\nData Governance defines how data are managed beyond the scope of the original project by setting out roles and responsibilities, as well as processes and policies. It ensures data are handled consistently and responsibly in support of ethical use, compliance, and long-term value.",
+    "crumbs": [
+      "PUBLISH & SHARE",
+      "Data Governance"
+    ]
+  },
+  {
+    "objectID": "governance.html#why",
+    "href": "governance.html#why",
+    "title": "Data Governance",
+    "section": "Why",
+    "text": "Why\nWithout clear guidance, data sharing and reuse can become time-consuming and easily deprioritized. A data governance framework reduces ad hoc communication and provides a standard operating procedure for making decisions and responding to requests, reducing friction and making follow-through more manageable.",
+    "crumbs": [
+      "PUBLISH & SHARE",
+      "Data Governance"
+    ]
+  },
+  {
+    "objectID": "governance.html#who",
+    "href": "governance.html#who",
+    "title": "Data Governance",
+    "section": "Who",
+    "text": "Who\nAll members of the research team involved in handling data should contribute to or be consulted when defining the framework. The principal investigator (PI) plays a central role in establishing and upholding data governance.",
+    "crumbs": [
+      "PUBLISH & SHARE",
+      "Data Governance"
+    ]
+  },
+  {
+    "objectID": "governance.html#when",
+    "href": "governance.html#when",
+    "title": "Data Governance",
+    "section": "When",
+    "text": "When\nIt is most effective to develop the framework in detail as data sharing and reuse approach. However, discussing goals and aspirations earlier in the project helps ensure that research data management decisions support these long-term objectives.",
+    "crumbs": [
+      "PUBLISH & SHARE",
+      "Data Governance"
+    ]
+  },
+  {
+    "objectID": "governance.html#where",
+    "href": "governance.html#where",
+    "title": "Data Governance",
+    "section": "Where",
+    "text": "Where\nDocuments related to data governance can be made publicly available alongside the data package in the chosen repository, providing transparency and guidance for future users.",
+    "crumbs": [
+      "PUBLISH & SHARE",
+      "Data Governance"
+    ]
+  },
+  {
+    "objectID": "governance.html#how",
+    "href": "governance.html#how",
+    "title": "Data Governance",
+    "section": "How",
+    "text": "How\nWhen you’re ready to start sharing your data, you can set up a detailed Data Access Protocol (DAP) that outlines data governance for yourself, your research team, and potential re-users.\nA DAP can cover many topics, and it will require you and/or your project team to decide what is relevant and appropriate for your data. You can make it as simple or as elaborate as you like.\nIt would help to reflect on the following points:\n\nGoals: What would you like to achieve by sharing your data? Some examples include citations/acknowledgments, co-authorship, or collaboration. Specify this in the DAP so end-users understand their obligations.\nResources: How much time and effort can you and/or your team invest in data governance? Consider tasks such as assessing incoming requests, preparing datasets for sharing, and maintaining a data sharing logbook. Note: If privacy-sensitive data are involved, even the simplest DAPs must consider legal requirements.\n\nSome suggestions for sections in your DAP include:\n\nData Ownership / License & Copyright\nRoles & Responsibilities\nTerms & Conditions\nData Request & Review Procedure\nPublication & Authorship Guidelines\nDisclaimers & Liabilities\n\nYou may also want to provide documents such as a Data Request Form and Publication Checklist for end users. These can be included in the DAP appendices and made available separately for easy access.",
+    "crumbs": [
+      "PUBLISH & SHARE",
+      "Data Governance"
+    ]
+  },
+  {
+    "objectID": "governance.html#examples",
+    "href": "governance.html#examples",
+    "title": "Data Governance",
+    "section": "Examples",
+    "text": "Examples\n\nUU/UMCU Projects:\n\nPROactive Cohort Study’s Data Access Protocol\nYOUth Cohort Study’s Data Access & Publication Guidelines\n\n\n\nNon-UU/UMCU Projects:\n\nL-CID’s Data Sharing Protocol, scroll down to Request Access To Our Data\nNTR’s Data Sharing Procedures\nTRAILS’ Data Request & Publication Plan",
+    "crumbs": [
+      "PUBLISH & SHARE",
+      "Data Governance"
+    ]
+  },
+  {
     "objectID": "publication.html",
     "href": "publication.html",
     "title": "Data Publication",
     "section": "",
-    "text": "Examples\nWhen publishing (meta)data, you want to make it findable and reusable. The data (and information about the data) can be used by others for their own purposes. It’s up to you to specify the terms and conditions for access and reuse.\nNote that your data need not be ‘open’ to be FAIR! The data files themselves can be placed under restricted access (or retained internally) while the metadata and documentation are openly published. Once any data sharing agreements are signed, the data files an be transferred according to best practices.\nWhen publishing (meta)data, you will receive a landing page for your dataset and a DOI (persistent identifier) that makes it findable and citeable. When you include your metadata and documentation, you improve accessibility and reusability.",
+    "text": "What\nWith Data Publishing, we’re making (meta)data findable and reusable for the public beyond the original project. This is different from Data Archiving, which is primarily internal and aimed at verifiability and integrity.",
+    "crumbs": [
+      "PUBLISH & SHARE",
+      "Data Publication"
+    ]
+  },
+  {
+    "objectID": "publication.html#what",
+    "href": "publication.html#what",
+    "title": "Data Publication",
+    "section": "",
+    "text": "Tip\n\n\n\nRemember that your data does not have to be ‘open’ to be FAIR!\nYou want to make your data… ‘as open as possible, as closed as necessary’ (European Commission).",
+    "crumbs": [
+      "PUBLISH & SHARE",
+      "Data Publication"
+    ]
+  },
+  {
+    "objectID": "publication.html#why",
+    "href": "publication.html#why",
+    "title": "Data Publication",
+    "section": "Why",
+    "text": "Why\nThe (meta)data can be reused by others for their own research purposes, supporting collaboration and open science. Increasingly, funders and journals also require published (meta)data or data availability statements as part of research outputs.",
+    "crumbs": [
+      "PUBLISH & SHARE",
+      "Data Publication"
+    ]
+  },
+  {
+    "objectID": "publication.html#who",
+    "href": "publication.html#who",
+    "title": "Data Publication",
+    "section": "Who",
+    "text": "Who\nTypically, data publishing is overseen by Principal Investigator (PI) for a large project or the lead researcher for a manuscript. You can approach a data supporter at your faculty or the University Library to help you with preparing a data package.",
+    "crumbs": [
+      "PUBLISH & SHARE",
+      "Data Publication"
+    ]
+  },
+  {
+    "objectID": "publication.html#when",
+    "href": "publication.html#when",
+    "title": "Data Publication",
+    "section": "When",
+    "text": "When\nIt would be appropriate to carry out data publishing at the end of your project. However, if your repository allows updates to the data package, you can publish at any stage. Publishing earlier can be beneficial, as it provides room to develop and refine the data package over time rather than relying on a last-minute effort.",
+    "crumbs": [
+      "PUBLISH & SHARE",
+      "Data Publication"
+    ]
+  },
+  {
+    "objectID": "publication.html#where",
+    "href": "publication.html#where",
+    "title": "Data Publication",
+    "section": "Where",
+    "text": "Where\nYou can use the UU Repository Finder to select an appropriate publishing platform. For the DoY Community, DataverseNL & YODA would be suitable repositories.\nWhen you publish (meta)data on these platforms, you receive a landing page for your dataset and a DOI (persistent identifier), making it easily findable and citable.",
+    "crumbs": [
+      "PUBLISH & SHARE",
+      "Data Publication"
+    ]
+  },
+  {
+    "objectID": "publication.html#how",
+    "href": "publication.html#how",
+    "title": "Data Publication",
+    "section": "How",
+    "text": "How\nOnce you’ve selected a repository using the UU Repository Finder, you can work on:\n\nAdding structured metadata and uploading documentation, which further enhance the dataset’s accessibility and reusability.\nThe data files themselves can be withheld internally or placed under restricted access, while the metadata and documentation are openly published. Once any data sharing agreements are signed, the data can be shared using the appropriate tool/infrastructure.",
     "crumbs": [
       "PUBLISH & SHARE",
       "Data Publication"
@@ -713,55 +867,77 @@
     "objectID": "publication.html#examples",
     "href": "publication.html#examples",
     "title": "Data Publication",
-    "section": "",
-    "text": "Nijhof, Sanne; Putte, Elise van de; Hoefnagels, Johanna Wilhelmina, 2021, “PROactive Cohort Study”, https://doi.org/10.34894/FXUGHW, DataverseNL, V3\nIsabelle van der Linden; Henk Schipper; Sanne Nijhof; Kors van der Ent, 2024, “SMART-Youth: Data”, https://doi.org/10.34894/FCBXSI, DataverseNL, V1",
+    "section": "Examples",
+    "text": "Examples\nThe following data publications are aligned with the ‘as open as possible, as closed as necessary’ (European Commission) principle:\n\nNijhof, Sanne; Putte, Elise van de; Hoefnagels, Johanna Wilhelmina, 2021, “PROactive Cohort Study”, https://doi.org/10.34894/FXUGHW, DataverseNL, V3\nIsabelle van der Linden; Henk Schipper; Sanne Nijhof; Kors van der Ent, 2024, “SMART-Youth: Data”, https://doi.org/10.34894/FCBXSI, DataverseNL, V1",
     "crumbs": [
       "PUBLISH & SHARE",
       "Data Publication"
     ]
   },
   {
-    "objectID": "publication.html#tools",
-    "href": "publication.html#tools",
-    "title": "Data Publication",
-    "section": "Tools",
-    "text": "Tools\nYou can use the UU Data Repository Finder and see which data repository might be most suitable for publishing your project.",
+    "objectID": "transfer.html",
+    "href": "transfer.html",
+    "title": "Data Transfer",
+    "section": "",
+    "text": "What\nData Transfer refers to the process of making data available to an approved re-user, either by handing over the data directly or by providing secure access so they can work with it.",
     "crumbs": [
       "PUBLISH & SHARE",
-      "Data Publication"
+      "Data Transfer"
     ]
   },
   {
-    "objectID": "sharing.html",
-    "href": "sharing.html",
-    "title": "Data Sharing",
-    "section": "",
-    "text": "Tools\nWhen sharing (personal) data with collaborators outside the university, there are a couple of important considerations:",
+    "objectID": "transfer.html#why",
+    "href": "transfer.html#why",
+    "title": "Data Transfer",
+    "section": "Why",
+    "text": "Why\nIf your data are privacy-sensitive, they may be withheld internally or placed under restricted access at the publication stage. Since the data cannot be downloaded via the repository, alternative tools must be used to make the data available to the re-user. This process is typically accompanied by formal agreements and documentation.",
     "crumbs": [
       "PUBLISH & SHARE",
-      "Data Sharing"
+      "Data Transfer"
     ]
   },
   {
-    "objectID": "sharing.html#tools",
-    "href": "sharing.html#tools",
-    "title": "Data Sharing",
-    "section": "",
-    "text": "SURFfilesender\nSURFFileSender is a reliable tool to send data to another user. You can send large files securely and the option for encryption makes it more safe.\n\n\nVirtual Research Environments\nVREs, for example - AnDREa & ResearchCloud, is a temporary computing environment that is secure and contains the necessary tools and files for users to carry out some research activities.",
+    "objectID": "transfer.html#who",
+    "href": "transfer.html#who",
+    "title": "Data Transfer",
+    "section": "Who",
+    "text": "Who\nThe individuals responsible for reviewing data requests + preparing and transferring data, as specified in the Data Governance framework / Data Access Protocol. Privacy Officers may need to be consulted, and data stewards can provide support on appropriate procedures and tools.",
     "crumbs": [
       "PUBLISH & SHARE",
-      "Data Sharing"
+      "Data Transfer"
     ]
   },
   {
-    "objectID": "governance.html",
-    "href": "governance.html",
-    "title": "Data Governance",
-    "section": "",
-    "text": "When you’re ready to start sharing your data, you can set up a detailed Data Access Protocol (DAP) that outlines the data governance for yourself, your research team, and potential re-users. This DAP will ideally be public and findable in your chosen repository.\nThere are many topics within a DAP, it will require you (and/or the project team to come together) to decide on what is relevant and best for your data. This can include, for example, the terms & conditions for data reuse and the governance procedure in terms of responsibilities and tasks of the team members.\nSee the PROactive Cohort Study’s DAP here: https://dataverse.nl/file.xhtml?fileId=141206&version=3.0\nData Governance can be as simple and elaborate as you like, it all depends on you and your project team.\nReflect on:\n• What would you like to get out of sharing the data? For example, citations/acknowledgments, co-authorship, collaboration? This should be specified in the DAP so the end-user knows their obligations.\n• What kind of time and effort can you and/or your team invest in the data governance? For example, assessing incoming requests, preparing a datafile for sharing, maintaining a data sharing logbook. Note: If there is privacy-sensitive data involved, even the simplest DAPs have to take some legal considerations into account!",
+    "objectID": "transfer.html#when",
+    "href": "transfer.html#when",
+    "title": "Data Transfer",
+    "section": "When",
+    "text": "When\nThese procedures take place as data requests are received and preliminarily approved.",
     "crumbs": [
       "PUBLISH & SHARE",
-      "Data Governance"
+      "Data Transfer"
+    ]
+  },
+  {
+    "objectID": "transfer.html#where",
+    "href": "transfer.html#where",
+    "title": "Data Transfer",
+    "section": "Where",
+    "text": "Where\nWithin your project folder, it would be good practice to maintain a dedicated subfolder for materials related to data sharing. This can include, but need not be limited to:\n\na data sharing logbook\ncopies of data request forms, correspondence, and agreements\na copy of the shared dataset or the script used to generate the shared subset",
+    "crumbs": [
+      "PUBLISH & SHARE",
+      "Data Transfer"
+    ]
+  },
+  {
+    "objectID": "transfer.html#how",
+    "href": "transfer.html#how",
+    "title": "Data Transfer",
+    "section": "How",
+    "text": "How\nIn order to share data with re-users, you will need to consider the following:\n\nInformation & Consent: The information letters and informed consent forms provided to participants must clearly state whether data sharing and reuse are permitted.\nRisk Assessment: A Data Protection Impact Assessment (DPIA) may be required to determine whether data can be shared safely and under what conditions.\nLegal Agreements: Any transfer of data outside the university requires a Data Transfer Agreement (DTA) in line with the GDPR. The complexity of the DTA depends on the nature of the transfer, for example whether data are shared outside the EU.\nTools: Appropriate tool(s) for data transfer should be selected based on the outcomes of the aforementioned assessments and reviews.\n\n\nTools\n\nSURFfilesender\nSURFfilesender allows you to transfer large files (up to 1 TB) securely. The tool is GDPR-compliant and offers the option of encryption for additional security. You can log in using your institutional credentials. Moreover, you can provide guest access to users without an institutional account or eduID (for example, societal partners / external collaborators) if they need to send you files securely.\n\n\nVirtual Research Environments\nVirtual Research Environments (VREs) — such as those provided by ResearchCloud (UU) and anDREa (UMCU) — are preconfigured workspaces that enable collaboration on and reuse of data. These workspaces can be accessed from anywhere in the world via the provider’s web portal. Depending on your requirements, they can be configured with additional security measures, such as preventing data from being downloaded to a re-user’s computer.",
+    "crumbs": [
+      "PUBLISH & SHARE",
+      "Data Transfer"
     ]
   },
   {

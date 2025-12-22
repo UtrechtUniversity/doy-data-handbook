@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Data Storage – Dynamics of Youth</title>
+<title>Data Transfer – Dynamics of Youth</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./archiving.html" rel="next">
-<link href="./reproducibility.html" rel="prev">
+<link href="./searching.html" rel="next">
+<link href="./publication.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -249,7 +249,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./storage.html">PRESERVE &amp; STORE</a></li><li class="breadcrumb-item"><a href="./storage.html">Data Storage</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./governance.html">PUBLISH &amp; SHARE</a></li><li class="breadcrumb-item"><a href="./transfer.html">Data Transfer</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -387,16 +387,16 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false">
  <span class="menu-text">PRESERVE &amp; STORE</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./storage.html" class="sidebar-item-text sidebar-link active">
+  <a href="./storage.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Data Storage</span></a>
   </div>
 </li>
@@ -410,13 +410,13 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true">
  <span class="menu-text">PUBLISH &amp; SHARE</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./governance.html" class="sidebar-item-text sidebar-link">
@@ -431,7 +431,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./transfer.html" class="sidebar-item-text sidebar-link">
+  <a href="./transfer.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Data Transfer</span></a>
   </div>
 </li>
@@ -504,17 +504,20 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#who" id="toc-who" class="nav-link" data-scroll-target="#who">Who</a></li>
   <li><a href="#when" id="toc-when" class="nav-link" data-scroll-target="#when">When</a></li>
   <li><a href="#where" id="toc-where" class="nav-link" data-scroll-target="#where">Where</a></li>
-  <li><a href="#how" id="toc-how" class="nav-link" data-scroll-target="#how">How</a></li>
+  <li><a href="#how" id="toc-how" class="nav-link" data-scroll-target="#how">How</a>
+  <ul class="collapse">
+  <li><a href="#tools" id="toc-tools" class="nav-link" data-scroll-target="#tools">Tools</a></li>
+  </ul></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/UtrechtUniversity/doy-data-handbook/edit/main/storage.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/UtrechtUniversity/doy-data-handbook/edit/main/transfer.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./storage.html">PRESERVE &amp; STORE</a></li><li class="breadcrumb-item"><a href="./storage.html">Data Storage</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./governance.html">PUBLISH &amp; SHARE</a></li><li class="breadcrumb-item"><a href="./transfer.html">Data Transfer</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Data Storage</h1>
+<h1 class="title">Data Transfer</h1>
 </div>
 
 
@@ -531,40 +534,58 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><img src="images/DataLoss_PhDComics.gif" class="img-fluid"></p>
+<p><img src="images/birds-of-open-data.jpg" class="img-fluid"></p>
+<figcaption>
+<a href="https://the-turing-way.netlify.app/">The Turing Way</a> project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: <a href="https://doi.org/10.5281/zenodo.3332807">10.5281/zenodo.3332807</a>.
+</figcaption>
+<p><br></p>
 <section id="what" class="level2">
 <h2 class="anchored" data-anchor-id="what">What</h2>
-<p>When discussing storage, we refer to the location of ‘active’ data, which is in use and may change throughout the research project. The related concepts of <a href="https://utrechtuniversity.github.io/doy-data-handbook/archiving.html">archiving</a> and <a href="https://utrechtuniversity.github.io/doy-data-handbook/publication.html">publishing</a> refer to where the data will be saved or deposited after the project is completed.</p>
+<p>Data Transfer refers to the process of making data available to an approved re-user, either by handing over the data directly or by providing secure access so they can work with it.</p>
 </section>
 <section id="why" class="level2">
 <h2 class="anchored" data-anchor-id="why">Why</h2>
-<p>Storing data properly ensures that research can be conducted efficiently, prevents data loss, and maintains the integrity and reproducibility of results. Well-managed storage supports collaboration, version control, and easy retrieval of files during the project.</p>
+<p>If your data are privacy-sensitive, they may be withheld internally or placed under restricted access at the publication stage. Since the data cannot be downloaded via the repository, alternative tools must be used to make the data available to the re-user. This process is typically accompanied by formal agreements and documentation.</p>
 </section>
 <section id="who" class="level2">
 <h2 class="anchored" data-anchor-id="who">Who</h2>
-<p>When planning data storage, consider collaboration with other researchers. Decisions about who will access the data and how often it will be shared affect both where the data is stored and how it is organized, backed up, and structured.</p>
+<p>The individuals responsible for reviewing data requests + preparing and transferring data, as specified in the Data Governance framework / Data Access Protocol. Privacy Officers may need to be consulted, and data stewards can provide support on appropriate procedures and tools.</p>
 </section>
 <section id="when" class="level2">
 <h2 class="anchored" data-anchor-id="when">When</h2>
-<p>A decision about data storage needs to be taken at the onset of the project. From that point, data should be stored securely and include regular backups to prevent loss or accidental overwriting.</p>
+<p>These procedures take place as data requests are received and preliminarily approved.</p>
 </section>
 <section id="where" class="level2">
 <h2 class="anchored" data-anchor-id="where">Where</h2>
-<p>The <a href="https://tools.uu.nl/storagefinder/">Data Storage Finder</a> is a tool provided by IT help you decide which storage solution would be most suited to your needs. The suggestions are based on factors such as collaboration, size, sensitivity, and (ease of) access.</p>
+<p>Within your project folder, it would be good practice to maintain a dedicated subfolder for materials related to data sharing. This can include, but need not be limited to:</p>
+<ul>
+<li>a data sharing logbook</li>
+<li>copies of data request forms, correspondence, and agreements</li>
+<li>a copy of the shared dataset or the script used to generate the shared subset</li>
+</ul>
 </section>
 <section id="how" class="level2">
 <h2 class="anchored" data-anchor-id="how">How</h2>
-<p>When storing data, consider the following:</p>
-<ul>
-<li>choose storage media that is appropriate for the type of data you’re working with</li>
-<li>ensure reliable version control and backups</li>
-<li>follow a <a href="https://utrechtuniversity.github.io/doy-data-handbook/naming-conventions.html">naming convention</a></li>
-<li><a href="https://utrechtuniversity.github.io/doy-data-handbook/folder-structures.html">structure folders</a> and organize files clearly</li>
-<li>use preferred and sustainable <a href="https://utrechtuniversity.github.io/doy-data-handbook/preferred-formats.html">file formats</a></li>
-<li>secure data files, using access control and/or <a href="https://utrechtuniversity.github.io/privacy-engineering-tools/secure-computing/encryption-tools.html">encryption</a></li>
-</ul>
+<p>In order to share data with re-users, you will need to consider the following:</p>
+<ol type="1">
+<li><p><strong>Information &amp; Consent</strong>: The information letters and informed consent forms provided to participants must clearly state whether data sharing and reuse are permitted.</p></li>
+<li><p><strong>Risk Assessment</strong>: A Data Protection Impact Assessment (DPIA) may be required to determine whether data can be shared safely and under what conditions.</p></li>
+<li><p><strong>Legal Agreements</strong>: Any transfer of data outside the university requires a Data Transfer Agreement (DTA) in line with the GDPR. The complexity of the DTA depends on the nature of the transfer, for example whether data are shared outside the EU.</p></li>
+<li><p><strong>Tools</strong>: Appropriate tool(s) for data transfer should be selected based on the outcomes of the aforementioned assessments and reviews.</p></li>
+</ol>
+<section id="tools" class="level3">
+<h3 class="anchored" data-anchor-id="tools">Tools</h3>
+<section id="surffilesender" class="level4">
+<h4 class="anchored" data-anchor-id="surffilesender">SURFfilesender</h4>
+<p><a href="https://filesender.surf.nl/">SURFfilesender</a> allows you to transfer large files (up to 1 TB) securely. The tool is GDPR-compliant and offers the option of encryption for additional security. You can log in using your institutional credentials. Moreover, you can provide guest access to users without an institutional account or eduID (for example, societal partners / external collaborators) if they need to send you files securely.</p>
+</section>
+<section id="virtual-research-environments" class="level4">
+<h4 class="anchored" data-anchor-id="virtual-research-environments">Virtual Research Environments</h4>
+<p>Virtual Research Environments (VREs) — such as those provided by <a href="https://researchcloud.surf.nl/dashboard">ResearchCloud</a> (UU) and <a href="https://mydre.org/">anDREa</a> (UMCU) — are preconfigured workspaces that enable collaboration on and reuse of data. These workspaces can be accessed from anywhere in the world via the provider’s web portal. Depending on your requirements, they can be configured with additional security measures, such as preventing data from being downloaded to a re-user’s computer.</p>
 
 
+</section>
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -983,13 +1004,13 @@ ul.task-list li input[type="checkbox"] {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./reproducibility.html" class="pagination-link" aria-label="Reproducibility">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Reproducibility</span>
+      <a href="./publication.html" class="pagination-link" aria-label="Data Publication">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Data Publication</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./archiving.html" class="pagination-link" aria-label="Data Archiving">
-        <span class="nav-page-text">Data Archiving</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./searching.html" class="pagination-link" aria-label="Searching for Data">
+        <span class="nav-page-text">Searching for Data</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -998,4 +1019,4 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/UtrechtUniversity/doy-data-handbook/edit/main/storage.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/UtrechtUniversity/doy-data-handbook/edit/main/transfer.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></div></div></footer></body></html>
