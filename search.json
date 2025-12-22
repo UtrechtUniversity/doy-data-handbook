@@ -472,7 +472,7 @@
     "href": "preferred-formats.html",
     "title": "Preferred Formats",
     "section": "",
-    "text": "see DANS website …..",
+    "text": "source: FOSTER Open Science Training Handbook.",
     "crumbs": [
       "COLLECT & ANALYZE",
       "Preferred Formats"
@@ -575,6 +575,17 @@
     "crumbs": [
       "COLLECT & ANALYZE",
       "Codebooks"
+    ]
+  },
+  {
+    "objectID": "reproducibility.html",
+    "href": "reproducibility.html",
+    "title": "Reproducibility",
+    "section": "",
+    "text": "The Turing Way project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: 10.5281/zenodo.3332807.",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Reproducibility"
     ]
   },
   {
@@ -945,7 +956,7 @@
     "href": "searching.html",
     "title": "Searching for Data",
     "section": "",
-    "text": "What\nInstead of creating your own data, you can also search for and re-use existing data. As open science is becoming the standard in academia, more data becomes available at online repositories scattered across the web. The FAIR principles are aimed at improving the visibility of datasets and facilitating easy re-use of them.",
+    "text": "What\nAs open science becomes the standard in academia, more (meta)data are published in repositories across the web. Before creating new data, it is therefore worth searching for existing datasets that may be reused or built upon.",
     "crumbs": [
       "DISCOVER & REUSE",
       "Searching for Data"
@@ -956,7 +967,7 @@
     "href": "searching.html#why",
     "title": "Searching for Data",
     "section": "Why",
-    "text": "Why\nSearching for existing data can provide multiple benefits during the research life-cycle: - Using existing data saves time and costs for the researchers - It allows for a comparison between the existing data and newly generated data - Inspiration on (improved) research methods can be derived from previous studies - Learning from other peoples methods can increase data quality\nIt also poses a disadvantage as the existing data might be in a specific research design, necessitating a rework of your design to make it compatible to your own research question.",
+    "text": "Why\nSearching for existing data can save time and resources while enabling comparison and improvements in research methodology and data quality. That being said, existing datasets are often collected for specific study designs and this may require adapting your research questions or methods to ensure compatibility.",
     "crumbs": [
       "DISCOVER & REUSE",
       "Searching for Data"
@@ -967,7 +978,7 @@
     "href": "searching.html#who",
     "title": "Searching for Data",
     "section": "Who",
-    "text": "Who",
+    "text": "Who\nResearchers at all career stages can benefit from searching for existing data. Librarians and data stewards can provide support in identifying suitable repositories and search strategies.",
     "crumbs": [
       "DISCOVER & REUSE",
       "Searching for Data"
@@ -978,7 +989,7 @@
     "href": "searching.html#when",
     "title": "Searching for Data",
     "section": "When",
-    "text": "When",
+    "text": "When\nSearching for data is especially useful in the early stages of a project, such as during proposal writing or study design. However, it can also be valuable later on, for example when validating results, performing comparisons, or extending analyses.",
     "crumbs": [
       "DISCOVER & REUSE",
       "Searching for Data"
@@ -989,7 +1000,7 @@
     "href": "searching.html#where",
     "title": "Searching for Data",
     "section": "Where",
-    "text": "Where\nData are often put in field specific repositories, registries like www.re3data.org and https://fairsharing.org/ can help you figure out which repository exists for your field. At the UU, we also have university wide, generic repositories and catalogues available: https://dataverse.nl/dataverse/U and https://www.uu.nl/en/research/yoda. For social sciences and humanities specifically, there are national repositories available under the names of https://portal.odissei.nl/ and https://clariah.nl/ineo/",
+    "text": "Where\nData can be deposited in generic or domain-specific repositories. They may also be curated and described within catalogues.\nExamples of generic repositories include DataVerseNL, Yoda, and Zenodo.\nFor the social sciences and humanities, national infrastructures such as ODISSEI and CLARIAH serve as catalogues that provide access to datasets.\nRegistries such as re3data and FAIRsharing can help you identify suitable repositories for your discipline.\nIn addition, the following discovery platforms can help you find datasets across repositories:\n\nOpenAlex: a database containing a wide range of scholarly outputs, including datasets.\n\nDataCite Commons: a discovery service aimed at making research outputs findable and connected.\n\nOpenAIRE and its Dutch counterpart, the Netherlands Research Portal.\n\nOpen Data Europe: a portal providing access to a large collection of European datasets from the EU and beyond.",
     "crumbs": [
       "DISCOVER & REUSE",
       "Searching for Data"
@@ -1000,7 +1011,7 @@
     "href": "searching.html#how",
     "title": "Searching for Data",
     "section": "How",
-    "text": "How\nSearching can be done by building queries in the above mentioned repositories, however there are also other options: - https://openalex.org/works?page=1&filter=type%3Atypes%2Fdataset A database containing a plethora of scientific works, including datasets. - https://commons.datacite.org/ A large database with the aim of making research available and connected. - https://explore.openaire.eu/search/find and it’s Dutch counterpart https://netherlands.openaire.eu/ - https://data.europa.eu/en Has a large collection of European datasets both EU and beyond.",
+    "text": "How\nYou can search for data by constructing BOOLEAN search queries, just as you would in a systematic literature search. Operators such as AND, OR, NOT, and wildcards (e.g. *) can be used to combine concepts, broaden or narrow results, and capture variations of search terms.",
     "crumbs": [
       "DISCOVER & REUSE",
       "Searching for Data"
@@ -1011,7 +1022,7 @@
     "href": "searching.html#references",
     "title": "Searching for Data",
     "section": "References",
-    "text": "References\nhttps://www.uu.nl/en/research/research-data-management/tools-services/finding-existing-data https://dmeg.cessda.eu/Data-Management-Expert-Guide/7.-Discover/The-process-of-data-discovery https://rdm.vu.nl/topics/finding-existing-data.html",
+    "text": "References\n\nhttps://www.uu.nl/en/research/research-data-management/tools-services/finding-existing-data\nhttps://dmeg.cessda.eu/Data-Management-Expert-Guide/7.-Discover/The-process-of-data-discovery\nhttps://rdm.vu.nl/topics/finding-existing-data.html",
     "crumbs": [
       "DISCOVER & REUSE",
       "Searching for Data"

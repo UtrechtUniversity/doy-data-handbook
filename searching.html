@@ -291,6 +291,12 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Definitions</span></a>
   </div>
 </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./fair-data-cheatsheet.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">FAIR Data Cheatsheet</span></a>
+  </div>
+</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false">
@@ -471,12 +477,6 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./fair-data-cheatsheet.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">FAIR Data Cheatsheet</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="./trainings.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Trainings</span></a>
   </div>
@@ -532,32 +532,54 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<img src="images/searching.png" class="img-fluid">
+<figcaption>
+<a href="https://github.com/Open-Science-Training-Handbook"><em>source</em>: FOSTER Open Science Training Handbook</a>.
+</figcaption>
 <section id="what" class="level2">
 <h2 class="anchored" data-anchor-id="what">What</h2>
-<p>Instead of creating your own data, you can also search for and re-use existing data. As open science is becoming the standard in academia, more data becomes available at online repositories scattered across the web. The FAIR principles are aimed at improving the visibility of datasets and facilitating easy re-use of them.</p>
+<p>As open science becomes the standard in academia, more (meta)data are published in repositories across the web. Before creating new data, it is therefore worth searching for existing datasets that may be reused or built upon.</p>
 </section>
 <section id="why" class="level2">
 <h2 class="anchored" data-anchor-id="why">Why</h2>
-<p>Searching for existing data can provide multiple benefits during the research life-cycle: - Using existing data saves time and costs for the researchers - It allows for a comparison between the existing data and newly generated data - Inspiration on (improved) research methods can be derived from previous studies - Learning from other peoples methods can increase data quality</p>
-<p>It also poses a disadvantage as the existing data might be in a specific research design, necessitating a rework of your design to make it compatible to your own research question.</p>
+<p>Searching for existing data can save time and resources while enabling comparison and improvements in research methodology and data quality. That being said, existing datasets are often collected for specific study designs and this may require adapting your research questions or methods to ensure compatibility.</p>
 </section>
 <section id="who" class="level2">
 <h2 class="anchored" data-anchor-id="who">Who</h2>
+<p>Researchers at all career stages can benefit from searching for existing data. Librarians and data stewards can provide support in identifying suitable repositories and search strategies.</p>
 </section>
 <section id="when" class="level2">
 <h2 class="anchored" data-anchor-id="when">When</h2>
+<p>Searching for data is especially useful in the early stages of a project, such as during proposal writing or study design. However, it can also be valuable later on, for example when validating results, performing comparisons, or extending analyses.</p>
 </section>
 <section id="where" class="level2">
 <h2 class="anchored" data-anchor-id="where">Where</h2>
-<p>Data are often put in field specific repositories, registries like <a href="Re3Data.org">www.re3data.org</a> and <a href="FAIRsharing">https://fairsharing.org/</a> can help you figure out which repository exists for your field. At the UU, we also have university wide, generic repositories and catalogues available: <a href="DataVerseNL">https://dataverse.nl/dataverse/U</a> and <a href="YoDa">https://www.uu.nl/en/research/yoda</a>. For social sciences and humanities specifically, there are national repositories available under the names of <a href="ODISSEI">https://portal.odissei.nl/</a> and <a href="CLARIAH">https://clariah.nl/ineo/</a></p>
+<p>Data can be deposited in generic or domain-specific repositories. They may also be curated and described within catalogues.</p>
+<p>Examples of generic repositories include <a href="https://dataverse.nl/dataverse/U">DataVerseNL</a>, <a href="https://www.uu.nl/en/research/yoda">Yoda</a>, and <a href="https://zenodo.org/">Zenodo</a>.</p>
+<p>For the social sciences and humanities, national infrastructures such as <a href="https://portal.odissei.nl/">ODISSEI</a> and <a href="https://clariah.nl/ineo/">CLARIAH</a> serve as catalogues that provide access to datasets.</p>
+<p>Registries such as <a href="https://www.re3data.org">re3data</a> and <a href="https://fairsharing.org/">FAIRsharing</a> can help you identify suitable repositories for your discipline.</p>
+<p>In addition, the following discovery platforms can help you find datasets across repositories:</p>
+<ul>
+<li><a href="https://openalex.org/works?page=1&amp;filter=type%3Atypes%2Fdataset">OpenAlex</a>: a database containing a wide range of scholarly outputs, including datasets.<br>
+</li>
+<li><a href="https://commons.datacite.org/">DataCite Commons</a>: a discovery service aimed at making research outputs findable and connected.<br>
+</li>
+<li><a href="https://explore.openaire.eu/search/find">OpenAIRE</a> and its Dutch counterpart, the <a href="https://netherlands.openaire.eu/">Netherlands Research Portal</a>.<br>
+</li>
+<li><a href="https://data.europa.eu/en">Open Data Europe</a>: a portal providing access to a large collection of European datasets from the EU and beyond.</li>
+</ul>
 </section>
 <section id="how" class="level2">
 <h2 class="anchored" data-anchor-id="how">How</h2>
-<p>Searching can be done by building queries in the above mentioned repositories, however there are also other options: - <a href="OpenAlex">https://openalex.org/works?page=1&amp;filter=type%3Atypes%2Fdataset</a> A database containing a plethora of scientific works, including datasets. - <a href="DataCite">https://commons.datacite.org/</a> A large database with the aim of making research available and connected. - <a href="OpenAire">https://explore.openaire.eu/search/find</a> and it’s Dutch counterpart <a href="Netherlands Research Portal">https://netherlands.openaire.eu/</a> - <a href="Open Data Europe">https://data.europa.eu/en</a> Has a large collection of European datasets both EU and beyond.</p>
+<p>You can search for data by constructing BOOLEAN search queries, just as you would in a systematic literature search. Operators such as AND, OR, NOT, and wildcards (e.g.&nbsp;*) can be used to combine concepts, broaden or narrow results, and capture variations of search terms.</p>
 </section>
 <section id="references" class="level2">
 <h2 class="anchored" data-anchor-id="references">References</h2>
-<p><a href="https://www.uu.nl/en/research/research-data-management/tools-services/finding-existing-data">https://www.uu.nl/en/research/research-data-management/tools-services/finding-existing-data</a> <a href="https://dmeg.cessda.eu/Data-Management-Expert-Guide/7.-Discover/The-process-of-data-discovery">https://dmeg.cessda.eu/Data-Management-Expert-Guide/7.-Discover/The-process-of-data-discovery</a> <a href="https://rdm.vu.nl/topics/finding-existing-data.html">https://rdm.vu.nl/topics/finding-existing-data.html</a></p>
+<ol type="1">
+<li><a href="https://www.uu.nl/en/research/research-data-management/tools-services/finding-existing-data">https://www.uu.nl/en/research/research-data-management/tools-services/finding-existing-data</a></li>
+<li><a href="https://dmeg.cessda.eu/Data-Management-Expert-Guide/7.-Discover/The-process-of-data-discovery">https://dmeg.cessda.eu/Data-Management-Expert-Guide/7.-Discover/The-process-of-data-discovery</a></li>
+<li><a href="https://rdm.vu.nl/topics/finding-existing-data.html">https://rdm.vu.nl/topics/finding-existing-data.html</a></li>
+</ol>
 
 
 </section>
