@@ -1,5 +1,10 @@
 # Data Pipelining {.unnumbered}
 
+![](images/pipeline-1.jpg)
+
+<figcaption><a href="https://the-turing-way.netlify.app/">The Turing Way</a> project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: <a href="https://doi.org/10.5281/zenodo.3332807">10.5281/zenodo.3332807</a>.</figcaption>
+<br>
+
 A data pipeline is a series of (automated) actions that ingests raw data from various sources and moves the data to a destination for storage and (eventual) analysis.
 
 Benefits of a data pipeline include:

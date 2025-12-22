@@ -1,5 +1,9 @@
 # Metadata {.unnumbered}
 
+![](images/metadata.jpg)
+<figcaption><a href="https://the-turing-way.netlify.app/">The Turing Way</a> project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: <a href="https://doi.org/10.5281/zenodo.3332807">10.5281/zenodo.3332807</a>.</figcaption>
+<br>
+
 Metadata is structured information that describes one or more aspects of your research data. In other words, metadata = 'data about data'. Metadata is machine-readable and helps make your data findable and citable.
 
 Metadata exists at different levels:

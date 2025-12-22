@@ -1,5 +1,9 @@
 # Documentation {.unnumbered}
 
+![](images/documentation.jpg)
+<figcaption><a href="https://the-turing-way.netlify.app/">The Turing Way</a> project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: <a href="https://doi.org/10.5281/zenodo.3332807">10.5281/zenodo.3332807</a>.</figcaption>
+<br>
+
 Documentation refers to contextual information pertaining to your research data. It accompanies (structured) metadata and guides users to understand and interpret your data and reuse it effectively.
 
 Documentation is meant to be human-readable and it is a crucial aspect of interoperability and reusability. Some examples include:

@@ -17,6 +17,7 @@ book:
   chapters:
     - index.qmd
     - definitions.qmd
+    - fair-data-cheatsheet.qmd
     - part: "PLAN & FUND"
       chapters:
         - data-management-plans.qmd
@@ -48,7 +49,6 @@ book:
     - references.qmd
     - part: "APPENDIX"
       chapters:
-        - fair-data-cheatsheet.qmd
         - trainings.qmd
         - presentations.qmd
 

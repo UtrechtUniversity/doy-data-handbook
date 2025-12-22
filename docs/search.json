@@ -752,5 +752,82 @@
       "APPENDIX",
       "Presentations"
     ]
+  },
+  {
+    "objectID": "searching.html",
+    "href": "searching.html",
+    "title": "Searching for Data",
+    "section": "",
+    "text": "What\nInstead of creating your own data, you can also search for and re-use existing data. As open science is becoming the standard in academia, more data becomes available at online repositories scattered across the web. The FAIR principles are aimed at improving the visibility of datasets and facilitating easy re-use of them.",
+    "crumbs": [
+      "DISCOVER & REUSE",
+      "Searching for Data"
+    ]
+  },
+  {
+    "objectID": "searching.html#why",
+    "href": "searching.html#why",
+    "title": "Searching for Data",
+    "section": "Why",
+    "text": "Why\nSearching for existing data can provide multiple benefits during the research life-cycle: - Using existing data saves time and costs for the researchers - It allows for a comparison between the existing data and newly generated data - Inspiration on (improved) research methods can be derived from previous studies - Learning from other peoples methods can increase data quality\nIt also poses a disadvantage as the existing data might be in a specific research design, necessitating a rework of your design to make it compatible to your own research question.",
+    "crumbs": [
+      "DISCOVER & REUSE",
+      "Searching for Data"
+    ]
+  },
+  {
+    "objectID": "searching.html#who",
+    "href": "searching.html#who",
+    "title": "Searching for Data",
+    "section": "Who",
+    "text": "Who",
+    "crumbs": [
+      "DISCOVER & REUSE",
+      "Searching for Data"
+    ]
+  },
+  {
+    "objectID": "searching.html#when",
+    "href": "searching.html#when",
+    "title": "Searching for Data",
+    "section": "When",
+    "text": "When",
+    "crumbs": [
+      "DISCOVER & REUSE",
+      "Searching for Data"
+    ]
+  },
+  {
+    "objectID": "searching.html#where",
+    "href": "searching.html#where",
+    "title": "Searching for Data",
+    "section": "Where",
+    "text": "Where\nData are often put in field specific repositories, registries like www.re3data.org and https://fairsharing.org/ can help you figure out which repository exists for your field. At the UU, we also have university wide, generic repositories and catalogues available: https://dataverse.nl/dataverse/U and https://www.uu.nl/en/research/yoda. For social sciences and humanities specifically, there are national repositories available under the names of https://portal.odissei.nl/ and https://clariah.nl/ineo/",
+    "crumbs": [
+      "DISCOVER & REUSE",
+      "Searching for Data"
+    ]
+  },
+  {
+    "objectID": "searching.html#how",
+    "href": "searching.html#how",
+    "title": "Searching for Data",
+    "section": "How",
+    "text": "How\nSearching can be done by building queries in the above mentioned repositories, however there are also other options: - https://openalex.org/works?page=1&filter=type%3Atypes%2Fdataset A database containing a plethora of scientific works, including datasets. - https://commons.datacite.org/ A large database with the aim of making research available and connected. - https://explore.openaire.eu/search/find and it’s Dutch counterpart https://netherlands.openaire.eu/ - https://data.europa.eu/en Has a large collection of European datasets both EU and beyond.",
+    "crumbs": [
+      "DISCOVER & REUSE",
+      "Searching for Data"
+    ]
+  },
+  {
+    "objectID": "searching.html#references",
+    "href": "searching.html#references",
+    "title": "Searching for Data",
+    "section": "References",
+    "text": "References\n\nhttps://www.uu.nl/en/research/research-data-management/tools-services/finding-existing-data\nhttps://dmeg.cessda.eu/Data-Management-Expert-Guide/7.-Discover/The-process-of-data-discovery\nhttps://rdm.vu.nl/topics/finding-existing-data.html",
+    "crumbs": [
+      "DISCOVER & REUSE",
+      "Searching for Data"
+    ]
   }
 ]

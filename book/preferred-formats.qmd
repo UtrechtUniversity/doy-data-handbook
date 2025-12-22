@@ -1,4 +1,5 @@
 # Preferred Formats {.unnumbered}
 
-see DANS website
-.....
+![](images/preferred-formats.png)
+
+<figcaption><a href="https://github.com/Open-Science-Training-Handbook">_source_: FOSTER Open Science Training Handbook</a>.</figcaption>

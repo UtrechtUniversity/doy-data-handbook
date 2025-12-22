@@ -1,36 +1,47 @@
 # Searching for Data {.unnumbered}
 
+![](images/searching.png)
+<figcaption><a href="https://github.com/Open-Science-Training-Handbook">_source_: FOSTER Open Science Training Handbook</a>.</figcaption>
+
 ## What
-Instead of creating your own data, you can also search for and re-use existing data. As open science is becoming the standard in academia, more data becomes available at  online repositories scattered across the web. The FAIR principles are aimed at improving the visibility of datasets and facilitating easy re-use of them.
+
+As open science becomes the standard in academia, more (meta)data are published in repositories across the web. Before creating new data, it is therefore worth searching for existing datasets that may be reused or built upon.
 
 ## Why
-Searching for existing data can provide multiple benefits during the research life-cycle:
-- Using existing data saves time and costs for the researchers
-- It allows for a comparison between the existing data and newly generated data
-- Inspiration on (improved) research methods can be derived from previous studies
-- Learning from other peoples methods can increase data quality
 
-It also poses a disadvantage as the existing data might be in a specific research design, necessitating a rework of your design to make it compatible to your own research question.
+Searching for existing data can save time and resources while enabling comparison and improvements in research methodology and data quality. That being said, existing datasets are often collected for specific study designs and this may require adapting your research questions or methods to ensure compatibility.
 
 ## Who
 
+Researchers at all career stages can benefit from searching for existing data. Librarians and data stewards can provide support in identifying suitable repositories and search strategies.
+
 ## When
 
+Searching for data is especially useful in the early stages of a project, such as during proposal writing or study design. However, it can also be valuable later on, for example when validating results, performing comparisons, or extending analyses.
 
 ## Where
-Data are often put in field specific repositories, registries like [www.re3data.org](Re3Data.org) and [https://fairsharing.org/](FAIRsharing) can help you figure out which repository exists for your field.
-At the UU, we also have university wide, generic repositories and catalogues available: [https://dataverse.nl/dataverse/U](DataVerseNL) and [https://www.uu.nl/en/research/yoda](YoDa).
-For social sciences and humanities specifically, there are national repositories available under the names of [https://portal.odissei.nl/](ODISSEI) and [https://clariah.nl/ineo/](CLARIAH)
+
+Data can be deposited in generic or domain-specific repositories. They may also be curated and described within catalogues.
+
+Examples of generic repositories include [DataVerseNL](https://dataverse.nl/dataverse/U), [Yoda](https://www.uu.nl/en/research/yoda), and [Zenodo](https://zenodo.org/).
+
+For the social sciences and humanities, national infrastructures such as [ODISSEI](https://portal.odissei.nl/) and [CLARIAH](https://clariah.nl/ineo/) serve as catalogues that provide access to datasets.
+
+Registries such as [re3data](https://www.re3data.org) and [FAIRsharing](https://fairsharing.org/) can help you identify suitable repositories for your discipline.
+
+In addition, the following discovery platforms can help you find datasets across repositories:
+
+- [OpenAlex](https://openalex.org/works?page=1&filter=type%3Atypes%2Fdataset): a database containing a wide range of scholarly outputs, including datasets.  
+- [DataCite Commons](https://commons.datacite.org/): a discovery service aimed at making research outputs findable and connected.  
+- [OpenAIRE](https://explore.openaire.eu/search/find) and its Dutch counterpart, the [Netherlands Research Portal](https://netherlands.openaire.eu/).  
+- [Open Data Europe](https://data.europa.eu/en): a portal providing access to a large collection of European datasets from the EU and beyond.
 
 ## How
-Searching can be done by building queries in the above mentioned repositories, however there are also other options:
-- [https://openalex.org/works?page=1&filter=type%3Atypes%2Fdataset](OpenAlex) A database containing a plethora of scientific works, including datasets.
-- [https://commons.datacite.org/](DataCite) A large database with the aim of making research available and connected.
-- [https://explore.openaire.eu/search/find](OpenAire) and it's Dutch counterpart [https://netherlands.openaire.eu/](Netherlands Research Portal)
-- [https://data.europa.eu/en](Open Data Europe) Has a large collection of European datasets both EU and beyond.
 
+You can search for data by constructing BOOLEAN search queries, just as you would in a systematic literature search. Operators such as AND, OR, NOT, and wildcards (e.g. *) can be used to combine concepts, broaden or narrow results, and capture variations of search terms.
 
 ## References
-[https://www.uu.nl/en/research/research-data-management/tools-services/finding-existing-data](https://www.uu.nl/en/research/research-data-management/tools-services/finding-existing-data)
-[https://dmeg.cessda.eu/Data-Management-Expert-Guide/7.-Discover/The-process-of-data-discovery](https://dmeg.cessda.eu/Data-Management-Expert-Guide/7.-Discover/The-process-of-data-discovery)
-[https://rdm.vu.nl/topics/finding-existing-data.html](https://rdm.vu.nl/topics/finding-existing-data.html)
+
+1. [https://www.uu.nl/en/research/research-data-management/tools-services/finding-existing-data](https://www.uu.nl/en/research/research-data-management/tools-services/finding-existing-data)
+2. [https://dmeg.cessda.eu/Data-Management-Expert-Guide/7.-Discover/The-process-of-data-discovery](https://dmeg.cessda.eu/Data-Management-Expert-Guide/7.-Discover/The-process-of-data-discovery)
+3. [https://rdm.vu.nl/topics/finding-existing-data.html](https://rdm.vu.nl/topics/finding-existing-data.html)
