@@ -39,9 +39,9 @@ book:
         - archiving.qmd
     - part: "PUBLISH & SHARE"
       chapters:
-        - publication.qmd
-        - sharing.qmd
         - governance.qmd
+        - publication.qmd
+        - transfer.qmd
     - part: "DISCOVER & REUSE"
       chapters:  
         - searching.qmd

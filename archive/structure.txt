@@ -1,1 +1,6 @@
-What → Why → Who → When → Where → How
+## What
+## Why
+## Who
+## When
+## Where
+## How

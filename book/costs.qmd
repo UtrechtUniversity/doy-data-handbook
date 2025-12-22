@@ -10,19 +10,21 @@ Data management costs include all expenses related to planning, collecting, stor
 
 Explicitly considering data management expenses ensures that necessary resources are available throughout the project. Many date-related activities require time, infrastructure, and expertise. This can lead to unanticipated expenses if not planned in advance. Transparent budgeting helps avoid delays, supports ensures compliance with funder and institutional requirements, and supports sustainable data practices.
 
+## When
+
+Plan data management costs early - ideally during grant preparation - using a preliminary DMP to make storage, documentation, analysis, backup, and archiving needs explicit. This can serve as a basis for the _Costs_ section in the offical DMP.
+
 ## Who
 
 The research team is primarily responsible for identifying and budgeting data management costs - as they best understand the scope and requirements of their project. Institutional support is available from data stewardship teams, libraries, and IT services - who advise on expected expenses and available infrastructure. Funders typically accept data management costs as part of grants, so they should be included in the proposal and planned accordingly.
 
 ## Where
 
-The Data Management Plan (DMP) is a suitable place to outline data management expenses. Most templates include dedicated sections for costs and resources, making it straightforward to document your planning.
+The [Data Management Plan](https://utrechtuniversity.github.io/doy-data-handbook/data-management-plans.html) (DMP) is a suitable place to outline data management expenses. Most templates include dedicated sections for costs and resources, making it straightforward to document your planning.
 
 ## How
 
-- Plan data management costs early - ideally during grant preparation - using a preliminary DMP to make storage, documentation, analysis, backup, and archiving needs explicit. This can serve as a basis for the _Costs_ section in the offical DMP.
-
-- Identify the data-related tasks required at each stage of the peroject (e.g., collecting, transcribing, anonymizing, structuring, documenting, sharing, archiving) and estimate the time and resources required. You can use the recommended hourly rates for student assistants or data professionals where possible.
+- Identify the data-related tasks required at each stage of the project (e.g., collecting, transcribing, anonymizing, structuring, documenting, sharing, archiving) and estimate the time and resources required. You can use the recommended hourly rates for student assistants or data professionals where possible.
 
 - Whenever feasible, use institutional or open-source tools and infrastructure instead of expensive external services, and rely on templates, standards, and standard operating procedures to increase efficiency and reduce costs.
 

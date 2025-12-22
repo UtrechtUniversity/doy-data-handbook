@@ -1,16 +1,66 @@
 # Data Governance {.unnumbered}
 
-When you’re ready to start sharing your data, you can set up a detailed Data Access Protocol (DAP) that outlines the data governance for yourself, your research team, and potential re-users. This DAP will ideally be public and findable in your chosen repository.
+![](images/governance.jpg)
 
-There are many topics within a DAP, it will require you (and/or the project team to come together) to decide on what is relevant and best for your data. This can include, for example, the terms & conditions for data reuse and the governance procedure in terms of responsibilities and tasks of the team members.
+<figcaption><a href="https://the-turing-way.netlify.app/">The Turing Way</a> project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: <a href="https://doi.org/10.5281/zenodo.3332807">10.5281/zenodo.3332807</a>.</figcaption>
+<br>
 
-See the PROactive Cohort Study's DAP here: https://dataverse.nl/file.xhtml?fileId=141206&version=3.0
+## What
 
-Data Governance can be as simple and elaborate as you like, it all depends on you and your project team.
+Data Governance defines how data are managed beyond the scope of the original project by setting out roles and responsibilities, as well as processes and policies. It ensures data are handled consistently and responsibly in support of ethical use, compliance, and long-term value.
 
-Reflect on:
+## Why
 
-• What would you like to get out of sharing the data? For example, citations/acknowledgments, co-authorship, collaboration? This should be specified in the DAP so the end-user knows their obligations.
+Without clear guidance, data sharing and reuse can become time-consuming and easily deprioritized. A data governance framework reduces ad hoc communication and provides a standard operating procedure for making decisions and responding to requests, reducing friction and making follow-through more manageable.
 
-• What kind of time and effort can you and/or your team invest in the data governance? For example, assessing incoming requests, preparing a datafile for sharing, maintaining a data sharing logbook. Note: If there is privacy-sensitive data involved, even the simplest DAPs have to take some legal considerations into
-account!
+## Who
+
+All members of the research team involved in handling data should contribute to or be consulted when defining the framework. The principal investigator (PI) plays a central role in establishing and upholding data governance.
+
+## When
+
+It is most effective to develop the framework in detail as data sharing and reuse approach. However, discussing goals and aspirations earlier in the project helps ensure that research data management decisions support these long-term objectives.
+
+## Where
+
+Documents related to data governance can be made publicly available alongside the data package in the chosen repository, providing transparency and guidance for future users.
+
+## How
+
+When you’re ready to start sharing your data, you can set up a detailed Data Access Protocol (DAP) that outlines data governance for yourself, your research team, and potential re-users.
+
+A DAP can cover many topics, and it will require you and/or your project team to decide what is relevant and appropriate for your data. You can make it as simple or as elaborate as you like.
+
+It would help to reflect on the following points:
+
+- **Goals**: What would you like to achieve by sharing your data? Some examples include citations/acknowledgments, co-authorship, or collaboration. Specify this in the DAP so end-users understand their obligations.
+
+- **Resources**: How much time and effort can you and/or your team invest in data governance? Consider tasks such as assessing incoming requests, preparing datasets for sharing, and maintaining a data sharing logbook. _Note_: If privacy-sensitive data are involved, even the simplest DAPs must consider legal requirements.
+
+Some suggestions for sections in your DAP include:
+
+- Data Ownership / License & Copyright
+- Roles & Responsibilities
+- Terms & Conditions
+- Data Request & Review Procedure
+- Publication & Authorship Guidelines
+- Disclaimers & Liabilities
+
+You may also want to provide documents such as a _Data Request Form_ and _Publication Checklist_ for end users. These can be included in the DAP appendices and made available separately for easy access.
+
+## Examples
+
+### UU/UMCU Projects:
+
+- PROactive Cohort Study's [Data Access Protocol](https://dataverse.nl/file.xhtml?fileId=141206&version=3.0)
+- YOUth Cohort Study's [Data Access & Publication Guidelines](https://www.uu.nl/sites/default/files/DataAccessProtocol_YOUth_240923.pdf) 
+
+### Non-UU/UMCU Projects:
+
+- L-CID's [Data Sharing Protocol](https://www.developmentmatters.nl/data-access/), scroll down to _Request Access To Our Data_
+- NTR's [Data Sharing Procedures](https://ntr-data-request.psy.vu.nl/submitting-a-data-sharing-request.html)
+- TRAILS' [Data Request & Publication Plan](https://www.trails.nl/en/researchers/working-with-trails)
+
+
+
+

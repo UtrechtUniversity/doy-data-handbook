@@ -1,18 +1,50 @@
 # Data Publication {.unnumbered}
-!["Researchers can be reluctant to share their data publicly because of real and/or perceived individual costs.
-Illustration credit: Ainsley Seago"](images/DataStorage.png)
 
-When publishing (meta)data, you want to make it findable and reusable. The data (and information about the data) can be used by others for their own purposes. It's up to you to specify the terms and conditions for access and reuse.
+![Researchers can be reluctant to share their data publicly because of real and/or perceived individual costs.
+Illustration credit: Ainsley Seago](images/DataStorage.png)
 
-Note that your data need not be 'open' to be FAIR! The data files themselves can be placed under restricted access (or retained internally) while the metadata and documentation are openly published. Once any data sharing agreements are signed, the data files an be transferred according to best practices.
+## What 
 
-When publishing (meta)data, you will receive a landing page for your dataset and a DOI (persistent identifier) that makes it findable and citeable. When you include your metadata and documentation, you improve accessibility and reusability.
+With Data Publishing, we're making (meta)data findable and reusable for the public beyond the original project. This is different from [Data Archiving](https://utrechtuniversity.github.io/doy-data-handbook/archiving.html), which is primarily internal and aimed at verifiability and integrity.
+
+::: {.callout-tip}
+Remember that your data does not have to be 'open' to be FAIR! 
+
+You want to make your data... 'as open as possible, as closed as necessary' ([European Commission](https://ec.europa.eu/research/participants/docs/h2020-funding-guide/cross-cutting-issues/open-access-data-management/data-management_en.htm)).
+:::
+
+## Why 
+
+The (meta)data can be reused by others for their own research purposes, supporting collaboration and open science. Increasingly, funders and journals also require published (meta)data or data availability statements as part of research outputs. 
+
+## Who 
+
+Typically, data publishing is overseen by Principal Investigator (PI) for a large project or the lead researcher for a manuscript. You can approach a data supporter at your faculty or the University Library to help you with preparing a data package.
+
+## When 
+
+It would be appropriate to carry out data publishing at the end of your project. However, if your repository allows updates to the data package, you can publish at any stage. Publishing earlier can be beneficial, as it provides room to develop and refine the data package over time rather than relying on a last-minute effort.
+
+## Where 
+
+You can use the UU [Repository Finder](https://tools.uu.nl/repository-decision-tool/) to select an appropriate publishing platform. 
+For the DoY Community, DataverseNL & YODA would be suitable repositories.
+
+When you publish (meta)data on these platforms, you receive a landing page for your dataset and a DOI (persistent identifier), making it easily findable and citable.
+
+## How
+
+Once you've selected a repository using the UU [Repository Finder](https://tools.uu.nl/repository-decision-tool/), you can work on: 
+
+- Adding [structured metadata](https://utrechtuniversity.github.io/doy-data-handbook/metadata.html) and uploading [documentation](https://utrechtuniversity.github.io/doy-data-handbook/documentation.html), which further enhance the dataset’s accessibility and reusability.
+
+- The data files themselves can be withheld internally or placed under restricted access, while the metadata and documentation are openly published. Once any data sharing agreements are signed, the data can be [shared](https://utrechtuniversity.github.io/doy-data-handbook/sharing.html) using the appropriate tool/infrastructure.
 
 ## Examples
 
-- Nijhof, Sanne; Putte, Elise van de; Hoefnagels, Johanna Wilhelmina, 2021, "PROactive Cohort Study", https://doi.org/10.34894/FXUGHW, DataverseNL, V3
-- Isabelle van der Linden; Henk Schipper; Sanne Nijhof; Kors van der Ent, 2024, "SMART-Youth: Data", https://doi.org/10.34894/FCBXSI, DataverseNL, V1 
+The following data publications are aligned with the 'as open as possible, as closed as necessary' ([European Commission](https://ec.europa.eu/research/participants/docs/h2020-funding-guide/cross-cutting-issues/open-access-data-management/data-management_en.htm)) principle:   
 
-## Tools
+- Nijhof, Sanne; Putte, Elise van de; Hoefnagels, Johanna Wilhelmina, 2021, "PROactive Cohort Study", <https://doi.org/10.34894/FXUGHW>, DataverseNL, V3
 
-You can use the UU Data Repository Finder and see which data repository might be most suitable for publishing your project.
+- Isabelle van der Linden; Henk Schipper; Sanne Nijhof; Kors van der Ent, 2024, "SMART-Youth: Data", <https://doi.org/10.34894/FCBXSI>, DataverseNL, V1 
+

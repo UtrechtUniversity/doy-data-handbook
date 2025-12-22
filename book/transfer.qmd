@@ -1,0 +1,52 @@
+# Data Transfer {.unnumbered}
+
+![](images/birds-of-open-data.jpg)
+
+<figcaption><a href="https://the-turing-way.netlify.app/">The Turing Way</a> project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: <a href="https://doi.org/10.5281/zenodo.3332807">10.5281/zenodo.3332807</a>.</figcaption>
+<br>
+
+## What
+
+Data Transfer refers to the process of making data available to an approved re-user, either by handing over the data directly or by providing secure access so they can work with it.
+
+## Why
+
+If your data are privacy-sensitive, they may be withheld internally or placed under restricted access at the publication stage. Since the data cannot be downloaded via the repository, alternative tools must be used to make the data available to the re-user. This process is typically accompanied by formal agreements and documentation.
+
+## Who
+
+The individuals responsible for reviewing data requests + preparing and transferring data, as specified in the Data Governance framework / Data Access Protocol. Privacy Officers may need to be consulted, and data stewards can provide support on appropriate procedures and tools.
+
+## When
+
+These procedures take place as data requests are received and preliminarily approved.
+
+## Where
+
+Within your project folder, it would be good practice to maintain a dedicated subfolder for materials related to data sharing. This can include, but need not be limited to:
+
+- a data sharing logbook
+- copies of data request forms, correspondence, and agreements
+- a copy of the shared dataset or the script used to generate the shared subset
+
+## How
+
+In order to share data with re-users, you will need to consider the following:
+
+1. **Information & Consent**: The information letters and informed consent forms provided to participants must clearly state whether data sharing and reuse are permitted.
+
+2. **Risk Assessment**: A Data Protection Impact Assessment (DPIA) may be required to determine whether data can be shared safely and under what conditions.
+
+3. **Legal Agreements**: Any transfer of data outside the university requires a Data Transfer Agreement (DTA) in line with the GDPR. The complexity of the DTA depends on the nature of the transfer, for example whether data are shared outside the EU.
+
+4. **Tools**: Appropriate tool(s) for data transfer should be selected based on the outcomes of the aforementioned assessments and reviews.
+
+### Tools
+
+#### SURFfilesender
+
+[SURFfilesender](https://filesender.surf.nl/) allows you to transfer large files (up to 1 TB) securely. The tool is GDPR-compliant and offers the option of encryption for additional security. You can log in using your institutional credentials. Moreover, you can provide guest access to users without an institutional account or eduID (for example, societal partners / external collaborators) if they need to send you files securely.
+
+#### Virtual Research Environments
+
+Virtual Research Environments (VREs) — such as those provided by [ResearchCloud](https://researchcloud.surf.nl/dashboard) (UU) and [anDREa](https://mydre.org/) (UMCU) — are preconfigured workspaces that enable collaboration on and reuse of data. These workspaces can be accessed from anywhere in the world via the provider’s web portal. Depending on your requirements, they can be configured with additional security measures, such as preventing data from being downloaded to a re-user’s computer.
