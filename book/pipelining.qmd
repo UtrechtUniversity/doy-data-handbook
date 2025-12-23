@@ -163,9 +163,7 @@ taskscheduler_delete("extract-data-once")
 
 #### Windows Batch File
 
-```{shell}
-#| eval: false
-
+```
 title batch script for automate-the-boring-things
 
 set startTime=%time%
