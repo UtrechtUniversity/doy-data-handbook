@@ -163,7 +163,7 @@ taskscheduler_delete("extract-data-once")
 
 #### Windows Batch File
 
-```{bash}
+```{shell}
 #| eval: false
 
 title batch script for automate-the-boring-things
