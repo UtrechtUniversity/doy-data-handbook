@@ -204,6 +204,17 @@
     ]
   },
   {
+    "objectID": "costs.html#when",
+    "href": "costs.html#when",
+    "title": "Costs",
+    "section": "When",
+    "text": "When\nPlan data management costs early - ideally during grant preparation - using a preliminary DMP to make storage, documentation, analysis, backup, and archiving needs explicit. This can serve as a basis for the Costs section in the offical DMP.",
+    "crumbs": [
+      "PLAN & FUND",
+      "Costs"
+    ]
+  },
+  {
     "objectID": "costs.html#who",
     "href": "costs.html#who",
     "title": "Costs",
@@ -314,534 +325,6 @@
     ]
   },
   {
-    "objectID": "naming-conventions.html#why-should-i-apply-a-naming-convention",
-    "href": "naming-conventions.html#why-should-i-apply-a-naming-convention",
-    "title": "Naming Conventions",
-    "section": "Why Should I Apply A Naming Convention?",
-    "text": "Why Should I Apply A Naming Convention?\nNames that are informative and useful for machines and humans are a step toward efficient data management and reproducible research. The more consistent and meaningful the name, the easier it will be to locate and identify things, understand what they contain, and (re)use them.",
-    "crumbs": [
-      "COLLECT & ANALYZE",
-      "Naming Conventions"
-    ]
-  },
-  {
-    "objectID": "naming-conventions.html#when-should-i-apply-a-naming-convention",
-    "href": "naming-conventions.html#when-should-i-apply-a-naming-convention",
-    "title": "Naming Conventions",
-    "section": "When Should I Apply A Naming Convention?",
-    "text": "When Should I Apply A Naming Convention?\nAim to select and implement a naming convention at the beginning of a project. If you want to retroactively apply a naming convention, there are several tools for bulk renaming.\nThe entire research team should agree on and adopt a naming convention. Document the choice of naming convention in the DMP, so others can refer to and grasp it quickly.",
-    "crumbs": [
-      "COLLECT & ANALYZE",
-      "Naming Conventions"
-    ]
-  },
-  {
-    "objectID": "naming-conventions.html#popular-naming-conventions",
-    "href": "naming-conventions.html#popular-naming-conventions",
-    "title": "Naming Conventions",
-    "section": "Popular Naming Conventions",
-    "text": "Popular Naming Conventions\nInstead of developing a naming convention from scratch, you can start with one that is already being used in programming and software development communities:\n\n\n\n\n\n\n\n\nNaming Covention\nExample\nDescription\n\n\n\n\noriginal name\nan awesome name\nN/A\n\n\nsnake_case\nan_awesome_name\nAll words are lowercase and separated by an underscore ( _ )\n\n\nkebab-case\nan-awesome-name\nAll words are lowercase and separated by a hyphen ( - )\n\n\nPascalCase\nAnAwesomeName\nAll words are capitalized. Spaces are not used.\n\n\ncamelCase\nanAwesomeName\nThe first word is lowercase, the remaining words are capitalized. Spaces are not used.",
-    "crumbs": [
-      "COLLECT & ANALYZE",
-      "Naming Conventions"
-    ]
-  },
-  {
-    "objectID": "naming-conventions.html#human-readable-names",
-    "href": "naming-conventions.html#human-readable-names",
-    "title": "Naming Conventions",
-    "section": "Human-Readable Names",
-    "text": "Human-Readable Names\nYou can tailor naming conventions like snake_case and PascalCase to suit your project and workflow. Determine what information is relevant (or not) to create meaningful names and how you can string this information together. Don’t forget to document this in your DMP!\n!!! note “Elements for Human-Readable Names”\nNames should be =&lt;25 characters long and can include:\n\n- Date of creation/update (`YYYY-MM-DD` or `YYYYMMDD`)\n- Description of content, like type of data\n- Initials of creator/reviewer\n- Project number or acronym\n- Location/coordinates\n- Version number (like `v2` or v2.2`)",
-    "crumbs": [
-      "COLLECT & ANALYZE",
-      "Naming Conventions"
-    ]
-  },
-  {
-    "objectID": "naming-conventions.html#machine-readable-names",
-    "href": "naming-conventions.html#machine-readable-names",
-    "title": "Naming Conventions",
-    "section": "Machine-Readable Names",
-    "text": "Machine-Readable Names\nWhen names are machine-readable, they can be efficiently processed by computers and software. This makes it easier to search for files and run operations that involve programming like extracting information from file names or working with regular expressions.\n!!! note “Avoid”\n- Spaces\n- Special characters like `$`, `@`, `%`, `#`, `&`, `*`, `!`, `/`, `\\`\n- Punction characters like `,`, `:`, `;`, `?`, `'`, `\"`\n- Accented characters",
-    "crumbs": [
-      "COLLECT & ANALYZE",
-      "Naming Conventions"
-    ]
-  },
-  {
-    "objectID": "naming-conventions.html#a-note-on-numbering-dates-versioning",
-    "href": "naming-conventions.html#a-note-on-numbering-dates-versioning",
-    "title": "Naming Conventions",
-    "section": "A Note on Numbering, Dates, Versioning",
-    "text": "A Note on Numbering, Dates, Versioning\n\nAppend numbers to the beginning of a name to enable sorting according to a logical structure. Use multiple digits like 01 or 001.\nDates should follow the ISO 8601 standard which is either YYYY-MM-DD or YYYYMMDD. Append dates to the beginning of names to enable sorting in chronological order.\nSpecify versions using ordinal numbers (1,2,3) for major revisions and decimals for minor changes (1.1, 1.2, 2.1, 2.2). Alternatively, you can specify versions with multiple digits like v01 and v02.",
-    "crumbs": [
-      "COLLECT & ANALYZE",
-      "Naming Conventions"
-    ]
-  },
-  {
-    "objectID": "naming-conventions.html#renaming-files",
-    "href": "naming-conventions.html#renaming-files",
-    "title": "Naming Conventions",
-    "section": "Renaming files",
-    "text": "Renaming files\nThe following tools enable renaming in bulk:\n\nBulk Rename Utility (Windows, free)\nRenamer (MacOS, paid)\nNameChanger, (MacOS, free)\nGPRename (Linux, free)",
-    "crumbs": [
-      "COLLECT & ANALYZE",
-      "Naming Conventions"
-    ]
-  },
-  {
-    "objectID": "naming-conventions.html#references",
-    "href": "naming-conventions.html#references",
-    "title": "Naming Conventions",
-    "section": "References",
-    "text": "References\n\nhttps://en.wikipedia.org/wiki/Naming_convention\nhttps://help.osf.io/article/146-file-naming\nhttps://rdm.elixir-belgium.org/file_naming.html\nhttps://khalilstemmler.com/blogs/camel-case-snake-case-pascal-case/\nhttps://dev.to/chaseadamsio/most-common-programming-case-types-30h9\nhttps://rdmkit.elixir-europe.org/data_organisation http://dataabinitio.com/?p=987\nhttps://dmeg.cessda.eu/Data-Management-Expert-Guide/2.-Organise-Document/File-naming-and-folder-structure\nhttps://annakrystalli.me/rrresearchACCE20/filenaming-view.html",
-    "crumbs": [
-      "COLLECT & ANALYZE",
-      "Naming Conventions"
-    ]
-  },
-  {
-    "objectID": "folder-structures.html",
-    "href": "folder-structures.html",
-    "title": "Folder Structures",
-    "section": "",
-    "text": "What\nWhether it’s on your computer or in the cloud, your project will likely be organized into folders and subfolders that contain your research materials.",
-    "crumbs": [
-      "COLLECT & ANALYZE",
-      "Folder Structures"
-    ]
-  },
-  {
-    "objectID": "folder-structures.html#how",
-    "href": "folder-structures.html#how",
-    "title": "Folder Structures",
-    "section": "How",
-    "text": "How\nFirst things first, remember to keep the naming convention you defined in mind and apply it consistently.\nNext, create a primary folder for your project. Thereafter, categorize similar materials as much as possible into subfolders. Within your subfolders, avoid creating more layers. Keep the hierarchy shallow, ideally around 3–4 levels in total\nThis is a general recommendation, the structure is flexible and can be customized. Ultimately, the aim to keep it user-friendly and avoid overcomplication.\n\nProject vs. Publication\nWe can distinguish between folder structures at the project level and the publication level. The former encompasses the entire research project, while the latter pertains to a single article or manuscript.\n\n\nProject-Level\n\nUMCU\nThe UMCU provides a pre-defined series of folders for projects stored within the Research Folder Structure (RFS).\n\n\nTonic Research Project Template\n The Tonic Research Project Template provides an example of a primary folder with subfolders organized in a logical manner, from administrative and methodological materials to data and analyses.\nSee: Thorsten Arendt, Mittal, D., Sehara, K., Cook, T., & Julien Colomb. (2023). Folder structure template for research repositories (v2.4). Zenodo. https://doi.org/10.5281/zenodo.7763694\n\n\nBIDS\n\nWhile it has been designed for neuroimaging projects, the Brain Imaging Data Structure (BIDS) offers inspiration for organizing experimental data, particularly when there are multiple participants and potentially multiple experimental sessions.\nSee: https://bids.neuroimaging.io/getting_started/folders_and_files/folders.html\n\n\n\nPublication-Level\n\nTIER Protocol\n The TIER Protocol specifies how research materials (data, code, and documentation) should be organized so that results can be fully reproduced. It is primarily aimed at projects that use copy-and-paste workflows, where results are generated in output files and then copied and pasted into manuscripts.\nSee: https://www.projecttier.org/tier-protocol/protocol-4-0/\n\n\nGood Enough Practices In Scientific Computing\n\nIf you’re using programming languages such as R and/or Python, best practices include containing your project within a single, clearly recognizable folder, organizing similar content into subfolders (read-only, human-generated, project-generated), and including key files such as a README, LICENSE, CITATION, and CHANGELOG.\nSee: Wilson G, Bryan J, Cranston K, Kitzes J, Nederbragt L, Teal TK (2017) Good enough practices in scientific computing. PLoS Comput Biol 13(6): e1005510. https://doi.org/10.1371/journal.pcbi.1005510\n\n\n\nTools\n\nDirectory Trees\n\nYou can use tools such as https://ascii-tree-generator.com/ to sketch out your folder structure in advance. This could useful for planning and discussion before creating the folders and subfolders.\nFor an existing project, you can also use the tree command to print the directory tree. This would be useful for inspection or copy-paste into README files.\n\n\nWindows\n\nNavigate to your project using cd path\\to\\your\\project\nThen enter tree /a /f &gt; tree.txt, where a is for (sub)directories and f includes files.\n\nMacOS/Linux\n\nNavigate to your project using cd /path/to/your/project\nThen enter tree -a &gt; tree.txt, where -a includes hidden files (files are otherwise included by default)\n\n\n\n\n\n\nTip\n\n\n\n\nYou may need to install the tree tool on your computer.\nWhen using the cd command on Windows, pay attention to slashes (\\ vs. /) or enclose your path in double quotes.\n\n\n\n\n\nR & Python\nThere are R packages and Python libraries dedicated to initializing project directories according to best practices. Each tool works a bit differently, so it’s worth exploring a few to see which one best suits your workflow.\n\nFor R, you can consult the CRAN Task View on Reproducible Research and scroll down to the Project Workflows section, which lists several relevant packages.\nFor Python, you can use Cookiecutter Data Science or explore other available Cookiecutter templates.\n\n\n\n\n\n\n\nTip\n\n\n\nYou can reach out to RDM Support for help in figuring out your project’s structure and workflow!",
-    "crumbs": [
-      "COLLECT & ANALYZE",
-      "Folder Structures"
-    ]
-  },
-  {
-    "objectID": "folder-structures.html#tools",
-    "href": "folder-structures.html#tools",
-    "title": "Folder Structures",
-    "section": "Tools",
-    "text": "Tools\nhere is are .zip files with the aforementioned folder streucture\nyou can also generate the folder structure using this command\nyou can also use the tree command to print the directory, you can use it for inspection or copy-paste into readme files",
-    "crumbs": [
-      "COLLECT & ANALYZE",
-      "Folder Structures"
-    ]
-  },
-  {
-    "objectID": "folder-structures.html#resources",
-    "href": "folder-structures.html#resources",
-    "title": "Folder Structures",
-    "section": "Resources",
-    "text": "Resources\nlinks to protocols? UMCU has the RFS..there is the Gen R fodler strcture, TIER protocol, BIDS that you can take inpiration from…\nhere are some analysis organization inspo",
-    "crumbs": [
-      "COLLECT & ANALYZE",
-      "Folder Structures"
-    ]
-  },
-  {
-    "objectID": "folder-structures.html#references",
-    "href": "folder-structures.html#references",
-    "title": "Folder Structures",
-    "section": "References",
-    "text": "References\ndirect references…",
-    "crumbs": [
-      "COLLECT & ANALYZE",
-      "Folder Structures"
-    ]
-  },
-  {
-    "objectID": "preferred-formats.html",
-    "href": "preferred-formats.html",
-    "title": "Preferred Formats",
-    "section": "",
-    "text": "What\nFile formats that offer the best long-term guarantees for usability and accessibility are considered preferred or sustainable formats.",
-    "crumbs": [
-      "COLLECT & ANALYZE",
-      "Preferred Formats"
-    ]
-  },
-  {
-    "objectID": "pipelining.html",
-    "href": "pipelining.html",
-    "title": "Data Pipelining",
-    "section": "",
-    "text": "What\nA data pipeline is a series of (automated) actions that ingest raw data from various sources and move it to a destination for storage and (eventual) analysis.",
-    "crumbs": [
-      "COLLECT & ANALYZE",
-      "Data Pipelining"
-    ]
-  },
-  {
-    "objectID": "pipelining.html#how-can-i-implement-a-data-pipeline-some-examples-for-inspiration",
-    "href": "pipelining.html#how-can-i-implement-a-data-pipeline-some-examples-for-inspiration",
-    "title": "Data Pipelining",
-    "section": "How can I implement a data pipeline? Some examples for inspiration",
-    "text": "How can I implement a data pipeline? Some examples for inspiration\n\nIf you data collection tools have APIs, they can be leveraged to extract data.\nFor example, Qualtrics has the qualtRics R package & pyQualtrics Python library which contain functions to automate exporting surveys.\nIf APIs are not available, you could use R/Python to automate the use of an internet browser using the RSelenium package / Selenium library. Imagine automating the clicks and typing of going to a specific website, logging in, clicking the download button.\nYou can use Windows Task Scheduler / cron / the taskscheduleR R package / cronR to schedule your scripts to run automatically, on a recurring basis as well (if needed).\nYou can also send emails with R & Python! Consider if you’ve ever had to contact participants because you noticed something wrong with their incoming data. You could implement these data checks with a script and automatically draft and send emails (from a template) to those participants who were flagged as having issues with their data.",
-    "crumbs": [
-      "COLLECT & ANALYZE",
-      "Data Pipelining"
-    ]
-  },
-  {
-    "objectID": "pipelining.html#qualtrics-r-package",
-    "href": "pipelining.html#qualtrics-r-package",
-    "title": "Data Pipelining",
-    "section": "QualtRics R package",
-    "text": "QualtRics R package\n\nlibrary(readr)\nlibrary(qualtRics)\n\nqualtrics_api_credentials(api_key = \"YOUR-QUALTRICS-API-KEY\", \n                          base_url = \"YOUR-QUALTRICS-BASE-URL\",\n                          overwrite = TRUE,\n                          install = TRUE)\n\nreadRenviron(\"~/.Renviron\")\n\nsurveys &lt;- all_surveys() \n\nsurvey_results &lt;- fetch_survey(surveyID = surveys$id[2], # you can also replace surveys$id[2] with \"&lt;SUVREY-ID&gt;\" \n                                  verbose = TRUE)\n\nwrite_csv(survey_results, paste0(\"path/to/folder/\", format(Sys.time(), \"%d-%m-%Y-%H.%M\"), \"_survey_results.csv\"))",
-    "crumbs": [
-      "COLLECT & ANALYZE",
-      "Data Pipelining"
-    ]
-  },
-  {
-    "objectID": "pipelining.html#taskscheduler-package",
-    "href": "pipelining.html#taskscheduler-package",
-    "title": "Data Pipelining",
-    "section": "taskscheduleR package",
-    "text": "taskscheduleR package\n\nlibrary(taskscheduleR)\n\nscheduled_script &lt;- \"path/to/folder/myscript.R\"\n\n## run script once within 120 seconds\n\ntaskscheduler_create(taskname = \"extract-data-once\", rscript = scheduled_script,\n                     schedule = \"ONCE\", starttime = format(Sys.time() + 120, \"%H:%M\"))\n\n## Run every 5 minutes, starting from 10:40\n\ntaskscheduler_create(taskname = \"extract-data-5min\", rscript = scheduled_script,\n                     schedule = \"MINUTE\", starttime = \"10:40\", modifier = 5)\n\n## delete tasks\n\ntaskscheduler_delete(\"extract-data-once\")",
-    "crumbs": [
-      "COLLECT & ANALYZE",
-      "Data Pipelining"
-    ]
-  },
-  {
-    "objectID": "metadata.html",
-    "href": "metadata.html",
-    "title": "Metadata",
-    "section": "",
-    "text": "What\nMetadata refers to structured and machine-readable information that describes one or more aspects of your research data. In other words, metadata = “data about data.”",
-    "crumbs": [
-      "COLLECT & ANALYZE",
-      "Metadata"
-    ]
-  },
-  {
-    "objectID": "metadata.html#data-level-metadata",
-    "href": "metadata.html#data-level-metadata",
-    "title": "Metadata",
-    "section": "Data-Level Metadata",
-    "text": "Data-Level Metadata\n• Data origin: experimental, observational, raw or derived, physical collections, models, images, etc. • Data type: integer, Boolean, character, floating point, etc. • Instrument(s) used • Data acquisition details: sensor deployment methods, experimental design, sensor calibration methods, etc. • File type: CSV, mat, xlsx, tiff, HDF, NetCDF, etc. • Data processing methods, software used • Data processing scripts or codes • Dataset parameter list, including ⚬ Variable names ⚬ Description of each variable ⚬ Units\nThis type of metadata is more granular and describes the data (variables) and dataset in detail.",
-    "crumbs": [
-      "COLLECT & ANALYZE",
-      "Metadata"
-    ]
-  },
-  {
-    "objectID": "documentation.html",
-    "href": "documentation.html",
-    "title": "Documentation",
-    "section": "",
-    "text": "What\nDocumentation refers to contextual information about your research data. It complements (structured) metadata by providing additional guidance for understanding and using the data.",
-    "crumbs": [
-      "COLLECT & ANALYZE",
-      "Documentation"
-    ]
-  },
-  {
-    "objectID": "codebooks.html",
-    "href": "codebooks.html",
-    "title": "Codebooks",
-    "section": "",
-    "text": "What\nA codebook (or data dictionary) is a type of data-level metadata. A good codebook is both human-readable and machine-readable.",
-    "crumbs": [
-      "COLLECT & ANALYZE",
-      "Codebooks"
-    ]
-  },
-  {
-    "objectID": "codebooks.html#codebook-r-package",
-    "href": "codebooks.html#codebook-r-package",
-    "title": "Codebooks",
-    "section": "",
-    "text": "library(qualtRics)\nlibrary(readr)\nlibrary(dplyr)\nlibrary(codebook)\nlibrary(writexl)\n\nsurveys &lt;- all_surveys()\n\nsurvey_results &lt;- fetch_survey(surveyID = surveys$id[2], # you can also replace surveys$id[2] with \"&lt;SUVREY-ID&gt;\"\n                               verbose = TRUE)\n\nsurvey_results &lt;- select(survey_results, -c(1:17))\n\n# survey_questions() retrieves a data frame containing questions and question IDs for a survey;\nsurvey_questions &lt;- survey_questions(surveyID = surveys$id[2])\nsurvey_questions &lt;- select(survey_questions, -c(1, 4))\nsurvey_questions &lt;- slice(survey_questions, -1)\n  \n# generate codebook\n\ncodebook &lt;- codebook_table(survey_results)\n\ncodebook &lt;- rename(codebook, qname = name)\n\ncodebook &lt;- full_join(survey_questions, codebook, by = \"qname\")\n\nwrite_xlsx(codebook, \"documentation/codebook-demo.xlsx\")",
-    "crumbs": [
-      "COLLECT & ANALYZE",
-      "Codebooks"
-    ]
-  },
-  {
-    "objectID": "storage.html",
-    "href": "storage.html",
-    "title": "Data Storage",
-    "section": "",
-    "text": "What\nWhen discussing storage, we refer to the location of ‘active’ data, which is in use and may change throughout the research project. The related concepts of archiving and publishing refer to where the data will be saved or deposited after the project is completed.",
-    "crumbs": [
-      "PRESERVE & STORE",
-      "Data Storage"
-    ]
-  },
-  {
-    "objectID": "archiving.html",
-    "href": "archiving.html",
-    "title": "Data Archiving",
-    "section": "",
-    "text": "What\nData archiving is the long-term, secure preservation of research data. At this stage, the data is no longer being ‘actively’ used.",
-    "crumbs": [
-      "PRESERVE & STORE",
-      "Data Archiving"
-    ]
-  },
-  {
-    "objectID": "publication.html",
-    "href": "publication.html",
-    "title": "Data Publication",
-    "section": "",
-    "text": "What\nWith Data Publishing, we’re making (meta)data findable and reusable for the public beyond the original project. This is different from Data Archiving, which is primarily internal and aimed at verifiability and integrity.",
-    "crumbs": [
-      "PUBLISH & SHARE",
-      "Data Publication"
-    ]
-  },
-  {
-    "objectID": "publication.html#examples",
-    "href": "publication.html#examples",
-    "title": "Data Publication",
-    "section": "Examples",
-    "text": "Examples\nThe following data publications are aligned with the ‘as open as possible, as closed as necessary’ (European Commission) principle:\n\nNijhof, Sanne; Putte, Elise van de; Hoefnagels, Johanna Wilhelmina, 2021, “PROactive Cohort Study”, https://doi.org/10.34894/FXUGHW, DataverseNL, V3\nIsabelle van der Linden; Henk Schipper; Sanne Nijhof; Kors van der Ent, 2024, “SMART-Youth: Data”, https://doi.org/10.34894/FCBXSI, DataverseNL, V1",
-    "crumbs": [
-      "PUBLISH & SHARE",
-      "Data Publication"
-    ]
-  },
-  {
-    "objectID": "publication.html#tools",
-    "href": "publication.html#tools",
-    "title": "Data Publication",
-    "section": "Tools",
-    "text": "Tools\nYou can use the UU Data Repository Finder and see which data repository might be most suitable for publishing your project.",
-    "crumbs": [
-      "PUBLISH & SHARE",
-      "Data Publication"
-    ]
-  },
-  {
-    "objectID": "sharing.html",
-    "href": "sharing.html",
-    "title": "Data Sharing",
-    "section": "",
-    "text": "Tools\nWhen sharing (personal) data with collaborators outside the university, there are a couple of important considerations:",
-    "crumbs": [
-      "PUBLISH & SHARE",
-      "Data Sharing"
-    ]
-  },
-  {
-    "objectID": "sharing.html#tools",
-    "href": "sharing.html#tools",
-    "title": "Data Sharing",
-    "section": "",
-    "text": "SURFfilesender\nSURFFileSender is a reliable tool to send data to another user. You can send large files securely and the option for encryption makes it more safe.\n\n\nVirtual Research Environments\nVREs, for example - AnDREa & ResearchCloud, is a temporary computing environment that is secure and contains the necessary tools and files for users to carry out some research activities.",
-    "crumbs": [
-      "PUBLISH & SHARE",
-      "Data Sharing"
-    ]
-  },
-  {
-    "objectID": "governance.html",
-    "href": "governance.html",
-    "title": "Data Governance",
-    "section": "",
-    "text": "What\nData Governance defines how data are managed beyond the scope of the original project by setting out roles and responsibilities, as well as processes and policies. It ensures data are handled consistently and responsibly in support of ethical use, compliance, and long-term value.",
-    "crumbs": [
-      "PUBLISH & SHARE",
-      "Data Governance"
-    ]
-  },
-  {
-    "objectID": "trainings.html",
-    "href": "trainings.html",
-    "title": "Trainings",
-    "section": "",
-    "text": "2024",
-    "crumbs": [
-      "APPENDIX",
-      "Trainings"
-    ]
-  },
-  {
-    "objectID": "trainings.html#section",
-    "href": "trainings.html#section",
-    "title": "Trainings",
-    "section": "",
-    "text": "Managing Qualitative Data",
-    "crumbs": [
-      "APPENDIX",
-      "Trainings"
-    ]
-  },
-  {
-    "objectID": "trainings.html#section-1",
-    "href": "trainings.html#section-1",
-    "title": "Trainings",
-    "section": "2023",
-    "text": "2023\n\nCAS Data Collection",
-    "crumbs": [
-      "APPENDIX",
-      "Trainings"
-    ]
-  },
-  {
-    "objectID": "trainings.html#section-2",
-    "href": "trainings.html#section-2",
-    "title": "Trainings",
-    "section": "2022",
-    "text": "2022\n\nCAS Data Collection",
-    "crumbs": [
-      "APPENDIX",
-      "Trainings"
-    ]
-  },
-  {
-    "objectID": "trainings.html#section-3",
-    "href": "trainings.html#section-3",
-    "title": "Trainings",
-    "section": "2021",
-    "text": "2021\n\nCAS Data Collection",
-    "crumbs": [
-      "APPENDIX",
-      "Trainings"
-    ]
-  },
-  {
-    "objectID": "presentations.html",
-    "href": "presentations.html",
-    "title": "Presentations",
-    "section": "",
-    "text": "2023",
-    "crumbs": [
-      "APPENDIX",
-      "Presentations"
-    ]
-  },
-  {
-    "objectID": "presentations.html#section",
-    "href": "presentations.html#section",
-    "title": "Presentations",
-    "section": "",
-    "text": "Open Science on Track\n\n\n\nDoY Network Lunch",
-    "crumbs": [
-      "APPENDIX",
-      "Presentations"
-    ]
-  },
-  {
-    "objectID": "presentations.html#section-1",
-    "href": "presentations.html#section-1",
-    "title": "Presentations",
-    "section": "2022",
-    "text": "2022\n\nOS Platform",
-    "crumbs": [
-      "APPENDIX",
-      "Presentations"
-    ]
-  },
-  {
-    "objectID": "presentations.html#section-2",
-    "href": "presentations.html#section-2",
-    "title": "Presentations",
-    "section": "2021",
-    "text": "2021\n\nChild Health\n\n\n\nOSCoffee",
-    "crumbs": [
-      "APPENDIX",
-      "Presentations"
-    ]
-  },
-  {
-    "objectID": "searching.html",
-    "href": "searching.html",
-    "title": "Searching for Data",
-    "section": "",
-    "text": "What\nAs open science becomes the standard in academia, more (meta)data are published in repositories across the web. Before creating new data, it is therefore worth searching for existing datasets that may be reused or built upon.",
-    "crumbs": [
-      "DISCOVER & REUSE",
-      "Searching for Data"
-    ]
-  },
-  {
-    "objectID": "searching.html#why",
-    "href": "searching.html#why",
-    "title": "Searching for Data",
-    "section": "Why",
-    "text": "Why\nSearching for existing data can save time and resources while enabling comparison and improvements in research methodology and data quality. That being said, existing datasets are often collected for specific study designs and this may require adapting your research questions or methods to ensure compatibility.",
-    "crumbs": [
-      "DISCOVER & REUSE",
-      "Searching for Data"
-    ]
-  },
-  {
-    "objectID": "searching.html#who",
-    "href": "searching.html#who",
-    "title": "Searching for Data",
-    "section": "Who",
-    "text": "Who\nResearchers at all career stages can benefit from searching for existing data. Librarians and data stewards can provide support in identifying suitable repositories and search strategies.",
-    "crumbs": [
-      "DISCOVER & REUSE",
-      "Searching for Data"
-    ]
-  },
-  {
-    "objectID": "searching.html#when",
-    "href": "searching.html#when",
-    "title": "Searching for Data",
-    "section": "When",
-    "text": "When\nSearching for data is especially useful in the early stages of a project, such as during proposal writing or study design. However, it can also be valuable later on, for example when validating results, performing comparisons, or extending analyses.",
-    "crumbs": [
-      "DISCOVER & REUSE",
-      "Searching for Data"
-    ]
-  },
-  {
-    "objectID": "searching.html#where",
-    "href": "searching.html#where",
-    "title": "Searching for Data",
-    "section": "Where",
-    "text": "Where\nData can be deposited in generic or domain-specific repositories. They may also be curated and described within catalogues.\nExamples of generic repositories include DataVerseNL, Yoda, and Zenodo.\nFor the social sciences and humanities, national infrastructures such as ODISSEI and CLARIAH serve as catalogues that provide access to datasets.\nRegistries such as re3data and FAIRsharing can help you identify suitable repositories for your discipline.\nIn addition, the following discovery platforms can help you find datasets across repositories:\n\nOpenAlex: a database containing a wide range of scholarly outputs, including datasets.\n\nDataCite Commons: a discovery service aimed at making research outputs findable and connected.\n\nOpenAIRE and its Dutch counterpart, the Netherlands Research Portal.\n\nOpen Data Europe: a portal providing access to a large collection of European datasets from the EU and beyond.",
-    "crumbs": [
-      "DISCOVER & REUSE",
-      "Searching for Data"
-    ]
-  },
-  {
-    "objectID": "searching.html#how",
-    "href": "searching.html#how",
-    "title": "Searching for Data",
-    "section": "How",
-    "text": "How\nYou can search for data by constructing BOOLEAN search queries, just as you would in a systematic literature search. Operators such as AND, OR, NOT, and wildcards (e.g. *) can be used to combine concepts, broaden or narrow results, and capture variations of search terms.",
-    "crumbs": [
-      "DISCOVER & REUSE",
-      "Searching for Data"
-    ]
-  },
-  {
-    "objectID": "searching.html#references",
-    "href": "searching.html#references",
-    "title": "Searching for Data",
-    "section": "References",
-    "text": "References\n\nhttps://www.uu.nl/en/research/research-data-management/tools-services/finding-existing-data\nhttps://dmeg.cessda.eu/Data-Management-Expert-Guide/7.-Discover/The-process-of-data-discovery\nhttps://rdm.vu.nl/topics/finding-existing-data.html",
-    "crumbs": [
-      "DISCOVER & REUSE",
-      "Searching for Data"
-    ]
-  },
-  {
-    "objectID": "costs.html#when",
-    "href": "costs.html#when",
-    "title": "Costs",
-    "section": "When",
-    "text": "When\nPlan data management costs early - ideally during grant preparation - using a preliminary DMP to make storage, documentation, analysis, backup, and archiving needs explicit. This can serve as a basis for the Costs section in the offical DMP.",
-    "crumbs": [
-      "PLAN & FUND",
-      "Costs"
-    ]
-  },
-  {
     "objectID": "naming-conventions.html#why",
     "href": "naming-conventions.html#why",
     "title": "Naming Conventions",
@@ -886,6 +369,28 @@
     ]
   },
   {
+    "objectID": "naming-conventions.html#references",
+    "href": "naming-conventions.html#references",
+    "title": "Naming Conventions",
+    "section": "References",
+    "text": "References\n\nhttps://en.wikipedia.org/wiki/Naming_convention\nhttps://help.osf.io/article/146-file-naming\nhttps://rdm.elixir-belgium.org/file_naming.html\nhttps://khalilstemmler.com/blogs/camel-case-snake-case-pascal-case/\nhttps://dev.to/chaseadamsio/most-common-programming-case-types-30h9\nhttps://rdmkit.elixir-europe.org/data_organisation http://dataabinitio.com/?p=987\nhttps://dmeg.cessda.eu/Data-Management-Expert-Guide/2.-Organise-Document/File-naming-and-folder-structure\nhttps://annakrystalli.me/rrresearchACCE20/filenaming-view.html",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Naming Conventions"
+    ]
+  },
+  {
+    "objectID": "folder-structures.html",
+    "href": "folder-structures.html",
+    "title": "Folder Structures",
+    "section": "",
+    "text": "What\nWhether it’s on your computer or in the cloud, your project will likely be organized into folders and subfolders that contain your research materials.",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Folder Structures"
+    ]
+  },
+  {
     "objectID": "folder-structures.html#why",
     "href": "folder-structures.html#why",
     "title": "Folder Structures",
@@ -927,6 +432,28 @@
     "crumbs": [
       "COLLECT & ANALYZE",
       "Folder Structures"
+    ]
+  },
+  {
+    "objectID": "folder-structures.html#how",
+    "href": "folder-structures.html#how",
+    "title": "Folder Structures",
+    "section": "How",
+    "text": "How\nFirst things first, remember to keep the naming convention you defined in mind and apply it consistently.\nNext, create a primary folder for your project. Thereafter, categorize similar materials as much as possible into subfolders. Within your subfolders, avoid creating more layers. Keep the hierarchy shallow, ideally around 3–4 levels in total\nThis is a general recommendation, the structure is flexible and can be customized. Ultimately, the aim to keep it user-friendly and avoid overcomplication.\n\nProject vs. Publication\nWe can distinguish between folder structures at the project level and the publication level. The former encompasses the entire research project, while the latter pertains to a single article or manuscript.\n\n\nProject-Level\n\nUMCU\nThe UMCU provides a pre-defined series of folders for projects stored within the Research Folder Structure (RFS).\n\n\nTonic Research Project Template\n The Tonic Research Project Template provides an example of a primary folder with subfolders organized in a logical manner, from administrative and methodological materials to data and analyses.\nSee: Thorsten Arendt, Mittal, D., Sehara, K., Cook, T., & Julien Colomb. (2023). Folder structure template for research repositories (v2.4). Zenodo. https://doi.org/10.5281/zenodo.7763694\n\n\nBIDS\n\nWhile it has been designed for neuroimaging projects, the Brain Imaging Data Structure (BIDS) offers inspiration for organizing experimental data, particularly when there are multiple participants and potentially multiple experimental sessions.\nSee: https://bids.neuroimaging.io/getting_started/folders_and_files/folders.html\n\n\n\nPublication-Level\n\nTIER Protocol\n The TIER Protocol specifies how research materials (data, code, and documentation) should be organized so that results can be fully reproduced. It is primarily aimed at projects that use copy-and-paste workflows, where results are generated in output files and then copied and pasted into manuscripts.\nSee: https://www.projecttier.org/tier-protocol/protocol-4-0/\n\n\nGood Enough Practices In Scientific Computing\n\nIf you’re using programming languages such as R and/or Python, best practices include containing your project within a single, clearly recognizable folder, organizing similar content into subfolders (read-only, human-generated, project-generated), and including key files such as a README, LICENSE, CITATION, and CHANGELOG.\nSee: Wilson G, Bryan J, Cranston K, Kitzes J, Nederbragt L, Teal TK (2017) Good enough practices in scientific computing. PLoS Comput Biol 13(6): e1005510. https://doi.org/10.1371/journal.pcbi.1005510\n\n\n\nTools\n\nDirectory Trees\n\nYou can use tools such as https://ascii-tree-generator.com/ to sketch out your folder structure in advance. This could useful for planning and discussion before creating the folders and subfolders.\nFor an existing project, you can also use the tree command to print the directory tree. This would be useful for inspection or copy-paste into README files.\n\n\nWindows\n\nNavigate to your project using cd path\\to\\your\\project\nThen enter tree /a /f &gt; tree.txt, where a is for (sub)directories and f includes files.\n\nMacOS/Linux\n\nNavigate to your project using cd /path/to/your/project\nThen enter tree -a &gt; tree.txt, where -a includes hidden files (files are otherwise included by default)\n\n\n\n\n\n\nTip\n\n\n\n\nYou may need to install the tree tool on your computer.\nWhen using the cd command on Windows, pay attention to slashes (\\ vs. /) or enclose your path in double quotes.\n\n\n\n\n\nR & Python\nThere are R packages and Python libraries dedicated to initializing project directories according to best practices. Each tool works a bit differently, so it’s worth exploring a few to see which one best suits your workflow.\n\nFor R, you can consult the CRAN Task View on Reproducible Research and scroll down to the Project Workflows section, which lists several relevant packages.\nFor Python, you can use Cookiecutter Data Science or explore other available Cookiecutter templates.\n\n\n\n\n\n\n\nTip\n\n\n\nYou can reach out to RDM Support for help in figuring out your project’s structure and workflow!",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Folder Structures"
+    ]
+  },
+  {
+    "objectID": "preferred-formats.html",
+    "href": "preferred-formats.html",
+    "title": "Preferred Formats",
+    "section": "",
+    "text": "What\nFile formats that offer the best long-term guarantees for usability and accessibility are considered preferred or sustainable formats.",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Preferred Formats"
     ]
   },
   {
@@ -996,6 +523,17 @@
     ]
   },
   {
+    "objectID": "pipelining.html",
+    "href": "pipelining.html",
+    "title": "Data Pipelining",
+    "section": "",
+    "text": "What\nA data pipeline is a series of (automated) actions that ingest raw data from various sources and move it to a destination for storage and (eventual) analysis.",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Data Pipelining"
+    ]
+  },
+  {
     "objectID": "pipelining.html#why",
     "href": "pipelining.html#why",
     "title": "Data Pipelining",
@@ -1048,6 +586,17 @@
     "crumbs": [
       "COLLECT & ANALYZE",
       "Data Pipelining"
+    ]
+  },
+  {
+    "objectID": "metadata.html",
+    "href": "metadata.html",
+    "title": "Metadata",
+    "section": "",
+    "text": "What\nMetadata refers to structured and machine-readable information that describes one or more aspects of your research data. In other words, metadata = “data about data.”",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Metadata"
     ]
   },
   {
@@ -1106,6 +655,17 @@
     ]
   },
   {
+    "objectID": "documentation.html",
+    "href": "documentation.html",
+    "title": "Documentation",
+    "section": "",
+    "text": "What\nDocumentation refers to contextual information about your research data. It complements (structured) metadata by providing additional guidance for understanding and using the data.",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Documentation"
+    ]
+  },
+  {
     "objectID": "documentation.html#why",
     "href": "documentation.html#why",
     "title": "Documentation",
@@ -1158,6 +718,17 @@
     "crumbs": [
       "COLLECT & ANALYZE",
       "Documentation"
+    ]
+  },
+  {
+    "objectID": "codebooks.html",
+    "href": "codebooks.html",
+    "title": "Codebooks",
+    "section": "",
+    "text": "What\nA codebook (or data dictionary) is a type of data-level metadata. A good codebook is both human-readable and machine-readable.",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Codebooks"
     ]
   },
   {
@@ -1293,6 +864,17 @@
     ]
   },
   {
+    "objectID": "storage.html",
+    "href": "storage.html",
+    "title": "Data Storage",
+    "section": "",
+    "text": "What\nWhen discussing storage, we refer to the location of ‘active’ data, which is in use and may change throughout the research project. The related concepts of archiving and publishing refer to where the data will be saved or deposited after the project is completed.",
+    "crumbs": [
+      "PRESERVE & STORE",
+      "Data Storage"
+    ]
+  },
+  {
     "objectID": "storage.html#why",
     "href": "storage.html#why",
     "title": "Data Storage",
@@ -1348,6 +930,17 @@
     ]
   },
   {
+    "objectID": "archiving.html",
+    "href": "archiving.html",
+    "title": "Data Archiving",
+    "section": "",
+    "text": "What\nData archiving is the long-term, secure preservation of research data. At this stage, the data is no longer being ‘actively’ used.",
+    "crumbs": [
+      "PRESERVE & STORE",
+      "Data Archiving"
+    ]
+  },
+  {
     "objectID": "archiving.html#why",
     "href": "archiving.html#why",
     "title": "Data Archiving",
@@ -1400,6 +993,17 @@
     "crumbs": [
       "PRESERVE & STORE",
       "Data Archiving"
+    ]
+  },
+  {
+    "objectID": "governance.html",
+    "href": "governance.html",
+    "title": "Data Governance",
+    "section": "",
+    "text": "What\nData Governance defines how data are managed beyond the scope of the original project by setting out roles and responsibilities, as well as processes and policies. It ensures data are handled consistently and responsibly in support of ethical use, compliance, and long-term value.",
+    "crumbs": [
+      "PUBLISH & SHARE",
+      "Data Governance"
     ]
   },
   {
@@ -1469,6 +1073,17 @@
     ]
   },
   {
+    "objectID": "publication.html",
+    "href": "publication.html",
+    "title": "Data Publication",
+    "section": "",
+    "text": "What\nWith Data Publishing, we’re making (meta)data findable and reusable for the public beyond the original project. This is different from Data Archiving, which is primarily internal and aimed at verifiability and integrity.",
+    "crumbs": [
+      "PUBLISH & SHARE",
+      "Data Publication"
+    ]
+  },
+  {
     "objectID": "publication.html#what",
     "href": "publication.html#what",
     "title": "Data Publication",
@@ -1529,6 +1144,17 @@
     "title": "Data Publication",
     "section": "How",
     "text": "How\nOnce you’ve selected a repository using the UU Repository Finder, you can work on:\n\nAdding structured metadata and uploading documentation, which further enhance the dataset’s accessibility and reusability.\nThe data files themselves can be withheld internally or placed under restricted access, while the metadata and documentation are openly published. Once any data sharing agreements are signed, the data can be shared using the appropriate tool/infrastructure.",
+    "crumbs": [
+      "PUBLISH & SHARE",
+      "Data Publication"
+    ]
+  },
+  {
+    "objectID": "publication.html#examples",
+    "href": "publication.html#examples",
+    "title": "Data Publication",
+    "section": "Examples",
+    "text": "Examples\nThe following data publications are aligned with the ‘as open as possible, as closed as necessary’ (European Commission) principle:\n\nNijhof, Sanne; Putte, Elise van de; Hoefnagels, Johanna Wilhelmina, 2021, “PROactive Cohort Study”, https://doi.org/10.34894/FXUGHW, DataverseNL, V3\nIsabelle van der Linden; Henk Schipper; Sanne Nijhof; Kors van der Ent, 2024, “SMART-Youth: Data”, https://doi.org/10.34894/FCBXSI, DataverseNL, V1",
     "crumbs": [
       "PUBLISH & SHARE",
       "Data Publication"
@@ -1598,6 +1224,182 @@
     "crumbs": [
       "PUBLISH & SHARE",
       "Data Transfer"
+    ]
+  },
+  {
+    "objectID": "searching.html",
+    "href": "searching.html",
+    "title": "Searching for Data",
+    "section": "",
+    "text": "What\nAs open science becomes the standard in academia, more (meta)data are published in repositories across the web. Before creating new data, it is therefore worth searching for existing datasets that may be reused or built upon.",
+    "crumbs": [
+      "DISCOVER & REUSE",
+      "Searching for Data"
+    ]
+  },
+  {
+    "objectID": "searching.html#why",
+    "href": "searching.html#why",
+    "title": "Searching for Data",
+    "section": "Why",
+    "text": "Why\nSearching for existing data can save time and resources while enabling comparison and improvements in research methodology and data quality. That being said, existing datasets are often collected for specific study designs and this may require adapting your research questions or methods to ensure compatibility.",
+    "crumbs": [
+      "DISCOVER & REUSE",
+      "Searching for Data"
+    ]
+  },
+  {
+    "objectID": "searching.html#who",
+    "href": "searching.html#who",
+    "title": "Searching for Data",
+    "section": "Who",
+    "text": "Who\nResearchers at all career stages can benefit from searching for existing data. Librarians and data stewards can provide support in identifying suitable repositories and search strategies.",
+    "crumbs": [
+      "DISCOVER & REUSE",
+      "Searching for Data"
+    ]
+  },
+  {
+    "objectID": "searching.html#when",
+    "href": "searching.html#when",
+    "title": "Searching for Data",
+    "section": "When",
+    "text": "When\nSearching for data is especially useful in the early stages of a project, such as during proposal writing or study design. However, it can also be valuable later on, for example when validating results, performing comparisons, or extending analyses.",
+    "crumbs": [
+      "DISCOVER & REUSE",
+      "Searching for Data"
+    ]
+  },
+  {
+    "objectID": "searching.html#where",
+    "href": "searching.html#where",
+    "title": "Searching for Data",
+    "section": "Where",
+    "text": "Where\nData can be deposited in generic or domain-specific repositories. They may also be curated and described within catalogues.\nExamples of generic repositories include DataVerseNL, Yoda, and Zenodo.\nFor the social sciences and humanities, national infrastructures such as ODISSEI and CLARIAH serve as catalogues that provide access to datasets.\nRegistries such as re3data and FAIRsharing can help you identify suitable repositories for your discipline.\nIn addition, the following discovery platforms can help you find datasets across repositories:\n\nOpenAlex: a database containing a wide range of scholarly outputs, including datasets.\n\nDataCite Commons: a discovery service aimed at making research outputs findable and connected.\n\nOpenAIRE and its Dutch counterpart, the Netherlands Research Portal.\n\nOpen Data Europe: a portal providing access to a large collection of European datasets from the EU and beyond.",
+    "crumbs": [
+      "DISCOVER & REUSE",
+      "Searching for Data"
+    ]
+  },
+  {
+    "objectID": "searching.html#how",
+    "href": "searching.html#how",
+    "title": "Searching for Data",
+    "section": "How",
+    "text": "How\nYou can search for data by constructing BOOLEAN search queries, just as you would in a systematic literature search. Operators such as AND, OR, NOT, and wildcards (e.g. *) can be used to combine concepts, broaden or narrow results, and capture variations of search terms.",
+    "crumbs": [
+      "DISCOVER & REUSE",
+      "Searching for Data"
+    ]
+  },
+  {
+    "objectID": "searching.html#references",
+    "href": "searching.html#references",
+    "title": "Searching for Data",
+    "section": "References",
+    "text": "References\n\nhttps://www.uu.nl/en/research/research-data-management/tools-services/finding-existing-data\nhttps://dmeg.cessda.eu/Data-Management-Expert-Guide/7.-Discover/The-process-of-data-discovery\nhttps://rdm.vu.nl/topics/finding-existing-data.html",
+    "crumbs": [
+      "DISCOVER & REUSE",
+      "Searching for Data"
+    ]
+  },
+  {
+    "objectID": "trainings.html",
+    "href": "trainings.html",
+    "title": "Trainings",
+    "section": "",
+    "text": "2024",
+    "crumbs": [
+      "APPENDIX",
+      "Trainings"
+    ]
+  },
+  {
+    "objectID": "trainings.html#section",
+    "href": "trainings.html#section",
+    "title": "Trainings",
+    "section": "",
+    "text": "Managing Qualitative Data",
+    "crumbs": [
+      "APPENDIX",
+      "Trainings"
+    ]
+  },
+  {
+    "objectID": "trainings.html#section-1",
+    "href": "trainings.html#section-1",
+    "title": "Trainings",
+    "section": "2023",
+    "text": "2023\n\nCAS Data Collection",
+    "crumbs": [
+      "APPENDIX",
+      "Trainings"
+    ]
+  },
+  {
+    "objectID": "trainings.html#section-2",
+    "href": "trainings.html#section-2",
+    "title": "Trainings",
+    "section": "2022",
+    "text": "2022\n\nCAS Data Collection",
+    "crumbs": [
+      "APPENDIX",
+      "Trainings"
+    ]
+  },
+  {
+    "objectID": "trainings.html#section-3",
+    "href": "trainings.html#section-3",
+    "title": "Trainings",
+    "section": "2021",
+    "text": "2021\n\nCAS Data Collection",
+    "crumbs": [
+      "APPENDIX",
+      "Trainings"
+    ]
+  },
+  {
+    "objectID": "presentations.html",
+    "href": "presentations.html",
+    "title": "Presentations",
+    "section": "",
+    "text": "2023",
+    "crumbs": [
+      "APPENDIX",
+      "Presentations"
+    ]
+  },
+  {
+    "objectID": "presentations.html#section",
+    "href": "presentations.html#section",
+    "title": "Presentations",
+    "section": "",
+    "text": "Open Science on Track\n\n\n\nDoY Network Lunch",
+    "crumbs": [
+      "APPENDIX",
+      "Presentations"
+    ]
+  },
+  {
+    "objectID": "presentations.html#section-1",
+    "href": "presentations.html#section-1",
+    "title": "Presentations",
+    "section": "2022",
+    "text": "2022\n\nOS Platform",
+    "crumbs": [
+      "APPENDIX",
+      "Presentations"
+    ]
+  },
+  {
+    "objectID": "presentations.html#section-2",
+    "href": "presentations.html#section-2",
+    "title": "Presentations",
+    "section": "2021",
+    "text": "2021\n\nChild Health\n\n\n\nOSCoffee",
+    "crumbs": [
+      "APPENDIX",
+      "Presentations"
     ]
   }
 ]

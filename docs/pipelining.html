@@ -563,20 +563,20 @@ system('ibridges download irods:/nluu12p/home/my-research-project/data/raw/2025-
 <section id="windows-batch-file" class="level4">
 <h4 class="anchored" data-anchor-id="windows-batch-file">Windows Batch File</h4>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="ex">title</span> batch script for automate-the-boring-things</span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="bu">set</span> startTime=%time%</span>
-<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> %USERPROFILE%<span class="dt">\D</span>ocuments<span class="dt">\P</span>rogramming<span class="dt">\a</span>utomate-the-boring-things</span>
-<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a><span class="ex">Rscript</span> <span class="st">"scripts/01-qualtrics-download.R"</span></span>
-<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a><span class="ex">Rscript</span> <span class="st">"scripts/02-preprocessing.R"</span></span>
-<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a><span class="ex">Rscript</span> <span class="st">"scripts/03-yoda-upload.R"</span></span>
-<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a><span class="bu">echo</span> Start Time: %startTime%</span>
-<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a><span class="bu">echo</span> Finish Time: %time%</span>
-<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a><span class="ex">pause</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<pre class="shell cell-code"><code>title batch script for automate-the-boring-things
+
+set startTime=%time%
+
+cd %USERPROFILE%\Documents\Programming\automate-the-boring-things
+
+Rscript "scripts/01-qualtrics-download.R"
+Rscript "scripts/02-preprocessing.R"
+Rscript "scripts/03-yoda-upload.R"
+
+echo Start Time: %startTime%
+echo Finish Time: %time%
+
+pause</code></pre>
 </div>
 
 
