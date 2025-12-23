@@ -494,8 +494,19 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#what" id="toc-what" class="nav-link active" data-scroll-target="#what">What</a></li>
+  <li><a href="#why" id="toc-why" class="nav-link" data-scroll-target="#why">Why</a></li>
+  <li><a href="#who" id="toc-who" class="nav-link" data-scroll-target="#who">Who</a></li>
+  <li><a href="#when" id="toc-when" class="nav-link" data-scroll-target="#when">When</a></li>
+  <li><a href="#where" id="toc-where" class="nav-link" data-scroll-target="#where">Where</a></li>
+  <li><a href="#how" id="toc-how" class="nav-link" data-scroll-target="#how">How</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/UtrechtUniversity/doy-data-handbook/edit/main/reproducibility.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -525,8 +536,49 @@ ul.task-list li input[type="checkbox"] {
 <a href="https://the-turing-way.netlify.app/">The Turing Way</a> project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: <a href="https://doi.org/10.5281/zenodo.3332807">10.5281/zenodo.3332807</a>.
 </figcaption>
 <p><br></p>
+<section id="what" class="level2">
+<h2 class="anchored" data-anchor-id="what">What</h2>
+<p>Reproducibility means being able to reliably repeat the same analysis with the same data and obtain the same results. While reproducibility covers many components, this chapter focuses on achieving it by creating a research compendium — specifically, an executable one using reproducible manuscripts.</p>
+<p>A research compendium brings together all digital components of your research (data, code, and text) and accompanies your manuscript:</p>
+<ul>
+<li><p>A basic compendium has a clear folder structure that separates data, scripts, and other materials. The software and methods required to use the data and run the scripts should be described in a dedicated document, such as a data analysis plan/protocol. A README file should also be included to describe the compendium as a whole.</p></li>
+<li><p>An executable compendium makes it possible to reproduce the use of the data and the running of scripts in one go. There are many ways to execute a project - the most accessible approach is a reproducible manuscript (also referred to as <em>dynamic documents</em> or <em>literate programming</em>). A reproducible manuscript interweaves data, code, text, citations/references into a single file. This file can be executed and rendered to various output formats such as DOCX or PDF with a single click.</p></li>
+</ul>
+</section>
+<section id="why" class="level2">
+<h2 class="anchored" data-anchor-id="why">Why</h2>
+<p>Working with a reproducible manuscript keeps all digital components of the research close together and compels you to follow good data and software practices. The code is embedded within the document, making it easy to inspect and re-run. It is possible to embed results and values directly in the text of the manuscript, eliminating copy-and-paste steps and reducing the risk of errors.</p>
+<p>Since the entire document can be re-run and rendered at any time, revisions become straightforward and consistent across text, figures, tables. This approach avoids the manual workflow of locating data, running scripts separately, copying outputs into a manuscript, and cross-checking results between analysis files and a text-only document.</p>
+</section>
+<section id="who" class="level2">
+<h2 class="anchored" data-anchor-id="who">Who</h2>
+<p>The researcher(s) working on a given publication.</p>
+</section>
+<section id="when" class="level2">
+<h2 class="anchored" data-anchor-id="when">When</h2>
+<p>You build a research compendium during the active stage of your project, while working on your reproducible manuscript.</p>
+</section>
+<section id="where" class="level2">
+<h2 class="anchored" data-anchor-id="where">Where</h2>
+<p>Your reproducible manuscript will live in the storage location used during the active stage of your project.</p>
+<p>Ideally, you would place your manuscript under version control using Git and make use of the university’s GitHub organization for collaboration. Be careful not to commit privacy-senstive data to GitHub - there are workarounds for that!</p>
+</section>
+<section id="how" class="level2">
+<h2 class="anchored" data-anchor-id="how">How</h2>
+<p>Check out our workshop on <a href="https://utrechtuniversity.github.io/workshop-reproducible-manuscripts/"><em>Writing Reproducible Manuscripts in R &amp; Python</em></a>! You can go through the materials yourself or request a workshop.</p>
+<p>The steps involved would be:</p>
+<ul>
+<li>Install <a href="https://quarto.org/">Quarto</a></li>
+<li>Create a Quarto project in RStudio or Jupyter</li>
+<li>Implement a (reproducible) folder structure</li>
+<li>Use Markdown syntax effectively for writing text</li>
+<li>Run analyses in code chunks or cells</li>
+<li>Manage references using Zotero and Better BibTeX for Zotero</li>
+<li>Render your Quarto project to DOCX, HTML, and PDF files</li>
+</ul>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -959,4 +1011,4 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/UtrechtUniversity/doy-data-handbook/edit/main/reproducibility.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/UtrechtUniversity/doy-data-handbook/edit/main/reproducibility.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></div></div></footer></body></html>
