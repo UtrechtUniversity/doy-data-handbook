@@ -125,6 +125,12 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Definitions</span></a>
   </div>
 </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./fair-data-cheatsheet.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">FAIR Data Cheatsheet</span></a>
+  </div>
+</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false">
@@ -237,7 +243,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./archiving.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Data Archving</span></a>
+ <span class="menu-text">Data Archiving</span></a>
   </div>
 </li>
       </ul>
@@ -253,20 +259,20 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./governance.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Data Governance</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./publication.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Data Publication</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./sharing.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Data Sharing</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./governance.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Data Governance</span></a>
+  <a href="./transfer.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Data Transfer</span></a>
   </div>
 </li>
       </ul>
@@ -305,12 +311,6 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./fair-data-cheatsheet.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">FAIR Data Cheatsheet</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="./trainings.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Trainings</span></a>
   </div>
@@ -333,7 +333,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#data-storage-finder" id="toc-data-storage-finder" class="nav-link active" data-scroll-target="#data-storage-finder">Data Storage Finder</a></li>
+  <li><a href="#what" id="toc-what" class="nav-link active" data-scroll-target="#what">What</a></li>
+  <li><a href="#why" id="toc-why" class="nav-link" data-scroll-target="#why">Why</a></li>
+  <li><a href="#who" id="toc-who" class="nav-link" data-scroll-target="#who">Who</a></li>
+  <li><a href="#when" id="toc-when" class="nav-link" data-scroll-target="#when">When</a></li>
+  <li><a href="#where" id="toc-where" class="nav-link" data-scroll-target="#where">Where</a></li>
+  <li><a href="#how" id="toc-how" class="nav-link" data-scroll-target="#how">How</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/UtrechtUniversity/doy-data-handbook/edit/main/storage.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></nav>
     </div>
@@ -359,11 +364,38 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>When discussing storage, we are considering the location of ‘active’ data is under use and subject to change during the research project. The related concepts of archiving and publishing refer to where the data will be saved or deposited after the project is completed.</p>
-<p>When storing data, consider the following - choose storage media that is appropriate for the type of data you’re working with - implement reliable version control and backups - structure folders and organize files clearly - follow a naming convention - use preferred and sustainable file formats - secure data files</p>
-<section id="data-storage-finder" class="level2">
-<h2 class="anchored" data-anchor-id="data-storage-finder">Data Storage Finder</h2>
-<p>The <a href="https://tools.uu.nl/storagefinder/">Data Storage Finder</a> is a tool provided by IT help you decide which storage solution would be most suited to your needs.</p>
+<p><img src="images/DataLoss_PhDComics.gif" class="img-fluid"></p>
+<section id="what" class="level2">
+<h2 class="anchored" data-anchor-id="what">What</h2>
+<p>When discussing storage, we refer to the location of ‘active’ data, which is in use and may change throughout the research project. The related concepts of <a href="https://utrechtuniversity.github.io/doy-data-handbook/archiving.html">archiving</a> and <a href="https://utrechtuniversity.github.io/doy-data-handbook/publication.html">publishing</a> refer to where the data will be saved or deposited after the project is completed.</p>
+</section>
+<section id="why" class="level2">
+<h2 class="anchored" data-anchor-id="why">Why</h2>
+<p>Storing data properly ensures that research can be conducted efficiently, prevents data loss, and maintains the integrity and reproducibility of results. Well-managed storage supports collaboration, version control, and easy retrieval of files during the project.</p>
+</section>
+<section id="who" class="level2">
+<h2 class="anchored" data-anchor-id="who">Who</h2>
+<p>When planning data storage, consider collaboration with other researchers. Decisions about who will access the data and how often it will be shared affect both where the data is stored and how it is organized, backed up, and structured.</p>
+</section>
+<section id="when" class="level2">
+<h2 class="anchored" data-anchor-id="when">When</h2>
+<p>A decision about data storage needs to be taken at the onset of the project. From that point, data should be stored securely and include regular backups to prevent loss or accidental overwriting.</p>
+</section>
+<section id="where" class="level2">
+<h2 class="anchored" data-anchor-id="where">Where</h2>
+<p>The <a href="https://tools.uu.nl/storagefinder/">Data Storage Finder</a> is a tool provided by IT help you decide which storage solution would be most suited to your needs. The suggestions are based on factors such as collaboration, size, sensitivity, and (ease of) access.</p>
+</section>
+<section id="how" class="level2">
+<h2 class="anchored" data-anchor-id="how">How</h2>
+<p>When storing data, consider the following:</p>
+<ul>
+<li>choose storage media that is appropriate for the type of data you’re working with</li>
+<li>ensure reliable version control and backups</li>
+<li>follow a <a href="https://utrechtuniversity.github.io/doy-data-handbook/naming-conventions.html">naming convention</a></li>
+<li><a href="https://utrechtuniversity.github.io/doy-data-handbook/folder-structures.html">structure folders</a> and organize files clearly</li>
+<li>use preferred and sustainable <a href="https://utrechtuniversity.github.io/doy-data-handbook/preferred-formats.html">file formats</a></li>
+<li>secure data files, using access control and/or <a href="https://utrechtuniversity.github.io/privacy-engineering-tools/secure-computing/encryption-tools.html">encryption</a></li>
+</ul>
 
 
 </section>
@@ -937,8 +969,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./archiving.html" class="pagination-link" aria-label="Data Archving">
-        <span class="nav-page-text">Data Archving</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./archiving.html" class="pagination-link" aria-label="Data Archiving">
+        <span class="nav-page-text">Data Archiving</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

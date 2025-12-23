@@ -4,3 +4,47 @@
 
 <figcaption><a href="https://the-turing-way.netlify.app/">The Turing Way</a> project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: <a href="https://doi.org/10.5281/zenodo.3332807">10.5281/zenodo.3332807</a>.</figcaption>
 <br>
+
+## What
+
+Reproducibility means being able to reliably repeat the same analysis with the same data and obtain the same results. While reproducibility covers many components, this chapter focuses on achieving it by creating a research compendium — specifically, an executable one using reproducible manuscripts.
+
+A research compendium brings together all digital components of your research (data, code, and text) and accompanies your manuscript:
+
+- A basic compendium has a clear folder structure that separates data, scripts, and other materials. The software and methods required to use the data and run the scripts should be described in a dedicated document, such as a data analysis plan/protocol. A README file should also be included to describe the compendium as a whole.
+
+- An executable compendium makes it possible to reproduce the use of the data and the running of scripts in one go. There are many ways to execute a project - the most accessible approach is a reproducible manuscript (also referred to as _dynamic documents_ or _literate programming_). A reproducible manuscript interweaves data, code, text, citations/references into a single file. This file can be executed and rendered to various output formats such as DOCX or PDF with a single click.
+
+## Why
+
+Working with a reproducible manuscript keeps all digital components of the research close together and compels you to follow good data and software practices. The code is embedded within the document, making it easy to inspect and re-run. It is possible to embed results and values directly in the text of the manuscript, eliminating copy-and-paste steps and reducing the risk of errors. 
+
+Since the entire document can be re-run and rendered at any time, revisions become straightforward and consistent across text, figures, tables. This approach avoids the manual workflow of locating data, running scripts separately, copying outputs into a manuscript, and cross-checking results between analysis files and a text-only document.
+
+## Who
+
+The researcher(s) working on a given publication.
+
+## When
+
+You build a research compendium during the active stage of your project, while working on your reproducible manuscript. 
+
+## Where
+
+Your reproducible manuscript will live in the storage location used during the active stage of your project. 
+
+Ideally, you would place your manuscript under version control using Git and make use of the university's GitHub organization for collaboration. Be careful not to commit privacy-senstive data to GitHub - there are workarounds for that!
+
+## How
+
+Check out our workshop on [_Writing Reproducible Manuscripts in R & Python_](https://utrechtuniversity.github.io/workshop-reproducible-manuscripts/)! You can go through the materials yourself or request a workshop.
+
+The steps involved would be:
+
+- Install [Quarto](https://quarto.org/)
+- Create a Quarto project in RStudio or Jupyter
+- Implement a (reproducible) folder structure
+- Use Markdown syntax effectively for writing text
+- Run analyses in code chunks or cells
+- Manage references using Zotero and Better BibTeX for Zotero
+- Render your Quarto project to DOCX, HTML, and PDF files

@@ -175,7 +175,7 @@
     "href": "privacy-and-security.html#resources",
     "title": "Privacy & Security",
     "section": "Resources",
-    "text": "Resources\n\n\n\n\n\n\nNote\n\n\n\nThe information below is borrowed from the Seeking help at Utrecht University chapter from the Data Privacy Handbook.\n\n\nIn addition to the Data Privacy Handbook, there are several resources available to support you with building and maintaining privacy & security into your research projects:\n\nEducation\nPrivacy basics for researchers (online training){\n\n\nTools & Services\n\nThe UU Tooladvisor lists tools that are GDPR-compliant and safe to use.\nThe webpage on Privacy Engineering Tools outlines tools and packages to deidentify, encrypt, synthetise and otherwise work with personal data.\n\n\n\nOnline Information\nUU-wide\n\nWebsite: Research Data Management Support\nIntranet: Privacy (UU?)\nIntranet: Information Security (UU?)\n\nFaculty-Specific\n\nGeosciences: RDM and privacy, ethics\nScience: RDM and privacy, ethics\nSocial and Behavioural Sciences: tech support, ethics\nHumanities: RDM and privacy, ethics\nLaw, Economics and Governance: RDM and privacy, ethics\nVeterinary medicine: Research Support Office\nMedicine: ethics, data management-related information can be found on UMCU Connect.\n\n\n\nIn-Person Support\nThe first point of contact about privacy are the Privacy Officers of your faculty.\nBesides the privacy officer, you can also ask for help from:\n\nYour local data steward/data manager (see websites above) or Research Data Management Support.\nInformation security.\nIn some faculties, the Research Support Officemay be of help in drafting agreements.\nIf you suspect a data leak or data breach, contact the Service Deskimmediately.",
+    "text": "Resources\n\n\n\n\n\n\nNote\n\n\n\nThe information below is borrowed from the Seeking help at Utrecht University chapter from the Data Privacy Handbook.\n\n\nIn addition to the Data Privacy Handbook, there are several resources available to support you with building and maintaining privacy & security into your research projects:\n\nEducation\nPrivacy basics for researchers (online training)\n\n\nTools & Services\n\nThe UU Tooladvisor lists tools that are GDPR-compliant and safe to use.\nThe webpage on Privacy Engineering Tools outlines tools and packages to deidentify, encrypt, synthetise and otherwise work with personal data.\n\n\n\nOnline Information\nUU-wide\n\nWebsite: Research Data Management Support\nIntranet: Privacy (UU?)\nIntranet: Information Security (UU?)\n\nFaculty-Specific\n\nGeosciences: RDM and privacy, ethics\nScience: RDM and privacy, ethics\nSocial and Behavioural Sciences: tech support, ethics\nHumanities: RDM and privacy, ethics\nLaw, Economics and Governance: RDM and privacy, ethics\nVeterinary medicine: Research Support Office\nMedicine: ethics, data management-related information can be found on UMCU Connect.\n\n\n\nIn-Person Support\nThe first point of contact about privacy are the Privacy Officers of your faculty.\nBesides the privacy officer, you can also ask for help from:\n\nYour local data steward/data manager (see websites above) or Research Data Management Support.\nInformation security.\nIn some faculties, the Research Support Officemay be of help in drafting agreements.\nIf you suspect a data leak or data breach, contact the Service Deskimmediately.",
     "crumbs": [
       "PLAN & FUND",
       "Privacy & Security"
@@ -230,7 +230,7 @@
     "href": "costs.html#how",
     "title": "Costs",
     "section": "How",
-    "text": "How\n\nPlan data management costs early - ideally during grant preparation - using a preliminary DMP to make storage, documentation, analysis, backup, and archiving needs explicit. This can serve as a basis for the Costs section in the offical DMP.\nIdentify the data-related tasks required at each stage of the peroject (e.g., collecting, transcribing, anonymizing, structuring, documenting, sharing, archiving) and estimate the time and resources required. You can use the recommended hourly rates for student assistants or data professionals where possible.\nWhenever feasible, use institutional or open-source tools and infrastructure instead of expensive external services, and rely on templates, standards, and standard operating procedures to increase efficiency and reduce costs.",
+    "text": "How\n\nIdentify the data-related tasks required at each stage of the project (e.g., collecting, transcribing, anonymizing, structuring, documenting, sharing, archiving) and estimate the time and resources required. You can use the recommended hourly rates for student assistants or data professionals where possible.\nWhenever feasible, use institutional or open-source tools and infrastructure instead of expensive external services, and rely on templates, standards, and standard operating procedures to increase efficiency and reduce costs.",
     "crumbs": [
       "PLAN & FUND",
       "Costs"
@@ -307,7 +307,7 @@
     "href": "naming-conventions.html",
     "title": "Naming Conventions",
     "section": "",
-    "text": "What Is A Naming Convention?\nA naming convention is a set of rules for naming things. You can apply it to things like folders, files, and variables.",
+    "text": "What\nA naming convention is a set of rules for naming things. You can apply it to things like folders, files, and variables.",
     "crumbs": [
       "COLLECT & ANALYZE",
       "Naming Conventions"
@@ -406,7 +406,7 @@
     "href": "folder-structures.html",
     "title": "Folder Structures",
     "section": "",
-    "text": "How\nWhether it’s on your computer or in the cloud, your project will likely be organized into folders and subfolders.\nA clear structure keeps all your materials grouped in a predictable way. It helps you know exactly where each type of file belongs, making it easier to organize and locate them. It also keeps things aligned when multiple people contribute to the same project.\nThe project lead should define the folder structure — this could be the PI for a larger project or an individual researcher for a manuscript. You should also ensure that collaborators are informed about the structure and follow it accordingly.\nThis should be done at the beginning of a project, but there is always room to update and/or reorganize things along the way.\nin the storage location recommended for your project or in your archive/repository\ncategorize things as much as possible and have a main folder and perhaps 3 sub-folders. it’s not struct and can be customaized, the aim is to keep it simple and don’t overcomplicate..don’t forget to use the naming convention you decided on earlier.\nwe can distinguish project-level vs. publication-level.",
+    "text": "What\nWhether it’s on your computer or in the cloud, your project will likely be organized into folders and subfolders that contain your research materials.",
     "crumbs": [
       "COLLECT & ANALYZE",
       "Folder Structures"
@@ -416,8 +416,8 @@
     "objectID": "folder-structures.html#how",
     "href": "folder-structures.html#how",
     "title": "Folder Structures",
-    "section": "",
-    "text": "project\nUMCU has the RFS..there is the Gen R fodler strcture, TIER protocol, BIDS that you can take inpiration from…based on that here is a recommendation\n\n\npublication\nfollow the best practices from computational reproducibility / cookiecutter, primarily for programming projects but can be adapted for all analysis projects",
+    "section": "How",
+    "text": "How\nFirst things first, remember to keep the naming convention you defined in mind and apply it consistently.\nNext, create a primary folder for your project. Thereafter, categorize similar materials as much as possible into subfolders. Within your subfolders, avoid creating more layers. Keep the hierarchy shallow, ideally around 3–4 levels in total\nThis is a general recommendation, the structure is flexible and can be customized. Ultimately, the aim to keep it user-friendly and avoid overcomplication.\n\nProject vs. Publication\nWe can distinguish between folder structures at the project level and the publication level. The former encompasses the entire research project, while the latter pertains to a single article or manuscript.\n\n\nProject-Level\n\nUMCU\nThe UMCU provides a pre-defined series of folders for projects stored within the Research Folder Structure (RFS).\n\n\nTonic Research Project Template\n The Tonic Research Project Template provides an example of a primary folder with subfolders organized in a logical manner, from administrative and methodological materials to data and analyses.\nSee: Thorsten Arendt, Mittal, D., Sehara, K., Cook, T., & Julien Colomb. (2023). Folder structure template for research repositories (v2.4). Zenodo. https://doi.org/10.5281/zenodo.7763694\n\n\nBIDS\n\nWhile it has been designed for neuroimaging projects, the Brain Imaging Data Structure (BIDS) offers inspiration for organizing experimental data, particularly when there are multiple participants and potentially multiple experimental sessions.\nSee: https://bids.neuroimaging.io/getting_started/folders_and_files/folders.html\n\n\n\nPublication-Level\n\nTIER Protocol\n The TIER Protocol specifies how research materials (data, code, and documentation) should be organized so that results can be fully reproduced. It is primarily aimed at projects that use copy-and-paste workflows, where results are generated in output files and then copied and pasted into manuscripts.\nSee: https://www.projecttier.org/tier-protocol/protocol-4-0/\n\n\nGood Enough Practices In Scientific Computing\n\nIf you’re using programming languages such as R and/or Python, best practices include containing your project within a single, clearly recognizable folder, organizing similar content into subfolders (read-only, human-generated, project-generated), and including key files such as a README, LICENSE, CITATION, and CHANGELOG.\nSee: Wilson G, Bryan J, Cranston K, Kitzes J, Nederbragt L, Teal TK (2017) Good enough practices in scientific computing. PLoS Comput Biol 13(6): e1005510. https://doi.org/10.1371/journal.pcbi.1005510\n\n\n\nTools\n\nDirectory Trees\n\nYou can use tools such as https://ascii-tree-generator.com/ to sketch out your folder structure in advance. This could useful for planning and discussion before creating the folders and subfolders.\nFor an existing project, you can also use the tree command to print the directory tree. This would be useful for inspection or copy-paste into README files.\n\n\nWindows\n\nNavigate to your project using cd path\\to\\your\\project\nThen enter tree /a /f &gt; tree.txt, where a is for (sub)directories and f includes files.\n\nMacOS/Linux\n\nNavigate to your project using cd /path/to/your/project\nThen enter tree -a &gt; tree.txt, where -a includes hidden files (files are otherwise included by default)\n\n\n\n\n\n\nTip\n\n\n\n\nYou may need to install the tree tool on your computer.\nWhen using the cd command on Windows, pay attention to slashes (\\ vs. /) or enclose your path in double quotes.\n\n\n\n\n\nR & Python\nThere are R packages and Python libraries dedicated to initializing project directories according to best practices. Each tool works a bit differently, so it’s worth exploring a few to see which one best suits your workflow.\n\nFor R, you can consult the CRAN Task View on Reproducible Research and scroll down to the Project Workflows section, which lists several relevant packages.\nFor Python, you can use Cookiecutter Data Science or explore other available Cookiecutter templates.\n\n\n\n\n\n\n\nTip\n\n\n\nYou can reach out to RDM Support for help in figuring out your project’s structure and workflow!",
     "crumbs": [
       "COLLECT & ANALYZE",
       "Folder Structures"
@@ -461,7 +461,7 @@
     "href": "preferred-formats.html",
     "title": "Preferred Formats",
     "section": "",
-    "text": "see DANS website …..",
+    "text": "What\nFile formats that offer the best long-term guarantees for usability and accessibility are considered preferred or sustainable formats.",
     "crumbs": [
       "COLLECT & ANALYZE",
       "Preferred Formats"
@@ -472,7 +472,7 @@
     "href": "pipelining.html",
     "title": "Data Pipelining",
     "section": "",
-    "text": "When do I need a data pipeline?\nA data pipeline is a series of (automated) actions that ingests raw data from various sources and moves the data to a destination for storage and (eventual) analysis.\nBenefits of a data pipeline include:\nHere’s a rule of thumb, just as an example:\nIf you have a task that needs to occur &gt;= 3 times, you could think about automating it.\nIf automation is not possible, think about how you can make the task as efficient as possible.",
+    "text": "What\nA data pipeline is a series of (automated) actions that ingest raw data from various sources and move it to a destination for storage and (eventual) analysis.",
     "crumbs": [
       "COLLECT & ANALYZE",
       "Data Pipelining"
@@ -494,7 +494,7 @@
     "href": "pipelining.html#qualtrics-r-package",
     "title": "Data Pipelining",
     "section": "QualtRics R package",
-    "text": "QualtRics R package\nlibrary(readr)\nlibrary(qualtRics)\n\nqualtrics_api_credentials(api_key = \"YOUR-QUALTRICS-API-KEY\", \n                          base_url = \"YOUR-QUALTRICS-BASE-URL\",\n                          overwrite = TRUE,\n                          install = TRUE)\n\nreadRenviron(\"~/.Renviron\")\n\nsurveys &lt;- all_surveys() \n\nsurvey_results &lt;- fetch_survey(surveyID = surveys$id[2], # you can also replace surveys$id[2] with \"&lt;SUVREY-ID&gt;\" \n                                  verbose = TRUE)\n\nwrite_csv(survey_results, paste0(\"path/to/folder/\", format(Sys.time(), \"%d-%m-%Y-%H.%M\"), \"_survey_results.csv\"))",
+    "text": "QualtRics R package\n\nlibrary(readr)\nlibrary(qualtRics)\n\nqualtrics_api_credentials(api_key = \"YOUR-QUALTRICS-API-KEY\", \n                          base_url = \"YOUR-QUALTRICS-BASE-URL\",\n                          overwrite = TRUE,\n                          install = TRUE)\n\nreadRenviron(\"~/.Renviron\")\n\nsurveys &lt;- all_surveys() \n\nsurvey_results &lt;- fetch_survey(surveyID = surveys$id[2], # you can also replace surveys$id[2] with \"&lt;SUVREY-ID&gt;\" \n                                  verbose = TRUE)\n\nwrite_csv(survey_results, paste0(\"path/to/folder/\", format(Sys.time(), \"%d-%m-%Y-%H.%M\"), \"_survey_results.csv\"))",
     "crumbs": [
       "COLLECT & ANALYZE",
       "Data Pipelining"
@@ -505,7 +505,7 @@
     "href": "pipelining.html#taskscheduler-package",
     "title": "Data Pipelining",
     "section": "taskscheduleR package",
-    "text": "taskscheduleR package\nlibrary(taskscheduleR)\n\nscheduled_script &lt;- \"path/to/folder/myscript.R\"\n\n## run script once within 120 seconds\n\ntaskscheduler_create(taskname = \"extract-data-once\", rscript = scheduled_script,\n                     schedule = \"ONCE\", starttime = format(Sys.time() + 120, \"%H:%M\"))\n\n## Run every 5 minutes, starting from 10:40\n\ntaskscheduler_create(taskname = \"extract-data-5min\", rscript = scheduled_script,\n                     schedule = \"MINUTE\", starttime = \"10:40\", modifier = 5)\n\n## delete tasks\n\ntaskscheduler_delete(\"extract-data-once\")",
+    "text": "taskscheduleR package\n\nlibrary(taskscheduleR)\n\nscheduled_script &lt;- \"path/to/folder/myscript.R\"\n\n## run script once within 120 seconds\n\ntaskscheduler_create(taskname = \"extract-data-once\", rscript = scheduled_script,\n                     schedule = \"ONCE\", starttime = format(Sys.time() + 120, \"%H:%M\"))\n\n## Run every 5 minutes, starting from 10:40\n\ntaskscheduler_create(taskname = \"extract-data-5min\", rscript = scheduled_script,\n                     schedule = \"MINUTE\", starttime = \"10:40\", modifier = 5)\n\n## delete tasks\n\ntaskscheduler_delete(\"extract-data-once\")",
     "crumbs": [
       "COLLECT & ANALYZE",
       "Data Pipelining"
@@ -516,7 +516,7 @@
     "href": "metadata.html",
     "title": "Metadata",
     "section": "",
-    "text": "Project-Level Metadata\nMetadata is structured information that describes one or more aspects of your research data. In other words, metadata = ‘data about data’. Metadata is machine-readable and helps make your data findable and citable.\nMetadata exists at different levels:\nThis type of metadata describes higher-order aspects of your dataset: the “who, what, where, when, how and why” … It provides context for understanding why the data were collected and how they were used.\n• Name of the project • Dataset title • Project description • Dataset abstract • Principal investigator and collaborators • Contact information • Dataset handle (DOI or URL) • Dataset citation • Data publication date • Geographic description • Time period of data collection • Subject/keywords • Project sponsor • Dataset usage rights",
+    "text": "What\nMetadata refers to structured and machine-readable information that describes one or more aspects of your research data. In other words, metadata = “data about data.”",
     "crumbs": [
       "COLLECT & ANALYZE",
       "Metadata"
@@ -538,7 +538,7 @@
     "href": "documentation.html",
     "title": "Documentation",
     "section": "",
-    "text": "Documentation Checklist\nDocumentation refers to contextual information pertaining to your research data. It accompanies (structured) metadata and guides users to understand and interpret your data and reuse it effectively.\nDocumentation is meant to be human-readable and it is a crucial aspect of interoperability and reusability. Some examples include:\n• Grant / Study Proposals • Study Protocol / Methodology • Data Management Plan (DMP) • README files • Lab Notebooks • Legal / Policy / Administrative Documents\nHere is a starter checklist to make an inventory of your documentation: https://tinyurl.com/documentation-checklist",
+    "text": "What\nDocumentation refers to contextual information about your research data. It complements (structured) metadata by providing additional guidance for understanding and using the data.",
     "crumbs": [
       "COLLECT & ANALYZE",
       "Documentation"
@@ -549,7 +549,7 @@
     "href": "codebooks.html",
     "title": "Codebooks",
     "section": "",
-    "text": "codebook R package\nA codebook is an example of data-level metadata.\nThe purpose of a codebook or data dictionary is to explain what all the variable names and values in your spreadsheet really mean.\nInformation to include in a codebook includes:\nSee: https://help.osf.io/article/217-how-to-make-a-data-dictionary\nThe labelled R package can also do something similar.",
+    "text": "What\nA codebook (or data dictionary) is a type of data-level metadata. A good codebook is both human-readable and machine-readable.",
     "crumbs": [
       "COLLECT & ANALYZE",
       "Codebooks"
@@ -571,7 +571,7 @@
     "href": "storage.html",
     "title": "Data Storage",
     "section": "",
-    "text": "Data Storage Finder\nWhen discussing storage, we are considering the location of ‘active’ data is under use and subject to change during the research project. The related concepts of archiving and publishing refer to where the data will be saved or deposited after the project is completed.\nWhen storing data, consider the following - choose storage media that is appropriate for the type of data you’re working with - implement reliable version control and backups - structure folders and organize files clearly - follow a naming convention - use preferred and sustainable file formats - secure data files\nThe Data Storage Finder is a tool provided by IT help you decide which storage solution would be most suited to your needs.",
+    "text": "What\nWhen discussing storage, we refer to the location of ‘active’ data, which is in use and may change throughout the research project. The related concepts of archiving and publishing refer to where the data will be saved or deposited after the project is completed.",
     "crumbs": [
       "PRESERVE & STORE",
       "Data Storage"
@@ -580,12 +580,12 @@
   {
     "objectID": "archiving.html",
     "href": "archiving.html",
-    "title": "Data Archving",
+    "title": "Data Archiving",
     "section": "",
-    "text": "Data Archiving refers to the long-term preservation of research data. It is typically done for verification purposes / to check & maintain the integrity of the original research.\nThere are varying policies on how long research data should be retained for verification purposes, a typical policy is 10 years for the preservation of raw data.\nArchiving is not directly related to the FAIR principles, since the latter is focused on sharing and reusing the data. Nonetheless, the steps taken in archiving can provide a bsis for FAIRification, so the effort is never wasted!",
+    "text": "What\nData archiving is the long-term, secure preservation of research data. At this stage, the data is no longer being ‘actively’ used.",
     "crumbs": [
       "PRESERVE & STORE",
-      "Data Archving"
+      "Data Archiving"
     ]
   },
   {
@@ -593,7 +593,7 @@
     "href": "publication.html",
     "title": "Data Publication",
     "section": "",
-    "text": "Examples\nWhen publishing (meta)data, you want to make it findable and reusable. The data (and information about the data) can be used by others for their own purposes. It’s up to you to specify the terms and conditions for access and reuse.\nNote that your data need not be ‘open’ to be FAIR! The data files themselves can be placed under restricted access (or retained internally) while the metadata and documentation are openly published. Once any data sharing agreements are signed, the data files an be transferred according to best practices.\nWhen publishing (meta)data, you will receive a landing page for your dataset and a DOI (persistent identifier) that makes it findable and citeable. When you include your metadata and documentation, you improve accessibility and reusability.",
+    "text": "What\nWith Data Publishing, we’re making (meta)data findable and reusable for the public beyond the original project. This is different from Data Archiving, which is primarily internal and aimed at verifiability and integrity.",
     "crumbs": [
       "PUBLISH & SHARE",
       "Data Publication"
@@ -603,8 +603,8 @@
     "objectID": "publication.html#examples",
     "href": "publication.html#examples",
     "title": "Data Publication",
-    "section": "",
-    "text": "Nijhof, Sanne; Putte, Elise van de; Hoefnagels, Johanna Wilhelmina, 2021, “PROactive Cohort Study”, https://doi.org/10.34894/FXUGHW, DataverseNL, V3\nIsabelle van der Linden; Henk Schipper; Sanne Nijhof; Kors van der Ent, 2024, “SMART-Youth: Data”, https://doi.org/10.34894/FCBXSI, DataverseNL, V1",
+    "section": "Examples",
+    "text": "Examples\nThe following data publications are aligned with the ‘as open as possible, as closed as necessary’ (European Commission) principle:\n\nNijhof, Sanne; Putte, Elise van de; Hoefnagels, Johanna Wilhelmina, 2021, “PROactive Cohort Study”, https://doi.org/10.34894/FXUGHW, DataverseNL, V3\nIsabelle van der Linden; Henk Schipper; Sanne Nijhof; Kors van der Ent, 2024, “SMART-Youth: Data”, https://doi.org/10.34894/FCBXSI, DataverseNL, V1",
     "crumbs": [
       "PUBLISH & SHARE",
       "Data Publication"
@@ -648,7 +648,7 @@
     "href": "governance.html",
     "title": "Data Governance",
     "section": "",
-    "text": "When you’re ready to start sharing your data, you can set up a detailed Data Access Protocol (DAP) that outlines the data governance for yourself, your research team, and potential re-users. This DAP will ideally be public and findable in your chosen repository.\nThere are many topics within a DAP, it will require you (and/or the project team to come together) to decide on what is relevant and best for your data. This can include, for example, the terms & conditions for data reuse and the governance procedure in terms of responsibilities and tasks of the team members.\nSee the PROactive Cohort Study’s DAP here: https://dataverse.nl/file.xhtml?fileId=141206&version=3.0\nData Governance can be as simple and elaborate as you like, it all depends on you and your project team.\nReflect on:\n• What would you like to get out of sharing the data? For example, citations/acknowledgments, co-authorship, collaboration? This should be specified in the DAP so the end-user knows their obligations.\n• What kind of time and effort can you and/or your team invest in the data governance? For example, assessing incoming requests, preparing a datafile for sharing, maintaining a data sharing logbook. Note: If there is privacy-sensitive data involved, even the simplest DAPs have to take some legal considerations into account!",
+    "text": "What\nData Governance defines how data are managed beyond the scope of the original project by setting out roles and responsibilities, as well as processes and policies. It ensures data are handled consistently and responsibly in support of ethical use, compliance, and long-term value.",
     "crumbs": [
       "PUBLISH & SHARE",
       "Data Governance"
@@ -758,7 +758,7 @@
     "href": "searching.html",
     "title": "Searching for Data",
     "section": "",
-    "text": "What\nInstead of creating your own data, you can also search for and re-use existing data. As open science is becoming the standard in academia, more data becomes available at online repositories scattered across the web. The FAIR principles are aimed at improving the visibility of datasets and facilitating easy re-use of them.",
+    "text": "What\nAs open science becomes the standard in academia, more (meta)data are published in repositories across the web. Before creating new data, it is therefore worth searching for existing datasets that may be reused or built upon.",
     "crumbs": [
       "DISCOVER & REUSE",
       "Searching for Data"
@@ -769,7 +769,7 @@
     "href": "searching.html#why",
     "title": "Searching for Data",
     "section": "Why",
-    "text": "Why\nSearching for existing data can provide multiple benefits during the research life-cycle: - Using existing data saves time and costs for the researchers - It allows for a comparison between the existing data and newly generated data - Inspiration on (improved) research methods can be derived from previous studies - Learning from other peoples methods can increase data quality\nIt also poses a disadvantage as the existing data might be in a specific research design, necessitating a rework of your design to make it compatible to your own research question.",
+    "text": "Why\nSearching for existing data can save time and resources while enabling comparison and improvements in research methodology and data quality. That being said, existing datasets are often collected for specific study designs and this may require adapting your research questions or methods to ensure compatibility.",
     "crumbs": [
       "DISCOVER & REUSE",
       "Searching for Data"
@@ -780,7 +780,7 @@
     "href": "searching.html#who",
     "title": "Searching for Data",
     "section": "Who",
-    "text": "Who",
+    "text": "Who\nResearchers at all career stages can benefit from searching for existing data. Librarians and data stewards can provide support in identifying suitable repositories and search strategies.",
     "crumbs": [
       "DISCOVER & REUSE",
       "Searching for Data"
@@ -791,7 +791,7 @@
     "href": "searching.html#when",
     "title": "Searching for Data",
     "section": "When",
-    "text": "When",
+    "text": "When\nSearching for data is especially useful in the early stages of a project, such as during proposal writing or study design. However, it can also be valuable later on, for example when validating results, performing comparisons, or extending analyses.",
     "crumbs": [
       "DISCOVER & REUSE",
       "Searching for Data"
@@ -802,7 +802,7 @@
     "href": "searching.html#where",
     "title": "Searching for Data",
     "section": "Where",
-    "text": "Where\nData are often put in field specific repositories, registries like www.re3data.org and https://fairsharing.org/ can help you figure out which repository exists for your field. At the UU, we also have university wide, generic repositories and catalogues available: https://dataverse.nl/dataverse/U and https://www.uu.nl/en/research/yoda. For social sciences and humanities specifically, there are national repositories available under the names of https://portal.odissei.nl/ and https://clariah.nl/ineo/",
+    "text": "Where\nData can be deposited in generic or domain-specific repositories. They may also be curated and described within catalogues.\nExamples of generic repositories include DataVerseNL, Yoda, and Zenodo.\nFor the social sciences and humanities, national infrastructures such as ODISSEI and CLARIAH serve as catalogues that provide access to datasets.\nRegistries such as re3data and FAIRsharing can help you identify suitable repositories for your discipline.\nIn addition, the following discovery platforms can help you find datasets across repositories:\n\nOpenAlex: a database containing a wide range of scholarly outputs, including datasets.\n\nDataCite Commons: a discovery service aimed at making research outputs findable and connected.\n\nOpenAIRE and its Dutch counterpart, the Netherlands Research Portal.\n\nOpen Data Europe: a portal providing access to a large collection of European datasets from the EU and beyond.",
     "crumbs": [
       "DISCOVER & REUSE",
       "Searching for Data"
@@ -813,7 +813,7 @@
     "href": "searching.html#how",
     "title": "Searching for Data",
     "section": "How",
-    "text": "How\nSearching can be done by building queries in the above mentioned repositories, however there are also other options: - https://openalex.org/works?page=1&filter=type%3Atypes%2Fdataset A database containing a plethora of scientific works, including datasets. - https://commons.datacite.org/ A large database with the aim of making research available and connected. - https://explore.openaire.eu/search/find and it’s Dutch counterpart https://netherlands.openaire.eu/ - https://data.europa.eu/en Has a large collection of European datasets both EU and beyond.",
+    "text": "How\nYou can search for data by constructing BOOLEAN search queries, just as you would in a systematic literature search. Operators such as AND, OR, NOT, and wildcards (e.g. *) can be used to combine concepts, broaden or narrow results, and capture variations of search terms.",
     "crumbs": [
       "DISCOVER & REUSE",
       "Searching for Data"
@@ -828,6 +828,776 @@
     "crumbs": [
       "DISCOVER & REUSE",
       "Searching for Data"
+    ]
+  },
+  {
+    "objectID": "costs.html#when",
+    "href": "costs.html#when",
+    "title": "Costs",
+    "section": "When",
+    "text": "When\nPlan data management costs early - ideally during grant preparation - using a preliminary DMP to make storage, documentation, analysis, backup, and archiving needs explicit. This can serve as a basis for the Costs section in the offical DMP.",
+    "crumbs": [
+      "PLAN & FUND",
+      "Costs"
+    ]
+  },
+  {
+    "objectID": "naming-conventions.html#why",
+    "href": "naming-conventions.html#why",
+    "title": "Naming Conventions",
+    "section": "Why",
+    "text": "Why\nNames that are informative and useful for machines and humans are a step toward efficient data management and reproducible research. The more consistent and meaningful the name, the easier it will be to locate and identify things, understand what they contain, and (re)use them.",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Naming Conventions"
+    ]
+  },
+  {
+    "objectID": "naming-conventions.html#who",
+    "href": "naming-conventions.html#who",
+    "title": "Naming Conventions",
+    "section": "Who",
+    "text": "Who\nThe entire research team should agree on and adopt a naming convention. Document the choice of naming convention in the DMP, so others can refer to and grasp it quickly.",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Naming Conventions"
+    ]
+  },
+  {
+    "objectID": "naming-conventions.html#when",
+    "href": "naming-conventions.html#when",
+    "title": "Naming Conventions",
+    "section": "When",
+    "text": "When\nAim to select and implement a naming convention at the beginning of a project. If you want to retroactively apply a naming convention, there are several tools for bulk renaming.",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Naming Conventions"
+    ]
+  },
+  {
+    "objectID": "naming-conventions.html#how",
+    "href": "naming-conventions.html#how",
+    "title": "Naming Conventions",
+    "section": "How",
+    "text": "How\n\nPopular Naming Conventions\nInstead of developing a naming convention from scratch, you can start with one that is already being used in programming and software development communities:\n\n\n\n\n\n\n\n\nNaming Covention\nExample\nDescription\n\n\n\n\noriginal name\nan awesome name\nN/A\n\n\nsnake_case\nan_awesome_name\nAll words are lowercase and separated by an underscore ( _ )\n\n\nkebab-case\nan-awesome-name\nAll words are lowercase and separated by a hyphen ( - )\n\n\nPascalCase\nAnAwesomeName\nAll words are capitalized. Spaces are not used.\n\n\ncamelCase\nanAwesomeName\nThe first word is lowercase, the remaining words are capitalized. Spaces are not used.\n\n\n\n\n\nHuman-Readable Names\nYou can tailor naming conventions like snake_case and PascalCase to suit your project and workflow. Determine what information is relevant (or not) to create meaningful names and how you can string this information together. Don’t forget to document this in your DMP!\n!!! note “Elements for Human-Readable Names”\nNames should be =&lt;25 characters long and can include:\n\n- Date of creation/update (`YYYY-MM-DD` or `YYYYMMDD`)\n- Description of content, like type of data\n- Initials of creator/reviewer\n- Project number or acronym\n- Location/coordinates\n- Version number (like `v2` or v2.2`)\n\n\nMachine-Readable Names\nWhen names are machine-readable, they can be efficiently processed by computers and software. This makes it easier to search for files and run operations that involve programming like extracting information from file names or working with regular expressions.\n!!! note “Avoid”\n- Spaces\n- Special characters like `$`, `@`, `%`, `#`, `&`, `*`, `!`, `/`, `\\`\n- Punction characters like `,`, `:`, `;`, `?`, `'`, `\"`\n- Accented characters\n\n\nNumbering, Dates, Versioning\n\nAppend numbers to the beginning of a name to enable sorting according to a logical structure. Use multiple digits like 01 or 001.\nDates should follow the ISO 8601 standard which is either YYYY-MM-DD or YYYYMMDD. Append dates to the beginning of names to enable sorting in chronological order.\nSpecify versions using ordinal numbers (1,2,3) for major revisions and decimals for minor changes (1.1, 1.2, 2.1, 2.2). Alternatively, you can specify versions with multiple digits like v01 and v02.\n\n\n\nTools\nThe following tools enable renaming in bulk:\n\nBulk Rename Utility (Windows, free)\nRenamer (MacOS, paid)\nNameChanger, (MacOS, free)\nGPRename (Linux, free)",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Naming Conventions"
+    ]
+  },
+  {
+    "objectID": "folder-structures.html#why",
+    "href": "folder-structures.html#why",
+    "title": "Folder Structures",
+    "section": "Why",
+    "text": "Why\nA clear folder structure groups materials in a predictable and consistent way. It helps you know exactly where each type of file belongs, making it easier to organize and locate them. It also keeps things aligned when multiple people contribute to the same project.",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Folder Structures"
+    ]
+  },
+  {
+    "objectID": "folder-structures.html#who",
+    "href": "folder-structures.html#who",
+    "title": "Folder Structures",
+    "section": "Who",
+    "text": "Who\nThe project lead — this could be the principal investigator (PI) for a larger project or the lead author for a manuscript — should define the folder structure. All collaborators should be informed about the structure and expected to follow it.",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Folder Structures"
+    ]
+  },
+  {
+    "objectID": "folder-structures.html#when",
+    "href": "folder-structures.html#when",
+    "title": "Folder Structures",
+    "section": "When",
+    "text": "When\nA folder structure should be established at the start of a project. However, it can be refined or reorganized as the project evolves.",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Folder Structures"
+    ]
+  },
+  {
+    "objectID": "folder-structures.html#where",
+    "href": "folder-structures.html#where",
+    "title": "Folder Structures",
+    "section": "Where",
+    "text": "Where\nYour folder structure should be implemented in the storage location for your project. The same principles apply when archiving or publishing your project on other platforms.",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Folder Structures"
+    ]
+  },
+  {
+    "objectID": "preferred-formats.html#why",
+    "href": "preferred-formats.html#why",
+    "title": "Preferred Formats",
+    "section": "Why",
+    "text": "Why\nIf you’ve ever struggled to open older Excel or SPSS files, you understand why using preferred or sustainable formats is important. The formats you choose affect both your own and others’ ability to access and use your materials. This is especially important for files tied to proprietary software, as you or others may lose access to the software or compatible versions in the future. longer be available.",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Preferred Formats"
+    ]
+  },
+  {
+    "objectID": "preferred-formats.html#who",
+    "href": "preferred-formats.html#who",
+    "title": "Preferred Formats",
+    "section": "Who",
+    "text": "Who\nThe lead researcher (PI for larger projects or lead author for a publication) should define the preferred formats. This should be communicated to team members and collaborators to minimize unnecessary file conversions.",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Preferred Formats"
+    ]
+  },
+  {
+    "objectID": "preferred-formats.html#when",
+    "href": "preferred-formats.html#when",
+    "title": "Preferred Formats",
+    "section": "When",
+    "text": "When\nThe preferred formats should be defined early in the project. It is recommended to work with them straightaway. However, you may find it easier to use non-preferred formats during the active stage of your project. In that case, you can create copies of your files in preferred formats at the archiving stage.",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Preferred Formats"
+    ]
+  },
+  {
+    "objectID": "preferred-formats.html#where",
+    "href": "preferred-formats.html#where",
+    "title": "Preferred Formats",
+    "section": "Where",
+    "text": "Where\nYou can specify both preferred and non-preferred formats in your Data Management Plan (DMP). Files in preferred formats should be included in your data package at the archiving and publishing stages, assuming they were not being used during the active stage of your project already.",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Preferred Formats"
+    ]
+  },
+  {
+    "objectID": "preferred-formats.html#how",
+    "href": "preferred-formats.html#how",
+    "title": "Preferred Formats",
+    "section": "How",
+    "text": "How\nRefer to DANS’ guidance on preferred formats. Creating files in preferred formats is usually as simple as selecting the appropriate option when saving, instead of using the default option.\n\n\n\nscreenshot of DANS’ overview of preferred vs. non-preferred formats",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Preferred Formats"
+    ]
+  },
+  {
+    "objectID": "preferred-formats.html#reference",
+    "href": "preferred-formats.html#reference",
+    "title": "Preferred Formats",
+    "section": "Reference",
+    "text": "Reference\n\nhttps://mcw.libguides.com/c.php?g=1288089&p=9467268",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Preferred Formats"
+    ]
+  },
+  {
+    "objectID": "pipelining.html#why",
+    "href": "pipelining.html#why",
+    "title": "Data Pipelining",
+    "section": "Why",
+    "text": "Why\nThe benefits of a data pipeline include:\n\nTime saved by automating the boring stuff!\nReduced errors/mistakes.\nTasks broken down into smaller steps.\nReproducibility!",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Data Pipelining"
+    ]
+  },
+  {
+    "objectID": "pipelining.html#who",
+    "href": "pipelining.html#who",
+    "title": "Data Pipelining",
+    "section": "Who",
+    "text": "Who\nThis is relevant for researcher(s) working directly with the data for processing and/or analysis.",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Data Pipelining"
+    ]
+  },
+  {
+    "objectID": "pipelining.html#when",
+    "href": "pipelining.html#when",
+    "title": "Data Pipelining",
+    "section": "When",
+    "text": "When\nHere’s a rule of thumb, just as an example:\nIf you have a task that needs to occur &gt;= 3 times, consider automating it. If automation isn’t possible, think about how you can make the task as efficient as possible.\nIdeally, you would pilot your data pipeline before data collection begins. However, improvements can be added at any stage if they don’t disrupt the workflow. The added advantage of putting in the effort upfront is that the pipeline will likely be reusable for other projects.",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Data Pipelining"
+    ]
+  },
+  {
+    "objectID": "pipelining.html#where",
+    "href": "pipelining.html#where",
+    "title": "Data Pipelining",
+    "section": "Where",
+    "text": "Where\nYour data pipeline will consist of scripts that live in the storage location used during the active stage of your project. They can be separate from analysis scripts for publications, but this is optional — choose what works best for your workflow.\nConsider placing your scripts under version control using Git and making use of the university’s GitHub organization for collaboration.",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Data Pipelining"
+    ]
+  },
+  {
+    "objectID": "pipelining.html#how",
+    "href": "pipelining.html#how",
+    "title": "Data Pipelining",
+    "section": "How",
+    "text": "How\nOnce you have drawn your data flow diagram (DFD), inspect it to identify opportunities for automating tasks using the rule of thumb above, then explore and implement appropriate solutions.\n\nExtracting Data\n\nAPIs: Many data collection tools provide APIs. For example, Qualtrics can be accessed via the qualtRics R package or the QualtricsAPI Python library to automate survey exports.\nBrowser Automation: If APIs are unavailable, R (RSelenium) or Python (Selenium) can automate browser actions, such as logging in and downloading files. Note: Two-factor authentication may limit feasibility.\nAutomatic Transcription: Amberscript can automatically transcribe interviews and save them directly to YODA.\nYODA Integration: The ibridges tool and python-irodsclient allow you to fetch data from YODA. They can also be used to deposit data into YODA.\n\n\n\nProcessing Data\nYou can use R/Python scripts to automate (pre)processing of data: dropping or renaming columns, (re)applying variable and value labels, recoding variables, computing summary scores, handling duplicates, managing missing data.\n\n\nAutomating & Scheduling Scripts\nIf your scripts are fully reproducible and do not require manual input:\n\nYou can run individual scripts from the command line or create a batch/shell script to run multiple scripts sequentially.\nTo take it a step further, these scripts—or the batch/shell script—can be scheduled to run at a specific time or on a recurring basis using Windows Task Scheduler, cron, or R packages such as taskscheduleR or cronR.\n\n\n\nBonus\nYou can also send emails with R & Python! For example, if you’ve ever needed to contact participants due to low response rates or incomplete surveys, you can implement these checks with a script. Based on the results, a follow-up script can automatically draft and send emails (from a template) to participants flagged for a check-in.\nThe Microsoft365R package allows you to send emails from Outlook, while the blastula package helps you compose emails to appear more presentable. Note: You can use your own email address when testing the packages, but for research projects, it is recommended to link them to a project-specific email address rather than your personal one.\n\n\nTools\n\n\n\n\n\n\nTip\n\n\n\nThe following tools are roughly presented to provide an idea of what they look like. You can reach out to RDM Support for hands-on assistance in setting up your data pipeline!\n\n\n\nQualtRics R package\nSee: https://docs.ropensci.org/qualtRics/\n\n# load packages\n\nlibrary(qualtRics)\n\n# authenticate with qualtrics (needs to be done only once) \n\nqualtrics_api_credentials(api_key = \"YOUR-QUALTRICS-API-KEY\", \n                          base_url = \"YOUR-QUALTRICS-BASE-URL\",\n                          overwrite = TRUE,\n                          install = TRUE)\n\n# reload .Renviron file\n\nreadRenviron(\"~/.Renviron\")\n\n\n# load packages\n\nlibrary(qualtRics)\nlibrary(here)\nlibrary(readr)\n\n# fetch data\n\ndata &lt;- fetch_survey(surveyID = &lt;SURVEY-ID&gt;, label = FALSE, convert = FALSE, add_var_labels = TRUE, verbose = TRUE)\n\n# save data\n\nwrite_csv(data, here(paste0(\"data/raw/\", Sys.Date(), \"_data.csv\")))\n\n\n\niBridges\nThe example below is for use within R scripts on a Windows workspace. Please refer to the iBridges documentation for more information and different implementations.\n\n# upload data\n\nsystem('ibridges upload \"~/data/raw/2025-12-25_data.csv\" irods:/nluu12p/home/my-research-project/data/raw')\n\n# download data\n\nsystem('ibridges download irods:/nluu12p/home/my-research-project/data/raw/2025-12-25_data.csv \"~/data/raw\"')\n\n\n\nWindows Task Scheduler\nRefer to the following website on how to get started with Windows Task Scheduler (follow along with screenshots): https://www.getclockwise.com/blog/automated-task-windows-task-scheduler\nOne MacOS & Linux, you can run cron jobs from the command line.\n\n\ntaskscheduleR package\nSee: https://github.com/bnosac/taskscheduleR\nThe taskscheduleR packages interfaces with Windows Task Scheduler from within R. If you’re using MacOS & Linux, you can use the cronR package instead.\n\nlibrary(taskscheduleR)\n\nscheduled_script &lt;- \"path/to/folder/myscript.R\"\n\n## run script once within 120 seconds\n\ntaskscheduler_create(taskname = \"extract-data-once\", rscript = scheduled_script,\n                     schedule = \"ONCE\", starttime = format(Sys.time() + 120, \"%H:%M\"))\n\n## Run every 5 minutes, starting from 10:40\n\ntaskscheduler_create(taskname = \"extract-data-5min\", rscript = scheduled_script,\n                     schedule = \"MINUTE\", starttime = \"10:40\", modifier = 5)\n\n## delete tasks\n\ntaskscheduler_delete(\"extract-data-once\")\n\n\n\nWindows Batch File\n\ntitle batch script for automate-the-boring-things\n\nset startTime=%time%\n\ncd %USERPROFILE%\\Documents\\Programming\\automate-the-boring-things\n\nRscript \"scripts/01-qualtrics-download.R\"\nRscript \"scripts/02-preprocessing.R\"\nRscript \"scripts/03-yoda-upload.R\"\n\necho Start Time: %startTime%\necho Finish Time: %time%\n\npause",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Data Pipelining"
+    ]
+  },
+  {
+    "objectID": "metadata.html#why",
+    "href": "metadata.html#why",
+    "title": "Metadata",
+    "section": "Why",
+    "text": "Why\nMetadata that is structured and machine-readable makes your data findable and citable, improving accessibility and reusability.",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Metadata"
+    ]
+  },
+  {
+    "objectID": "metadata.html#who",
+    "href": "metadata.html#who",
+    "title": "Metadata",
+    "section": "Who",
+    "text": "Who\nResearchers working with the data, as well as those involved in archiving and publishing, are responsible for ensuring metadata of sufficient quality.",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Metadata"
+    ]
+  },
+  {
+    "objectID": "metadata.html#when",
+    "href": "metadata.html#when",
+    "title": "Metadata",
+    "section": "When",
+    "text": "When\nIdeally, you will generate some metadata over the course of your project. At a minimum, metadata should be created before archiving and publication.",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Metadata"
+    ]
+  },
+  {
+    "objectID": "metadata.html#where",
+    "href": "metadata.html#where",
+    "title": "Metadata",
+    "section": "Where",
+    "text": "Where\nMetadata should be made available alongside your data. This would be within your project folder during the active stage of your project and in your data package at the archiving and publication stages.",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Metadata"
+    ]
+  },
+  {
+    "objectID": "metadata.html#how",
+    "href": "metadata.html#how",
+    "title": "Metadata",
+    "section": "How",
+    "text": "How\nMetadata exists at different levels:\n\nProject-Level Metadata\nThis describes higher-order aspects of your dataset: the “who, what, where, when, how, and why.” It provides context for understanding why the data were collected and how they were used. Examples include:\n\nName of the project\n\nDataset title\n\nProject description\n\nDataset abstract\n\nPrincipal investigator and collaborators\n\nContact information\n\nDataset handle (DOI or URL)\n\nDataset citation\n\nData publication date\n\nGeographic description\n\nTime period of data collection\n\nSubjects / keywords\n\nProject sponsor\n\nDataset usage rights\n\nProject-level metadata is typically entered into a metadata form on your chosen data repository.\n\n\nData-Level Metadata\nThis is more granular and describes the data (variables) and dataset in detail. Examples include:\n\nData origin: experimental, observational, raw or derived, physical collections, models, images, etc.\n\nData type: integer, Boolean, character, floating point, etc.\n\nInstruments used\n\nData acquisition details: sensor deployment, experimental design, sensor calibration methods, etc.\n\nFile type: CSV, MAT, XLSX, TIFF, HDF, NetCDF, etc.\n\nData processing methods and software used\n\nData processing scripts or code\n\nDataset parameter list, including:\n\nVariable names\n\nDescription of each variable\n\nUnits\n\n\nSome data-level metadata can be included in repository metadata forms, but is typically captured in codebooks/data dictionaries and or project documentation.",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Metadata"
+    ]
+  },
+  {
+    "objectID": "documentation.html#why",
+    "href": "documentation.html#why",
+    "title": "Documentation",
+    "section": "Why",
+    "text": "Why\nDocumentation is meant to be human-readable and plays a crucial role in interoperability and reusability. It helps users interpret your data correctly and reuse it effectively.",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Documentation"
+    ]
+  },
+  {
+    "objectID": "documentation.html#who",
+    "href": "documentation.html#who",
+    "title": "Documentation",
+    "section": "Who",
+    "text": "Who\nAll researchers involved in the project should contribute to documentation, either by creating or reviewing it. The lead researcher (PI for a project or researcher for a publication) is responsible for ensuring good documentation practices and maintaining completeness.",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Documentation"
+    ]
+  },
+  {
+    "objectID": "documentation.html#when",
+    "href": "documentation.html#when",
+    "title": "Documentation",
+    "section": "When",
+    "text": "When\nDocumentation should be developed over the course of the project and finalized by the archiving and publication stages.",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Documentation"
+    ]
+  },
+  {
+    "objectID": "documentation.html#where",
+    "href": "documentation.html#where",
+    "title": "Documentation",
+    "section": "Where",
+    "text": "Where\nDocumentation will live in your chosen storage location during the active stage of your project and be included in your data package in the archiving or publishing stages.",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Documentation"
+    ]
+  },
+  {
+    "objectID": "documentation.html#how",
+    "href": "documentation.html#how",
+    "title": "Documentation",
+    "section": "How",
+    "text": "How\nExamples of documentation include:\n\nGrant / study proposals\n\nStudy protocols / methodology\n\nData Management Plan (DMP)\n\nREADME files\n\nLab notebooks\n\nLegal, policy, or administrative documents\n\nYou will generate a lot of documentation over the course of your project. At the archiving and publication stages, you should select the documents most relevant to your project context. You can and should include as much as possible, as even materials that seem less useful now may have value in the future. That being said, some documents are for internal use and reference only — use your discretion to determine what should be withheld.\n\nDocumentation Checklist\nUse this starter checklist to create an inventory of your documentation: https://tinyurl.com/documentation-checklist",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Documentation"
+    ]
+  },
+  {
+    "objectID": "codebooks.html#why",
+    "href": "codebooks.html#why",
+    "title": "Codebooks",
+    "section": "Why",
+    "text": "Why\nThe purpose of a codebook is to explain what all the variable names and values in your dataset really mean, making the data understandable and reusable. A codebook is valuable both for researchers within the project and for collaborators and/or re-users outside the project.",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Codebooks"
+    ]
+  },
+  {
+    "objectID": "codebooks.html#who",
+    "href": "codebooks.html#who",
+    "title": "Codebooks",
+    "section": "Who",
+    "text": "Who\nThe researcher(s) working with the data are responsible for creating and maintaining the codebook.",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Codebooks"
+    ]
+  },
+  {
+    "objectID": "codebooks.html#when",
+    "href": "codebooks.html#when",
+    "title": "Codebooks",
+    "section": "When",
+    "text": "When\nThe codebook should be created during the active stage of the project as data is processed. It should be finalized by the archiving and publication stages.",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Codebooks"
+    ]
+  },
+  {
+    "objectID": "codebooks.html#where",
+    "href": "codebooks.html#where",
+    "title": "Codebooks",
+    "section": "Where",
+    "text": "Where\nThe codebook should be available alongside your data. This would be within your project folder during the active stage and in your data package at the archiving and publication stages.",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Codebooks"
+    ]
+  },
+  {
+    "objectID": "codebooks.html#how",
+    "href": "codebooks.html#how",
+    "title": "Codebooks",
+    "section": "How",
+    "text": "How\nInformation to include in a codebook typically includes:\n\nVariable names\n\nReadable variable name\n\nMeasurement units\n\nAllowed values\n\nDefinition of the variable\n\nSynonyms for the variable name (optional)\n\nDescription of the variable (optional)\n\nOther relevant resources\n\nFor more guidance, see: How to Make a Data Dictionary\n\ncodebook R package\nThe codebook R package can generate both machine-readable (csv, xlsx) and human-readable codebooks (pdf) based on a given dataframe. A very simple example is given below:\n\n# load libraries\n\nlibrary(codebook)\nlibrary(writexl)\n\n# load data\n\ndata &lt;- data.frame(iris)\n  \n# generate codebook\n\ncodebook &lt;- codebook_table(data)\n\n# export codebook\n\nwrite_xlsx(codebook, \"codebook.xlsx\")",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Codebooks"
+    ]
+  },
+  {
+    "objectID": "reproducibility.html",
+    "href": "reproducibility.html",
+    "title": "Reproducibility",
+    "section": "",
+    "text": "What\nReproducibility means being able to reliably repeat the same analysis with the same data and obtain the same results. While reproducibility covers many components, this chapter focuses on achieving it by creating a research compendium — specifically, an executable one using reproducible manuscripts.\nA research compendium brings together all digital components of your research (data, code, and text) and accompanies your manuscript:",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Reproducibility"
+    ]
+  },
+  {
+    "objectID": "reproducibility.html#what",
+    "href": "reproducibility.html#what",
+    "title": "Reproducibility",
+    "section": "",
+    "text": "A basic compendium has a clear folder structure that separates data, scripts, and other materials. The software and methods required to use the data and run the scripts should be described in a dedicated document, such as a data analysis plan/protocol. A README file should also be included to describe the compendium as a whole.\nAn executable compendium makes it possible to reproduce the use of the data and the running of scripts in one go. There are many ways to execute a project - the most accessible approach is a reproducible manuscript (also referred to as dynamic documents or literate programming). A reproducible manuscript interweaves data, code, text, citations/references into a single file. This file can be executed and rendered to various output formats such as DOCX or PDF with a single click.",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Reproducibility"
+    ]
+  },
+  {
+    "objectID": "reproducibility.html#why",
+    "href": "reproducibility.html#why",
+    "title": "Reproducibility",
+    "section": "Why",
+    "text": "Why\nWorking with a reproducible manuscript keeps all digital components of the research close together and compels you to follow good data and software practices. The code is embedded within the document, making it easy to inspect and re-run. It is possible to embed results and values directly in the text of the manuscript, eliminating copy-and-paste steps and reducing the risk of errors.\nSince the entire document can be re-run and rendered at any time, revisions become straightforward and consistent across text, figures, tables. This approach avoids the manual workflow of locating data, running scripts separately, copying outputs into a manuscript, and cross-checking results between analysis files and a text-only document.",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Reproducibility"
+    ]
+  },
+  {
+    "objectID": "reproducibility.html#who",
+    "href": "reproducibility.html#who",
+    "title": "Reproducibility",
+    "section": "Who",
+    "text": "Who\nThe researcher(s) working on a given publication.",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Reproducibility"
+    ]
+  },
+  {
+    "objectID": "reproducibility.html#when",
+    "href": "reproducibility.html#when",
+    "title": "Reproducibility",
+    "section": "When",
+    "text": "When\nYou build a research compendium during the active stage of your project, while working on your reproducible manuscript.",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Reproducibility"
+    ]
+  },
+  {
+    "objectID": "reproducibility.html#where",
+    "href": "reproducibility.html#where",
+    "title": "Reproducibility",
+    "section": "Where",
+    "text": "Where\nYour reproducible manuscript will live in the storage location used during the active stage of your project.\nIdeally, you would place your manuscript under version control using Git and make use of the university’s GitHub organization for collaboration. Be careful not to commit privacy-senstive data to GitHub - there are workarounds for that!",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Reproducibility"
+    ]
+  },
+  {
+    "objectID": "reproducibility.html#how",
+    "href": "reproducibility.html#how",
+    "title": "Reproducibility",
+    "section": "How",
+    "text": "How\nCheck out our workshop on Writing Reproducible Manuscripts in R & Python! You can go through the materials yourself or request a workshop.\nThe steps involved would be:\n\nInstall Quarto\nCreate a Quarto project in RStudio or Jupyter\nImplement a (reproducible) folder structure\nUse Markdown syntax effectively for writing text\nRun analyses in code chunks or cells\nManage references using Zotero and Better BibTeX for Zotero\nRender your Quarto project to DOCX, HTML, and PDF files",
+    "crumbs": [
+      "COLLECT & ANALYZE",
+      "Reproducibility"
+    ]
+  },
+  {
+    "objectID": "storage.html#why",
+    "href": "storage.html#why",
+    "title": "Data Storage",
+    "section": "Why",
+    "text": "Why\nStoring data properly ensures that research can be conducted efficiently, prevents data loss, and maintains the integrity and reproducibility of results. Well-managed storage supports collaboration, version control, and easy retrieval of files during the project.",
+    "crumbs": [
+      "PRESERVE & STORE",
+      "Data Storage"
+    ]
+  },
+  {
+    "objectID": "storage.html#who",
+    "href": "storage.html#who",
+    "title": "Data Storage",
+    "section": "Who",
+    "text": "Who\nWhen planning data storage, consider collaboration with other researchers. Decisions about who will access the data and how often it will be shared affect both where the data is stored and how it is organized, backed up, and structured.",
+    "crumbs": [
+      "PRESERVE & STORE",
+      "Data Storage"
+    ]
+  },
+  {
+    "objectID": "storage.html#when",
+    "href": "storage.html#when",
+    "title": "Data Storage",
+    "section": "When",
+    "text": "When\nA decision about data storage needs to be taken at the onset of the project. From that point, data should be stored securely and include regular backups to prevent loss or accidental overwriting.",
+    "crumbs": [
+      "PRESERVE & STORE",
+      "Data Storage"
+    ]
+  },
+  {
+    "objectID": "storage.html#where",
+    "href": "storage.html#where",
+    "title": "Data Storage",
+    "section": "Where",
+    "text": "Where\nThe Data Storage Finder is a tool provided by IT help you decide which storage solution would be most suited to your needs. The suggestions are based on factors such as collaboration, size, sensitivity, and (ease of) access.",
+    "crumbs": [
+      "PRESERVE & STORE",
+      "Data Storage"
+    ]
+  },
+  {
+    "objectID": "storage.html#how",
+    "href": "storage.html#how",
+    "title": "Data Storage",
+    "section": "How",
+    "text": "How\nWhen storing data, consider the following:\n\nchoose storage media that is appropriate for the type of data you’re working with\nensure reliable version control and backups\nfollow a naming convention\nstructure folders and organize files clearly\nuse preferred and sustainable file formats\nsecure data files, using access control and/or encryption",
+    "crumbs": [
+      "PRESERVE & STORE",
+      "Data Storage"
+    ]
+  },
+  {
+    "objectID": "archiving.html#why",
+    "href": "archiving.html#why",
+    "title": "Data Archiving",
+    "section": "Why",
+    "text": "Why\nArchiving enables future verification and safeguards the integrity of research. By storing raw data in a stable and accessible manner, researchers and institutions can revisit it if questions arise about methods, results, or conclusions.\nArchiving is not directly part of the FAIR principles, which focus on sharing and reusing data. Nonetheless, good archiving practices - such as organized file structures and clear documentation - provide a strong foundation for later FAIRification.",
+    "crumbs": [
+      "PRESERVE & STORE",
+      "Data Archiving"
+    ]
+  },
+  {
+    "objectID": "archiving.html#who",
+    "href": "archiving.html#who",
+    "title": "Data Archiving",
+    "section": "Who",
+    "text": "Who\nThe lead researcher is primarily responsibility for ensuring data is archived, while the research team shares responsibility for preparing and organizing the files.",
+    "crumbs": [
+      "PRESERVE & STORE",
+      "Data Archiving"
+    ]
+  },
+  {
+    "objectID": "archiving.html#when",
+    "href": "archiving.html#when",
+    "title": "Data Archiving",
+    "section": "When",
+    "text": "When\nArchive your data at the end of your project, when no further changes are expected to be made. This can be when data collection and analysis are complete, or when results are published or submitted.\nRetention requirements vary by institution, funder, and discipline. A common guideline is to preserve raw data for at least 10 years after project completion or publication, though some fields require longer retention for legal, ethical, or scientific reasons.",
+    "crumbs": [
+      "PRESERVE & STORE",
+      "Data Archiving"
+    ]
+  },
+  {
+    "objectID": "archiving.html#where",
+    "href": "archiving.html#where",
+    "title": "Data Archiving",
+    "section": "Where",
+    "text": "Where\nArchive your data in the Vault area of YODA to create a read-only, long-term snapshot that cannot be overwritten or deleted, ensuring data integrity.",
+    "crumbs": [
+      "PRESERVE & STORE",
+      "Data Archiving"
+    ]
+  },
+  {
+    "objectID": "archiving.html#how",
+    "href": "archiving.html#how",
+    "title": "Data Archiving",
+    "section": "How",
+    "text": "How\nSelect the data to preserve long-term, as archiving all research materials and data (especially large datasets not directly related to the project) can be practically and financially challenging.\nTo improve future reusability, store data in recommended formats that are non-proprietary, unencrypted, and uncompressed.",
+    "crumbs": [
+      "PRESERVE & STORE",
+      "Data Archiving"
+    ]
+  },
+  {
+    "objectID": "governance.html#why",
+    "href": "governance.html#why",
+    "title": "Data Governance",
+    "section": "Why",
+    "text": "Why\nWithout clear guidance, data sharing and reuse can become time-consuming and easily deprioritized. A data governance framework reduces ad hoc communication and provides a standard operating procedure for making decisions and responding to requests, reducing friction and making follow-through more manageable.",
+    "crumbs": [
+      "PUBLISH & SHARE",
+      "Data Governance"
+    ]
+  },
+  {
+    "objectID": "governance.html#who",
+    "href": "governance.html#who",
+    "title": "Data Governance",
+    "section": "Who",
+    "text": "Who\nAll members of the research team involved in handling data should contribute to or be consulted when defining the framework. The principal investigator (PI) plays a central role in establishing and upholding data governance.",
+    "crumbs": [
+      "PUBLISH & SHARE",
+      "Data Governance"
+    ]
+  },
+  {
+    "objectID": "governance.html#when",
+    "href": "governance.html#when",
+    "title": "Data Governance",
+    "section": "When",
+    "text": "When\nIt is most effective to develop the framework in detail as data sharing and reuse approach. However, discussing goals and aspirations earlier in the project helps ensure that research data management decisions support these long-term objectives.",
+    "crumbs": [
+      "PUBLISH & SHARE",
+      "Data Governance"
+    ]
+  },
+  {
+    "objectID": "governance.html#where",
+    "href": "governance.html#where",
+    "title": "Data Governance",
+    "section": "Where",
+    "text": "Where\nDocuments related to data governance can be made publicly available alongside the data package in the chosen repository, providing transparency and guidance for future users.",
+    "crumbs": [
+      "PUBLISH & SHARE",
+      "Data Governance"
+    ]
+  },
+  {
+    "objectID": "governance.html#how",
+    "href": "governance.html#how",
+    "title": "Data Governance",
+    "section": "How",
+    "text": "How\nWhen you’re ready to start sharing your data, you can set up a detailed Data Access Protocol (DAP) that outlines data governance for yourself, your research team, and potential re-users.\nA DAP can cover many topics, and it will require you and/or your project team to decide what is relevant and appropriate for your data. You can make it as simple or as elaborate as you like.\nIt would help to reflect on the following points:\n\nGoals: What would you like to achieve by sharing your data? Some examples include citations/acknowledgments, co-authorship, or collaboration. Specify this in the DAP so end-users understand their obligations.\nResources: How much time and effort can you and/or your team invest in data governance? Consider tasks such as assessing incoming requests, preparing datasets for sharing, and maintaining a data sharing logbook. Note: If privacy-sensitive data are involved, even the simplest DAPs must consider legal requirements.\n\nSome suggestions for sections in your DAP include:\n\nData Ownership / License & Copyright\nRoles & Responsibilities\nTerms & Conditions\nData Request & Review Procedure\nPublication & Authorship Guidelines\nDisclaimers & Liabilities\n\nYou may also want to provide documents such as a Data Request Form and Publication Checklist for end users. These can be included in the DAP appendices and made available separately for easy access.",
+    "crumbs": [
+      "PUBLISH & SHARE",
+      "Data Governance"
+    ]
+  },
+  {
+    "objectID": "governance.html#examples",
+    "href": "governance.html#examples",
+    "title": "Data Governance",
+    "section": "Examples",
+    "text": "Examples\n\nUU/UMCU Projects:\n\nPROactive Cohort Study’s Data Access Protocol\nYOUth Cohort Study’s Data Access & Publication Guidelines\n\n\n\nNon-UU/UMCU Projects:\n\nL-CID’s Data Sharing Protocol, scroll down to Request Access To Our Data\nNTR’s Data Sharing Procedures\nTRAILS’ Data Request & Publication Plan",
+    "crumbs": [
+      "PUBLISH & SHARE",
+      "Data Governance"
+    ]
+  },
+  {
+    "objectID": "publication.html#what",
+    "href": "publication.html#what",
+    "title": "Data Publication",
+    "section": "",
+    "text": "Tip\n\n\n\nRemember that your data does not have to be ‘open’ to be FAIR!\nYou want to make your data… ‘as open as possible, as closed as necessary’ (European Commission).",
+    "crumbs": [
+      "PUBLISH & SHARE",
+      "Data Publication"
+    ]
+  },
+  {
+    "objectID": "publication.html#why",
+    "href": "publication.html#why",
+    "title": "Data Publication",
+    "section": "Why",
+    "text": "Why\nThe (meta)data can be reused by others for their own research purposes, supporting collaboration and open science. Increasingly, funders and journals also require published (meta)data or data availability statements as part of research outputs.",
+    "crumbs": [
+      "PUBLISH & SHARE",
+      "Data Publication"
+    ]
+  },
+  {
+    "objectID": "publication.html#who",
+    "href": "publication.html#who",
+    "title": "Data Publication",
+    "section": "Who",
+    "text": "Who\nTypically, data publishing is overseen by Principal Investigator (PI) for a large project or the lead researcher for a manuscript. You can approach a data supporter at your faculty or the University Library to help you with preparing a data package.",
+    "crumbs": [
+      "PUBLISH & SHARE",
+      "Data Publication"
+    ]
+  },
+  {
+    "objectID": "publication.html#when",
+    "href": "publication.html#when",
+    "title": "Data Publication",
+    "section": "When",
+    "text": "When\nIt would be appropriate to carry out data publishing at the end of your project. However, if your repository allows updates to the data package, you can publish at any stage. Publishing earlier can be beneficial, as it provides room to develop and refine the data package over time rather than relying on a last-minute effort.",
+    "crumbs": [
+      "PUBLISH & SHARE",
+      "Data Publication"
+    ]
+  },
+  {
+    "objectID": "publication.html#where",
+    "href": "publication.html#where",
+    "title": "Data Publication",
+    "section": "Where",
+    "text": "Where\nYou can use the UU Repository Finder to select an appropriate publishing platform. For the DoY Community, DataverseNL & YODA would be suitable repositories.\nWhen you publish (meta)data on these platforms, you receive a landing page for your dataset and a DOI (persistent identifier), making it easily findable and citable.",
+    "crumbs": [
+      "PUBLISH & SHARE",
+      "Data Publication"
+    ]
+  },
+  {
+    "objectID": "publication.html#how",
+    "href": "publication.html#how",
+    "title": "Data Publication",
+    "section": "How",
+    "text": "How\nOnce you’ve selected a repository using the UU Repository Finder, you can work on:\n\nAdding structured metadata and uploading documentation, which further enhance the dataset’s accessibility and reusability.\nThe data files themselves can be withheld internally or placed under restricted access, while the metadata and documentation are openly published. Once any data sharing agreements are signed, the data can be shared using the appropriate tool/infrastructure.",
+    "crumbs": [
+      "PUBLISH & SHARE",
+      "Data Publication"
+    ]
+  },
+  {
+    "objectID": "transfer.html",
+    "href": "transfer.html",
+    "title": "Data Transfer",
+    "section": "",
+    "text": "What\nData Transfer refers to the process of making data available to an approved re-user, either by handing over the data directly or by providing secure access so they can work with it.",
+    "crumbs": [
+      "PUBLISH & SHARE",
+      "Data Transfer"
+    ]
+  },
+  {
+    "objectID": "transfer.html#why",
+    "href": "transfer.html#why",
+    "title": "Data Transfer",
+    "section": "Why",
+    "text": "Why\nIf your data are privacy-sensitive, they may be withheld internally or placed under restricted access at the publication stage. Since the data cannot be downloaded via the repository, alternative tools must be used to make the data available to the re-user. This process is typically accompanied by formal agreements and documentation.",
+    "crumbs": [
+      "PUBLISH & SHARE",
+      "Data Transfer"
+    ]
+  },
+  {
+    "objectID": "transfer.html#who",
+    "href": "transfer.html#who",
+    "title": "Data Transfer",
+    "section": "Who",
+    "text": "Who\nThe individuals responsible for reviewing data requests + preparing and transferring data, as specified in the Data Governance framework / Data Access Protocol. Privacy Officers may need to be consulted, and data stewards can provide support on appropriate procedures and tools.",
+    "crumbs": [
+      "PUBLISH & SHARE",
+      "Data Transfer"
+    ]
+  },
+  {
+    "objectID": "transfer.html#when",
+    "href": "transfer.html#when",
+    "title": "Data Transfer",
+    "section": "When",
+    "text": "When\nThese procedures take place as data requests are received and preliminarily approved.",
+    "crumbs": [
+      "PUBLISH & SHARE",
+      "Data Transfer"
+    ]
+  },
+  {
+    "objectID": "transfer.html#where",
+    "href": "transfer.html#where",
+    "title": "Data Transfer",
+    "section": "Where",
+    "text": "Where\nWithin your project folder, it would be good practice to maintain a dedicated subfolder for materials related to data sharing. This can include, but need not be limited to:\n\na data sharing logbook\ncopies of data request forms, correspondence, and agreements\na copy of the shared dataset or the script used to generate the shared subset",
+    "crumbs": [
+      "PUBLISH & SHARE",
+      "Data Transfer"
+    ]
+  },
+  {
+    "objectID": "transfer.html#how",
+    "href": "transfer.html#how",
+    "title": "Data Transfer",
+    "section": "How",
+    "text": "How\nIn order to share data with re-users, you will need to consider the following:\n\nInformation & Consent: The information letters and informed consent forms provided to participants must clearly state whether data sharing and reuse are permitted.\nRisk Assessment: A Data Protection Impact Assessment (DPIA) may be required to determine whether data can be shared safely and under what conditions.\nLegal Agreements: Any transfer of data outside the university requires a Data Transfer Agreement (DTA) in line with the GDPR. The complexity of the DTA depends on the nature of the transfer, for example whether data are shared outside the EU.\nTools: Appropriate tool(s) for data transfer should be selected based on the outcomes of the aforementioned assessments and reviews.\n\n\nTools\n\nSURFfilesender\nSURFfilesender allows you to transfer large files (up to 1 TB) securely. The tool is GDPR-compliant and offers the option of encryption for additional security. You can log in using your institutional credentials. Moreover, you can provide guest access to users without an institutional account or eduID (for example, societal partners / external collaborators) if they need to send you files securely.\n\n\nVirtual Research Environments\nVirtual Research Environments (VREs) — such as those provided by ResearchCloud (UU) and anDREa (UMCU) — are preconfigured workspaces that enable collaboration on and reuse of data. These workspaces can be accessed from anywhere in the world via the provider’s web portal. Depending on your requirements, they can be configured with additional security measures, such as preventing data from being downloaded to a re-user’s computer.",
+    "crumbs": [
+      "PUBLISH & SHARE",
+      "Data Transfer"
     ]
   }
 ]

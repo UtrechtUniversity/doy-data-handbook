@@ -125,6 +125,12 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Definitions</span></a>
   </div>
 </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./fair-data-cheatsheet.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">FAIR Data Cheatsheet</span></a>
+  </div>
+</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false">
@@ -237,7 +243,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./archiving.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Data Archving</span></a>
+ <span class="menu-text">Data Archiving</span></a>
   </div>
 </li>
       </ul>
@@ -253,20 +259,20 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./governance.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Data Governance</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./publication.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Data Publication</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./sharing.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Data Sharing</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./governance.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Data Governance</span></a>
+  <a href="./transfer.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Data Transfer</span></a>
   </div>
 </li>
       </ul>
@@ -305,12 +311,6 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./fair-data-cheatsheet.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">FAIR Data Cheatsheet</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="./trainings.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Trainings</span></a>
   </div>
@@ -333,14 +333,18 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#how" id="toc-how" class="nav-link active" data-scroll-target="#how">How</a>
+  <li><a href="#what" id="toc-what" class="nav-link active" data-scroll-target="#what">What</a></li>
+  <li><a href="#why" id="toc-why" class="nav-link" data-scroll-target="#why">Why</a></li>
+  <li><a href="#who" id="toc-who" class="nav-link" data-scroll-target="#who">Who</a></li>
+  <li><a href="#when" id="toc-when" class="nav-link" data-scroll-target="#when">When</a></li>
+  <li><a href="#where" id="toc-where" class="nav-link" data-scroll-target="#where">Where</a></li>
+  <li><a href="#how" id="toc-how" class="nav-link" data-scroll-target="#how">How</a>
   <ul class="collapse">
-  <li><a href="#project" id="toc-project" class="nav-link" data-scroll-target="#project">project</a></li>
-  <li><a href="#publication" id="toc-publication" class="nav-link" data-scroll-target="#publication">publication</a></li>
-  </ul></li>
+  <li><a href="#project-vs.-publication" id="toc-project-vs.-publication" class="nav-link" data-scroll-target="#project-vs.-publication">Project vs.&nbsp;Publication</a></li>
+  <li><a href="#project-level" id="toc-project-level" class="nav-link" data-scroll-target="#project-level">Project-Level</a></li>
+  <li><a href="#publication-level" id="toc-publication-level" class="nav-link" data-scroll-target="#publication-level">Publication-Level</a></li>
   <li><a href="#tools" id="toc-tools" class="nav-link" data-scroll-target="#tools">Tools</a></li>
-  <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources">Resources</a></li>
-  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/UtrechtUniversity/doy-data-handbook/edit/main/folder-structures.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></nav>
     </div>
@@ -366,40 +370,131 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Whether it’s on your computer or in the cloud, your project will likely be organized into folders and subfolders.</p>
-<p>A clear structure keeps all your materials grouped in a predictable way. It helps you know exactly where each type of file belongs, making it easier to organize and locate them. It also keeps things aligned when multiple people contribute to the same project.</p>
-<p>The project lead should define the folder structure — this could be the PI for a larger project or an individual researcher for a manuscript. You should also ensure that collaborators are informed about the structure and follow it accordingly.</p>
-<p>This should be done at the beginning of a project, but there is always room to update and/or reorganize things along the way.</p>
-<p>in the storage location recommended for your project or in your archive/repository</p>
+<p><img src="images/folder-structure.jpg" class="img-fluid"></p>
+<figcaption>
+<a href="https://the-turing-way.netlify.app/">The Turing Way</a> project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: <a href="https://doi.org/10.5281/zenodo.3332807">10.5281/zenodo.3332807</a>.
+</figcaption>
+<p><br></p>
+<section id="what" class="level2">
+<h2 class="anchored" data-anchor-id="what">What</h2>
+<p>Whether it’s on your computer or in the cloud, your project will likely be organized into folders and subfolders that contain your research materials.</p>
+</section>
+<section id="why" class="level2">
+<h2 class="anchored" data-anchor-id="why">Why</h2>
+<p>A clear folder structure groups materials in a predictable and consistent way. It helps you know exactly where each type of file belongs, making it easier to organize and locate them. It also keeps things aligned when multiple people contribute to the same project.</p>
+</section>
+<section id="who" class="level2">
+<h2 class="anchored" data-anchor-id="who">Who</h2>
+<p>The project lead — this could be the principal investigator (PI) for a larger project or the lead author for a manuscript — should define the folder structure. All collaborators should be informed about the structure and expected to follow it.</p>
+</section>
+<section id="when" class="level2">
+<h2 class="anchored" data-anchor-id="when">When</h2>
+<p>A folder structure should be established at the start of a project. However, it can be refined or reorganized as the project evolves.</p>
+</section>
+<section id="where" class="level2">
+<h2 class="anchored" data-anchor-id="where">Where</h2>
+<p>Your folder structure should be implemented in the storage location for your project. The same principles apply when archiving or publishing your project on other platforms.</p>
+</section>
 <section id="how" class="level2">
 <h2 class="anchored" data-anchor-id="how">How</h2>
-<p>categorize things as much as possible and have a main folder and perhaps 3 sub-folders. it’s not struct and can be customaized, the aim is to keep it simple and don’t overcomplicate..don’t forget to use the naming convention you decided on earlier.</p>
-<p>we can distinguish project-level vs.&nbsp;publication-level.</p>
-<section id="project" class="level3">
-<h3 class="anchored" data-anchor-id="project">project</h3>
-<p>UMCU has the RFS..there is the Gen R fodler strcture, TIER protocol, BIDS that you can take inpiration from…based on that here is a recommendation</p>
+<p>First things first, remember to keep the <a href="https://utrechtuniversity.github.io/doy-data-handbook/naming-conventions.html">naming convention</a> you defined in mind and apply it consistently.</p>
+<p>Next, create a primary folder for your project. Thereafter, categorize similar materials as much as possible into subfolders. Within your subfolders, avoid creating more layers. Keep the hierarchy shallow, ideally around 3–4 levels in total</p>
+<p>This is a general recommendation, the structure is flexible and can be customized. Ultimately, the aim to keep it user-friendly and avoid overcomplication.</p>
+<section id="project-vs.-publication" class="level3">
+<h3 class="anchored" data-anchor-id="project-vs.-publication">Project vs.&nbsp;Publication</h3>
+<p>We can distinguish between folder structures at the project level and the publication level. The former encompasses the entire research project, while the latter pertains to a single article or manuscript.</p>
 </section>
-<section id="publication" class="level3">
-<h3 class="anchored" data-anchor-id="publication">publication</h3>
-<p>follow the best practices from computational reproducibility / cookiecutter, primarily for programming projects but can be adapted for all analysis projects</p>
+<section id="project-level" class="level3">
+<h3 class="anchored" data-anchor-id="project-level">Project-Level</h3>
+<section id="umcu" class="level4">
+<h4 class="anchored" data-anchor-id="umcu">UMCU</h4>
+<p>The UMCU provides a pre-defined series of folders for projects stored within the Research Folder Structure (RFS).</p>
+</section>
+<section id="tonic-research-project-template" class="level4">
+<h4 class="anchored" data-anchor-id="tonic-research-project-template">Tonic Research Project Template</h4>
+<p><img src="images/tonic-folder-structure.png" class="img-fluid"> The Tonic Research Project Template provides an example of a primary folder with subfolders organized in a logical manner, from administrative and methodological materials to data and analyses.</p>
+<p>See: <em>Thorsten Arendt, Mittal, D., Sehara, K., Cook, T., &amp; Julien Colomb. (2023). Folder structure template for research repositories (v2.4). Zenodo. <a href="https://doi.org/10.5281/zenodo.7763694" class="uri">https://doi.org/10.5281/zenodo.7763694</a></em></p>
+</section>
+<section id="bids" class="level4">
+<h4 class="anchored" data-anchor-id="bids">BIDS</h4>
+<p><img src="images/bids-structure.png" class="img-fluid"></p>
+<p>While it has been designed for neuroimaging projects, the Brain Imaging Data Structure (BIDS) offers inspiration for organizing experimental data, particularly when there are multiple participants and potentially multiple experimental sessions.</p>
+<p>See: <a href="https://bids.neuroimaging.io/getting_started/folders_and_files/folders.html" class="uri">https://bids.neuroimaging.io/getting_started/folders_and_files/folders.html</a></p>
 </section>
 </section>
-<section id="tools" class="level2">
-<h2 class="anchored" data-anchor-id="tools">Tools</h2>
-<p>here is are .zip files with the aforementioned folder streucture</p>
-<p>you can also generate the folder structure using this command</p>
-<p>you can also use the tree command to print the directory, you can use it for inspection or copy-paste into readme files</p>
+<section id="publication-level" class="level3">
+<h3 class="anchored" data-anchor-id="publication-level">Publication-Level</h3>
+<section id="tier-protocol" class="level4">
+<h4 class="anchored" data-anchor-id="tier-protocol">TIER Protocol</h4>
+<p><img src="images/tier-protocol.png" class="img-fluid"> The TIER Protocol specifies how research materials (data, code, and documentation) should be organized so that results can be fully reproduced. It is primarily aimed at projects that use <em>copy-and-paste</em> workflows, where results are generated in output files and then copied and pasted into manuscripts.</p>
+<p>See: <a href="https://www.projecttier.org/tier-protocol/protocol-4-0/" class="uri">https://www.projecttier.org/tier-protocol/protocol-4-0/</a></p>
 </section>
-<section id="resources" class="level2">
-<h2 class="anchored" data-anchor-id="resources">Resources</h2>
-<p>links to protocols? UMCU has the RFS..there is the Gen R fodler strcture, TIER protocol, BIDS that you can take inpiration from…</p>
-<p>here are some analysis organization inspo</p>
+<section id="good-enough-practices-in-scientific-computing" class="level4">
+<h4 class="anchored" data-anchor-id="good-enough-practices-in-scientific-computing">Good Enough Practices In Scientific Computing</h4>
+<p><img src="images/good-enough-structure.png" class="img-fluid"></p>
+<p>If you’re using programming languages such as R and/or Python, best practices include containing your project within a single, clearly recognizable folder, organizing similar content into subfolders (read-only, human-generated, project-generated), and including key files such as a README, LICENSE, CITATION, and CHANGELOG.</p>
+<p>See: <em>Wilson G, Bryan J, Cranston K, Kitzes J, Nederbragt L, Teal TK (2017) Good enough practices in scientific computing. PLoS Comput Biol 13(6): e1005510. <a href="https://doi.org/10.1371/journal.pcbi.1005510" class="uri">https://doi.org/10.1371/journal.pcbi.1005510</a></em></p>
 </section>
-<section id="references" class="level2">
-<h2 class="anchored" data-anchor-id="references">References</h2>
-<p>direct references…</p>
+</section>
+<section id="tools" class="level3">
+<h3 class="anchored" data-anchor-id="tools">Tools</h3>
+<section id="directory-trees" class="level4">
+<h4 class="anchored" data-anchor-id="directory-trees">Directory Trees</h4>
+<ol type="1">
+<li><p>You can use tools such as <a href="https://ascii-tree-generator.com/" class="uri">https://ascii-tree-generator.com/</a> to sketch out your folder structure in advance. This could useful for planning and discussion before creating the folders and subfolders.</p></li>
+<li><p>For an existing project, you can also use the <code>tree</code> command to print the directory tree. This would be useful for inspection or copy-paste into README files.</p></li>
+</ol>
+<ul>
+<li><em>Windows</em></li>
+</ul>
+<p>Navigate to your project using <code>cd path\to\your\project</code></p>
+<p>Then enter <code>tree /a /f &gt; tree.txt</code>, where <code>a</code> is for (sub)directories and <code>f</code> includes files.</p>
+<ul>
+<li><em>MacOS/Linux</em></li>
+</ul>
+<p>Navigate to your project using <code>cd /path/to/your/project</code></p>
+<p>Then enter <code>tree -a &gt; tree.txt</code>, where <code>-a</code> includes hidden files (files are otherwise included by default)</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>You may need to install the <code>tree</code> tool on your computer.</li>
+<li>When using the <code>cd</code> command on Windows, pay attention to slashes (<code>\</code> vs.&nbsp;<code>/</code>) or enclose your path in double quotes.</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="r-python" class="level4">
+<h4 class="anchored" data-anchor-id="r-python">R &amp; Python</h4>
+<p>There are R packages and Python libraries dedicated to initializing project directories according to best practices. Each tool works a bit differently, so it’s worth exploring a few to see which one best suits your workflow.</p>
+<ul>
+<li><p>For R, you can consult the CRAN Task View on <a href="https://cran.r-project.org/web/views/ReproducibleResearch.html">Reproducible Research</a> and scroll down to the <em>Project Workflows</em> section, which lists several relevant packages.</p></li>
+<li><p>For Python, you can use <a href="https://cookiecutter-data-science.drivendata.org/">Cookiecutter Data Science</a> or explore other available <a href="https://cookiecutter.readthedocs.io/en/latest/README.html#available-templates">Cookiecutter templates</a>.</p></li>
+</ul>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>You can reach out to <a href="https://www.uu.nl/en/research/research-data-management">RDM Support</a> for help in figuring out your project’s structure and workflow!</p>
+</div>
+</div>
 
 
+</section>
+</section>
 </section>
 
 </main> <!-- /main -->

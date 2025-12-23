@@ -4,21 +4,25 @@
 
 <figcaption><a href="https://xkcd.com/1459/">Documents - xkcd</a>. Used under a CC BY-NC 2.5 license. </figcaption>
 
-## What Is A Naming Convention?
+## What
 
 A naming convention is a set of rules for naming things. You can apply it to things like folders, files, and variables.
 
-## Why Should I Apply A Naming Convention?
+## Why
 
 Names that are informative and useful for machines and humans are a step toward efficient data management and reproducible research. The more consistent and meaningful the name, the easier it will be to locate and identify things, understand what they contain, and (re)use them.
 
-## When Should I Apply A Naming Convention?
-
-Aim to select and implement a naming convention at the beginning of a project. If you want to retroactively apply a naming convention, there are several tools for bulk renaming.
+## Who
 
 The entire research team should agree on and adopt a naming convention. Document the choice of naming convention in the DMP, so others can refer to and grasp it quickly.
 
-## Popular Naming Conventions
+## When
+
+Aim to select and implement a naming convention at the beginning of a project. If you want to retroactively apply a naming convention, there are several tools for bulk renaming.
+
+## How
+
+### Popular Naming Conventions
 
 Instead of developing a naming convention from scratch, you can start with one that is already being used in programming and software development communities:
 
@@ -30,7 +34,7 @@ Instead of developing a naming convention from scratch, you can start with one t
 | PascalCase       | `AnAwesomeName`   | All words are capitalized. Spaces are not used. |
 | camelCase        | `anAwesomeName`   | The first word is lowercase, the remaining words are capitalized. Spaces are not used. |
 
-## Human-Readable Names
+### Human-Readable Names
 
 You can tailor naming conventions like `snake_case` and `PascalCase` to suit your project and workflow. Determine what information is relevant (or not) to create meaningful names and how you can string this information together. Don't forget to document this in your DMP!
 
@@ -45,7 +49,7 @@ You can tailor naming conventions like `snake_case` and `PascalCase` to suit you
     - Location/coordinates
     - Version number (like `v2` or v2.2`)
 
-## Machine-Readable Names
+### Machine-Readable Names
 
 When names are machine-readable, they can be efficiently processed by computers and software. This makes it easier to search for files and run operations that involve programming like extracting information from file names or working with regular expressions.  
 
@@ -56,7 +60,7 @@ When names are machine-readable, they can be efficiently processed by computers 
     - Punction characters like `,`, `:`, `;`, `?`, `'`, `"`
     - Accented characters
 
-## A Note on Numbering, Dates, Versioning
+### Numbering, Dates, Versioning
 
 - Append numbers to the beginning of a name to enable sorting according to a logical structure. Use multiple digits like `01` or `001`.
 
@@ -64,7 +68,7 @@ When names are machine-readable, they can be efficiently processed by computers 
 
 - Specify versions using ordinal numbers (1,2,3) for major revisions and decimals for minor changes (1.1, 1.2, 2.1, 2.2). Alternatively, you can specify versions with multiple digits like v01 and v02.
 
-## Renaming files
+### Tools
 
 The following tools enable renaming in bulk:
 

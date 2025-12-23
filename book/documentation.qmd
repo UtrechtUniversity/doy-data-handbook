@@ -4,17 +4,41 @@
 <figcaption><a href="https://the-turing-way.netlify.app/">The Turing Way</a> project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: <a href="https://doi.org/10.5281/zenodo.3332807">10.5281/zenodo.3332807</a>.</figcaption>
 <br>
 
-Documentation refers to contextual information pertaining to your research data. It accompanies (structured) metadata and guides users to understand and interpret your data and reuse it effectively.
+## What
 
-Documentation is meant to be human-readable and it is a crucial aspect of interoperability and reusability. Some examples include:
+Documentation refers to contextual information about your research data. It complements (structured) metadata by providing additional guidance for understanding and using the data.
 
-• Grant / Study Proposals
-• Study Protocol / Methodology
-• Data Management Plan (DMP)
-• README files
-• Lab Notebooks
-• Legal / Policy / Administrative Documents
+## Why
 
-## Documentation Checklist
+Documentation is meant to be human-readable and plays a crucial role in _interoperability_ and _reusability_. It helps users interpret your data correctly and reuse it effectively.
 
-Here is a starter checklist to make an inventory of your documentation: [https://tinyurl.com/documentation-checklist](https://tinyurl.com/documentation-checklist)
+## Who
+
+All researchers involved in the project should contribute to documentation, either by creating or reviewing it. The lead researcher (PI for a project or researcher for a publication) is responsible for ensuring good documentation practices and maintaining completeness.
+
+## When
+
+Documentation should be developed over the course of the project and finalized by the archiving and publication stages.
+
+## Where
+
+Documentation will live in your chosen storage location during the active stage of your project and be included in your data package in the archiving or publishing stages.
+
+## How
+
+Examples of documentation include:
+
+- Grant / study proposals  
+- Study protocols / methodology  
+- Data Management Plan (DMP)  
+- README files  
+- Lab notebooks  
+- Legal, policy, or administrative documents  
+
+You will generate a lot of documentation over the course of your project. At the archiving and publication stages, you should select the documents most relevant to your project context. You can and should include as much as possible, as even materials that seem less useful now may have value in the future. That being said, some documents are for internal use and reference only — use your discretion to determine what should be withheld.
+
+### Documentation Checklist
+
+Use this starter checklist to create an inventory of your documentation: [https://tinyurl.com/documentation-checklist](https://tinyurl.com/documentation-checklist)
+
+

@@ -125,6 +125,12 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Definitions</span></a>
   </div>
 </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./fair-data-cheatsheet.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">FAIR Data Cheatsheet</span></a>
+  </div>
+</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false">
@@ -237,7 +243,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./archiving.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Data Archving</span></a>
+ <span class="menu-text">Data Archiving</span></a>
   </div>
 </li>
       </ul>
@@ -253,20 +259,20 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./governance.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Data Governance</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./publication.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Data Publication</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./sharing.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Data Sharing</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./governance.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Data Governance</span></a>
+  <a href="./transfer.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Data Transfer</span></a>
   </div>
 </li>
       </ul>
@@ -305,12 +311,6 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./fair-data-cheatsheet.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">FAIR Data Cheatsheet</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="./trainings.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Trainings</span></a>
   </div>
@@ -333,14 +333,18 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#what-is-a-naming-convention" id="toc-what-is-a-naming-convention" class="nav-link active" data-scroll-target="#what-is-a-naming-convention">What Is A Naming Convention?</a></li>
-  <li><a href="#why-should-i-apply-a-naming-convention" id="toc-why-should-i-apply-a-naming-convention" class="nav-link" data-scroll-target="#why-should-i-apply-a-naming-convention">Why Should I Apply A Naming Convention?</a></li>
-  <li><a href="#when-should-i-apply-a-naming-convention" id="toc-when-should-i-apply-a-naming-convention" class="nav-link" data-scroll-target="#when-should-i-apply-a-naming-convention">When Should I Apply A Naming Convention?</a></li>
+  <li><a href="#what" id="toc-what" class="nav-link active" data-scroll-target="#what">What</a></li>
+  <li><a href="#why" id="toc-why" class="nav-link" data-scroll-target="#why">Why</a></li>
+  <li><a href="#who" id="toc-who" class="nav-link" data-scroll-target="#who">Who</a></li>
+  <li><a href="#when" id="toc-when" class="nav-link" data-scroll-target="#when">When</a></li>
+  <li><a href="#how" id="toc-how" class="nav-link" data-scroll-target="#how">How</a>
+  <ul class="collapse">
   <li><a href="#popular-naming-conventions" id="toc-popular-naming-conventions" class="nav-link" data-scroll-target="#popular-naming-conventions">Popular Naming Conventions</a></li>
   <li><a href="#human-readable-names" id="toc-human-readable-names" class="nav-link" data-scroll-target="#human-readable-names">Human-Readable Names</a></li>
   <li><a href="#machine-readable-names" id="toc-machine-readable-names" class="nav-link" data-scroll-target="#machine-readable-names">Machine-Readable Names</a></li>
-  <li><a href="#a-note-on-numbering-dates-versioning" id="toc-a-note-on-numbering-dates-versioning" class="nav-link" data-scroll-target="#a-note-on-numbering-dates-versioning">A Note on Numbering, Dates, Versioning</a></li>
-  <li><a href="#renaming-files" id="toc-renaming-files" class="nav-link" data-scroll-target="#renaming-files">Renaming files</a></li>
+  <li><a href="#numbering-dates-versioning" id="toc-numbering-dates-versioning" class="nav-link" data-scroll-target="#numbering-dates-versioning">Numbering, Dates, Versioning</a></li>
+  <li><a href="#tools" id="toc-tools" class="nav-link" data-scroll-target="#tools">Tools</a></li>
+  </ul></li>
   <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/UtrechtUniversity/doy-data-handbook/edit/main/naming-conventions.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></nav>
@@ -371,21 +375,26 @@ ul.task-list li input[type="checkbox"] {
 <figcaption>
 <a href="https://xkcd.com/1459/">Documents - xkcd</a>. Used under a CC BY-NC 2.5 license.
 </figcaption>
-<section id="what-is-a-naming-convention" class="level2">
-<h2 class="anchored" data-anchor-id="what-is-a-naming-convention">What Is A Naming Convention?</h2>
+<section id="what" class="level2">
+<h2 class="anchored" data-anchor-id="what">What</h2>
 <p>A naming convention is a set of rules for naming things. You can apply it to things like folders, files, and variables.</p>
 </section>
-<section id="why-should-i-apply-a-naming-convention" class="level2">
-<h2 class="anchored" data-anchor-id="why-should-i-apply-a-naming-convention">Why Should I Apply A Naming Convention?</h2>
+<section id="why" class="level2">
+<h2 class="anchored" data-anchor-id="why">Why</h2>
 <p>Names that are informative and useful for machines and humans are a step toward efficient data management and reproducible research. The more consistent and meaningful the name, the easier it will be to locate and identify things, understand what they contain, and (re)use them.</p>
 </section>
-<section id="when-should-i-apply-a-naming-convention" class="level2">
-<h2 class="anchored" data-anchor-id="when-should-i-apply-a-naming-convention">When Should I Apply A Naming Convention?</h2>
-<p>Aim to select and implement a naming convention at the beginning of a project. If you want to retroactively apply a naming convention, there are several tools for bulk renaming.</p>
+<section id="who" class="level2">
+<h2 class="anchored" data-anchor-id="who">Who</h2>
 <p>The entire research team should agree on and adopt a naming convention. Document the choice of naming convention in the DMP, so others can refer to and grasp it quickly.</p>
 </section>
-<section id="popular-naming-conventions" class="level2">
-<h2 class="anchored" data-anchor-id="popular-naming-conventions">Popular Naming Conventions</h2>
+<section id="when" class="level2">
+<h2 class="anchored" data-anchor-id="when">When</h2>
+<p>Aim to select and implement a naming convention at the beginning of a project. If you want to retroactively apply a naming convention, there are several tools for bulk renaming.</p>
+</section>
+<section id="how" class="level2">
+<h2 class="anchored" data-anchor-id="how">How</h2>
+<section id="popular-naming-conventions" class="level3">
+<h3 class="anchored" data-anchor-id="popular-naming-conventions">Popular Naming Conventions</h3>
 <p>Instead of developing a naming convention from scratch, you can start with one that is already being used in programming and software development communities:</p>
 <table class="caption-top table">
 <colgroup>
@@ -429,8 +438,8 @@ ul.task-list li input[type="checkbox"] {
 </tbody>
 </table>
 </section>
-<section id="human-readable-names" class="level2">
-<h2 class="anchored" data-anchor-id="human-readable-names">Human-Readable Names</h2>
+<section id="human-readable-names" class="level3">
+<h3 class="anchored" data-anchor-id="human-readable-names">Human-Readable Names</h3>
 <p>You can tailor naming conventions like <code>snake_case</code> and <code>PascalCase</code> to suit your project and workflow. Determine what information is relevant (or not) to create meaningful names and how you can string this information together. Don’t forget to document this in your DMP!</p>
 <p>!!! note “Elements for Human-Readable Names”</p>
 <pre><code>Names should be =&lt;25 characters long and can include:
@@ -442,8 +451,8 @@ ul.task-list li input[type="checkbox"] {
 - Location/coordinates
 - Version number (like `v2` or v2.2`)</code></pre>
 </section>
-<section id="machine-readable-names" class="level2">
-<h2 class="anchored" data-anchor-id="machine-readable-names">Machine-Readable Names</h2>
+<section id="machine-readable-names" class="level3">
+<h3 class="anchored" data-anchor-id="machine-readable-names">Machine-Readable Names</h3>
 <p>When names are machine-readable, they can be efficiently processed by computers and software. This makes it easier to search for files and run operations that involve programming like extracting information from file names or working with regular expressions.</p>
 <p>!!! note “Avoid”</p>
 <pre><code>- Spaces
@@ -451,16 +460,16 @@ ul.task-list li input[type="checkbox"] {
 - Punction characters like `,`, `:`, `;`, `?`, `'`, `"`
 - Accented characters</code></pre>
 </section>
-<section id="a-note-on-numbering-dates-versioning" class="level2">
-<h2 class="anchored" data-anchor-id="a-note-on-numbering-dates-versioning">A Note on Numbering, Dates, Versioning</h2>
+<section id="numbering-dates-versioning" class="level3">
+<h3 class="anchored" data-anchor-id="numbering-dates-versioning">Numbering, Dates, Versioning</h3>
 <ul>
 <li><p>Append numbers to the beginning of a name to enable sorting according to a logical structure. Use multiple digits like <code>01</code> or <code>001</code>.</p></li>
 <li><p>Dates should follow the ISO 8601 standard which is either <code>YYYY-MM-DD</code> or <code>YYYYMMDD</code>. Append dates to the beginning of names to enable sorting in chronological order.</p></li>
 <li><p>Specify versions using ordinal numbers (1,2,3) for major revisions and decimals for minor changes (1.1, 1.2, 2.1, 2.2). Alternatively, you can specify versions with multiple digits like v01 and v02.</p></li>
 </ul>
 </section>
-<section id="renaming-files" class="level2">
-<h2 class="anchored" data-anchor-id="renaming-files">Renaming files</h2>
+<section id="tools" class="level3">
+<h3 class="anchored" data-anchor-id="tools">Tools</h3>
 <p>The following tools enable renaming in bulk:</p>
 <ul>
 <li><a href="https://www.bulkrenameutility.co.uk/">Bulk Rename Utility</a> (Windows, free)</li>
@@ -468,6 +477,7 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="https://mrrsoftware.com/namechanger/">NameChanger</a>, (MacOS, free)</li>
 <li><a href="https://gprename.sourceforge.net/">GPRename</a> (Linux, free)</li>
 </ul>
+</section>
 </section>
 <section id="references" class="level2">
 <h2 class="anchored" data-anchor-id="references">References</h2>

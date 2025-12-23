@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./sharing.html" rel="next">
-<link href="./archiving.html" rel="prev">
+<link href="./transfer.html" rel="next">
+<link href="./governance.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -83,7 +83,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./publication.html">PUBLISH &amp; SHARE</a></li><li class="breadcrumb-item"><a href="./publication.html">Data Publication</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./governance.html">PUBLISH &amp; SHARE</a></li><li class="breadcrumb-item"><a href="./publication.html">Data Publication</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -123,6 +123,12 @@ ul.task-list li input[type="checkbox"] {
   <div class="sidebar-item-container"> 
   <a href="./definitions.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Definitions</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./fair-data-cheatsheet.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">FAIR Data Cheatsheet</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -237,7 +243,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./archiving.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Data Archving</span></a>
+ <span class="menu-text">Data Archiving</span></a>
   </div>
 </li>
       </ul>
@@ -253,20 +259,20 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./governance.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Data Governance</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./publication.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Data Publication</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./sharing.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Data Sharing</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./governance.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Data Governance</span></a>
+  <a href="./transfer.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Data Transfer</span></a>
   </div>
 </li>
       </ul>
@@ -305,12 +311,6 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./fair-data-cheatsheet.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">FAIR Data Cheatsheet</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="./trainings.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Trainings</span></a>
   </div>
@@ -333,15 +333,20 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#examples" id="toc-examples" class="nav-link active" data-scroll-target="#examples">Examples</a></li>
-  <li><a href="#tools" id="toc-tools" class="nav-link" data-scroll-target="#tools">Tools</a></li>
+  <li><a href="#what" id="toc-what" class="nav-link active" data-scroll-target="#what">What</a></li>
+  <li><a href="#why" id="toc-why" class="nav-link" data-scroll-target="#why">Why</a></li>
+  <li><a href="#who" id="toc-who" class="nav-link" data-scroll-target="#who">Who</a></li>
+  <li><a href="#when" id="toc-when" class="nav-link" data-scroll-target="#when">When</a></li>
+  <li><a href="#where" id="toc-where" class="nav-link" data-scroll-target="#where">Where</a></li>
+  <li><a href="#how" id="toc-how" class="nav-link" data-scroll-target="#how">How</a></li>
+  <li><a href="#examples" id="toc-examples" class="nav-link" data-scroll-target="#examples">Examples</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/UtrechtUniversity/doy-data-handbook/edit/main/publication.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./publication.html">PUBLISH &amp; SHARE</a></li><li class="breadcrumb-item"><a href="./publication.html">Data Publication</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./governance.html">PUBLISH &amp; SHARE</a></li><li class="breadcrumb-item"><a href="./publication.html">Data Publication</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">Data Publication</h1>
 </div>
@@ -360,19 +365,62 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>When publishing (meta)data, you want to make it findable and reusable. The data (and information about the data) can be used by others for their own purposes. It’s up to you to specify the terms and conditions for access and reuse.</p>
-<p>Note that your data need not be ‘open’ to be FAIR! The data files themselves can be placed under restricted access (or retained internally) while the metadata and documentation are openly published. Once any data sharing agreements are signed, the data files an be transferred according to best practices.</p>
-<p>When publishing (meta)data, you will receive a landing page for your dataset and a DOI (persistent identifier) that makes it findable and citeable. When you include your metadata and documentation, you improve accessibility and reusability.</p>
-<section id="examples" class="level2">
-<h2 class="anchored" data-anchor-id="examples">Examples</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/DataStorage.png" class="img-fluid figure-img"></p>
+<figcaption>Researchers can be reluctant to share their data publicly because of real and/or perceived individual costs. Illustration credit: Ainsley Seago</figcaption>
+</figure>
+</div>
+<section id="what" class="level2">
+<h2 class="anchored" data-anchor-id="what">What</h2>
+<p>With Data Publishing, we’re making (meta)data findable and reusable for the public beyond the original project. This is different from <a href="https://utrechtuniversity.github.io/doy-data-handbook/archiving.html">Data Archiving</a>, which is primarily internal and aimed at verifiability and integrity.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Remember that your data does not have to be ‘open’ to be FAIR!</p>
+<p>You want to make your data… ‘as open as possible, as closed as necessary’ (<a href="https://ec.europa.eu/research/participants/docs/h2020-funding-guide/cross-cutting-issues/open-access-data-management/data-management_en.htm">European Commission</a>).</p>
+</div>
+</div>
+</section>
+<section id="why" class="level2">
+<h2 class="anchored" data-anchor-id="why">Why</h2>
+<p>The (meta)data can be reused by others for their own research purposes, supporting collaboration and open science. Increasingly, funders and journals also require published (meta)data or data availability statements as part of research outputs.</p>
+</section>
+<section id="who" class="level2">
+<h2 class="anchored" data-anchor-id="who">Who</h2>
+<p>Typically, data publishing is overseen by Principal Investigator (PI) for a large project or the lead researcher for a manuscript. You can approach a data supporter at your faculty or the University Library to help you with preparing a data package.</p>
+</section>
+<section id="when" class="level2">
+<h2 class="anchored" data-anchor-id="when">When</h2>
+<p>It would be appropriate to carry out data publishing at the end of your project. However, if your repository allows updates to the data package, you can publish at any stage. Publishing earlier can be beneficial, as it provides room to develop and refine the data package over time rather than relying on a last-minute effort.</p>
+</section>
+<section id="where" class="level2">
+<h2 class="anchored" data-anchor-id="where">Where</h2>
+<p>You can use the UU <a href="https://tools.uu.nl/repository-decision-tool/">Repository Finder</a> to select an appropriate publishing platform. For the DoY Community, DataverseNL &amp; YODA would be suitable repositories.</p>
+<p>When you publish (meta)data on these platforms, you receive a landing page for your dataset and a DOI (persistent identifier), making it easily findable and citable.</p>
+</section>
+<section id="how" class="level2">
+<h2 class="anchored" data-anchor-id="how">How</h2>
+<p>Once you’ve selected a repository using the UU <a href="https://tools.uu.nl/repository-decision-tool/">Repository Finder</a>, you can work on:</p>
 <ul>
-<li>Nijhof, Sanne; Putte, Elise van de; Hoefnagels, Johanna Wilhelmina, 2021, “PROactive Cohort Study”, https://doi.org/10.34894/FXUGHW, DataverseNL, V3</li>
-<li>Isabelle van der Linden; Henk Schipper; Sanne Nijhof; Kors van der Ent, 2024, “SMART-Youth: Data”, https://doi.org/10.34894/FCBXSI, DataverseNL, V1</li>
+<li><p>Adding <a href="https://utrechtuniversity.github.io/doy-data-handbook/metadata.html">structured metadata</a> and uploading <a href="https://utrechtuniversity.github.io/doy-data-handbook/documentation.html">documentation</a>, which further enhance the dataset’s accessibility and reusability.</p></li>
+<li><p>The data files themselves can be withheld internally or placed under restricted access, while the metadata and documentation are openly published. Once any data sharing agreements are signed, the data can be <a href="https://utrechtuniversity.github.io/doy-data-handbook/sharing.html">shared</a> using the appropriate tool/infrastructure.</p></li>
 </ul>
 </section>
-<section id="tools" class="level2">
-<h2 class="anchored" data-anchor-id="tools">Tools</h2>
-<p>You can use the UU Data Repository Finder and see which data repository might be most suitable for publishing your project.</p>
+<section id="examples" class="level2">
+<h2 class="anchored" data-anchor-id="examples">Examples</h2>
+<p>The following data publications are aligned with the ‘as open as possible, as closed as necessary’ (<a href="https://ec.europa.eu/research/participants/docs/h2020-funding-guide/cross-cutting-issues/open-access-data-management/data-management_en.htm">European Commission</a>) principle:</p>
+<ul>
+<li><p>Nijhof, Sanne; Putte, Elise van de; Hoefnagels, Johanna Wilhelmina, 2021, “PROactive Cohort Study”, <a href="https://doi.org/10.34894/FXUGHW" class="uri">https://doi.org/10.34894/FXUGHW</a>, DataverseNL, V3</p></li>
+<li><p>Isabelle van der Linden; Henk Schipper; Sanne Nijhof; Kors van der Ent, 2024, “SMART-Youth: Data”, <a href="https://doi.org/10.34894/FCBXSI" class="uri">https://doi.org/10.34894/FCBXSI</a>, DataverseNL, V1</p></li>
+</ul>
 
 
 </section>
@@ -941,13 +989,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./archiving.html" class="pagination-link" aria-label="Data Archving">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Data Archving</span>
+      <a href="./governance.html" class="pagination-link" aria-label="Data Governance">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Data Governance</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./sharing.html" class="pagination-link" aria-label="Data Sharing">
-        <span class="nav-page-text">Data Sharing</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./transfer.html" class="pagination-link" aria-label="Data Transfer">
+        <span class="nav-page-text">Data Transfer</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

@@ -1,52 +1,64 @@
 # Codebooks {.unnumbered}
 
-A codebook is an example of data-level metadata.
+## What
 
-The purpose of a codebook or data dictionary is to explain what all the variable names and values in your spreadsheet really mean.
+A codebook (or data dictionary) is a type of data-level metadata. A good codebook is both human-readable and machine-readable.
 
-Information to include in a codebook includes:
+## Why
 
-- Variable Names
-- Readable Variable Name
-- Measurement Units
-- Allowed Values
-- Definition Of The Variable
-- Synonyms For The Variable Name (Optional)
-- Description Of The Variable (Optional)
-- Other Resources
+The purpose of a codebook is to explain what all the variable names and values in your dataset really mean, making the data understandable and reusable. A codebook is valuable both for researchers within the project and for collaborators and/or re-users outside the project.
 
-See: <https://help.osf.io/article/217-how-to-make-a-data-dictionary>
+## Who
 
-## codebook R package
+The researcher(s) working with the data are responsible for creating and maintaining the codebook.
 
-```
-library(qualtRics)
-library(readr)
-library(dplyr)
+## When
+
+The codebook should be created during the active stage of the project as data is processed. It should be finalized by the archiving and publication stages.
+
+## Where
+
+The codebook should be available alongside your data. This would be within your project folder during the active stage and in your data package at the archiving and publication stages.
+
+## How
+
+Information to include in a codebook typically includes:
+
+- Variable names  
+- Readable variable name  
+- Measurement units  
+- Allowed values  
+- Definition of the variable  
+- Synonyms for the variable name (optional)  
+- Description of the variable (optional)  
+- Other relevant resources  
+
+For more guidance, see: [How to Make a Data Dictionary](https://help.osf.io/article/217-how-to-make-a-data-dictionary)
+
+### codebook R package
+
+The [codebook](https://rubenarslan.github.io/codebook/index.html) R package can generate both machine-readable (csv, xlsx) and human-readable codebooks (pdf) based on a given dataframe. A very simple example is given below: 
+
+```{r}
+#| eval: false
+
+# load libraries
+
 library(codebook)
 library(writexl)
 
-surveys <- all_surveys()
+# load data
 
-survey_results <- fetch_survey(surveyID = surveys$id[2], # you can also replace surveys$id[2] with "<SUVREY-ID>"
-                               verbose = TRUE)
-
-survey_results <- select(survey_results, -c(1:17))
-
-# survey_questions() retrieves a data frame containing questions and question IDs for a survey;
-survey_questions <- survey_questions(surveyID = surveys$id[2])
-survey_questions <- select(survey_questions, -c(1, 4))
-survey_questions <- slice(survey_questions, -1)
+data <- data.frame(iris)
   
 # generate codebook
 
-codebook <- codebook_table(survey_results)
+codebook <- codebook_table(data)
 
-codebook <- rename(codebook, qname = name)
+# export codebook
 
-codebook <- full_join(survey_questions, codebook, by = "qname")
-
-write_xlsx(codebook, "documentation/codebook-demo.xlsx")
+write_xlsx(codebook, "codebook.xlsx")
 ```
 
-The `labelled` R package can also do something similar.
+![](images/codebook.png)
+

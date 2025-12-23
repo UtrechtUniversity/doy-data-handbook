@@ -125,6 +125,12 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Definitions</span></a>
   </div>
 </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./fair-data-cheatsheet.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">FAIR Data Cheatsheet</span></a>
+  </div>
+</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false">
@@ -237,7 +243,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./archiving.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Data Archving</span></a>
+ <span class="menu-text">Data Archiving</span></a>
   </div>
 </li>
       </ul>
@@ -253,20 +259,20 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./governance.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Data Governance</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./publication.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Data Publication</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./sharing.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Data Sharing</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./governance.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Data Governance</span></a>
+  <a href="./transfer.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Data Transfer</span></a>
   </div>
 </li>
       </ul>
@@ -305,12 +311,6 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./fair-data-cheatsheet.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">FAIR Data Cheatsheet</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="./trainings.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Trainings</span></a>
   </div>
@@ -333,8 +333,16 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#project-level-metadata" id="toc-project-level-metadata" class="nav-link active" data-scroll-target="#project-level-metadata">Project-Level Metadata</a></li>
+  <li><a href="#what" id="toc-what" class="nav-link active" data-scroll-target="#what">What</a></li>
+  <li><a href="#why" id="toc-why" class="nav-link" data-scroll-target="#why">Why</a></li>
+  <li><a href="#who" id="toc-who" class="nav-link" data-scroll-target="#who">Who</a></li>
+  <li><a href="#when" id="toc-when" class="nav-link" data-scroll-target="#when">When</a></li>
+  <li><a href="#where" id="toc-where" class="nav-link" data-scroll-target="#where">Where</a></li>
+  <li><a href="#how" id="toc-how" class="nav-link" data-scroll-target="#how">How</a>
+  <ul class="collapse">
+  <li><a href="#project-level-metadata" id="toc-project-level-metadata" class="nav-link" data-scroll-target="#project-level-metadata">Project-Level Metadata</a></li>
   <li><a href="#data-level-metadata" id="toc-data-level-metadata" class="nav-link" data-scroll-target="#data-level-metadata">Data-Level Metadata</a></li>
+  </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/UtrechtUniversity/doy-data-handbook/edit/main/metadata.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></nav>
     </div>
@@ -360,19 +368,99 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Metadata is structured information that describes one or more aspects of your research data. In other words, metadata = ‘data about data’. Metadata is machine-readable and helps make your data findable and citable.</p>
-<p>Metadata exists at different levels:</p>
-<section id="project-level-metadata" class="level2">
-<h2 class="anchored" data-anchor-id="project-level-metadata">Project-Level Metadata</h2>
-<p>This type of metadata describes higher-order aspects of your dataset: the “who, what, where, when, how and why” … It provides context for understanding why the data were collected and how they were used.</p>
-<p>• Name of the project • Dataset title • Project description • Dataset abstract • Principal investigator and collaborators • Contact information • Dataset handle (DOI or URL) • Dataset citation • Data publication date • Geographic description • Time period of data collection • Subject/keywords • Project sponsor • Dataset usage rights</p>
+<img src="images/metadata.jpg" class="img-fluid">
+<figcaption>
+<a href="https://the-turing-way.netlify.app/">The Turing Way</a> project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: <a href="https://doi.org/10.5281/zenodo.3332807">10.5281/zenodo.3332807</a>.
+</figcaption>
+<p><br></p>
+<section id="what" class="level2">
+<h2 class="anchored" data-anchor-id="what">What</h2>
+<p>Metadata refers to <em>structured</em> and <em>machine-readable</em> information that describes one or more aspects of your research data. In other words, metadata = “data about data.”</p>
 </section>
-<section id="data-level-metadata" class="level2">
-<h2 class="anchored" data-anchor-id="data-level-metadata">Data-Level Metadata</h2>
-<p>• Data origin: experimental, observational, raw or derived, physical collections, models, images, etc. • Data type: integer, Boolean, character, floating point, etc. • Instrument(s) used • Data acquisition details: sensor deployment methods, experimental design, sensor calibration methods, etc. • File type: CSV, mat, xlsx, tiff, HDF, NetCDF, etc. • Data processing methods, software used • Data processing scripts or codes • Dataset parameter list, including ⚬ Variable names ⚬ Description of each variable ⚬ Units</p>
-<p>This type of metadata is more granular and describes the data (variables) and dataset in detail.</p>
+<section id="why" class="level2">
+<h2 class="anchored" data-anchor-id="why">Why</h2>
+<p>Metadata that is structured and machine-readable makes your data <strong>findable</strong> and <strong>citable</strong>, improving accessibility and reusability.</p>
+</section>
+<section id="who" class="level2">
+<h2 class="anchored" data-anchor-id="who">Who</h2>
+<p>Researchers working with the data, as well as those involved in archiving and publishing, are responsible for ensuring metadata of sufficient quality.</p>
+</section>
+<section id="when" class="level2">
+<h2 class="anchored" data-anchor-id="when">When</h2>
+<p>Ideally, you will generate some metadata over the course of your project. At a minimum, metadata should be created before archiving and publication.</p>
+</section>
+<section id="where" class="level2">
+<h2 class="anchored" data-anchor-id="where">Where</h2>
+<p>Metadata should be made available alongside your data. This would be within your project folder during the active stage of your project and in your data package at the archiving and publication stages.</p>
+</section>
+<section id="how" class="level2">
+<h2 class="anchored" data-anchor-id="how">How</h2>
+<p>Metadata exists at different levels:</p>
+<section id="project-level-metadata" class="level3">
+<h3 class="anchored" data-anchor-id="project-level-metadata">Project-Level Metadata</h3>
+<p>This describes higher-order aspects of your dataset: the “who, what, where, when, how, and why.” It provides context for understanding why the data were collected and how they were used. Examples include:</p>
+<ul>
+<li>Name of the project<br>
+</li>
+<li>Dataset title<br>
+</li>
+<li>Project description<br>
+</li>
+<li>Dataset abstract<br>
+</li>
+<li>Principal investigator and collaborators<br>
+</li>
+<li>Contact information<br>
+</li>
+<li>Dataset handle (DOI or URL)<br>
+</li>
+<li>Dataset citation<br>
+</li>
+<li>Data publication date<br>
+</li>
+<li>Geographic description<br>
+</li>
+<li>Time period of data collection<br>
+</li>
+<li>Subjects / keywords<br>
+</li>
+<li>Project sponsor<br>
+</li>
+<li>Dataset usage rights</li>
+</ul>
+<p>Project-level metadata is typically entered into a metadata form on your chosen data repository.</p>
+</section>
+<section id="data-level-metadata" class="level3">
+<h3 class="anchored" data-anchor-id="data-level-metadata">Data-Level Metadata</h3>
+<p>This is more granular and describes the data (variables) and dataset in detail. Examples include:</p>
+<ul>
+<li><em>Data origin</em>: experimental, observational, raw or derived, physical collections, models, images, etc.<br>
+</li>
+<li><em>Data type</em>: integer, Boolean, character, floating point, etc.<br>
+</li>
+<li>Instruments used<br>
+</li>
+<li><em>Data acquisition details</em>: sensor deployment, experimental design, sensor calibration methods, etc.<br>
+</li>
+<li><em>File type</em>: CSV, MAT, XLSX, TIFF, HDF, NetCDF, etc.<br>
+</li>
+<li>Data processing methods and software used<br>
+</li>
+<li>Data processing scripts or code<br>
+</li>
+<li>Dataset parameter list, including:
+<ul>
+<li>Variable names<br>
+</li>
+<li>Description of each variable<br>
+</li>
+<li>Units</li>
+</ul></li>
+</ul>
+<p>Some data-level metadata can be included in repository metadata forms, but is typically captured in <a href="https://utrechtuniversity.github.io/doy-data-handbook/codebooks.html">codebooks</a>/data dictionaries and or project <a href="https://utrechtuniversity.github.io/doy-data-handbook/documentation.html">documentation</a>.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

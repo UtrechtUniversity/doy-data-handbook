@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -123,6 +157,12 @@ ul.task-list li input[type="checkbox"] {
   <div class="sidebar-item-container"> 
   <a href="./definitions.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Definitions</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./fair-data-cheatsheet.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">FAIR Data Cheatsheet</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -237,7 +277,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./archiving.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Data Archving</span></a>
+ <span class="menu-text">Data Archiving</span></a>
   </div>
 </li>
       </ul>
@@ -253,20 +293,20 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./governance.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Data Governance</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./publication.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Data Publication</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./sharing.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Data Sharing</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./governance.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Data Governance</span></a>
+  <a href="./transfer.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Data Transfer</span></a>
   </div>
 </li>
       </ul>
@@ -305,12 +345,6 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./fair-data-cheatsheet.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">FAIR Data Cheatsheet</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="./trainings.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Trainings</span></a>
   </div>
@@ -333,10 +367,19 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#when-do-i-need-a-data-pipeline" id="toc-when-do-i-need-a-data-pipeline" class="nav-link active" data-scroll-target="#when-do-i-need-a-data-pipeline">When do I need a data pipeline?</a></li>
-  <li><a href="#how-can-i-implement-a-data-pipeline-some-examples-for-inspiration" id="toc-how-can-i-implement-a-data-pipeline-some-examples-for-inspiration" class="nav-link" data-scroll-target="#how-can-i-implement-a-data-pipeline-some-examples-for-inspiration">How can I implement a data pipeline? Some examples for inspiration</a></li>
-  <li><a href="#qualtrics-r-package" id="toc-qualtrics-r-package" class="nav-link" data-scroll-target="#qualtrics-r-package">QualtRics R package</a></li>
-  <li><a href="#taskscheduler-package" id="toc-taskscheduler-package" class="nav-link" data-scroll-target="#taskscheduler-package">taskscheduleR package</a></li>
+  <li><a href="#what" id="toc-what" class="nav-link active" data-scroll-target="#what">What</a></li>
+  <li><a href="#why" id="toc-why" class="nav-link" data-scroll-target="#why">Why</a></li>
+  <li><a href="#who" id="toc-who" class="nav-link" data-scroll-target="#who">Who</a></li>
+  <li><a href="#when" id="toc-when" class="nav-link" data-scroll-target="#when">When</a></li>
+  <li><a href="#where" id="toc-where" class="nav-link" data-scroll-target="#where">Where</a></li>
+  <li><a href="#how" id="toc-how" class="nav-link" data-scroll-target="#how">How</a>
+  <ul class="collapse">
+  <li><a href="#extracting-data" id="toc-extracting-data" class="nav-link" data-scroll-target="#extracting-data">Extracting Data</a></li>
+  <li><a href="#processing-data" id="toc-processing-data" class="nav-link" data-scroll-target="#processing-data">Processing Data</a></li>
+  <li><a href="#automating-scheduling-scripts" id="toc-automating-scheduling-scripts" class="nav-link" data-scroll-target="#automating-scheduling-scripts">Automating &amp; Scheduling Scripts</a></li>
+  <li><a href="#bonus" id="toc-bonus" class="nav-link" data-scroll-target="#bonus">Bonus</a></li>
+  <li><a href="#tools" id="toc-tools" class="nav-link" data-scroll-target="#tools">Tools</a></li>
+  </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/UtrechtUniversity/doy-data-handbook/edit/main/pipelining.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></nav>
     </div>
@@ -362,70 +405,183 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>A data pipeline is a series of (automated) actions that ingests raw data from various sources and moves the data to a destination for storage and (eventual) analysis.</p>
-<p>Benefits of a data pipeline include:</p>
+<p><img src="images/pipeline-1.jpg" class="img-fluid"></p>
+<figcaption>
+<a href="https://the-turing-way.netlify.app/">The Turing Way</a> project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: <a href="https://doi.org/10.5281/zenodo.3332807">10.5281/zenodo.3332807</a>.
+</figcaption>
+<p><br></p>
+<section id="what" class="level2">
+<h2 class="anchored" data-anchor-id="what">What</h2>
+<p>A data pipeline is a series of (automated) actions that ingest raw data from various sources and move it to a destination for storage and (eventual) analysis.</p>
+</section>
+<section id="why" class="level2">
+<h2 class="anchored" data-anchor-id="why">Why</h2>
+<p>The benefits of a data pipeline include:</p>
 <ul>
 <li>Time saved by automating the boring stuff!</li>
-<li>Reduced mistakes.</li>
+<li>Reduced errors/mistakes.</li>
 <li>Tasks broken down into smaller steps.</li>
 <li>Reproducibility!</li>
 </ul>
-<section id="when-do-i-need-a-data-pipeline" class="level2">
-<h2 class="anchored" data-anchor-id="when-do-i-need-a-data-pipeline">When do I need a data pipeline?</h2>
-<p>Here’s a rule of thumb, just as an example:</p>
-<p>If you have a task that needs to occur &gt;= 3 times, you could think about automating it.</p>
-<p>If automation is not possible, think about how you can make the task as efficient as possible.</p>
 </section>
-<section id="how-can-i-implement-a-data-pipeline-some-examples-for-inspiration" class="level2">
-<h2 class="anchored" data-anchor-id="how-can-i-implement-a-data-pipeline-some-examples-for-inspiration">How can I implement a data pipeline? Some examples for inspiration</h2>
+<section id="who" class="level2">
+<h2 class="anchored" data-anchor-id="who">Who</h2>
+<p>This is relevant for researcher(s) working directly with the data for processing and/or analysis.</p>
+</section>
+<section id="when" class="level2">
+<h2 class="anchored" data-anchor-id="when">When</h2>
+<p>Here’s a rule of thumb, just as an example:</p>
+<p>If you have a task that needs to occur &gt;= 3 times, consider automating it. If automation isn’t possible, think about how you can make the task as efficient as possible.</p>
+<p>Ideally, you would pilot your data pipeline before data collection begins. However, improvements can be added at any stage if they don’t disrupt the workflow. The added advantage of putting in the effort upfront is that the pipeline will likely be reusable for other projects.</p>
+</section>
+<section id="where" class="level2">
+<h2 class="anchored" data-anchor-id="where">Where</h2>
+<p>Your data pipeline will consist of scripts that live in the storage location used during the active stage of your project. They can be separate from analysis scripts for publications, but this is optional — choose what works best for your workflow.</p>
+<p>Consider placing your scripts under version control using Git and making use of the university’s GitHub organization for collaboration.</p>
+</section>
+<section id="how" class="level2">
+<h2 class="anchored" data-anchor-id="how">How</h2>
+<p>Once you have drawn your data flow diagram (DFD), inspect it to identify opportunities for automating tasks using the rule of thumb above, then explore and implement appropriate solutions.</p>
+<section id="extracting-data" class="level3">
+<h3 class="anchored" data-anchor-id="extracting-data">Extracting Data</h3>
 <ul>
-<li><p>If you data collection tools have APIs, they can be leveraged to extract data.</p></li>
-<li><p>For example, Qualtrics has the qualtRics R package &amp; pyQualtrics Python library which contain functions to automate exporting surveys.</p></li>
-<li><p>If APIs are not available, you could use R/Python to automate the use of an internet browser using the RSelenium package / Selenium library. Imagine automating the clicks and typing of going to a specific website, logging in, clicking the download button.</p></li>
-<li><p>You can use Windows Task Scheduler / cron / the taskscheduleR R package / cronR to schedule your scripts to run automatically, on a recurring basis as well (if needed).</p></li>
-<li><p>You can also send emails with R &amp; Python! Consider if you’ve ever had to contact participants because you noticed something wrong with their incoming data. You could implement these data checks with a script and automatically draft and send emails (from a template) to those participants who were flagged as having issues with their data.</p></li>
+<li><strong>APIs:</strong> Many data collection tools provide APIs. For example, Qualtrics can be accessed via the <code>qualtRics</code> R package or the <code>QualtricsAPI</code> Python library to automate survey exports.</li>
+<li><strong>Browser Automation:</strong> If APIs are unavailable, R (<code>RSelenium</code>) or Python (<code>Selenium</code>) can automate browser actions, such as logging in and downloading files. <em>Note</em>: Two-factor authentication may limit feasibility.</li>
+<li><strong>Automatic Transcription:</strong> Amberscript can automatically transcribe interviews and save them directly to YODA.</li>
+<li><strong>YODA Integration:</strong> The <code>ibridges</code> tool and <code>python-irodsclient</code> allow you to fetch data from YODA. They can also be used to deposit data into YODA.</li>
 </ul>
 </section>
-<section id="qualtrics-r-package" class="level2">
-<h2 class="anchored" data-anchor-id="qualtrics-r-package">QualtRics R package</h2>
-<pre><code>library(readr)
-library(qualtRics)
-
-qualtrics_api_credentials(api_key = "YOUR-QUALTRICS-API-KEY", 
-                          base_url = "YOUR-QUALTRICS-BASE-URL",
-                          overwrite = TRUE,
-                          install = TRUE)
-
-readRenviron("~/.Renviron")
-
-surveys &lt;- all_surveys() 
-
-survey_results &lt;- fetch_survey(surveyID = surveys$id[2], # you can also replace surveys$id[2] with "&lt;SUVREY-ID&gt;" 
-                                  verbose = TRUE)
-
-write_csv(survey_results, paste0("path/to/folder/", format(Sys.time(), "%d-%m-%Y-%H.%M"), "_survey_results.csv"))</code></pre>
+<section id="processing-data" class="level3">
+<h3 class="anchored" data-anchor-id="processing-data">Processing Data</h3>
+<p>You can use R/Python scripts to automate (pre)processing of data: dropping or renaming columns, (re)applying variable and value labels, recoding variables, computing summary scores, handling duplicates, managing missing data.</p>
 </section>
-<section id="taskscheduler-package" class="level2">
-<h2 class="anchored" data-anchor-id="taskscheduler-package">taskscheduleR package</h2>
-<pre><code>library(taskscheduleR)
+<section id="automating-scheduling-scripts" class="level3">
+<h3 class="anchored" data-anchor-id="automating-scheduling-scripts">Automating &amp; Scheduling Scripts</h3>
+<p>If your scripts are fully reproducible and do not require manual input:</p>
+<ul>
+<li>You can run individual scripts from the command line or create a batch/shell script to run multiple scripts sequentially.</li>
+<li>To take it a step further, these scripts—or the batch/shell script—can be scheduled to run at a specific time or on a recurring basis using Windows Task Scheduler, <code>cron</code>, or R packages such as <code>taskscheduleR</code> or <code>cronR</code>.</li>
+</ul>
+</section>
+<section id="bonus" class="level3">
+<h3 class="anchored" data-anchor-id="bonus">Bonus</h3>
+<p>You can also send emails with R &amp; Python! For example, if you’ve ever needed to contact participants due to low response rates or incomplete surveys, you can implement these checks with a script. Based on the results, a follow-up script can automatically draft and send emails (from a template) to participants flagged for a check-in.</p>
+<p>The <a href="https://github.com/Azure/Microsoft365R">Microsoft365R</a> package allows you to send emails from Outlook, while the <a href="https://rstudio.github.io/blastula/">blastula</a> package helps you compose emails to appear more presentable. <em>Note:</em> You can use your own email address when testing the packages, but for research projects, it is recommended to link them to a project-specific email address rather than your personal one.</p>
+</section>
+<section id="tools" class="level3">
+<h3 class="anchored" data-anchor-id="tools">Tools</h3>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The following tools are roughly presented to provide an idea of what they look like. You can reach out to <a href="https://www.uu.nl/en/research/research-data-management">RDM Support</a> for hands-on assistance in setting up your data pipeline!</p>
+</div>
+</div>
+<section id="qualtrics-r-package" class="level4">
+<h4 class="anchored" data-anchor-id="qualtrics-r-package">QualtRics R package</h4>
+<p>See: <a href="https://docs.ropensci.org/qualtRics/" class="uri">https://docs.ropensci.org/qualtRics/</a></p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># load packages</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(qualtRics)</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co"># authenticate with qualtrics (needs to be done only once) </span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="fu">qualtrics_api_credentials</span>(<span class="at">api_key =</span> <span class="st">"YOUR-QUALTRICS-API-KEY"</span>, </span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>                          <span class="at">base_url =</span> <span class="st">"YOUR-QUALTRICS-BASE-URL"</span>,</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>                          <span class="at">overwrite =</span> <span class="cn">TRUE</span>,</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>                          <span class="at">install =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="co"># reload .Renviron file</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="fu">readRenviron</span>(<span class="st">"~/.Renviron"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># load packages</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(qualtRics)</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(here)</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readr)</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="co"># fetch data</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>data <span class="ot">&lt;-</span> <span class="fu">fetch_survey</span>(<span class="at">surveyID =</span> <span class="sc">&lt;</span>SURVEY<span class="sc">-</span>ID<span class="sc">&gt;</span>, <span class="at">label =</span> <span class="cn">FALSE</span>, <span class="at">convert =</span> <span class="cn">FALSE</span>, <span class="at">add_var_labels =</span> <span class="cn">TRUE</span>, <span class="at">verbose =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a><span class="co"># save data</span></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a><span class="fu">write_csv</span>(data, <span class="fu">here</span>(<span class="fu">paste0</span>(<span class="st">"data/raw/"</span>, <span class="fu">Sys.Date</span>(), <span class="st">"_data.csv"</span>)))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="ibridges" class="level4">
+<h4 class="anchored" data-anchor-id="ibridges">iBridges</h4>
+<p>The example below is for use within R scripts on a Windows workspace. Please refer to the <a href="https://ibridges.readthedocs.io/en/latest/">iBridges documentation</a> for more information and different implementations.</p>
+<div class="cell">
+<pre class="shell cell-code"><code># upload data
 
-scheduled_script &lt;- "path/to/folder/myscript.R"
+system('ibridges upload "~/data/raw/2025-12-25_data.csv" irods:/nluu12p/home/my-research-project/data/raw')
 
-## run script once within 120 seconds
+# download data
 
-taskscheduler_create(taskname = "extract-data-once", rscript = scheduled_script,
-                     schedule = "ONCE", starttime = format(Sys.time() + 120, "%H:%M"))
+system('ibridges download irods:/nluu12p/home/my-research-project/data/raw/2025-12-25_data.csv "~/data/raw"')</code></pre>
+</div>
+</section>
+<section id="windows-task-scheduler" class="level4">
+<h4 class="anchored" data-anchor-id="windows-task-scheduler">Windows Task Scheduler</h4>
+<p>Refer to the following website on how to get started with Windows Task Scheduler (follow along with screenshots): <a href="https://www.getclockwise.com/blog/automated-task-windows-task-scheduler" class="uri">https://www.getclockwise.com/blog/automated-task-windows-task-scheduler</a></p>
+<p>One MacOS &amp; Linux, you can run <code>cron</code> jobs from the command line.</p>
+</section>
+<section id="taskscheduler-package" class="level4">
+<h4 class="anchored" data-anchor-id="taskscheduler-package">taskscheduleR package</h4>
+<p>See: <a href="https://github.com/bnosac/taskscheduleR" class="uri">https://github.com/bnosac/taskscheduleR</a></p>
+<p>The taskscheduleR packages interfaces with Windows Task Scheduler from within R. If you’re using MacOS &amp; Linux, you can use the <a href="https://github.com/bnosac/cronR"><code>cronR</code></a> package instead.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(taskscheduleR)</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>scheduled_script <span class="ot">&lt;-</span> <span class="st">"path/to/folder/myscript.R"</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="do">## run script once within 120 seconds</span></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a><span class="fu">taskscheduler_create</span>(<span class="at">taskname =</span> <span class="st">"extract-data-once"</span>, <span class="at">rscript =</span> scheduled_script,</span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>                     <span class="at">schedule =</span> <span class="st">"ONCE"</span>, <span class="at">starttime =</span> <span class="fu">format</span>(<span class="fu">Sys.time</span>() <span class="sc">+</span> <span class="dv">120</span>, <span class="st">"%H:%M"</span>))</span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a><span class="do">## Run every 5 minutes, starting from 10:40</span></span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a><span class="fu">taskscheduler_create</span>(<span class="at">taskname =</span> <span class="st">"extract-data-5min"</span>, <span class="at">rscript =</span> scheduled_script,</span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>                     <span class="at">schedule =</span> <span class="st">"MINUTE"</span>, <span class="at">starttime =</span> <span class="st">"10:40"</span>, <span class="at">modifier =</span> <span class="dv">5</span>)</span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a><span class="do">## delete tasks</span></span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a><span class="fu">taskscheduler_delete</span>(<span class="st">"extract-data-once"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="windows-batch-file" class="level4">
+<h4 class="anchored" data-anchor-id="windows-batch-file">Windows Batch File</h4>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="ex">title</span> batch script for automate-the-boring-things</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="bu">set</span> startTime=%time%</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> %USERPROFILE%<span class="dt">\D</span>ocuments<span class="dt">\P</span>rogramming<span class="dt">\a</span>utomate-the-boring-things</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a><span class="ex">Rscript</span> <span class="st">"scripts/01-qualtrics-download.R"</span></span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a><span class="ex">Rscript</span> <span class="st">"scripts/02-preprocessing.R"</span></span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a><span class="ex">Rscript</span> <span class="st">"scripts/03-yoda-upload.R"</span></span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a><span class="bu">echo</span> Start Time: %startTime%</span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a><span class="bu">echo</span> Finish Time: %time%</span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a><span class="ex">pause</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 
-## Run every 5 minutes, starting from 10:40
 
-taskscheduler_create(taskname = "extract-data-5min", rscript = scheduled_script,
-                     schedule = "MINUTE", starttime = "10:40", modifier = 5)
-
-## delete tasks
-
-taskscheduler_delete("extract-data-once")</code></pre>
-
-
+</section>
+</section>
 </section>
 
 </main> <!-- /main -->

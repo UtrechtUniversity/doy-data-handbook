@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./searching.html" rel="next">
-<link href="./sharing.html" rel="prev">
+<link href="./publication.html" rel="next">
+<link href="./archiving.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -83,7 +83,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./publication.html">PUBLISH &amp; SHARE</a></li><li class="breadcrumb-item"><a href="./governance.html">Data Governance</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./governance.html">PUBLISH &amp; SHARE</a></li><li class="breadcrumb-item"><a href="./governance.html">Data Governance</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -123,6 +123,12 @@ ul.task-list li input[type="checkbox"] {
   <div class="sidebar-item-container"> 
   <a href="./definitions.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Definitions</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./fair-data-cheatsheet.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">FAIR Data Cheatsheet</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -237,7 +243,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./archiving.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Data Archving</span></a>
+ <span class="menu-text">Data Archiving</span></a>
   </div>
 </li>
       </ul>
@@ -253,20 +259,20 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./governance.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Data Governance</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./publication.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Data Publication</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./sharing.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Data Sharing</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./governance.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Data Governance</span></a>
+  <a href="./transfer.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Data Transfer</span></a>
   </div>
 </li>
       </ul>
@@ -305,12 +311,6 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./fair-data-cheatsheet.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">FAIR Data Cheatsheet</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="./trainings.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Trainings</span></a>
   </div>
@@ -328,13 +328,29 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#what" id="toc-what" class="nav-link active" data-scroll-target="#what">What</a></li>
+  <li><a href="#why" id="toc-why" class="nav-link" data-scroll-target="#why">Why</a></li>
+  <li><a href="#who" id="toc-who" class="nav-link" data-scroll-target="#who">Who</a></li>
+  <li><a href="#when" id="toc-when" class="nav-link" data-scroll-target="#when">When</a></li>
+  <li><a href="#where" id="toc-where" class="nav-link" data-scroll-target="#where">Where</a></li>
+  <li><a href="#how" id="toc-how" class="nav-link" data-scroll-target="#how">How</a></li>
+  <li><a href="#examples" id="toc-examples" class="nav-link" data-scroll-target="#examples">Examples</a>
+  <ul class="collapse">
+  <li><a href="#uuumcu-projects" id="toc-uuumcu-projects" class="nav-link" data-scroll-target="#uuumcu-projects">UU/UMCU Projects:</a></li>
+  <li><a href="#non-uuumcu-projects" id="toc-non-uuumcu-projects" class="nav-link" data-scroll-target="#non-uuumcu-projects">Non-UU/UMCU Projects:</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/UtrechtUniversity/doy-data-handbook/edit/main/governance.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./publication.html">PUBLISH &amp; SHARE</a></li><li class="breadcrumb-item"><a href="./governance.html">Data Governance</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./governance.html">PUBLISH &amp; SHARE</a></li><li class="breadcrumb-item"><a href="./governance.html">Data Governance</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">Data Governance</h1>
 </div>
@@ -353,15 +369,71 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>When you’re ready to start sharing your data, you can set up a detailed Data Access Protocol (DAP) that outlines the data governance for yourself, your research team, and potential re-users. This DAP will ideally be public and findable in your chosen repository.</p>
-<p>There are many topics within a DAP, it will require you (and/or the project team to come together) to decide on what is relevant and best for your data. This can include, for example, the terms &amp; conditions for data reuse and the governance procedure in terms of responsibilities and tasks of the team members.</p>
-<p>See the PROactive Cohort Study’s DAP here: https://dataverse.nl/file.xhtml?fileId=141206&amp;version=3.0</p>
-<p>Data Governance can be as simple and elaborate as you like, it all depends on you and your project team.</p>
-<p>Reflect on:</p>
-<p>• What would you like to get out of sharing the data? For example, citations/acknowledgments, co-authorship, collaboration? This should be specified in the DAP so the end-user knows their obligations.</p>
-<p>• What kind of time and effort can you and/or your team invest in the data governance? For example, assessing incoming requests, preparing a datafile for sharing, maintaining a data sharing logbook. Note: If there is privacy-sensitive data involved, even the simplest DAPs have to take some legal considerations into account!</p>
+<p><img src="images/governance.jpg" class="img-fluid"></p>
+<figcaption>
+<a href="https://the-turing-way.netlify.app/">The Turing Way</a> project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: <a href="https://doi.org/10.5281/zenodo.3332807">10.5281/zenodo.3332807</a>.
+</figcaption>
+<p><br></p>
+<section id="what" class="level2">
+<h2 class="anchored" data-anchor-id="what">What</h2>
+<p>Data Governance defines how data are managed beyond the scope of the original project by setting out roles and responsibilities, as well as processes and policies. It ensures data are handled consistently and responsibly in support of ethical use, compliance, and long-term value.</p>
+</section>
+<section id="why" class="level2">
+<h2 class="anchored" data-anchor-id="why">Why</h2>
+<p>Without clear guidance, data sharing and reuse can become time-consuming and easily deprioritized. A data governance framework reduces ad hoc communication and provides a standard operating procedure for making decisions and responding to requests, reducing friction and making follow-through more manageable.</p>
+</section>
+<section id="who" class="level2">
+<h2 class="anchored" data-anchor-id="who">Who</h2>
+<p>All members of the research team involved in handling data should contribute to or be consulted when defining the framework. The principal investigator (PI) plays a central role in establishing and upholding data governance.</p>
+</section>
+<section id="when" class="level2">
+<h2 class="anchored" data-anchor-id="when">When</h2>
+<p>It is most effective to develop the framework in detail as data sharing and reuse approach. However, discussing goals and aspirations earlier in the project helps ensure that research data management decisions support these long-term objectives.</p>
+</section>
+<section id="where" class="level2">
+<h2 class="anchored" data-anchor-id="where">Where</h2>
+<p>Documents related to data governance can be made publicly available alongside the data package in the chosen repository, providing transparency and guidance for future users.</p>
+</section>
+<section id="how" class="level2">
+<h2 class="anchored" data-anchor-id="how">How</h2>
+<p>When you’re ready to start sharing your data, you can set up a detailed Data Access Protocol (DAP) that outlines data governance for yourself, your research team, and potential re-users.</p>
+<p>A DAP can cover many topics, and it will require you and/or your project team to decide what is relevant and appropriate for your data. You can make it as simple or as elaborate as you like.</p>
+<p>It would help to reflect on the following points:</p>
+<ul>
+<li><p><strong>Goals</strong>: What would you like to achieve by sharing your data? Some examples include citations/acknowledgments, co-authorship, or collaboration. Specify this in the DAP so end-users understand their obligations.</p></li>
+<li><p><strong>Resources</strong>: How much time and effort can you and/or your team invest in data governance? Consider tasks such as assessing incoming requests, preparing datasets for sharing, and maintaining a data sharing logbook. <em>Note</em>: If privacy-sensitive data are involved, even the simplest DAPs must consider legal requirements.</p></li>
+</ul>
+<p>Some suggestions for sections in your DAP include:</p>
+<ul>
+<li>Data Ownership / License &amp; Copyright</li>
+<li>Roles &amp; Responsibilities</li>
+<li>Terms &amp; Conditions</li>
+<li>Data Request &amp; Review Procedure</li>
+<li>Publication &amp; Authorship Guidelines</li>
+<li>Disclaimers &amp; Liabilities</li>
+</ul>
+<p>You may also want to provide documents such as a <em>Data Request Form</em> and <em>Publication Checklist</em> for end users. These can be included in the DAP appendices and made available separately for easy access.</p>
+</section>
+<section id="examples" class="level2">
+<h2 class="anchored" data-anchor-id="examples">Examples</h2>
+<section id="uuumcu-projects" class="level3">
+<h3 class="anchored" data-anchor-id="uuumcu-projects">UU/UMCU Projects:</h3>
+<ul>
+<li>PROactive Cohort Study’s <a href="https://dataverse.nl/file.xhtml?fileId=141206&amp;version=3.0">Data Access Protocol</a></li>
+<li>YOUth Cohort Study’s <a href="https://www.uu.nl/sites/default/files/DataAccessProtocol_YOUth_240923.pdf">Data Access &amp; Publication Guidelines</a></li>
+</ul>
+</section>
+<section id="non-uuumcu-projects" class="level3">
+<h3 class="anchored" data-anchor-id="non-uuumcu-projects">Non-UU/UMCU Projects:</h3>
+<ul>
+<li>L-CID’s <a href="https://www.developmentmatters.nl/data-access/">Data Sharing Protocol</a>, scroll down to <em>Request Access To Our Data</em></li>
+<li>NTR’s <a href="https://ntr-data-request.psy.vu.nl/submitting-a-data-sharing-request.html">Data Sharing Procedures</a></li>
+<li>TRAILS’ <a href="https://www.trails.nl/en/researchers/working-with-trails">Data Request &amp; Publication Plan</a></li>
+</ul>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -927,13 +999,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./sharing.html" class="pagination-link" aria-label="Data Sharing">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Data Sharing</span>
+      <a href="./archiving.html" class="pagination-link" aria-label="Data Archiving">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Data Archiving</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./searching.html" class="pagination-link" aria-label="Searching for Data">
-        <span class="nav-page-text">Searching for Data</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./publication.html" class="pagination-link" aria-label="Data Publication">
+        <span class="nav-page-text">Data Publication</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -942,4 +1014,4 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/UtrechtUniversity/doy-data-handbook/edit/main/governance.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/UtrechtUniversity/doy-data-handbook/edit/main/governance.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></div></div></footer></body></html>

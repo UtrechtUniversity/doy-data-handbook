@@ -5,44 +5,112 @@
 <figcaption><a href="https://the-turing-way.netlify.app/">The Turing Way</a> project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: <a href="https://doi.org/10.5281/zenodo.3332807">10.5281/zenodo.3332807</a>.</figcaption>
 <br>
 
-Whether it’s on your computer or in the cloud, your project will likely be organized into folders and subfolders. 
+## What
 
-A clear structure keeps all your materials grouped in a predictable way. It helps you know exactly where each type of file belongs, making it easier to organize and locate them. It also keeps things aligned when multiple people contribute to the same project.
+Whether it’s on your computer or in the cloud, your project will likely be organized into folders and subfolders that contain your research materials.
 
-The project lead should define the folder structure — this could be the PI for a larger project or an individual researcher for a manuscript. You should also ensure that collaborators are informed about the structure and follow it accordingly.
+## Why
 
-This should be done at the beginning of a project, but there is always room to update and/or reorganize things along the way.
+A clear folder structure groups materials in a predictable and consistent way. It helps you know exactly where each type of file belongs, making it easier to organize and locate them. It also keeps things aligned when multiple people contribute to the same project.
 
-in the storage location recommended for your project or in your archive/repository
+## Who
+
+The project lead — this could be the principal investigator (PI) for a larger project or the lead author for a manuscript — should define the folder structure. All collaborators should be informed about the structure and expected to follow it.
+
+## When
+
+A folder structure should be established at the start of a project. However, it can be refined or reorganized as the project evolves.
+
+## Where
+
+Your folder structure should be implemented in the storage location for your project. The same principles apply when archiving or publishing your project on other platforms.
 
 ## How
 
-categorize things as much as possible and have a main folder and perhaps 3 sub-folders. it's not struct and can be customaized, the aim is to keep it simple and don't overcomplicate..don't forget to use the naming convention you decided on earlier.
+First things first, remember to keep the [naming convention](https://utrechtuniversity.github.io/doy-data-handbook/naming-conventions.html) you defined in mind and apply it consistently.
 
-we can distinguish project-level vs. publication-level. 
+Next, create a primary folder for your project. 
+Thereafter, categorize similar materials as much as possible into subfolders.
+Within your subfolders, avoid creating more layers. Keep the hierarchy shallow, ideally around 3–4 levels in total
 
-### project 
+This is a general recommendation, the structure is flexible and can be customized. Ultimately, the aim to keep it user-friendly and avoid overcomplication.
 
-UMCU has the RFS..there is the Gen R fodler strcture, TIER protocol, BIDS that you can take inpiration from...based on that here is a recommendation
+### Project vs. Publication
 
-### publication
+We can distinguish between folder structures at the project level and the publication level. The former encompasses the entire research project, while the latter pertains to a single article or manuscript.
 
-follow the best practices from computational reproducibility / cookiecutter, primarily for programming projects but can be adapted for all analysis projects
+### Project-Level 
 
-## Tools
+#### UMCU
 
-here is are .zip files with the aforementioned folder streucture
+The UMCU provides a pre-defined series of folders for projects stored within the Research Folder Structure (RFS).
 
-you can also generate the folder structure using this command
+#### Tonic Research Project Template
 
-you can also use the tree command to print the directory, you can use it for inspection or copy-paste into readme files
+![](images/tonic-folder-structure.png)
+The Tonic Research Project Template provides an example of a primary folder with subfolders organized in a logical manner, from administrative and methodological materials to data and analyses.
 
-## Resources
+See: _Thorsten Arendt, Mittal, D., Sehara, K., Cook, T., & Julien Colomb. (2023). Folder structure template for research repositories (v2.4). Zenodo. <https://doi.org/10.5281/zenodo.7763694>_
 
-links to protocols? UMCU has the RFS..there is the Gen R fodler strcture, TIER protocol, BIDS that you can take inpiration from...
+#### BIDS
 
-here are some analysis organization inspo
+![](images/bids-structure.png)
 
-## References
+While it has been designed for neuroimaging projects, the Brain Imaging Data Structure (BIDS) offers inspiration for organizing experimental data, particularly when there are multiple participants and potentially multiple experimental sessions.
 
-direct references...
+See: <https://bids.neuroimaging.io/getting_started/folders_and_files/folders.html>
+
+### Publication-Level
+
+#### TIER Protocol
+
+![](images/tier-protocol.png)
+The TIER Protocol specifies how research materials (data, code, and documentation) should be organized so that results can be fully reproduced. It is primarily aimed at projects that use _copy-and-paste_ workflows, where results are generated in output files and then copied and pasted into manuscripts.
+
+See: <https://www.projecttier.org/tier-protocol/protocol-4-0/>
+
+#### Good Enough Practices In Scientific Computing
+
+![](images/good-enough-structure.png)
+
+If you’re using programming languages such as R and/or Python, best practices include containing your project within a single, clearly recognizable folder, organizing similar content into subfolders (read-only, human-generated, project-generated), and including key files such as a README, LICENSE, CITATION, and CHANGELOG.
+
+See: _Wilson G, Bryan J, Cranston K, Kitzes J, Nederbragt L, Teal TK (2017) Good enough practices in scientific computing. PLoS Comput Biol 13(6): e1005510. <https://doi.org/10.1371/journal.pcbi.1005510>_
+
+### Tools
+
+#### Directory Trees
+
+1. You can use tools such as <https://ascii-tree-generator.com/> to sketch out your folder structure in advance. This could useful for planning and discussion before creating the folders and subfolders.
+
+3. For an existing project, you can also use the `tree` command to print the directory tree. This would be useful for inspection or copy-paste into README files.
+
+- *Windows* 
+
+Navigate to your project using `cd path\to\your\project` 
+
+Then enter `tree /a /f > tree.txt`, where `a` is for (sub)directories and `f` includes files.
+
+- *MacOS/Linux* 
+
+Navigate to your project using `cd /path/to/your/project`
+
+Then enter `tree -a > tree.txt`, where `-a` includes hidden files (files are otherwise included by default)
+
+::: {.callout-tip}
+- You may need to install the `tree` tool on your computer.
+- When using the `cd` command on Windows, pay attention to slashes (`\` vs. `/`) or enclose your path in double quotes.
+:::
+
+#### R & Python
+
+There are R packages and Python libraries dedicated to initializing project directories according to best practices. Each tool works a bit differently, so it’s worth exploring a few to see which one best suits your workflow.
+
+- For R, you can consult the CRAN Task View on [Reproducible Research](https://cran.r-project.org/web/views/ReproducibleResearch.html) and scroll down to the _Project Workflows_ section, which lists several relevant packages.
+
+- For Python, you can use [Cookiecutter Data Science](https://cookiecutter-data-science.drivendata.org/) or explore other available [Cookiecutter templates](https://cookiecutter.readthedocs.io/en/latest/README.html#available-templates).
+
+::: {.callout-tip}
+You can reach out to [RDM Support](https://www.uu.nl/en/research/research-data-management) for help in figuring out your project's structure and workflow!
+:::
+

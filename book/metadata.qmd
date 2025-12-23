@@ -4,48 +4,65 @@
 <figcaption><a href="https://the-turing-way.netlify.app/">The Turing Way</a> project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: <a href="https://doi.org/10.5281/zenodo.3332807">10.5281/zenodo.3332807</a>.</figcaption>
 <br>
 
-Metadata is structured information that describes one or more aspects of your research data. In other words, metadata = 'data about data'. Metadata is machine-readable and helps make your data findable and citable.
+## What
+
+Metadata refers to _structured_ and _machine-readable_ information that describes one or more aspects of your research data. In other words, metadata = "data about data."
+
+## Why
+
+Metadata that is structured and machine-readable makes your data **findable** and **citable**, improving accessibility and reusability.
+
+## Who
+
+Researchers working with the data, as well as those involved in archiving and publishing, are responsible for ensuring metadata of sufficient quality.
+
+## When
+
+Ideally, you will generate some metadata over the course of your project. At a minimum, metadata should be created before archiving and publication.
+
+## Where
+
+Metadata should be made available alongside your data. This would be within your project folder during the active stage of your project and in your data package at the archiving and publication stages.
+
+## How
 
 Metadata exists at different levels:
 
-## Project-Level Metadata
+### Project-Level Metadata
 
-This type of metadata describes higher-order aspects of your dataset: the “who, what, where, when, how and why” ...
-It provides context for understanding why the data were collected and how they were used.
+This describes higher-order aspects of your dataset: the "who, what, where, when, how, and why." It provides context for understanding why the data were collected and how they were used. Examples include:
 
-• Name of the project
-• Dataset title
-• Project description
-• Dataset abstract
-• Principal investigator and collaborators
-• Contact information
-• Dataset handle (DOI or URL)
-• Dataset citation
-• Data publication date
-• Geographic description
-• Time period of data collection
-• Subject/keywords
-• Project sponsor
-• Dataset usage rights
+- Name of the project  
+- Dataset title  
+- Project description  
+- Dataset abstract  
+- Principal investigator and collaborators  
+- Contact information  
+- Dataset handle (DOI or URL)  
+- Dataset citation  
+- Data publication date  
+- Geographic description  
+- Time period of data collection  
+- Subjects / keywords  
+- Project sponsor  
+- Dataset usage rights  
 
-## Data-Level Metadata
+Project-level metadata is typically entered into a metadata form on your chosen data repository.
 
-• Data origin: experimental, observational, raw
-or derived, physical collections, models,
-images, etc.
-• Data type: integer, Boolean, character,
-floating point, etc.
-• Instrument(s) used
-• Data acquisition details: sensor deployment
-methods, experimental design, sensor
-calibration methods, etc.
-• File type: CSV, mat, xlsx, tiff, HDF, NetCDF, etc.
-• Data processing methods, software used
-• Data processing scripts or codes
-• Dataset parameter list, including
-⚬ Variable names
-⚬ Description of each variable
-⚬ Units
+### Data-Level Metadata
 
-This type of metadata is more granular and describes the data (variables) and dataset in detail.
+This is more granular and describes the data (variables) and dataset in detail. Examples include:
 
+- _Data origin_: experimental, observational, raw or derived, physical collections, models, images, etc.  
+- _Data type_: integer, Boolean, character, floating point, etc.  
+- Instruments used  
+- _Data acquisition details_: sensor deployment, experimental design, sensor calibration methods, etc.  
+- _File type_: CSV, MAT, XLSX, TIFF, HDF, NetCDF, etc.  
+- Data processing methods and software used  
+- Data processing scripts or code  
+- Dataset parameter list, including:
+  - Variable names  
+  - Description of each variable  
+  - Units  
+
+Some data-level metadata can be included in repository metadata forms, but is typically captured in [codebooks](https://utrechtuniversity.github.io/doy-data-handbook/codebooks.html)/data dictionaries and or project [documentation](https://utrechtuniversity.github.io/doy-data-handbook/documentation.html).

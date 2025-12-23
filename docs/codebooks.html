@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -123,6 +157,12 @@ ul.task-list li input[type="checkbox"] {
   <div class="sidebar-item-container"> 
   <a href="./definitions.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Definitions</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./fair-data-cheatsheet.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">FAIR Data Cheatsheet</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -237,7 +277,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./archiving.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Data Archving</span></a>
+ <span class="menu-text">Data Archiving</span></a>
   </div>
 </li>
       </ul>
@@ -253,20 +293,20 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./governance.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Data Governance</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./publication.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Data Publication</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./sharing.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Data Sharing</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./governance.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Data Governance</span></a>
+  <a href="./transfer.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Data Transfer</span></a>
   </div>
 </li>
       </ul>
@@ -305,12 +345,6 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./fair-data-cheatsheet.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">FAIR Data Cheatsheet</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="./trainings.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Trainings</span></a>
   </div>
@@ -333,7 +367,15 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#codebook-r-package" id="toc-codebook-r-package" class="nav-link active" data-scroll-target="#codebook-r-package">codebook R package</a></li>
+  <li><a href="#what" id="toc-what" class="nav-link active" data-scroll-target="#what">What</a></li>
+  <li><a href="#why" id="toc-why" class="nav-link" data-scroll-target="#why">Why</a></li>
+  <li><a href="#who" id="toc-who" class="nav-link" data-scroll-target="#who">Who</a></li>
+  <li><a href="#when" id="toc-when" class="nav-link" data-scroll-target="#when">When</a></li>
+  <li><a href="#where" id="toc-where" class="nav-link" data-scroll-target="#where">Where</a></li>
+  <li><a href="#how" id="toc-how" class="nav-link" data-scroll-target="#how">How</a>
+  <ul class="collapse">
+  <li><a href="#codebook-r-package" id="toc-codebook-r-package" class="nav-link" data-scroll-target="#codebook-r-package">codebook R package</a></li>
+  </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/UtrechtUniversity/doy-data-handbook/edit/main/codebooks.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></nav>
     </div>
@@ -359,52 +401,72 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>A codebook is an example of data-level metadata.</p>
-<p>The purpose of a codebook or data dictionary is to explain what all the variable names and values in your spreadsheet really mean.</p>
-<p>Information to include in a codebook includes:</p>
+<section id="what" class="level2">
+<h2 class="anchored" data-anchor-id="what">What</h2>
+<p>A codebook (or data dictionary) is a type of data-level metadata. A good codebook is both human-readable and machine-readable.</p>
+</section>
+<section id="why" class="level2">
+<h2 class="anchored" data-anchor-id="why">Why</h2>
+<p>The purpose of a codebook is to explain what all the variable names and values in your dataset really mean, making the data understandable and reusable. A codebook is valuable both for researchers within the project and for collaborators and/or re-users outside the project.</p>
+</section>
+<section id="who" class="level2">
+<h2 class="anchored" data-anchor-id="who">Who</h2>
+<p>The researcher(s) working with the data are responsible for creating and maintaining the codebook.</p>
+</section>
+<section id="when" class="level2">
+<h2 class="anchored" data-anchor-id="when">When</h2>
+<p>The codebook should be created during the active stage of the project as data is processed. It should be finalized by the archiving and publication stages.</p>
+</section>
+<section id="where" class="level2">
+<h2 class="anchored" data-anchor-id="where">Where</h2>
+<p>The codebook should be available alongside your data. This would be within your project folder during the active stage and in your data package at the archiving and publication stages.</p>
+</section>
+<section id="how" class="level2">
+<h2 class="anchored" data-anchor-id="how">How</h2>
+<p>Information to include in a codebook typically includes:</p>
 <ul>
-<li>Variable Names</li>
-<li>Readable Variable Name</li>
-<li>Measurement Units</li>
-<li>Allowed Values</li>
-<li>Definition Of The Variable</li>
-<li>Synonyms For The Variable Name (Optional)</li>
-<li>Description Of The Variable (Optional)</li>
-<li>Other Resources</li>
+<li>Variable names<br>
+</li>
+<li>Readable variable name<br>
+</li>
+<li>Measurement units<br>
+</li>
+<li>Allowed values<br>
+</li>
+<li>Definition of the variable<br>
+</li>
+<li>Synonyms for the variable name (optional)<br>
+</li>
+<li>Description of the variable (optional)<br>
+</li>
+<li>Other relevant resources</li>
 </ul>
-<p>See: <a href="https://help.osf.io/article/217-how-to-make-a-data-dictionary" class="uri">https://help.osf.io/article/217-how-to-make-a-data-dictionary</a></p>
-<section id="codebook-r-package" class="level2">
-<h2 class="anchored" data-anchor-id="codebook-r-package">codebook R package</h2>
-<pre><code>library(qualtRics)
-library(readr)
-library(dplyr)
-library(codebook)
-library(writexl)
-
-surveys &lt;- all_surveys()
-
-survey_results &lt;- fetch_survey(surveyID = surveys$id[2], # you can also replace surveys$id[2] with "&lt;SUVREY-ID&gt;"
-                               verbose = TRUE)
-
-survey_results &lt;- select(survey_results, -c(1:17))
-
-# survey_questions() retrieves a data frame containing questions and question IDs for a survey;
-survey_questions &lt;- survey_questions(surveyID = surveys$id[2])
-survey_questions &lt;- select(survey_questions, -c(1, 4))
-survey_questions &lt;- slice(survey_questions, -1)
-  
-# generate codebook
-
-codebook &lt;- codebook_table(survey_results)
-
-codebook &lt;- rename(codebook, qname = name)
-
-codebook &lt;- full_join(survey_questions, codebook, by = "qname")
-
-write_xlsx(codebook, "documentation/codebook-demo.xlsx")</code></pre>
-<p>The <code>labelled</code> R package can also do something similar.</p>
+<p>For more guidance, see: <a href="https://help.osf.io/article/217-how-to-make-a-data-dictionary">How to Make a Data Dictionary</a></p>
+<section id="codebook-r-package" class="level3">
+<h3 class="anchored" data-anchor-id="codebook-r-package">codebook R package</h3>
+<p>The <a href="https://rubenarslan.github.io/codebook/index.html">codebook</a> R package can generate both machine-readable (csv, xlsx) and human-readable codebooks (pdf) based on a given dataframe. A very simple example is given below:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># load libraries</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(codebook)</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(writexl)</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co"># load data</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>data <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(iris)</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="co"># generate codebook</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>codebook <span class="ot">&lt;-</span> <span class="fu">codebook_table</span>(data)</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="co"># export codebook</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="fu">write_xlsx</span>(codebook, <span class="st">"codebook.xlsx"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p><img src="images/codebook.png" class="img-fluid"></p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
