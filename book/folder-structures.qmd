@@ -45,6 +45,8 @@ We can distinguish between folder structures at the project level and the public
 
 The UMCU provides a pre-defined series of folders for projects stored within the Research Folder Structure (RFS).
 
+![](images/umcu-rfs.png)
+
 #### Tonic Research Project Template
 
 ![](images/tonic-folder-structure.png)
