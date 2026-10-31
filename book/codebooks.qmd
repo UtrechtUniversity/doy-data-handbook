@@ -62,3 +62,6 @@ write_xlsx(codebook, "codebook.xlsx")
 
 ![](images/codebook.png)
 
+### Without R
+
+If your variable descriptions are kept in a spreadsheet, you can also turn that list into a readable codebook without writing code, for example with the free [METACO Codebook Generator](https://ersan.eu/MetaCo/free/codebook.html). Paste the list from Excel or upload an .xlsx/CSV file; the tool runs in the browser and does not upload your data. Keep the spreadsheet itself as the machine-readable version of the codebook.
